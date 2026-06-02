@@ -95,7 +95,7 @@ def actualizar_calendario():
     resultados_api = {}
     for fix in fixtures:
         league_id = fix.get('league', {}).get('id')
-        if league_id == 1: # 1 es el ID del Mundial en API-Football
+        if True: # Aceptamos cualquier liga para ver el partido de Haití en vivo
             home = normalize_name(fix['teams']['home']['name'])
             away = normalize_name(fix['teams']['away']['name'])
             status = fix['fixture']['status']['short']
