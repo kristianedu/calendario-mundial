@@ -25,7 +25,9 @@ EQUIPOS_MAP = {
     "Ecuador": "Ecuador",
     "England": "Inglaterra",
     "France": "Francia",
-    "Portugal": "Portugal"
+    "Portugal": "Portugal",
+    "Haiti": "Haití",
+    "New Zealand": "Nueva Zelanda"
 }
 
 def normalize_name(name):
@@ -93,7 +95,7 @@ def actualizar_calendario():
     resultados_api = {}
     for fix in fixtures:
         league_id = fix.get('league', {}).get('id')
-        if league_id == 1: # 1 es el ID del Mundial en API-Football
+        if True: # Temporalmente aceptar todas las ligas para la prueba
             home = normalize_name(fix['teams']['home']['name'])
             away = normalize_name(fix['teams']['away']['name'])
             status = fix['fixture']['status']['short']
