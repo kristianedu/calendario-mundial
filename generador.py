@@ -7,33 +7,7 @@ import re
 
 API_KEY = os.environ.get("API_KEY")
 
-# Mapa de nombres de API (Inglés) a nombres en nuestro calendario (Español)
-EQUIPOS_MAP = {
-    "Mexico": "México",
-    "South Africa": "Sudáfrica",
-    "Canada": "Canadá",
-    "Bosnia": "Bosnia y Herzegovina",
-    "Spain": "España",
-    "Germany": "Alemania",
-    "Netherlands": "Países Bajos",
-    "United States": "Estados Unidos",
-    "South Korea": "Corea del Sur",
-    "Czech Republic": "Chequia",
-    "Switzerland": "Suiza",
-    "Morocco": "Marruecos",
-    "Japan": "Japón",
-    "Ecuador": "Ecuador",
-    "England": "Inglaterra",
-    "France": "Francia",
-    "Portugal": "Portugal",
-    "Haiti": "Haití",
-    "New Zealand": "Nueva Zelanda",
-    "Barracas Central": "CA Barracas Central",
-    "Huracan": "Huracán"
-}
-
-def normalize_name(name):
-    return EQUIPOS_MAP.get(name, name)
+from equipos import normalize_name
 
 def actualizar_calendario():
     if not API_KEY:
