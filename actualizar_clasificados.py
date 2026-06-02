@@ -178,11 +178,106 @@ def actualizar_clasificados():
         return False
     
     # 5. Guardar el archivo base actualizado
-    with open('base_mundial.ics', 'wb') as f:
-        f.write(cal.to_ical())
+    if modificados > 0:
+        with open('base_mundial.ics', 'wb') as f:
+            f.write(cal.to_ical())
+        print(f"\n🎉 ¡{modificados} partidos eliminatorios actualizados con equipos reales!")
+    return modificados > 0
+
+def actualizar_tablas():
+    if not API_KEY:
+        return False
+        
+    headers = {'x-apisports-key': API_KEY}
+    url = "https://v3.football.api-sports.io/standings?league=1&season=2026"
     
-    print(f"\n🎉 ¡{modificados} partidos eliminatorios actualizados con equipos reales!")
-    return True
+    try:
+        response = requests.get(url, headers=headers)
+        data = response.json()
+        standings_data = data.get('response', [])
+        if not standings_data:
+            print("No se encontraron tablas de posiciones.")
+            return False
+            
+        league_standings = standings_data[0].get('league', {}).get('standings', [])
+    except Exception as e:
+        print(f"Error consultando tablas: {e}")
+        return False
+        
+    if not league_standings:
+        return False
+        
+    # Formatear tablas por grupo
+    tablas_formateadas = {}
+    for group_standings in league_standings:
+        if not group_standings:
+            continue
+            
+        # El nombre del grupo viene como "Group A"
+        group_name = group_standings[0].get('group', '')
+        if not group_name:
+            continue
+            
+        group_letter = group_name.split()[-1]
+        
+        lineas = [f"📊 Tabla del Grupo {group_letter}:"]
+        for team_data in group_standings:
+            rank = team_data.get('rank')
+            team_name = team_data.get('team', {}).get('name', '')
+            points = team_data.get('points', 0)
+            goals_diff = team_data.get('goalsDiff', 0)
+            
+            team_esp = normalize_name(team_name)
+            bandera = get_bandera(team_esp)
+            
+            # 1. 🇲🇽 México - 6 pts (GD: +2)
+            gd_str = f"+{goals_diff}" if goals_diff > 0 else str(goals_diff)
+            lineas.append(f"{rank}. {bandera} {team_esp} - {points} pts (DG: {gd_str})")
+            
+        tablas_formateadas[f"Grupo {group_letter}"] = "\n".join(lineas)
+        
+    print(f"Tablas formateadas para {len(tablas_formateadas)} grupos.")
+    
+    # Inyectar tablas en el archivo base_mundial.ics
+    try:
+        with open('base_mundial.ics', 'rb') as f:
+            cal = Calendar.from_ical(f.read())
+    except FileNotFoundError:
+        return False
+        
+    modificados = 0
+    for component in cal.walk():
+        if component.name != "VEVENT":
+            continue
+            
+        description = str(component.get('description', ''))
+        
+        # Buscar "Grupo X" en la descripción
+        match = re.search(r'(Grupo [A-L])', description)
+        if match:
+            grupo = match.group(1)
+            if grupo in tablas_formateadas:
+                # Limpiar tabla anterior si existe
+                description = re.sub(r'\n+📊 Tabla del Grupo [A-L]:.*', '', description, flags=re.DOTALL)
+                
+                # Agregar tabla nueva
+                nueva_desc = description.strip() + "\n\n" + tablas_formateadas[grupo]
+                component['description'] = nueva_desc
+                modificados += 1
+                
+    if modificados > 0:
+        with open('base_mundial.ics', 'wb') as f:
+            f.write(cal.to_ical())
+        print(f"Tablas inyectadas en {modificados} partidos de fase de grupos.")
+        return True
+    return False
 
 if __name__ == "__main__":
-    actualizar_clasificados()
+    cambios_clasificados = actualizar_clasificados()
+    cambios_tablas = actualizar_tablas()
+    
+    # Si alguna de las dos funciones hizo cambios, el script es exitoso
+    if cambios_clasificados or cambios_tablas:
+        print("Finalizado con éxito.")
+    else:
+        print("Finalizado sin cambios.")
