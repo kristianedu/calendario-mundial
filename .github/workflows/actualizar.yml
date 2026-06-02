@@ -1,6 +1,9 @@
 name: Actualizar Calendario Mundial 2026
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Se ejecuta cada 2 horas
     - cron: '0 */2 * * *'
