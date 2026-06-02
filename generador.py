@@ -27,7 +27,9 @@ EQUIPOS_MAP = {
     "France": "Francia",
     "Portugal": "Portugal",
     "Haiti": "Haití",
-    "New Zealand": "Nueva Zelanda"
+    "New Zealand": "Nueva Zelanda",
+    "Barracas Central": "CA Barracas Central",
+    "Huracan": "Huracán"
 }
 
 def normalize_name(name):
