@@ -34,6 +34,7 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           cp mundial_2026_dinamico.ics /tmp/mundial_2026_dinamico.ics
+          git reset --hard
           git fetch origin gh-pages
           git checkout gh-pages
           cp /tmp/mundial_2026_dinamico.ics .
