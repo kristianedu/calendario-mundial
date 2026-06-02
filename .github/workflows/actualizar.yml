@@ -1,0 +1,35 @@
+name: Actualizar Calendario Mundial 2026
+
+on:
+  schedule:
+    # Se ejecuta cada 2 horas
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar calendario dinámico
+        run: python generador.py
+
+      - name: Publicar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          force_orphan: true
+          # Solo publicamos el archivo generado para ahorrar espacio
+          exclude_assets: "*,!.nojekyll,!mundial_2026_dinamico.ics"
