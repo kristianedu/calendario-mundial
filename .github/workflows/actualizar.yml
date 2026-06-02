@@ -12,6 +12,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
