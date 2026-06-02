@@ -66,13 +66,12 @@ def actualizar_calendario():
                     partido_activo = True
                     break
                     
-    partido_activo = True # Forzado
-    #if not partido_activo:
-    #    print("No hay partidos activos en este momento. Ahorrando peticiones a la API.")
-    #    # Igual guardamos el calendario para que no falle el workflow de GitHub
-    #    with open('mundial_2026_dinamico.ics', 'wb') as f:
-    #        f.write(cal.to_ical())
-    #    return
+    if not partido_activo:
+        print("No hay partidos activos en este momento. Ahorrando peticiones a la API.")
+        # Igual guardamos el calendario para que no falle el workflow de GitHub
+        with open('mundial_2026_dinamico.ics', 'wb') as f:
+            f.write(cal.to_ical())
+        return
         
     # Si hay partido activo, consultamos la API
     print("¡Partido activo detectado! Consultando API de API-Football...")
@@ -96,7 +95,7 @@ def actualizar_calendario():
     resultados_api = {}
     for fix in fixtures:
         league_id = fix.get('league', {}).get('id')
-        if True: # Temporalmente aceptar todas las ligas para la prueba
+        if league_id == 1: # 1 es el ID del Mundial en API-Football
             home = normalize_name(fix['teams']['home']['name'])
             away = normalize_name(fix['teams']['away']['name'])
             status = fix['fixture']['status']['short']
