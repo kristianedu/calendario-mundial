@@ -15,38 +15,33 @@ TZOFFSETTO:-0600
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:✅ 🇲🇽 México [5] - [0] Sudáfrica 🇿🇦 - Grupo A (Fina
- l)
+SUMMARY:🏆 🇲🇽 México vs Sudáfrica 🇿🇦 - Grupo A
 DTSTART;TZID=America/El_Salvador:20260611T130000
 DTEND;TZID=America/El_Salvador:20260611T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-001@mundial2026
-DESCRIPTION:Terminado - Manita inaugural\n\nCopa Mundial FIFA 2026\nFase d
- e Grupos - Grupo A - Jornada 1\n🏟️ PARTIDO INAUGURAL
+DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
+ 🏟️ PARTIDO INAUGURAL
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇰🇷 Corea del Sur [0] - [0] Chequia 🇨🇿 - Grupo A (
- En Vivo)
+SUMMARY:⚽ 🇰🇷 Corea del Sur vs Chequia 🇨🇿 - Grupo A
 DTSTART;TZID=America/El_Salvador:20260611T200000
 DTEND;TZID=America/El_Salvador:20260611T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-002@mundial2026
-DESCRIPTION:En Juego - Minuto 45\n\nCopa Mundial FIFA 2026\nFase de Grupos
-  - Grupo A - Jornada 1
+DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇨🇦 Canadá [3] - [0] Bosnia y Herzegovina 🇧🇦 - Gru
- po B (Final)
+SUMMARY:⚽ 🇨🇦 Canadá vs Bosnia y Herzegovina 🇧🇦 - Grupo B
 DTSTART;TZID=America/El_Salvador:20260612T130000
 DTEND;TZID=America/El_Salvador:20260612T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-003@mundial2026
-DESCRIPTION:Terminado - Goleada histórica\n\nCopa Mundial FIFA 2026\nFase
-  de Grupos - Grupo B - Jornada 1
+DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 1
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
