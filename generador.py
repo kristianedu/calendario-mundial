@@ -35,7 +35,8 @@ def actualizar_calendario():
                 elif dtstart.tzinfo != pytz.utc:
                     dtstart = dtstart.astimezone(pytz.utc)
                     
-                dtend_approx = dtstart + timedelta(hours=3)
+                # Estimamos 4 horas máximo por si hay tiempos extra, penales largos o retrasos por VAR
+                dtend_approx = dtstart + timedelta(hours=4)
                 
                 # Si estamos dentro de la ventana del partido
                 if dtstart <= now <= dtend_approx:
