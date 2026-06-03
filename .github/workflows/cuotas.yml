@@ -1,0 +1,40 @@
+name: Actualizar Cuotas de Apuestas
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  actualizar-cuotas:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Actualizar cuotas de apuestas
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python actualizar_cuotas.py
+
+      - name: Guardar cambios en base_mundial.ics
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add base_mundial.ics
+          if git commit -m "Actualizar cuotas de apuestas"; then
+            git pull origin main --rebase
+            git push
+          else
+            echo "No hay cambios para subir"
+          fi

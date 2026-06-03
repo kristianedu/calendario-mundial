@@ -1,0 +1,44 @@
+name: Marcadores en Vivo
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar calendario dinámico
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: python generador.py
+
+      - name: Publicar en GitHub Pages
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          cp mundial_2026_dinamico.ics /tmp/mundial_2026_dinamico.ics
+          git reset --hard
+          git fetch origin gh-pages
+          git checkout gh-pages
+          cp /tmp/mundial_2026_dinamico.ics .
+          git add mundial_2026_dinamico.ics
+          git commit -m "Update calendar (Live)" || echo "No changes to commit"
+          git push origin gh-pages
