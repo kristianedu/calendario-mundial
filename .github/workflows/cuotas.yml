@@ -38,3 +38,13 @@ jobs:
           else
             echo "No hay cambios para subir"
           fi
+
+      - name: Publicar en GitHub Pages
+        run: |
+          cp base_mundial.ics /tmp/mundial_2026_dinamico.ics
+          git fetch origin gh-pages
+          git checkout gh-pages
+          cp /tmp/mundial_2026_dinamico.ics .
+          git add mundial_2026_dinamico.ics
+          git commit -m "Update calendar (Cuotas)" || echo "No changes to commit"
+          git push origin gh-pages
