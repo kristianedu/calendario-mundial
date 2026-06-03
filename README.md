@@ -5,6 +5,7 @@ Un sistema de calendario dinámico (formato `.ics`) para el Mundial de la FIFA 2
 ## 🌟 Características
 - **100% Gratuito:** Utiliza GitHub Pages y GitHub Actions.
 - **En Vivo:** Actualiza los marcadores cada 5 minutos usando los datos de `API-Football`.
+- **Cuotas de Apuestas:** Muestra las cuotas (momios) promedio de cada partido, actualizadas cada 2 horas con `The Odds API`.
 - **Inteligente:** Algoritmo que solo consume peticiones a la API cuando detecta que hay un partido jugándose, optimizando el uso para el plan gratuito.
 - **Multiplataforma:** Compatible con iOS (iPhone/iPad), Mac, Google Calendar (Android) y Outlook.
 

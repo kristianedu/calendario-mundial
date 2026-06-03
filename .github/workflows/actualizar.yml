@@ -9,6 +9,8 @@ on:
     - cron: '*/5 * * * *'
     # Clasificados eliminatorias: a las 06:00 UTC (medianoche El Salvador)
     - cron: '0 6 * * *'
+    # Cuotas de apuestas: cada 2 horas
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
 
 jobs:
@@ -39,6 +41,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          git pull origin main --rebase
           git add base_mundial.ics
           git commit -m "Actualizar equipos clasificados en eliminatorias" || echo "No hay cambios"
           git push || echo "Nada que pushear"
@@ -78,3 +81,35 @@ jobs:
           git add mundial_2026_dinamico.ics
           git commit -m "Update calendar" || echo "No changes to commit"
           git push origin gh-pages
+
+  # Job 3: Actualizar cuotas de apuestas (cada 2 horas)
+  actualizar-cuotas:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    if: github.event.schedule == '0 */2 * * *' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Actualizar cuotas de apuestas
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python actualizar_cuotas.py
+
+      - name: Guardar cambios en base_mundial.ics
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git pull origin main --rebase
+          git add base_mundial.ics
+          git commit -m "Actualizar cuotas de apuestas" || echo "No hay cambios"
+          git push || echo "Nada que pushear"
