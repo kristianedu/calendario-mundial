@@ -47,16 +47,49 @@ def actualizar_cuotas():
         return False
         
     print("Consultando The Odds API...")
-    url = f"https://api.the-odds-api.com/v4/sports/soccer_fifa_world_cup/odds/?apiKey={ODDS_API_KEY}&regions=eu,us&markets=h2h"
-    
+    # Primero descubrir el sport key correcto para amistosos internacionales
+    print("Buscando deportes disponibles en The Odds API...")
     try:
-        response = requests.get(url)
-        if response.status_code != 200:
-            print(f"Error consultando Odds API: {response.status_code} - {response.text}")
-            # Continuamos aunque falle para poder inyectar la data mockeada de prueba
+        sports_resp = requests.get(f"https://api.the-odds-api.com/v4/sports?apiKey={ODDS_API_KEY}")
+        if sports_resp.status_code == 200:
+            sports = sports_resp.json()
+            soccer_sports = [s for s in sports if 'soccer' in s.get('key', '').lower()]
+            print(f"Deportes de fútbol disponibles: {[s['key'] for s in soccer_sports]}")
+            
+            # Buscar amistosos internacionales
+            friendlies_key = None
+            for s in soccer_sports:
+                if 'friend' in s['key'].lower() or 'international' in s['key'].lower():
+                    friendlies_key = s['key']
+                    break
+            
+            if friendlies_key:
+                print(f"Encontrada liga de amistosos: {friendlies_key}")
         else:
+            print(f"No se pudieron listar deportes: {sports_resp.status_code}")
+            friendlies_key = None
+            soccer_sports = []
+    except Exception as e:
+        print(f"Error listando deportes: {e}")
+        friendlies_key = None
+        soccer_sports = []
+    
+    # Consultar cuotas del Mundial FIFA
+    urls_a_consultar = ["https://api.the-odds-api.com/v4/sports/soccer_fifa_world_cup/odds/?apiKey={}&regions=eu,us&markets=h2h".format(ODDS_API_KEY)]
+    
+    # Si encontramos amistosos, también consultarlos
+    if friendlies_key:
+        urls_a_consultar.append(f"https://api.the-odds-api.com/v4/sports/{friendlies_key}/odds/?apiKey={ODDS_API_KEY}&regions=eu,us&markets=h2h")
+    
+    for url in urls_a_consultar:
+        try:
+            response = requests.get(url)
+            if response.status_code != 200:
+                print(f"Advertencia consultando {url.split('/sports/')[1].split('/odds')[0]}: {response.status_code}")
+                continue
+                
             partidos_api = response.json()
-            print(f"Obtenidas cuotas para {len(partidos_api)} partidos.")
+            print(f"Obtenidas cuotas para {len(partidos_api)} partidos de {url.split('/sports/')[1].split('/odds')[0]}.")
             
             for partido in partidos_api:
                 home_team_en = partido.get("home_team")
@@ -92,13 +125,9 @@ def actualizar_cuotas():
                     texto_cuotas = f"💰 Cuotas Promedio: {home_team} ({cuotas['home']}) | Empate ({cuotas['draw']}) | {away_team} ({cuotas['away']})"
                     cuotas_por_partido[f"{home_team} vs {away_team}"] = texto_cuotas
                     cuotas_por_partido[f"{away_team} vs {home_team}"] = texto_cuotas
-    except Exception as e:
-        print(f"Error en la petición: {e}")
-
-    # === MOCK DATA PARA PRUEBA EN VIVO ===
-    cuotas_por_partido["Corea del Sur vs El Salvador"] = "💰 Cuotas Reales Bet365: Corea del Sur (1.33) | Empate (5.50) | El Salvador (11.00)"
-    cuotas_por_partido["El Salvador vs Corea del Sur"] = "💰 Cuotas Reales Bet365: Corea del Sur (1.33) | Empate (5.50) | El Salvador (11.00)"
-    # ======================================
+                    print(f"  → {home_team} vs {away_team}: ✅")
+        except Exception as e:
+            print(f"Error en la petición: {e}")
 
 
 
