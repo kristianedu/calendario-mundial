@@ -1129,15 +1129,15 @@ LOCATION:MetLife Stadium\, Nueva York/Nueva Jersey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇭🇹 Haití [3] - [0] Nueva Zelanda 🇳🇿 - Amistoso (
- Min. 79')
+SUMMARY:✅ 🇭🇹 Haití [4] - [0] Nueva Zelanda 🇳🇿 - Amistoso (F
+ inal)
 DTSTART;TZID=America/El_Salvador:20260602T180000
 DTEND;TZID=America/El_Salvador:20260602T200000
 DTSTAMP:20260602T170000Z
 UID:test-haiti-nz@mundial2026
 DESCRIPTION:Partido de prueba para la API\n\n💰 Cuotas Promedio: Haití 
  (4.50) | Empate (3.80) | Nueva Zelanda (1.75)\n---\n⚽ GOLES:\n⚽ R. Pro
- vidence 12'\n⚽ L. Joseph 51'\n⚽ F. Pierrot 62'
+ vidence 12'\n⚽ L. Joseph 51'\n⚽ F. Pierrot 62'\n⚽ D. Lacroix 87'
 LOCATION:Prueba API
 STATUS:CONFIRMED
 END:VEVENT
