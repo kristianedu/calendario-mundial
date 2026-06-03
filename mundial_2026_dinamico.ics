@@ -132,8 +132,8 @@ DTEND;TZID=America/El_Salvador:20260614T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-011@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 1\n
- \n💰 Cuotas Promedio: Costa de Marfil (3.7) | Empate (2.8) | Ecuador (2.
- 3)
+ \n💰 Cuotas Promedio: Costa de Marfil (3.4) | Empate (2.95) | Ecuador (2
+ .3)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -177,7 +177,7 @@ DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Irán (1.96) | Empate (3.43) | Nueva Zelanda (4.27
+ \n💰 Cuotas Promedio: Irán (1.95) | Empate (3.46) | Nueva Zelanda (4.27
  )
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
@@ -212,7 +212,7 @@ DTEND;TZID=America/El_Salvador:20260616T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-018@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 1\n
- \n💰 Cuotas Promedio: Irak (14.0) | Empate (6.75) | Noruega (1.23)
+ \n💰 Cuotas Promedio: Irak (15.0) | Empate (6.75) | Noruega (1.23)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
@@ -267,7 +267,7 @@ DTEND;TZID=America/El_Salvador:20260617T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-023@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 1\n
- \n💰 Cuotas Promedio: Uzbekistán (8.0) | Empate (4.6) | Colombia (1.32)
+ \n💰 Cuotas Promedio: Uzbekistán (8.0) | Empate (4.6) | Colombia (1.34)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -1138,7 +1138,8 @@ UID:test-haiti-nz@mundial2026
 DESCRIPTION:Partido de prueba para la API\n\n---\n⚽ GOLES:\nMin 12' - F.
   Pierrot (Haití)\nMin 45' - C. Wood (Nueva Zelanda)\nMin 88' - D. Nazon (
  Haití)\n\n📋 TARJETAS:\nMin 33' 🟨 - M. Garbett (Nueva Zelanda)\nMin 
- 76' 🟨 - C. Arcus (Haití)
+ 76' 🟨 - C. Arcus (Haití)\n\n💰 Cuotas Promedio: Haití (4.50) | Empa
+ te (3.80) | Nueva Zelanda (1.75)
 LOCATION:Prueba API
 STATUS:CONFIRMED
 END:VEVENT
@@ -1149,11 +1150,11 @@ DTSTART;TZID=America/El_Salvador:20260602T181000
 DTEND;TZID=America/El_Salvador:20260602T201000
 DTSTAMP:20260602T170000Z
 UID:test-barracas-huracan@mundial2026
-DESCRIPTION:Partido de prueba para la API en Android\n💰 Cuotas Promedio
- : CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)\n\n---\n⚽
-  GOLES:\nMin 10' - I. Pussetto (Huracán)\nMin 42' - H. Fértoli (Huracán
- )\nMin 78' - M. Gómez (Huracán)\n\n📋 TARJETAS:\nMin 21' 🟨 - C. Arc
- e (Barracas)\nMin 65' 🟥 - J. Candia (Barracas)
+DESCRIPTION:Partido de prueba para la API en Android\n\n---\n⚽ GOLES:\nM
+ in 10' - I. Pussetto (Huracán)\nMin 42' - H. Fértoli (Huracán)\nMin 78'
+  - M. Gómez (Huracán)\n\n📋 TARJETAS:\nMin 21' 🟨 - C. Arce (Barraca
+ s)\nMin 65' 🟥 - J. Candia (Barracas)\n\n💰 Cuotas Promedio: CA Barrac
+ as Central (2.10) | Empate (3.20) | Huracán (3.50)
 LOCATION:Prueba API Android
 STATUS:CONFIRMED
 END:VEVENT
