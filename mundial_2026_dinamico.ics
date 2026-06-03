@@ -21,8 +21,8 @@ DTEND;TZID=America/El_Salvador:20260611T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-001@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
- 🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.45) | Empate
-  (4.2) | Sudáfrica (7.5)
+ 🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.37) | Empate
+  (4.5) | Sudáfrica (8.0)
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
@@ -55,7 +55,7 @@ DTEND;TZID=America/El_Salvador:20260612T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-004@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 1\n
- \n💰 Cuotas Promedio: EE.UU. (1.98) | Empate (3.3) | Paraguay (3.9)
+ \n💰 Cuotas Promedio: EE.UU. (1.95) | Empate (3.3) | Paraguay (3.9)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -77,7 +77,7 @@ DTEND;TZID=America/El_Salvador:20260613T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-006@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 1\n
- \n💰 Cuotas Promedio: Brasil (1.61) | Empate (4.0) | Marruecos (5.5)
+ \n💰 Cuotas Promedio: Brasil (1.59) | Empate (3.8) | Marruecos (5.8)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -89,7 +89,7 @@ DTEND;TZID=America/El_Salvador:20260613T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-007@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 1\n
- \n💰 Cuotas Promedio: Haití (7.0) | Empate (4.5) | Escocia (1.45)
+ \n💰 Cuotas Promedio: Haití (6.5) | Empate (4.6) | Escocia (1.42)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -121,7 +121,7 @@ DTEND;TZID=America/El_Salvador:20260614T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-010@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 1\n
- \n💰 Cuotas Promedio: Países Bajos (2.0) | Empate (3.6) | Japón (3.6)
+ \n💰 Cuotas Promedio: Países Bajos (1.95) | Empate (3.6) | Japón (3.7)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -132,8 +132,8 @@ DTEND;TZID=America/El_Salvador:20260614T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-011@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 1\n
- \n💰 Cuotas Promedio: Costa de Marfil (3.4) | Empate (2.9) | Ecuador (2.
- 3)
+ \n💰 Cuotas Promedio: Costa de Marfil (3.6) | Empate (2.95) | Ecuador (2
+ .2)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -155,7 +155,7 @@ DTEND;TZID=America/El_Salvador:20260615T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-013@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Bélgica (1.67) | Empate (4.0) | Egipto (4.8)
+ \n💰 Cuotas Promedio: Bélgica (1.59) | Empate (3.9) | Egipto (5.3)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -166,7 +166,7 @@ DTEND;TZID=America/El_Salvador:20260615T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-014@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: España (1.1) | Empate (10.5) | Cabo Verde (29.0)
+ \n💰 Cuotas Promedio: España (1.08) | Empate (9.5) | Cabo Verde (26.0)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -177,8 +177,7 @@ DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Irán (1.94) | Empate (3.47) | Nueva Zelanda (4.29
- )
+ \n💰 Cuotas Promedio: Irán (1.92) | Empate (3.5) | Nueva Zelanda (4.37)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
@@ -189,8 +188,8 @@ DTEND;TZID=America/El_Salvador:20260615T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-016@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: Arabia Saudita (6.5) | Empate (4.4) | Uruguay (1.4
- 8)
+ \n💰 Cuotas Promedio: Arabia Saudita (7.0) | Empate (4.3) | Uruguay (1.4
+ 2)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -201,7 +200,7 @@ DTEND;TZID=America/El_Salvador:20260616T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-017@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 1\n
- \n💰 Cuotas Promedio: Francia (1.45) | Empate (4.4) | Senegal (7.0)
+ \n💰 Cuotas Promedio: Francia (1.38) | Empate (4.7) | Senegal (7.5)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -223,7 +222,7 @@ DTEND;TZID=America/El_Salvador:20260616T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-019@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 1\n
- \n💰 Cuotas Promedio: Argentina (1.4) | Empate (4.5) | Argelia (8.0)
+ \n💰 Cuotas Promedio: Argentina (1.37) | Empate (4.4) | Argelia (8.0)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -256,7 +255,7 @@ DTEND;TZID=America/El_Salvador:20260617T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-022@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 1\n
- \n💰 Cuotas Promedio: Ghana (2.0) | Empate (3.4) | Panamá (3.75)
+ \n💰 Cuotas Promedio: Ghana (2.0) | Empate (3.4) | Panamá (3.7)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -279,7 +278,7 @@ DTEND;TZID=America/El_Salvador:20260617T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-024@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 1\n
- \n💰 Cuotas Promedio: Inglaterra (1.74) | Empate (3.7) | Croacia (4.8)
+ \n💰 Cuotas Promedio: Inglaterra (1.67) | Empate (3.7) | Croacia (5.0)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -357,7 +356,7 @@ DTEND;TZID=America/El_Salvador:20260619T183000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.04) | Empate (16.0) | Haití (41.0)
+ \n💰 Cuotas Promedio: Brasil (1.06) | Empate (13.0) | Haití (41.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -502,7 +501,7 @@ DTEND;TZID=America/El_Salvador:20260622T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-044@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 2\n
- \n💰 Cuotas Promedio: Jordania (5.55) | Empate (3.94) | Argelia (1.68)
+ \n💰 Cuotas Promedio: Jordania (6.15) | Empate (4.15) | Argelia (1.6)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -746,7 +745,7 @@ DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-066@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Nueva Zelanda (10.5) | Empate (5.7) | Bélgica (1.
+ \n💰 Cuotas Promedio: Nueva Zelanda (10.0) | Empate (5.5) | Bélgica (1.
  24)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
@@ -803,7 +802,7 @@ DTEND;TZID=America/El_Salvador:20260627T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-071@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Jordania (13.0) | Empate (6.2) | Argentina (1.18)
+ \n💰 Cuotas Promedio: Jordania (14.0) | Empate (6.0) | Argentina (1.18)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -1134,7 +1133,9 @@ DTSTART;TZID=America/El_Salvador:20260603T190000
 DTEND;TZID=America/El_Salvador:20260603T210000
 DTSTAMP:20260602T170000Z
 UID:test-corea-elsalvador@mundial2026
-DESCRIPTION:Partido de prueba en vivo para verificar peticiones
+DESCRIPTION:Partido de prueba en vivo para verificar peticiones\n\n💰 Cu
+ otas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvad
+ or (8.25)
 LOCATION:Prueba API
 STATUS:CONFIRMED
 END:VEVENT
