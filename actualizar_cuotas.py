@@ -103,6 +103,17 @@ def actualizar_cuotas():
             # Generar string de cuotas
             # Ej: 💰 Cuotas: 🇲🇽 México (1.80) | Empate (3.50) | 🇿🇦 Sudáfrica (4.20)
             texto_cuotas = f"💰 Cuotas Promedio: {home_team} ({cuotas['home']}) | Empate ({cuotas['draw']}) | {away_team} ({cuotas['away']})"
+            cuotas_por_partido[f"{home_team} vs {away_team}"] = texto_cuotas
+            cuotas_por_partido[f"{away_team} vs {home_team}"] = texto_cuotas # Por si acaso están al revés en el ICS
+
+    # === MOCK DATA PARA PRUEBAS EN VIVO ===
+    # A petición tuya, inyectamos cuotas falsas a los partidos de hoy para ver cómo queda:
+    cuotas_por_partido["CA Barracas Central vs Huracán"] = "💰 Cuotas Promedio: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)"
+    cuotas_por_partido["Huracán vs CA Barracas Central"] = "💰 Cuotas Promedio: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)"
+    cuotas_por_partido["Haití vs Nueva Zelanda"] = "💰 Cuotas Promedio: Haití (4.50) | Empate (3.80) | Nueva Zelanda (1.75)"
+    cuotas_por_partido["Nueva Zelanda vs Haití"] = "💰 Cuotas Promedio: Haití (4.50) | Empate (3.80) | Nueva Zelanda (1.75)"
+    # ======================================
+
     if not cuotas_por_partido:
         print("No se encontraron cuotas válidas para procesar.")
         return False
