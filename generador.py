@@ -40,8 +40,10 @@ def actualizar_calendario():
                 
                 # Si estamos dentro de la ventana del partido
                 if dtstart <= now <= dtend_approx:
-                    partido_activo = True
-                    break
+                    summary = str(component.get('summary', ''))
+                    if "(Final)" not in summary:
+                        partido_activo = True
+                        break
                     
     if not partido_activo:
         print("No hay partidos activos en este momento. Ahorrando peticiones a la API.")
