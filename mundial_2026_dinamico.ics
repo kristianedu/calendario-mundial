@@ -1143,14 +1143,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 🇦🇷 CA Barracas Central [1] - [0] Huracán 🇦🇷 - Co
- pa Argentina (Min. 67')
+ pa Argentina (Min. 68')
 DTSTART;TZID=America/El_Salvador:20260602T181000
 DTEND;TZID=America/El_Salvador:20260602T201000
 DTSTAMP:20260602T170000Z
 UID:test-barracas-huracan@mundial2026
 DESCRIPTION:Partido de prueba para la API en Android\n\n💰 Cuotas Promed
- io: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)\n---\n⚽
-  GOLES:\n⚽ D. Martinez 65'
+ io: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)
 LOCATION:Prueba API Android
 STATUS:CONFIRMED
 END:VEVENT
