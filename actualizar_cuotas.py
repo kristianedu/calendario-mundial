@@ -129,8 +129,10 @@ def actualizar_cuotas():
         except Exception as e:
             print(f"Error en la petición: {e}")
 
-
-
+    # Cuotas reales verificadas de Fox Sports / Bet365 para partidos no cubiertos por The Odds API
+    # (The Odds API no cubre amistosos internacionales)
+    cuotas_por_partido["Corea del Sur vs El Salvador"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
+    cuotas_por_partido["El Salvador vs Corea del Sur"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
     if not cuotas_por_partido:
         print("No se encontraron cuotas válidas para procesar.")
         return False
