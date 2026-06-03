@@ -1134,7 +1134,8 @@ DTSTART;TZID=America/El_Salvador:20260602T180000
 DTEND;TZID=America/El_Salvador:20260602T200000
 DTSTAMP:20260602T170000Z
 UID:test-haiti-nz@mundial2026
-DESCRIPTION:Partido de prueba para la API
+DESCRIPTION:Partido de prueba para la API\n\n💰 Cuotas Promedio: Haití 
+ (4.50) | Empate (3.80) | Nueva Zelanda (1.75)
 LOCATION:Prueba API
 STATUS:CONFIRMED
 END:VEVENT
@@ -1145,7 +1146,8 @@ DTSTART;TZID=America/El_Salvador:20260602T181000
 DTEND;TZID=America/El_Salvador:20260602T201000
 DTSTAMP:20260602T170000Z
 UID:test-barracas-huracan@mundial2026
-DESCRIPTION:Partido de prueba para la API en Android
+DESCRIPTION:Partido de prueba para la API en Android\n\n💰 Cuotas Promed
+ io: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)
 LOCATION:Prueba API Android
 STATUS:CONFIRMED
 END:VEVENT
