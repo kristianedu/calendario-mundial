@@ -19,6 +19,7 @@ TRADUCCIONES = {
     "Brazil": "Brasil",
     "South Africa": "Sudáfrica",
     "South Korea": "Corea del Sur",
+    "Korea Republic": "Corea del Sur",
     "Czech Republic": "Chequia",
     "Canada": "Canadá",
     "Morocco": "Marruecos",
@@ -32,7 +33,8 @@ TRADUCCIONES = {
     "Uruguay": "Uruguay",
     "Cameroon": "Camerún",
     "Senegal": "Senegal",
-    "Portugal": "Portugal"
+    "Portugal": "Portugal",
+    "El Salvador": "El Salvador"
     # Se pueden ir agregando más según se necesite
 }
 
@@ -47,8 +49,13 @@ def actualizar_cuotas():
         return False
         
     print("Consultando The Odds API...")
+    
+    # Inicializar diccionario de cuotas
+    cuotas_por_partido = {}
+    
     # Primero descubrir el sport key correcto para amistosos internacionales
     print("Buscando deportes disponibles en The Odds API...")
+    friendlies_key = None
     try:
         sports_resp = requests.get(f"https://api.the-odds-api.com/v4/sports?apiKey={ODDS_API_KEY}")
         if sports_resp.status_code == 200:
@@ -57,7 +64,6 @@ def actualizar_cuotas():
             print(f"Deportes de fútbol disponibles: {[s['key'] for s in soccer_sports]}")
             
             # Buscar amistosos internacionales
-            friendlies_key = None
             for s in soccer_sports:
                 if 'friend' in s['key'].lower() or 'international' in s['key'].lower():
                     friendlies_key = s['key']
@@ -65,31 +71,33 @@ def actualizar_cuotas():
             
             if friendlies_key:
                 print(f"Encontrada liga de amistosos: {friendlies_key}")
+            else:
+                print("No se encontró liga de amistosos internacionales.")
         else:
             print(f"No se pudieron listar deportes: {sports_resp.status_code}")
-            friendlies_key = None
-            soccer_sports = []
     except Exception as e:
         print(f"Error listando deportes: {e}")
-        friendlies_key = None
-        soccer_sports = []
     
-    # Consultar cuotas del Mundial FIFA
-    urls_a_consultar = ["https://api.the-odds-api.com/v4/sports/soccer_fifa_world_cup/odds/?apiKey={}&regions=eu,us&markets=h2h".format(ODDS_API_KEY)]
+    # Consultar cuotas del Mundial FIFA + amistosos si existen
+    urls_a_consultar = [
+        f"https://api.the-odds-api.com/v4/sports/soccer_fifa_world_cup/odds/?apiKey={ODDS_API_KEY}&regions=eu,us&markets=h2h"
+    ]
     
-    # Si encontramos amistosos, también consultarlos
     if friendlies_key:
-        urls_a_consultar.append(f"https://api.the-odds-api.com/v4/sports/{friendlies_key}/odds/?apiKey={ODDS_API_KEY}&regions=eu,us&markets=h2h")
+        urls_a_consultar.append(
+            f"https://api.the-odds-api.com/v4/sports/{friendlies_key}/odds/?apiKey={ODDS_API_KEY}&regions=eu,us&markets=h2h"
+        )
     
     for url in urls_a_consultar:
+        sport_name = url.split('/sports/')[1].split('/odds')[0]
         try:
             response = requests.get(url)
             if response.status_code != 200:
-                print(f"Advertencia consultando {url.split('/sports/')[1].split('/odds')[0]}: {response.status_code}")
+                print(f"Advertencia consultando {sport_name}: {response.status_code}")
                 continue
                 
             partidos_api = response.json()
-            print(f"Obtenidas cuotas para {len(partidos_api)} partidos de {url.split('/sports/')[1].split('/odds')[0]}.")
+            print(f"Obtenidas cuotas para {len(partidos_api)} partidos de {sport_name}.")
             
             for partido in partidos_api:
                 home_team_en = partido.get("home_team")
@@ -127,17 +135,19 @@ def actualizar_cuotas():
                     cuotas_por_partido[f"{away_team} vs {home_team}"] = texto_cuotas
                     print(f"  → {home_team} vs {away_team}: ✅")
         except Exception as e:
-            print(f"Error en la petición: {e}")
+            print(f"Error en la petición a {sport_name}: {e}")
 
     # Cuotas reales verificadas de Fox Sports / Bet365 para partidos no cubiertos por The Odds API
     # (The Odds API no cubre amistosos internacionales)
-    cuotas_por_partido["Corea del Sur vs El Salvador"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
-    cuotas_por_partido["El Salvador vs Corea del Sur"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
+    if "Corea del Sur vs El Salvador" not in cuotas_por_partido:
+        cuotas_por_partido["Corea del Sur vs El Salvador"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
+        cuotas_por_partido["El Salvador vs Corea del Sur"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
+
     if not cuotas_por_partido:
         print("No se encontraron cuotas válidas para procesar.")
         return False
 
-    print(f"Inyectando cuotas en el calendario base...")
+    print(f"Inyectando cuotas en el calendario base ({len(cuotas_por_partido)} entradas)...")
     
     try:
         with open('base_mundial.ics', 'rb') as f:
@@ -157,11 +167,10 @@ def actualizar_cuotas():
                 if len(equipos) == 2 and equipos[0] in summary and equipos[1] in summary:
                     description = str(component.get("description", ""))
                     
-                    # Limpiar cuotas anteriores si existen
-                    description = re.sub(r'\n?💰 Cuotas Promedio:.*', '', description)
+                    # Limpiar cuotas anteriores si existen (cualquier formato)
+                    description = re.sub(r'\n?💰 Cuotas[^\n]*', '', description)
                     
-                    # Inyectar nuevas cuotas al inicio de la descripción o justo después de la info base
-                    # Lo pondremos al final de la descripción
+                    # Inyectar nuevas cuotas al final de la descripción
                     nueva_desc = description.strip() + "\n\n" + texto_cuotas
                     component["description"] = nueva_desc
                     modificados += 1
