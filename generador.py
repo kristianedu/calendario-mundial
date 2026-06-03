@@ -18,7 +18,9 @@ def actualizar_calendario():
     
     try:
         with open('base_mundial.ics', 'rb') as f:
-            cal = Calendar.from_ical(f.read())
+            cal_data = f.read()
+            cal = Calendar.from_ical(cal_data)
+            cal_base = Calendar.from_ical(cal_data)
     except FileNotFoundError:
         print("Archivo base_mundial.ics no encontrado.")
         return
@@ -160,9 +162,11 @@ def actualizar_calendario():
     
     # Procesar calendario
     modificados = 0
-    for component in cal.walk():
-        if component.name == "VEVENT":
-            summary = str(component.get('summary'))
+    hubo_finalizados = False
+    
+    for comp_dinamico, comp_base in zip(cal.walk(), cal_base.walk()):
+        if comp_dinamico.name == "VEVENT":
+            summary = str(comp_dinamico.get('summary'))
             
             for match_key, res in resultados_api.items():
                 if res['home_name'] in summary and res['away_name'] in summary:
@@ -201,11 +205,11 @@ def actualizar_calendario():
                         else:
                             nuevo_summary += " (En Vivo)"
                             
-                    component['summary'] = nuevo_summary
+                    comp_dinamico['summary'] = nuevo_summary
                     
                     # Inyectar eventos (goles/tarjetas) en la DESCRIPTION
                     if match_key in eventos_partido:
-                        desc_existente = str(component.get('description', ''))
+                        desc_existente = str(comp_dinamico.get('description', ''))
                         # Limpiar descripción de eventos anterior si existe
                         desc_existente = re.sub(
                             r'(\n?---\n⚽ GOLES:.*|\n?---\n📋 TARJETAS:.*)',
@@ -217,7 +221,14 @@ def actualizar_calendario():
                         if nueva_desc:
                             nueva_desc += "\n---\n"
                         nueva_desc += eventos_partido[match_key]
-                        component['description'] = nueva_desc
+                        comp_dinamico['description'] = nueva_desc
+                        
+                    # Guardado permanente en base_mundial.ics si el partido finalizó
+                    if status in ["FT", "AET", "PEN"]:
+                        comp_base['summary'] = comp_dinamico.get('summary', '')
+                        if 'description' in comp_dinamico:
+                            comp_base['description'] = comp_dinamico.get('description', '')
+                        hubo_finalizados = True
                     
                     modificados += 1
                     break
@@ -225,6 +236,11 @@ def actualizar_calendario():
     print(f"Calendario actualizado con {modificados} partidos en vivo.")
     with open('mundial_2026_dinamico.ics', 'wb') as f:
         f.write(cal.to_ical())
+        
+    if hubo_finalizados:
+        print("Se detectaron partidos finalizados. Guardando marcadores permanentes en base_mundial.ics...")
+        with open('base_mundial.ics', 'wb') as f:
+            f.write(cal_base.to_ical())
         
 if __name__ == "__main__":
     actualizar_calendario()
