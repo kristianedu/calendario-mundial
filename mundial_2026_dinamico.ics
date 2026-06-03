@@ -1051,7 +1051,7 @@ LOCATION:MetLife Stadium\, Nueva York/Nueva Jersey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇭🇹 Haití vs Nueva Zelanda 🇳🇿 - Amistoso
+SUMMARY:⚽ 🇭🇹 Haití [0] - [0] Nueva Zelanda 🇳🇿 - Amistoso
 DTSTART;TZID=America/El_Salvador:20260602T180000
 DTEND;TZID=America/El_Salvador:20260602T200000
 DTSTAMP:20260602T170000Z
@@ -1061,8 +1061,8 @@ LOCATION:Prueba API
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇦🇷 CA Barracas Central vs Huracán 🇦🇷 - Copa Argen
- tina
+SUMMARY:⚽ 🇦🇷 CA Barracas Central [0] - [0] Huracán 🇦🇷 - Cop
+ a Argentina
 DTSTART;TZID=America/El_Salvador:20260602T181000
 DTEND;TZID=America/El_Salvador:20260602T201000
 DTSTAMP:20260602T170000Z
