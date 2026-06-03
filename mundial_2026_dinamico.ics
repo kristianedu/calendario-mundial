@@ -1129,25 +1129,31 @@ LOCATION:MetLife Stadium\, Nueva York/Nueva Jersey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇭🇹 Haití vs Nueva Zelanda 🇳🇿 - Amistoso
+SUMMARY:✅ 🇭🇹 Haití [2] - [1] Nueva Zelanda 🇳🇿 - Amistoso (F
+ inal)
 DTSTART;TZID=America/El_Salvador:20260602T180000
 DTEND;TZID=America/El_Salvador:20260602T200000
 DTSTAMP:20260602T170000Z
 UID:test-haiti-nz@mundial2026
-DESCRIPTION:Partido de prueba para la API\n\n💰 Cuotas Promedio: Haití 
- (4.50) | Empate (3.80) | Nueva Zelanda (1.75)
+DESCRIPTION:Partido de prueba para la API\n\n---\n⚽ GOLES:\nMin 12' - F.
+  Pierrot (Haití)\nMin 45' - C. Wood (Nueva Zelanda)\nMin 88' - D. Nazon (
+ Haití)\n\n📋 TARJETAS:\nMin 33' 🟨 - M. Garbett (Nueva Zelanda)\nMin 
+ 76' 🟨 - C. Arcus (Haití)
 LOCATION:Prueba API
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇦🇷 CA Barracas Central vs Huracán 🇦🇷 - Copa Argen
- tina
+SUMMARY:✅ 🇦🇷 CA Barracas Central [0] - [3] Huracán 🇦🇷 - Cop
+ a Argentina (Final)
 DTSTART;TZID=America/El_Salvador:20260602T181000
 DTEND;TZID=America/El_Salvador:20260602T201000
 DTSTAMP:20260602T170000Z
 UID:test-barracas-huracan@mundial2026
-DESCRIPTION:Partido de prueba para la API en Android\n\n💰 Cuotas Promed
- io: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)
+DESCRIPTION:Partido de prueba para la API en Android\n💰 Cuotas Promedio
+ : CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)\n\n---\n⚽
+  GOLES:\nMin 10' - I. Pussetto (Huracán)\nMin 42' - H. Fértoli (Huracán
+ )\nMin 78' - M. Gómez (Huracán)\n\n📋 TARJETAS:\nMin 21' 🟨 - C. Arc
+ e (Barracas)\nMin 65' 🟥 - J. Candia (Barracas)
 LOCATION:Prueba API Android
 STATUS:CONFIRMED
 END:VEVENT
