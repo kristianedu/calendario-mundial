@@ -61,7 +61,8 @@ EQUIPOS_MAP = {
     "Ghana": "Ghana",
     "Panama": "Panamá",
     "Barracas Central": "CA Barracas Central",
-    "Huracan": "Huracán"
+    "Huracan": "Huracán",
+    "El Salvador": "El Salvador"
 }
 
 # Mapa de nombre en español → emoji de bandera
@@ -113,7 +114,8 @@ BANDERAS_MAP = {
     "Uzbekistán": "🇺🇿",
     "Croacia": "🇭🇷",
     "Ghana": "🇬🇭",
-    "Panamá": "🇵🇦"
+    "Panamá": "🇵🇦",
+    "El Salvador": "🇸🇻"
 }
 
 def normalize_name(name):

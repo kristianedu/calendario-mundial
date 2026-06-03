@@ -1128,17 +1128,13 @@ LOCATION:MetLife Stadium\, Nueva York/Nueva Jersey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇭🇹 Haití [2] - [1] Nueva Zelanda 🇳🇿 - Amistoso (F
- inal)
-DTSTART;TZID=America/El_Salvador:20260602T180000
-DTEND;TZID=America/El_Salvador:20260602T200000
+SUMMARY:⚽ 🇰🇷 Corea del Sur vs El Salvador 🇸🇻 - Amistoso Inte
+ rnacional
+DTSTART;TZID=America/El_Salvador:20260603T190000
+DTEND;TZID=America/El_Salvador:20260603T210000
 DTSTAMP:20260602T170000Z
-UID:test-haiti-nz@mundial2026
-DESCRIPTION:Partido de prueba para la API\n\n---\n⚽ GOLES:\nMin 12' - F.
-  Pierrot (Haití)\nMin 45' - C. Wood (Nueva Zelanda)\nMin 88' - D. Nazon (
- Haití)\n\n📋 TARJETAS:\nMin 33' 🟨 - M. Garbett (Nueva Zelanda)\nMin 
- 76' 🟨 - C. Arcus (Haití)\n\n💰 Cuotas Promedio: Haití (4.50) | Empa
- te (3.80) | Nueva Zelanda (1.75)
+UID:test-corea-elsalvador@mundial2026
+DESCRIPTION:Partido de prueba en vivo para verificar peticiones
 LOCATION:Prueba API
 STATUS:CONFIRMED
 END:VEVENT

@@ -47,7 +47,7 @@ def actualizar_cuotas():
         return False
         
     print("Consultando The Odds API...")
-    url = f"https://api.the-odds-api.com/v4/sports/soccer_fifa_world_cup/odds/?apiKey={ODDS_API_KEY}&regions=eu,us&markets=h2h"
+    url = f"https://api.the-odds-api.com/v4/sports/soccer_international_friendlies/odds/?apiKey={ODDS_API_KEY}&regions=eu,us&markets=h2h"
     
     try:
         response = requests.get(url)
@@ -106,13 +106,7 @@ def actualizar_cuotas():
             cuotas_por_partido[f"{home_team} vs {away_team}"] = texto_cuotas
             cuotas_por_partido[f"{away_team} vs {home_team}"] = texto_cuotas # Por si acaso están al revés en el ICS
 
-    # === MOCK DATA PARA PRUEBAS EN VIVO ===
-    # A petición tuya, inyectamos cuotas falsas a los partidos de hoy para ver cómo queda:
-    cuotas_por_partido["CA Barracas Central vs Huracán"] = "💰 Cuotas Promedio: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)"
-    cuotas_por_partido["Huracán vs CA Barracas Central"] = "💰 Cuotas Promedio: CA Barracas Central (2.10) | Empate (3.20) | Huracán (3.50)"
-    cuotas_por_partido["Haití vs Nueva Zelanda"] = "💰 Cuotas Promedio: Haití (4.50) | Empate (3.80) | Nueva Zelanda (1.75)"
-    cuotas_por_partido["Nueva Zelanda vs Haití"] = "💰 Cuotas Promedio: Haití (4.50) | Empate (3.80) | Nueva Zelanda (1.75)"
-    # ======================================
+
 
     if not cuotas_por_partido:
         print("No se encontraron cuotas válidas para procesar.")
