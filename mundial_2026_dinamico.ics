@@ -21,8 +21,8 @@ DTEND;TZID=America/El_Salvador:20260611T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-001@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
- 🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.37) | Empate
-  (4.5) | Sudáfrica (8.0)
+ 🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.44) | Empate
+  (4.33) | Sudáfrica (7.75)
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
@@ -55,7 +55,7 @@ DTEND;TZID=America/El_Salvador:20260612T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-004@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 1\n
- \n💰 Cuotas Promedio: EE.UU. (1.95) | Empate (3.3) | Paraguay (3.9)
+ \n💰 Cuotas Promedio: EE.UU. (1.98) | Empate (3.3) | Paraguay (3.9)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -77,7 +77,7 @@ DTEND;TZID=America/El_Salvador:20260613T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-006@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 1\n
- \n💰 Cuotas Promedio: Brasil (1.59) | Empate (3.8) | Marruecos (5.8)
+ \n💰 Cuotas Promedio: Brasil (1.61) | Empate (4.0) | Marruecos (5.5)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -89,7 +89,7 @@ DTEND;TZID=America/El_Salvador:20260613T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-007@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 1\n
- \n💰 Cuotas Promedio: Haití (6.5) | Empate (4.6) | Escocia (1.42)
+ \n💰 Cuotas Promedio: Haití (6.75) | Empate (4.4) | Escocia (1.48)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -121,7 +121,7 @@ DTEND;TZID=America/El_Salvador:20260614T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-010@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 1\n
- \n💰 Cuotas Promedio: Países Bajos (1.95) | Empate (3.6) | Japón (3.7)
+ \n💰 Cuotas Promedio: Países Bajos (2.0) | Empate (3.6) | Japón (3.6)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -155,7 +155,7 @@ DTEND;TZID=America/El_Salvador:20260615T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-013@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Bélgica (1.59) | Empate (3.9) | Egipto (5.3)
+ \n💰 Cuotas Promedio: Bélgica (1.67) | Empate (4.0) | Egipto (4.8)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -166,7 +166,7 @@ DTEND;TZID=America/El_Salvador:20260615T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-014@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: España (1.08) | Empate (9.5) | Cabo Verde (26.0)
+ \n💰 Cuotas Promedio: España (1.1) | Empate (10.5) | Cabo Verde (29.0)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -188,8 +188,8 @@ DTEND;TZID=America/El_Salvador:20260615T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-016@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: Arabia Saudita (7.0) | Empate (4.3) | Uruguay (1.4
- 2)
+ \n💰 Cuotas Promedio: Arabia Saudita (6.5) | Empate (4.4) | Uruguay (1.4
+ 8)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -200,7 +200,7 @@ DTEND;TZID=America/El_Salvador:20260616T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-017@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 1\n
- \n💰 Cuotas Promedio: Francia (1.38) | Empate (4.7) | Senegal (7.5)
+ \n💰 Cuotas Promedio: Francia (1.45) | Empate (4.4) | Senegal (7.0)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -222,7 +222,7 @@ DTEND;TZID=America/El_Salvador:20260616T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-019@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 1\n
- \n💰 Cuotas Promedio: Argentina (1.37) | Empate (4.4) | Argelia (8.0)
+ \n💰 Cuotas Promedio: Argentina (1.4) | Empate (4.5) | Argelia (8.0)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -255,7 +255,7 @@ DTEND;TZID=America/El_Salvador:20260617T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-022@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 1\n
- \n💰 Cuotas Promedio: Ghana (2.0) | Empate (3.4) | Panamá (3.7)
+ \n💰 Cuotas Promedio: Ghana (2.0) | Empate (3.4) | Panamá (3.75)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -278,7 +278,7 @@ DTEND;TZID=America/El_Salvador:20260617T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-024@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 1\n
- \n💰 Cuotas Promedio: Inglaterra (1.67) | Empate (3.7) | Croacia (5.0)
+ \n💰 Cuotas Promedio: Inglaterra (1.74) | Empate (3.7) | Croacia (4.8)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -356,7 +356,7 @@ DTEND;TZID=America/El_Salvador:20260619T183000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.06) | Empate (13.0) | Haití (41.0)
+ \n💰 Cuotas Promedio: Brasil (1.06) | Empate (14.0) | Haití (36.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -378,7 +378,7 @@ DTEND;TZID=America/El_Salvador:20260620T110000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-033@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 2\n
- \n💰 Cuotas Promedio: Países Bajos (1.73) | Empate (3.8) | Suecia (4.75
+ \n💰 Cuotas Promedio: Países Bajos (1.64) | Empate (4.0) | Suecia (5.25
  )
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
@@ -745,8 +745,8 @@ DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-066@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Nueva Zelanda (10.0) | Empate (5.5) | Bélgica (1.
- 24)
+ \n💰 Cuotas Promedio: Nueva Zelanda (9.0) | Empate (5.5) | Bélgica (1.2
+ 9)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
