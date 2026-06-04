@@ -132,7 +132,7 @@ DTEND;TZID=America/El_Salvador:20260614T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-011@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 1\n
- \n💰 Cuotas Promedio: Costa de Marfil (3.7) | Empate (2.8) | Ecuador (2.
+ \n💰 Cuotas Promedio: Costa de Marfil (3.6) | Empate (2.8) | Ecuador (2.
  35)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
@@ -166,7 +166,7 @@ DTEND;TZID=America/El_Salvador:20260615T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-014@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: España (1.1) | Empate (10.5) | Cabo Verde (29.0)
+ \n💰 Cuotas Promedio: España (1.1) | Empate (10.5) | Cabo Verde (26.0)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -177,7 +177,7 @@ DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Irán (1.93) | Empate (3.48) | Nueva Zelanda (4.37
+ \n💰 Cuotas Promedio: Irán (1.91) | Empate (3.49) | Nueva Zelanda (4.42
  )
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
@@ -391,8 +391,8 @@ DTEND;TZID=America/El_Salvador:20260620T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-034@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 2\n
- \n💰 Cuotas Promedio: Alemania (1.53) | Empate (4.2) | Costa de Marfil (
- 6.25)
+ \n💰 Cuotas Promedio: Alemania (1.51) | Empate (4.25) | Costa de Marfil 
+ (6.4)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -424,7 +424,7 @@ DTEND;TZID=America/El_Salvador:20260621T100000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-037@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: España (1.08) | Empate (9.1) | Arabia Saudita (26
+ \n💰 Cuotas Promedio: España (1.08) | Empate (9.1) | Arabia Saudita (25
  .0)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
@@ -591,7 +591,7 @@ DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-052@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 3\n
- \n💰 Cuotas Promedio: Marruecos (1.26) | Empate (4.2) | Haití (6.25)
+ \n💰 Cuotas Promedio: Marruecos (1.27) | Empate (4.2) | Haití (6.25)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -746,8 +746,8 @@ DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-066@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Nueva Zelanda (11.0) | Empate (5.6) | Bélgica (1.
- 28)
+ \n💰 Cuotas Promedio: Nueva Zelanda (10.0) | Empate (5.6) | Bélgica (1.
+ 3)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
