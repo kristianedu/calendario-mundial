@@ -100,7 +100,7 @@ DTEND;TZID=America/El_Salvador:20260614T000000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-008@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 1\n
- \n💰 Cuotas Promedio: Australia (4.75) | Empate (3.75) | Turquía (1.8)
+ \n💰 Cuotas Promedio: Australia (4.85) | Empate (3.75) | Turquía (1.78)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
@@ -245,7 +245,7 @@ DTEND;TZID=America/El_Salvador:20260617T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-021@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 1\n
- \n💰 Cuotas Promedio: Portugal (1.28) | Empate (5.8) | RD Congo (11.5)
+ \n💰 Cuotas Promedio: Portugal (1.28) | Empate (6.0) | RD Congo (11.5)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -322,8 +322,8 @@ DTEND;TZID=America/El_Salvador:20260618T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-028@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 2\n
- \n💰 Cuotas Promedio: México (1.83) | Empate (3.4) | Corea del Sur (4.7
- 5)
+ \n💰 Cuotas Promedio: México (1.82) | Empate (3.45) | Corea del Sur (4.
+ 7)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -379,7 +379,8 @@ DTEND;TZID=America/El_Salvador:20260620T110000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-033@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 2\n
- \n💰 Cuotas Promedio: Países Bajos (1.72) | Empate (3.7) | Suecia (4.9)
+ \n💰 Cuotas Promedio: Países Bajos (1.66) | Empate (3.85) | Suecia (5.2
+ 5)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -423,8 +424,8 @@ DTEND;TZID=America/El_Salvador:20260621T100000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-037@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: España (1.08) | Empate (9.1) | Arabia Saudita (25
- .0)
+ \n💰 Cuotas Promedio: España (1.09) | Empate (10.7) | Arabia Saudita (2
+ 9.0)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -435,7 +436,7 @@ DTEND;TZID=America/El_Salvador:20260621T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-038@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 2\n
- \n💰 Cuotas Promedio: Bélgica (1.38) | Empate (4.55) | Irán (7.59)
+ \n💰 Cuotas Promedio: Bélgica (1.37) | Empate (4.59) | Irán (7.65)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
@@ -769,7 +770,7 @@ DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-068@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Croacia (1.54) | Empate (3.3) | Ghana (4.2)
+ \n💰 Cuotas Promedio: Croacia (1.52) | Empate (3.35) | Ghana (4.3)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
