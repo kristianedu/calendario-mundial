@@ -22,7 +22,7 @@ DTSTAMP:20260602T170000Z
 UID:wc2026-GS-001@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
  🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.44) | Empate
-  (4.33) | Sudáfrica (7.5)
+  (4.2) | Sudáfrica (7.5)
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
@@ -245,7 +245,7 @@ DTEND;TZID=America/El_Salvador:20260617T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-021@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 1\n
- \n💰 Cuotas Promedio: Portugal (1.25) | Empate (6.25) | RD Congo (12.0)
+ \n💰 Cuotas Promedio: Portugal (1.27) | Empate (6.0) | RD Congo (12.0)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -356,7 +356,7 @@ DTEND;TZID=America/El_Salvador:20260619T183000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.06) | Empate (13.0) | Haití (34.0)
+ \n💰 Cuotas Promedio: Brasil (1.06) | Empate (13.0) | Haití (36.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -367,7 +367,7 @@ DTEND;TZID=America/El_Salvador:20260619T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-032@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: Turquía (2.28) | Empate (3.25) | Paraguay (3.45)
+ \n💰 Cuotas Promedio: Turquía (2.25) | Empate (3.3) | Paraguay (3.5)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -468,7 +468,7 @@ DTEND;TZID=America/El_Salvador:20260622T110000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-041@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 2\n
- \n💰 Cuotas Promedio: Argentina (1.68) | Empate (3.8) | Austria (5.25)
+ \n💰 Cuotas Promedio: Argentina (1.66) | Empate (3.9) | Austria (5.2)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
