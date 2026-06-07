@@ -77,7 +77,7 @@ DTEND;TZID=America/El_Salvador:20260613T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-006@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 1\n
- \n💰 Cuotas Promedio: Brasil (1.61) | Empate (3.9) | Marruecos (5.5)
+ \n💰 Cuotas Promedio: Brasil (1.62) | Empate (3.8) | Marruecos (5.25)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -356,7 +356,7 @@ DTEND;TZID=America/El_Salvador:20260619T183000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.06) | Empate (13.0) | Haití (36.0)
+ \n💰 Cuotas Promedio: Brasil (1.06) | Empate (13.0) | Haití (35.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -423,8 +423,8 @@ DTEND;TZID=America/El_Salvador:20260621T100000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-037@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: España (1.09) | Empate (10.7) | Arabia Saudita (2
- 9.0)
+ \n💰 Cuotas Promedio: España (1.09) | Empate (10.6) | Arabia Saudita (3
+ 0.0)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
