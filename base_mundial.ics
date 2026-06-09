@@ -100,7 +100,7 @@ DTEND;TZID=America/El_Salvador:20260614T000000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-008@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 1\n
- \n💰 Cuotas Promedio: Australia (4.75) | Empate (3.75) | Turquía (1.8)
+ \n💰 Cuotas Promedio: Australia (5.0) | Empate (3.85) | Turquía (1.75)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
@@ -177,7 +177,7 @@ DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Irán (1.92) | Empate (3.47) | Nueva Zelanda (4.46
+ \n💰 Cuotas Promedio: Irán (1.91) | Empate (3.47) | Nueva Zelanda (4.47
  )
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
@@ -423,8 +423,8 @@ DTEND;TZID=America/El_Salvador:20260621T100000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-037@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: España (1.09) | Empate (10.6) | Arabia Saudita (3
- 0.0)
+ \n💰 Cuotas Promedio: España (1.09) | Empate (10.9) | Arabia Saudita (2
+ 9.0)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -711,8 +711,8 @@ DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-063@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Cabo Verde (2.5) | Empate (3.1) | Arabia Saudita (
- 2.75)
+ \n💰 Cuotas Promedio: Cabo Verde (2.55) | Empate (3.1) | Arabia Saudita 
+ (2.7)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
