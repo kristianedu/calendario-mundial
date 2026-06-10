@@ -22,7 +22,7 @@ DTSTAMP:20260602T170000Z
 UID:wc2026-GS-001@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
  🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.43) | Empate
-  (4.4) | Sudáfrica (7.5)
+  (4.4) | Sudáfrica (7.75)
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
@@ -33,8 +33,8 @@ DTEND;TZID=America/El_Salvador:20260611T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-002@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
- \n💰 Cuotas Promedio: Corea del Sur (2.67) | Empate (3.16) | Chequia (2.
- 93)
+ \n💰 Cuotas Promedio: Corea del Sur (2.74) | Empate (3.16) | Chequia (2.
+ 85)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -55,7 +55,7 @@ DTEND;TZID=America/El_Salvador:20260612T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-004@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 1\n
- \n💰 Cuotas Promedio: EE.UU. (1.98) | Empate (3.3) | Paraguay (3.8)
+ \n💰 Cuotas Promedio: EE.UU. (1.98) | Empate (3.4) | Paraguay (4.0)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -66,7 +66,7 @@ DTEND;TZID=America/El_Salvador:20260613T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-005@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 1\n
- \n💰 Cuotas Promedio: Qatar (16.0) | Empate (7.0) | Suiza (1.21)
+ \n💰 Cuotas Promedio: Qatar (17.0) | Empate (7.0) | Suiza (1.22)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -100,7 +100,7 @@ DTEND;TZID=America/El_Salvador:20260614T000000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-008@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 1\n
- \n💰 Cuotas Promedio: Australia (5.0) | Empate (3.85) | Turquía (1.75)
+ \n💰 Cuotas Promedio: Australia (5.25) | Empate (3.84) | Turquía (1.72)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
@@ -144,7 +144,7 @@ DTEND;TZID=America/El_Salvador:20260614T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-012@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 1\n
- \n💰 Cuotas Promedio: Suecia (1.93) | Empate (3.52) | Túnez (4.35)
+ \n💰 Cuotas Promedio: Suecia (1.93) | Empate (3.52) | Túnez (4.33)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -177,7 +177,7 @@ DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Irán (1.9) | Empate (3.49) | Nueva Zelanda (4.5)
+ \n💰 Cuotas Promedio: Irán (1.89) | Empate (3.5) | Nueva Zelanda (4.51)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
@@ -211,7 +211,7 @@ DTEND;TZID=America/El_Salvador:20260616T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-018@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 1\n
- \n💰 Cuotas Promedio: Irak (15.0) | Empate (6.75) | Noruega (1.23)
+ \n💰 Cuotas Promedio: Irak (15.75) | Empate (7.0) | Noruega (1.21)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
@@ -289,7 +289,7 @@ DTEND;TZID=America/El_Salvador:20260618T100000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-025@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 2\n
- \n💰 Cuotas Promedio: Chequia (2.0) | Empate (3.3) | Sudáfrica (4.1)
+ \n💰 Cuotas Promedio: Chequia (1.97) | Empate (3.3) | Sudáfrica (4.1)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -310,7 +310,7 @@ DTEND;TZID=America/El_Salvador:20260618T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-027@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 2\n
- \n💰 Cuotas Promedio: Canadá (1.26) | Empate (4.9) | Qatar (8.5)
+ \n💰 Cuotas Promedio: Canadá (1.26) | Empate (4.8) | Qatar (8.5)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
@@ -321,7 +321,8 @@ DTEND;TZID=America/El_Salvador:20260618T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-028@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 2\n
- \n💰 Cuotas Promedio: México (1.8) | Empate (3.5) | Corea del Sur (4.8)
+ \n💰 Cuotas Promedio: México (1.81) | Empate (3.5) | Corea del Sur (4.7
+ )
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -422,8 +423,8 @@ DTEND;TZID=America/El_Salvador:20260621T100000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-037@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: España (1.09) | Empate (10.9) | Arabia Saudita (2
- 9.0)
+ \n💰 Cuotas Promedio: España (1.09) | Empate (10.4) | Arabia Saudita (2
+ 8.0)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -801,7 +802,7 @@ DTEND;TZID=America/El_Salvador:20260627T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-071@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Jordania (14.0) | Empate (6.2) | Argentina (1.17)
+ \n💰 Cuotas Promedio: Jordania (14.0) | Empate (6.5) | Argentina (1.16)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
