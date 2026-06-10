@@ -22,7 +22,7 @@ DTSTAMP:20260602T170000Z
 UID:wc2026-GS-001@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
  🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.43) | Empate
-  (4.4) | Sudáfrica (7.75)
+  (4.4) | Sudáfrica (7.5)
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
@@ -355,7 +355,7 @@ DTEND;TZID=America/El_Salvador:20260619T183000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.06) | Empate (13.0) | Haití (35.0)
+ \n💰 Cuotas Promedio: Brasil (1.08) | Empate (11.5) | Haití (31.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -366,7 +366,7 @@ DTEND;TZID=America/El_Salvador:20260619T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-032@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: Turquía (2.28) | Empate (3.35) | Paraguay (3.55)
+ \n💰 Cuotas Promedio: Turquía (2.28) | Empate (3.3) | Paraguay (3.55)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -434,7 +434,7 @@ DTEND;TZID=America/El_Salvador:20260621T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-038@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 2\n
- \n💰 Cuotas Promedio: Bélgica (1.37) | Empate (4.59) | Irán (7.65)
+ \n💰 Cuotas Promedio: Bélgica (1.37) | Empate (4.61) | Irán (7.67)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
@@ -489,7 +489,7 @@ DTEND;TZID=America/El_Salvador:20260622T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-043@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 2\n
- \n💰 Cuotas Promedio: Noruega (2.2) | Empate (3.55) | Senegal (3.55)
+ \n💰 Cuotas Promedio: Noruega (2.18) | Empate (3.55) | Senegal (3.5)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -710,8 +710,8 @@ DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-063@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Cabo Verde (2.5) | Empate (3.2) | Arabia Saudita (
- 2.65)
+ \n💰 Cuotas Promedio: Cabo Verde (2.55) | Empate (3.2) | Arabia Saudita 
+ (2.6)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
