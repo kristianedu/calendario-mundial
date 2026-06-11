@@ -77,7 +77,7 @@ def actualizar_calendario():
     fixture_ids = {}  # match_key → fixture_id para consultar eventos después
     for fix in fixtures:
         league_id = fix.get('league', {}).get('id')
-        if True: # Aceptamos cualquier liga para ver el partido de Haití en vivo
+        if league_id == 1: # Solo partidos del Mundial FIFA 2026
             home = normalize_name(fix['teams']['home']['name'])
             away = normalize_name(fix['teams']['away']['name'])
             status = fix['fixture']['status']['short']
