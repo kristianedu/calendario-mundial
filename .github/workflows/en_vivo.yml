@@ -2,7 +2,8 @@ name: Marcadores en Vivo
 
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    # Cada 2 min, solo horas de partidos (08:00-00:59 CST = 14:00-06:59 UTC), jun-jul
+    - cron: '*/2 14-23,0-6 * 6-7 *'
   push:
     branches:
       - main
