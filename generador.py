@@ -71,35 +71,16 @@ def actualizar_calendario():
     except Exception as e:
         print("Error consultando API:", e)
         return
-    
-    # Debug: info completa de la respuesta
-    print(f"  🔑 API Key (primeros 8 chars): {API_KEY[:8]}...")
-    print(f"  📡 HTTP Status: {response.status_code}")
-    print(f"  📊 API devolvió {len(fixtures)} partidos para {date_str}")
-    
-    # Mostrar errores si los hay
+    # Verificar errores de la API
     errors = data.get('errors', {})
     if errors:
-        print(f"  ❌ ERRORES de la API: {errors}")
+        print(f"  ❌ Error de la API: {errors}")
+        print("  ⚠️ Abortando actualización. Verifica tu API key en https://dashboard.api-football.com")
+        with open('mundial_2026_dinamico.ics', 'wb') as f:
+            f.write(cal.to_ical())
+        return
     
-    # Mostrar info de rate limiting
-    remaining = response.headers.get('x-ratelimit-requests-remaining', '?')
-    limit = response.headers.get('x-ratelimit-requests-limit', '?')
-    print(f"  📈 Rate limit: {remaining}/{limit} peticiones restantes")
-    
-    # Si no hay fixtures, mostrar la respuesta raw para debug
-    if len(fixtures) == 0:
-        print(f"  🔍 Respuesta raw (primeros 500 chars): {str(data)[:500]}")
-    
-    leagues_found = {}
-    for fix in fixtures:
-        lid = fix.get('league', {}).get('id')
-        lname = fix.get('league', {}).get('name', '?')
-        if lid not in leagues_found:
-            leagues_found[lid] = lname
-    for lid, lname in sorted(leagues_found.items(), key=lambda x: x[0]):
-        marker = " ⬅️ MUNDIAL" if 'world cup' in lname.lower() or 'copa del mundo' in lname.lower() else ""
-        print(f"    Liga ID {lid}: {lname}{marker}")
+    print(f"  📊 {len(fixtures)} partidos encontrados para {date_str}")
         
     # Crear un diccionario con los partidos del Mundial (League ID 1)
     resultados_api = {}
