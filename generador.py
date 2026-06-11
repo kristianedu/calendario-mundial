@@ -211,8 +211,9 @@ def actualizar_calendario():
                     if match_key in eventos_partido:
                         desc_existente = str(comp_dinamico.get('description', ''))
                         # Limpiar descripción de eventos anterior si existe
+                        # Eliminar todo desde el separador "---" en adelante (goles y/o tarjetas)
                         desc_existente = re.sub(
-                            r'(\n?---\n⚽ GOLES:.*|\n?---\n📋 TARJETAS:.*)',
+                            r'\n?---\n(?:⚽ GOLES:|📋 TARJETAS:).*',
                             '',
                             desc_existente,
                             flags=re.DOTALL

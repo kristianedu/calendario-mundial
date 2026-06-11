@@ -1,10 +1,16 @@
 name: Marcadores en Vivo
 
 on:
+  schedule:
+    - cron: '*/2 * * * *'
   push:
     branches:
       - main
   workflow_dispatch:
+
+concurrency:
+  group: en-vivo
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -52,4 +58,5 @@ jobs:
           cp /tmp/mundial_2026_dinamico.ics .
           git add mundial_2026_dinamico.ics
           git commit -m "Update calendar (Live)" || echo "No changes to commit"
+          git pull origin gh-pages --rebase || true
           git push origin gh-pages
