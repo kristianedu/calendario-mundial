@@ -15,14 +15,17 @@ TZOFFSETTO:-0600
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:🏆 🇲🇽 México vs Sudáfrica 🇿🇦 - Grupo A
+SUMMARY:🔴 🇲🇽 México [2] - [0] Sudáfrica 🇿🇦 - Grupo A (Min
+ . 86')
 DTSTART;TZID=America/El_Salvador:20260611T130000
 DTEND;TZID=America/El_Salvador:20260611T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-001@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
  🏟️ PARTIDO INAUGURAL\n\n💰 Cuotas Promedio: México (1.02) | Empate
-  (16.5) | Sudáfrica (101.0)
+  (16.5) | Sudáfrica (101.0)\n---\n⚽ GOLES:\n⚽ J. Quinones 9'\n⚽ R. 
+ Jimenez 67'\n\n📋 TARJETAS:\n🟨 T. Mokoena 17'\n🟨 B. Gutierrez 23'\
+ n🟥 Y. Sithole 49'\n🟨 N. Sibisi 74'\n🟥 T. Zwane 84'
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
