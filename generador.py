@@ -72,8 +72,25 @@ def actualizar_calendario():
         print("Error consultando API:", e)
         return
     
-    # Debug: mostrar qué ligas devolvió la API
+    # Debug: info completa de la respuesta
+    print(f"  🔑 API Key (primeros 8 chars): {API_KEY[:8]}...")
+    print(f"  📡 HTTP Status: {response.status_code}")
     print(f"  📊 API devolvió {len(fixtures)} partidos para {date_str}")
+    
+    # Mostrar errores si los hay
+    errors = data.get('errors', {})
+    if errors:
+        print(f"  ❌ ERRORES de la API: {errors}")
+    
+    # Mostrar info de rate limiting
+    remaining = response.headers.get('x-ratelimit-requests-remaining', '?')
+    limit = response.headers.get('x-ratelimit-requests-limit', '?')
+    print(f"  📈 Rate limit: {remaining}/{limit} peticiones restantes")
+    
+    # Si no hay fixtures, mostrar la respuesta raw para debug
+    if len(fixtures) == 0:
+        print(f"  🔍 Respuesta raw (primeros 500 chars): {str(data)[:500]}")
+    
     leagues_found = {}
     for fix in fixtures:
         lid = fix.get('league', {}).get('id')
