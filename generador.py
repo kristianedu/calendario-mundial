@@ -71,6 +71,18 @@ def actualizar_calendario():
     except Exception as e:
         print("Error consultando API:", e)
         return
+    
+    # Debug: mostrar qué ligas devolvió la API
+    print(f"  📊 API devolvió {len(fixtures)} partidos para {date_str}")
+    leagues_found = {}
+    for fix in fixtures:
+        lid = fix.get('league', {}).get('id')
+        lname = fix.get('league', {}).get('name', '?')
+        if lid not in leagues_found:
+            leagues_found[lid] = lname
+    for lid, lname in sorted(leagues_found.items(), key=lambda x: x[0]):
+        marker = " ⬅️ MUNDIAL" if 'world cup' in lname.lower() or 'copa del mundo' in lname.lower() else ""
+        print(f"    Liga ID {lid}: {lname}{marker}")
         
     # Crear un diccionario con los partidos del Mundial (League ID 1)
     resultados_api = {}
