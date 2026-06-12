@@ -9,6 +9,7 @@ EQUIPOS_MAP = {
     "South Africa": "Sudáfrica",
     "Canada": "Canadá",
     "Bosnia And Herzegovina": "Bosnia y Herzegovina",
+    "Bosnia & Herzegovina": "Bosnia y Herzegovina",
     "Bosnia": "Bosnia y Herzegovina",
     "Spain": "España",
     "Germany": "Alemania",
