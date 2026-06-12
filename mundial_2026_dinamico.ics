@@ -51,9 +51,7 @@ DTSTART;TZID=America/El_Salvador:20260612T130000
 DTEND;TZID=America/El_Salvador:20260612T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-003@mundial2026
-DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 1\n
- ---\n⚽ GOLES:\n⚽ J. Lukic 21'\n\n📋 TARJETAS:\n🟨 A. Johnston 11'\
- n🟨 E. Demirovic 45'\n🟨 J. Lukic 45+1'
+DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 1
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
