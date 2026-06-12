@@ -31,15 +31,15 @@ LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇰🇷 Corea del Sur [0] - [0] Chequia 🇨🇿 - Grupo A (
- Min. 55')
+SUMMARY:🔴 🇰🇷 Corea del Sur [0] - [1] Chequia 🇨🇿 - Grupo A (
+ Min. 62')
 DTSTART;TZID=America/El_Salvador:20260611T200000
 DTEND;TZID=America/El_Salvador:20260611T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-002@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 1\n
  \n💰 Cuotas Promedio: Corea del Sur (2.7) | Empate (3.1) | Chequia (3.05
- )
+ )\n---\n⚽ GOLES:\n⚽ L. Krejci 59'
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
