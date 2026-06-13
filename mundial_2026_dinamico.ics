@@ -55,8 +55,8 @@ LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇺🇸 EE.UU. [3] - [0] Paraguay 🇵🇾 - Grupo D (Min. 7
- 1')
+SUMMARY:🔴 🇺🇸 EE.UU. [3] - [1] Paraguay 🇵🇾 - Grupo D (Min. 7
+ 7')
 DTSTART;TZID=America/El_Salvador:20260612T190000
 DTEND;TZID=America/El_Salvador:20260612T210000
 DTSTAMP:20260602T170000Z
@@ -64,8 +64,8 @@ UID:wc2026-GS-004@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 1\n
  \n💰 Cuotas Promedio: EE.UU. (2.05) | Empate (3.2) | Paraguay (3.9)\n---
  \n⚽ GOLES:\n⚽🔴 D. Bobadilla 7' (Autogol)\n⚽ F. Balogun 31'\n⚽ F
- . Balogun 45+5'\n\n📋 TARJETAS:\n🟨 J. Caceres 10'\n🟨 M. Almiron 53
- '\n🟨 T. Adams 59'
+ . Balogun 45+5'\n⚽ Mauricio 73'\n\n📋 TARJETAS:\n🟨 J. Caceres 10'\n
+ 🟨 M. Almiron 53'\n🟨 T. Adams 59'
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
