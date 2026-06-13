@@ -88,7 +88,7 @@ DTEND;TZID=America/El_Salvador:20260613T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-006@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 1\n
- \n💰 Cuotas Promedio: Brasil (1.65) | Empate (3.9) | Marruecos (5.0)
+ \n💰 Cuotas Promedio: Brasil (1.62) | Empate (3.8) | Marruecos (5.25)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -155,7 +155,7 @@ DTEND;TZID=America/El_Salvador:20260614T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-012@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 1\n
- \n💰 Cuotas Promedio: Suecia (1.93) | Empate (3.45) | Túnez (4.5)
+ \n💰 Cuotas Promedio: Suecia (1.88) | Empate (3.54) | Túnez (4.4)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -324,7 +324,7 @@ DTEND;TZID=America/El_Salvador:20260618T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-027@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 2\n
- \n💰 Cuotas Promedio: Canadá (1.24) | Empate (5.0) | Qatar (9.0)
+ \n💰 Cuotas Promedio: Canadá (1.25) | Empate (5.0) | Qatar (8.5)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
@@ -335,8 +335,8 @@ DTEND;TZID=America/El_Salvador:20260618T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-028@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 2\n
- \n💰 Cuotas Promedio: México (1.95) | Empate (3.45) | Corea del Sur (4.
- 0)
+ \n💰 Cuotas Promedio: México (1.96) | Empate (3.4) | Corea del Sur (4.0
+ )
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -347,7 +347,7 @@ DTEND;TZID=America/El_Salvador:20260619T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-029@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: EE.UU. (1.71) | Empate (3.8) | Australia (4.9)
+ \n💰 Cuotas Promedio: EE.UU. (1.56) | Empate (4.2) | Australia (6.0)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -381,7 +381,7 @@ DTEND;TZID=America/El_Salvador:20260619T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-032@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: Turquía (2.28) | Empate (3.3) | Paraguay (3.55)
+ \n💰 Cuotas Promedio: Turquía (2.07) | Empate (3.35) | Paraguay (4.0)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -683,7 +683,7 @@ DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-059@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Turquía (2.3) | Empate (3.15) | EE.UU. (2.3)
+ \n💰 Cuotas Promedio: Turquía (2.35) | Empate (3.15) | EE.UU. (2.25)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -694,7 +694,7 @@ DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-060@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Paraguay (2.0) | Empate (3.05) | Australia (3.1)
+ \n💰 Cuotas Promedio: Paraguay (2.0) | Empate (3.0) | Australia (3.2)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
