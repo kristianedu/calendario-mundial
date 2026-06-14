@@ -71,7 +71,7 @@ LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇶🇦 Qatar vs Suiza 🇨🇭 - Grupo B
+SUMMARY:✅ 🇶🇦 Qatar [1] - [1] Suiza 🇨🇭 - Grupo B (Final)
 DTSTART;TZID=America/El_Salvador:20260613T130000
 DTEND;TZID=America/El_Salvador:20260613T150000
 DTSTAMP:20260602T170000Z
@@ -82,7 +82,7 @@ LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇧🇷 Brasil vs Marruecos 🇲🇦 - Grupo C
+SUMMARY:✅ 🇧🇷 Brasil [1] - [1] Marruecos 🇲🇦 - Grupo C (Final)
 DTSTART;TZID=America/El_Salvador:20260613T160000
 DTEND;TZID=America/El_Salvador:20260613T180000
 DTSTAMP:20260602T170000Z
@@ -93,8 +93,8 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇭🇹 Haití vs Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿 - Grup
- o C
+SUMMARY:✅ 🇭🇹 Haití [0] - [1] Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+  - Grupo C (Final)
 DTSTART;TZID=America/El_Salvador:20260613T190000
 DTEND;TZID=America/El_Salvador:20260613T210000
 DTSTAMP:20260602T170000Z
@@ -105,7 +105,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇦🇺 Australia vs Turquía 🇹🇷 - Grupo D
+SUMMARY:⚽ 🇦🇺 Australia [0] - [0] Turquía 🇹🇷 - Grupo D
 DTSTART;TZID=America/El_Salvador:20260613T220000
 DTEND;TZID=America/El_Salvador:20260614T000000
 DTSTAMP:20260602T170000Z
@@ -126,7 +126,7 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇱 Países Bajos vs Japón 🇯🇵 - Grupo F
+SUMMARY:⚽ 🇳🇱 Países Bajos [0] - [0] Japón 🇯🇵 - Grupo F
 DTSTART;TZID=America/El_Salvador:20260614T140000
 DTEND;TZID=America/El_Salvador:20260614T160000
 DTSTAMP:20260602T170000Z
@@ -137,7 +137,7 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇮 Costa de Marfil vs Ecuador 🇪🇨 - Grupo E
+SUMMARY:⚽ 🇨🇮 Costa de Marfil [0] - [0] Ecuador 🇪🇨 - Grupo E
 DTSTART;TZID=America/El_Salvador:20260614T170000
 DTEND;TZID=America/El_Salvador:20260614T190000
 DTSTAMP:20260602T170000Z
