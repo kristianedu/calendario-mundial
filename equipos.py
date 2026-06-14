@@ -36,6 +36,7 @@ EQUIPOS_MAP = {
     "Turkey": "Turquía",
     "Paraguay": "Paraguay",
     "Curacao": "Curazao",
+    "Curaçao": "Curazao",
     "Ivory Coast": "Costa de Marfil",
     "Cote D'Ivoire": "Costa de Marfil",
     "Sweden": "Suecia",
