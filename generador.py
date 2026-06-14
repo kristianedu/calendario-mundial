@@ -55,99 +55,104 @@ def actualizar_calendario():
         return
         
     # Si hay partido activo, consultamos la API
-    print("¡Partido activo detectado! Consultando API de API-Football...")
-    date_str = now.strftime("%Y-%m-%d")
+    print("¡Partido activo detectado! Consultando API de Football-Data.org...")
+    
+    # Ampliamos el rango a ayer y mañana para evitar problemas de husos horarios en la API
+    date_from_str = (now - timedelta(days=1)).strftime("%Y-%m-%d")
+    date_to_str = (now + timedelta(days=1)).strftime("%Y-%m-%d")
     
     headers = {
-        'x-apisports-key': API_KEY
+        'X-Auth-Token': API_KEY
     }
     
-    url = f"https://v3.football.api-sports.io/fixtures?date={date_str}"
+    url = f"https://api.football-data.org/v4/matches?competitions=WC&dateFrom={date_from_str}&dateTo={date_to_str}"
     
     try:
         response = requests.get(url, headers=headers)
         data = response.json()
-        fixtures = data.get('response', [])
+        fixtures = data.get('matches', [])
     except Exception as e:
         print("Error consultando API:", e)
         return
     # Verificar errores de la API
-    errors = data.get('errors', {})
-    if errors:
-        print(f"  ❌ Error de la API: {errors}")
-        print("  ⚠️ Abortando actualización. Verifica tu API key en https://dashboard.api-football.com")
+    message = data.get('message', '')
+    if 'restricted' in message.lower() or response.status_code != 200:
+        print(f"  ❌ Error de la API: {message} (Código {response.status_code})")
+        print("  ⚠️ Abortando actualización.")
         with open('mundial_2026_dinamico.ics', 'wb') as f:
             f.write(cal.to_ical())
         return
     
-    print(f"  📊 {len(fixtures)} partidos encontrados para {date_str}")
+    print(f"  📊 {len(fixtures)} partidos encontrados en el rango de fechas.")
         
-    # Crear un diccionario con los partidos del Mundial (League ID 1)
+    # Crear un diccionario con los partidos
     resultados_api = {}
     fixture_ids = {}  # match_key → fixture_id para consultar eventos después
     for fix in fixtures:
-        league_id = fix.get('league', {}).get('id')
-        if league_id == 1: # Solo partidos del Mundial FIFA 2026
-            home = normalize_name(fix['teams']['home']['name'])
-            away = normalize_name(fix['teams']['away']['name'])
-            status = fix['fixture']['status']['short']
-            elapsed = fix['fixture']['status'].get('elapsed')  # Minuto actual
-            home_goals = fix['goals']['home']
-            away_goals = fix['goals']['away']
-            fixture_id = fix['fixture']['id']
-            
-            match_key = f"{home} vs {away}"
-            resultados_api[match_key] = {
-                'status': status,
-                'elapsed': elapsed,
-                'home_goals': home_goals,
-                'away_goals': away_goals,
-                'home_name': home,
-                'away_name': away
-            }
-            
-            # Solo guardamos el fixture_id para partidos activos (en curso o finalizados)
-            if status in ['1H', '2H', 'HT', 'ET', 'P', 'FT', 'AET', 'PEN']:
-                fixture_ids[match_key] = fixture_id
+        home = normalize_name(fix['homeTeam']['name'])
+        away = normalize_name(fix['awayTeam']['name'])
+        status = fix['status']
+        
+        # En Football-Data, el score actual generalmente está en fullTime si el partido terminó, o halfTime, etc.
+        # En vivo, fullTime suele tener el score actual.
+        score_info = fix.get('score', {})
+        full_time = score_info.get('fullTime', {}) or {}
+        home_goals = full_time.get('home')
+        away_goals = full_time.get('away')
+        fixture_id = fix['id']
+        
+        match_key = f"{home} vs {away}"
+        resultados_api[match_key] = {
+            'status': status,
+            'home_goals': home_goals,
+            'away_goals': away_goals,
+            'home_name': home,
+            'away_name': away
+        }
+        
+        # Solo guardamos el fixture_id para partidos activos (en curso o finalizados hoy)
+        if status in ['IN_PLAY', 'PAUSED', 'EXTRA_TIME', 'PENALTY_SHOOTOUT', 'FINISHED']:
+            fixture_ids[match_key] = fixture_id
             
     # Consultar eventos (goles, tarjetas) de cada partido activo
     eventos_partido = {}  # match_key → texto formateado de eventos
     for match_key, fid in fixture_ids.items():
         try:
-            events_url = f"https://v3.football.api-sports.io/fixtures/events?fixture={fid}"
+            # En v4, no hay endpoint /events pero vienen dentro del endpoint /matches/{id}
+            events_url = f"https://api.football-data.org/v4/matches/{fid}"
             events_response = requests.get(events_url, headers=headers)
             events_data = events_response.json()
-            events_list = events_data.get('response', [])
+            
+            events_list = events_data.get('goals', []) + events_data.get('bookings', []) + events_data.get('substitutions', [])
+            
+            # También en v4 la estructura podría variar o no dar eventos en el tier gratis, 
+            # pero hacemos el esfuerzo por si los mandan en el endpoint del partido.
+            # Según doc oficial, goals y bookings vienen dentro del object match en tier pagados.
             
             goles = []
             tarjetas = []
             
             for ev in events_list:
-                tipo = ev.get('type', '')
-                detalle = ev.get('detail', '')
-                jugador = ev.get('player', {}).get('name', 'Desconocido')
-                tiempo = ev.get('time', {}).get('elapsed', '')
-                extra = ev.get('time', {}).get('extra')
-                
-                # Formatear el minuto (ej: 45+2')
-                if extra:
-                    min_str = f"{tiempo}+{extra}'"
-                else:
+                # Determinar si es gol o tarjeta según sus llaves
+                if 'scorer' in ev:  # Es un gol
+                    jugador = ev.get('scorer', {}).get('name', 'Desconocido')
+                    tiempo = ev.get('minute', '')
                     min_str = f"{tiempo}'"
-                
-                if tipo == 'Goal':
-                    if detalle == 'Own Goal':
+                    tipo = ev.get('type', '')
+                    if tipo == 'OWN':
                         goles.append(f"⚽🔴 {jugador} {min_str} (Autogol)")
-                    elif detalle == 'Penalty':
+                    elif tipo == 'PENALTY':
                         goles.append(f"⚽🅿️ {jugador} {min_str} (Penal)")
-                    elif detalle == 'Missed Penalty':
-                        goles.append(f"❌🅿️ {jugador} {min_str} (Penal Fallado)")
                     else:
                         goles.append(f"⚽ {jugador} {min_str}")
-                elif tipo == 'Card':
-                    if 'Yellow' in detalle and 'Red' not in detalle:
+                elif 'player' in ev and 'card' in ev:  # Es una tarjeta
+                    jugador = ev.get('player', {}).get('name', 'Desconocido')
+                    tiempo = ev.get('minute', '')
+                    min_str = f"{tiempo}'"
+                    card_type = ev.get('card', '')
+                    if card_type == 'YELLOW':
                         tarjetas.append(f"🟨 {jugador} {min_str}")
-                    elif 'Red' in detalle:
+                    elif card_type == 'RED':
                         tarjetas.append(f"🟥 {jugador} {min_str}")
             
             # Construir texto de descripción
@@ -194,26 +199,22 @@ def actualizar_calendario():
                     nuevo_summary = re.sub(r" \([^)]*\)$", "", nuevo_summary)
                     
                     status = res['status']
-                    elapsed = res.get('elapsed')
                     
-                    if status in ["FT", "AET", "PEN"]:
+                    if status == "FINISHED":
                         nuevo_summary = nuevo_summary.replace("⚽", "✅").replace("🏆", "✅")
                         nuevo_summary += " (Final)"
-                    elif status == "HT":
+                    elif status == "PAUSED":
                         nuevo_summary = nuevo_summary.replace("⚽", "🔴").replace("🏆", "🔴")
                         nuevo_summary += " (Medio Tiempo)"
-                    elif status == "ET":
+                    elif status == "EXTRA_TIME":
                         nuevo_summary = nuevo_summary.replace("⚽", "🔴").replace("🏆", "🔴")
                         nuevo_summary += " (Tiempo Extra)"
-                    elif status == "P":
+                    elif status == "PENALTY_SHOOTOUT":
                         nuevo_summary = nuevo_summary.replace("⚽", "🔴").replace("🏆", "🔴")
                         nuevo_summary += " (Penales)"
-                    elif status in ["1H", "2H"]:
+                    elif status == "IN_PLAY":
                         nuevo_summary = nuevo_summary.replace("⚽", "🔴").replace("🏆", "🔴")
-                        if elapsed:
-                            nuevo_summary += f" (Min. {elapsed}')"
-                        else:
-                            nuevo_summary += " (En Vivo)"
+                        nuevo_summary += " (En Vivo)"
                             
                     comp_dinamico['summary'] = nuevo_summary
                     
@@ -235,7 +236,7 @@ def actualizar_calendario():
                         comp_dinamico['description'] = nueva_desc
                         
                     # Guardado permanente en base_mundial.ics si el partido finalizó
-                    if status in ["FT", "AET", "PEN"]:
+                    if status == "FINISHED":
                         comp_base['summary'] = comp_dinamico.get('summary', '')
                         if 'description' in comp_dinamico:
                             comp_base['description'] = comp_dinamico.get('description', '')

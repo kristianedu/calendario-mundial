@@ -39,13 +39,13 @@ def actualizar_clasificados():
         return False
     
     # 1. Consultar la API para obtener TODOS los partidos del Mundial
-    headers = {'x-apisports-key': API_KEY}
-    url = "https://v3.football.api-sports.io/fixtures?league=1&season=2026"
+    headers = {'X-Auth-Token': API_KEY}
+    url = "https://api.football-data.org/v4/competitions/WC/matches"
     
     try:
         response = requests.get(url, headers=headers)
         data = response.json()
-        fixtures = data.get('response', [])
+        fixtures = data.get('matches', [])
         print(f"API respondió con {len(fixtures)} partidos del Mundial.")
     except Exception as e:
         print(f"Error consultando API: {e}")
@@ -58,28 +58,30 @@ def actualizar_clasificados():
     # 2. Filtrar solo los partidos de fases eliminatorias que YA tienen equipos asignados
     eliminatorias_api = {}
     for fix in fixtures:
-        ronda = fix.get('league', {}).get('round', '')
+        ronda = fix.get('stage', '')
         
-        # Verificar si es una ronda eliminatoria
+        # Verificar si es una ronda eliminatoria. En football-data suelen usar nombres como LAST_16, QUARTER_FINALS, SEMI_FINALS, FINAL, THIRD_PLACE
         es_eliminatoria = False
-        for ronda_key in RONDAS_ELIMINATORIAS:
-            if ronda_key.lower() in ronda.lower():
-                es_eliminatoria = True
-                break
+        rondas_reales = ["LAST_32", "LAST_16", "QUARTER_FINALS", "SEMI_FINALS", "THIRD_PLACE", "FINAL"]
+        if ronda in rondas_reales:
+            es_eliminatoria = True
         
         if not es_eliminatoria:
             continue
         
-        home_name = fix['teams']['home']['name']
-        away_name = fix['teams']['away']['name']
+        home_name = fix.get('homeTeam', {}).get('name')
+        away_name = fix.get('awayTeam', {}).get('name')
         
-        # Si la API aún no tiene equipos asignados, los nombres serán None o "TBD"
+        # Si la API aún no tiene equipos asignados, los nombres pueden no venir o ser vacíos
         if not home_name or not away_name or home_name == "TBD" or away_name == "TBD":
             continue
         
         # Extraer fecha y hora UTC del partido
-        fecha_utc = fix['fixture']['date']  # Formato ISO: "2026-06-28T17:00:00+00:00"
-        dt = datetime.fromisoformat(fecha_utc)
+        fecha_utc = fix.get('utcDate')  # Formato ISO: "2026-06-28T17:00:00Z"
+        if not fecha_utc:
+            continue
+            
+        dt = datetime.fromisoformat(fecha_utc.replace('Z', '+00:00'))
         
         home_esp = normalize_name(home_name)
         away_esp = normalize_name(away_name)
@@ -88,14 +90,26 @@ def actualizar_clasificados():
         
         # Guardar por fecha+hora como clave única
         clave = dt.strftime("%Y%m%dT%H%M")
+        
+        # Mapear nombre de ronda para buscar en el diccionario español
+        ronda_map = {
+            "LAST_32": "Round of 32",
+            "LAST_16": "Round of 16",
+            "QUARTER_FINALS": "Quarter-finals",
+            "SEMI_FINALS": "Semi-finals",
+            "THIRD_PLACE": "3rd Place",
+            "FINAL": "Final"
+        }
+        ronda_api_nombre = ronda_map.get(ronda, ronda)
+        
         eliminatorias_api[clave] = {
             'home': home_esp,
             'away': away_esp,
             'home_bandera': home_bandera,
             'away_bandera': away_bandera,
-            'ronda': ronda,
-            'venue': fix['fixture'].get('venue', {}).get('name', ''),
-            'city': fix['fixture'].get('venue', {}).get('city', '')
+            'ronda': ronda_api_nombre,
+            'venue': '', # En v4 de football-data el estadio puede no venir a nivel gratuito fácilmente
+            'city': ''
         }
     
     print(f"Encontrados {len(eliminatorias_api)} partidos eliminatorios con equipos asignados.")
@@ -188,44 +202,44 @@ def actualizar_tablas():
     if not API_KEY:
         return False
         
-    headers = {'x-apisports-key': API_KEY}
-    url = "https://v3.football.api-sports.io/standings?league=1&season=2026"
+    headers = {'X-Auth-Token': API_KEY}
+    url = "https://api.football-data.org/v4/competitions/WC/standings"
     
     try:
         response = requests.get(url, headers=headers)
         data = response.json()
-        standings_data = data.get('response', [])
+        standings_data = data.get('standings', [])
         if not standings_data:
             print("No se encontraron tablas de posiciones.")
             return False
             
-        league_standings = standings_data[0].get('league', {}).get('standings', [])
     except Exception as e:
         print(f"Error consultando tablas: {e}")
         return False
         
-    if not league_standings:
-        return False
-        
     # Formatear tablas por grupo
     tablas_formateadas = {}
-    for group_standings in league_standings:
-        if not group_standings:
+    for group_standings in standings_data:
+        # standings_data es una lista donde cada item es un grupo si type=="TOTAL"
+        if group_standings.get('type') != 'TOTAL':
             continue
             
-        # El nombre del grupo viene como "Group A"
-        group_name = group_standings[0].get('group', '')
+        group_name = group_standings.get('group', '') # Ej: "GROUP_A"
         if not group_name:
             continue
             
-        group_letter = group_name.split()[-1]
+        group_letter = group_name.split('_')[-1]
+        table = group_standings.get('table', [])
         
+        if not table:
+            continue
+            
         lineas = [f"📊 Tabla del Grupo {group_letter}:"]
-        for team_data in group_standings:
-            rank = team_data.get('rank')
+        for team_data in table:
+            rank = team_data.get('position')
             team_name = team_data.get('team', {}).get('name', '')
             points = team_data.get('points', 0)
-            goals_diff = team_data.get('goalsDiff', 0)
+            goals_diff = team_data.get('goalDifference', 0)
             
             team_esp = normalize_name(team_name)
             bandera = get_bandera(team_esp)
