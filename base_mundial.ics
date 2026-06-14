@@ -134,7 +134,8 @@ DTEND;TZID=America/El_Salvador:20260614T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-010@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 1\n
- \n💰 Cuotas Promedio: Países Bajos (1.98) | Empate (3.4) | Japón (3.6)
+ \n💰 Cuotas Promedio: Países Bajos (1.29) | Empate (4.75) | Japón (15.
+ 5)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -157,7 +158,7 @@ DTEND;TZID=America/El_Salvador:20260614T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-012@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 1\n
- \n💰 Cuotas Promedio: Suecia (1.94) | Empate (3.45) | Túnez (4.4)
+ \n💰 Cuotas Promedio: Suecia (1.93) | Empate (3.5) | Túnez (4.5)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -383,7 +384,7 @@ DTEND;TZID=America/El_Salvador:20260619T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-032@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: Turquía (1.94) | Empate (3.5) | Paraguay (4.35)
+ \n💰 Cuotas Promedio: Turquía (2.1) | Empate (3.4) | Paraguay (3.9)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -418,7 +419,7 @@ DTEND;TZID=America/El_Salvador:20260620T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-035@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 2\n
- \n💰 Cuotas Promedio: Ecuador (1.09) | Empate (8.0) | Curazao (12.5)
+ \n💰 Cuotas Promedio: Ecuador (1.1) | Empate (7.75) | Curazao (12.5)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
@@ -643,8 +644,8 @@ DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-055@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
- \n💰 Cuotas Promedio: Curazao (9.5) | Empate (5.5) | Costa de Marfil (1.
- 11)
+ \n💰 Cuotas Promedio: Curazao (10.0) | Empate (5.7) | Costa de Marfil (1
+ .1)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -666,7 +667,7 @@ DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-057@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 3\n
- \n💰 Cuotas Promedio: Japón (1.94) | Empate (3.15) | Suecia (3.15)
+ \n💰 Cuotas Promedio: Japón (1.93) | Empate (3.4) | Suecia (3.7)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -677,8 +678,7 @@ DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-058@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 3\n
- \n💰 Cuotas Promedio: Túnez (5.1) | Empate (3.75) | Países Bajos (1.38
- )
+ \n💰 Cuotas Promedio: Túnez (6.5) | Empate (4.2) | Países Bajos (1.5)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -756,7 +756,7 @@ DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-065@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Egipto (2.38) | Empate (3.08) | Irán (3.62)
+ \n💰 Cuotas Promedio: Egipto (2.26) | Empate (3.08) | Irán (3.62)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
