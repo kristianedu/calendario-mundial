@@ -117,18 +117,18 @@ LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇩🇪 Alemania [1] - [0] Curazao 🇨🇼 - Grupo E (En Vi
- vo)
+SUMMARY:⚽ 🇩🇪 Alemania vs Curazao 🇨🇼 - Grupo E
 DTSTART;TZID=America/El_Salvador:20260614T110000
 DTEND;TZID=America/El_Salvador:20260614T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-009@mundial2026
-DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 1
+DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 1\n
+ \n💰 Cuotas Promedio: Alemania (1.0) | Empate (46.0) | Curazao (101.0)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇱 Países Bajos [0] - [0] Japón 🇯🇵 - Grupo F
+SUMMARY:⚽ 🇳🇱 Países Bajos vs Japón 🇯🇵 - Grupo F
 DTSTART;TZID=America/El_Salvador:20260614T140000
 DTEND;TZID=America/El_Salvador:20260614T160000
 DTSTAMP:20260602T170000Z
@@ -139,7 +139,7 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇮 Costa de Marfil [0] - [0] Ecuador 🇪🇨 - Grupo E
+SUMMARY:⚽ 🇨🇮 Costa de Marfil vs Ecuador 🇪🇨 - Grupo E
 DTSTART;TZID=America/El_Salvador:20260614T170000
 DTEND;TZID=America/El_Salvador:20260614T190000
 DTSTAMP:20260602T170000Z
@@ -157,7 +157,7 @@ DTEND;TZID=America/El_Salvador:20260614T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-012@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 1\n
- \n💰 Cuotas Promedio: Suecia (1.92) | Empate (3.55) | Túnez (4.5)
+ \n💰 Cuotas Promedio: Suecia (1.88) | Empate (3.55) | Túnez (4.6)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -372,7 +372,7 @@ DTEND;TZID=America/El_Salvador:20260619T183000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.1) | Empate (10.5) | Haití (23.0)
+ \n💰 Cuotas Promedio: Brasil (1.1) | Empate (10.5) | Haití (25.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -383,7 +383,7 @@ DTEND;TZID=America/El_Salvador:20260619T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-032@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: Turquía (2.07) | Empate (3.45) | Paraguay (3.95)
+ \n💰 Cuotas Promedio: Turquía (2.08) | Empate (3.45) | Paraguay (4.0)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -417,7 +417,8 @@ DTSTART;TZID=America/El_Salvador:20260620T160000
 DTEND;TZID=America/El_Salvador:20260620T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-035@mundial2026
-DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 2
+DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 2\n
+ \n💰 Cuotas Promedio: Ecuador (1.19) | Empate (7.0) | Curazao (17.0)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
@@ -641,7 +642,9 @@ DTSTART;TZID=America/El_Salvador:20260625T140000
 DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-055@mundial2026
-DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3
+DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
+ \n💰 Cuotas Promedio: Curazao (14.0) | Empate (6.0) | Costa de Marfil (1
+ .24)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -652,7 +655,7 @@ DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-056@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
- \n💰 Cuotas Promedio: Ecuador (4.0) | Empate (3.35) | Alemania (1.56)
+ \n💰 Cuotas Promedio: Ecuador (4.66) | Empate (3.92) | Alemania (1.68)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -730,8 +733,8 @@ DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-063@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Cabo Verde (2.4) | Empate (3.6) | Arabia Saudita (
- 2.55)
+ \n💰 Cuotas Promedio: Cabo Verde (2.4) | Empate (3.5) | Arabia Saudita (
+ 2.6)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
