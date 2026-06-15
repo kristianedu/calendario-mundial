@@ -142,7 +142,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:✅ 🇨🇮 Costa de Marfil [1] - [0] Ecuador 🇪🇨 - Grupo E 
- (En Vivo)
+ (Final)
 DTSTART;TZID=America/El_Salvador:20260614T170000
 DTEND;TZID=America/El_Salvador:20260614T190000
 DTSTAMP:20260602T170000Z
@@ -154,7 +154,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇸🇪 Suecia [2] - [0] Túnez 🇹🇳 - Grupo F (En Vivo)
+SUMMARY:🔴 🇸🇪 Suecia [2] - [1] Túnez 🇹🇳 - Grupo F (En Vivo)
 DTSTART;TZID=America/El_Salvador:20260614T200000
 DTEND;TZID=America/El_Salvador:20260614T220000
 DTSTAMP:20260602T170000Z
