@@ -176,25 +176,24 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇪🇸 España vs Cabo Verde 🇨🇻 - Grupo H
+SUMMARY:✅ 🇪🇸 España [2] - [0] Cabo Verde 🇨🇻 - Grupo H (Final)
 DTSTART;TZID=America/El_Salvador:20260615T140000
 DTEND;TZID=America/El_Salvador:20260615T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-014@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: España (1.08) | Empate (11.0) | Cabo Verde (26.0)
+ \n💰 Cuotas Promedio: España (1.08) | Empate (11.0) | Cabo Verde (26.0)\n---\n⚽ GOLES:\n⚽ L. Yamal 14'\n⚽ A. Morata 72'
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇮🇷 Irán vs Nueva Zelanda 🇳🇿 - Grupo G
+SUMMARY:✅ 🇮🇷 Irán [1] - [1] Nueva Zelanda 🇳🇿 - Grupo G (Final)
 DTSTART;TZID=America/El_Salvador:20260615T170000
 DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Irán (1.83) | Empate (3.59) | Nueva Zelanda (5.07
- )
+ \n💰 Cuotas Promedio: Irán (1.83) | Empate (3.59) | Nueva Zelanda (5.07\n )\n---\n⚽ GOLES:\n⚽ M. Taremi 45'\n⚽ C. Wood 88'
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
