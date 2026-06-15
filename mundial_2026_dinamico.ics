@@ -171,7 +171,7 @@ DTEND;TZID=America/El_Salvador:20260615T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-013@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Bélgica (1.62) | Empate (3.9) | Egipto (5.25)
+ \n💰 Cuotas Promedio: Bélgica (1.61) | Empate (3.9) | Egipto (5.5)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -182,7 +182,7 @@ DTEND;TZID=America/El_Salvador:20260615T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-014@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: España (1.1) | Empate (10.0) | Cabo Verde (23.0)
+ \n💰 Cuotas Promedio: España (1.08) | Empate (11.0) | Cabo Verde (29.0)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -193,7 +193,8 @@ DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 1\n
- \n💰 Cuotas Promedio: Irán (1.96) | Empate (3.4) | Nueva Zelanda (4.35)
+ \n💰 Cuotas Promedio: Irán (1.94) | Empate (3.34) | Nueva Zelanda (4.52
+ )
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
@@ -204,8 +205,8 @@ DTEND;TZID=America/El_Salvador:20260615T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-016@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 1\n
- \n💰 Cuotas Promedio: Arabia Saudita (7.0) | Empate (4.1) | Uruguay (1.4
- 8)
+ \n💰 Cuotas Promedio: Arabia Saudita (6.75) | Empate (4.2) | Uruguay (1.
+ 48)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -260,7 +261,7 @@ DTEND;TZID=America/El_Salvador:20260617T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-021@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 1\n
- \n💰 Cuotas Promedio: Portugal (1.29) | Empate (5.8) | RD Congo (12.0)
+ \n💰 Cuotas Promedio: Portugal (1.3) | Empate (5.8) | RD Congo (11.5)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -396,8 +397,7 @@ DTEND;TZID=America/El_Salvador:20260620T110000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-033@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 2\n
- \n💰 Cuotas Promedio: Países Bajos (1.65) | Empate (3.95) | Suecia (5.3
- )
+ \n💰 Cuotas Promedio: Países Bajos (1.63) | Empate (4.0) | Suecia (5.3)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -420,7 +420,7 @@ DTEND;TZID=America/El_Salvador:20260620T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-035@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 2\n
- \n💰 Cuotas Promedio: Ecuador (1.1) | Empate (7.75) | Curazao (12.5)
+ \n💰 Cuotas Promedio: Ecuador (1.07) | Empate (8.5) | Curazao (15.0)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
@@ -431,7 +431,7 @@ DTEND;TZID=America/El_Salvador:20260620T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-036@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 2\n
- \n💰 Cuotas Promedio: Túnez (5.6) | Empate (3.75) | Japón (1.65)
+ \n💰 Cuotas Promedio: Túnez (6.1) | Empate (3.85) | Japón (1.6)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -498,7 +498,7 @@ DTEND;TZID=America/El_Salvador:20260622T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-042@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 2\n
- \n💰 Cuotas Promedio: Francia (1.1) | Empate (9.0) | Irak (23.0)
+ \n💰 Cuotas Promedio: Francia (1.1) | Empate (9.0) | Irak (21.0)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -645,8 +645,8 @@ DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-055@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
- \n💰 Cuotas Promedio: Curazao (10.0) | Empate (5.7) | Costa de Marfil (1
- .1)
+ \n💰 Cuotas Promedio: Curazao (10.5) | Empate (5.9) | Costa de Marfil (1
+ .08)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -657,7 +657,7 @@ DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-056@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
- \n💰 Cuotas Promedio: Ecuador (3.9) | Empate (3.3) | Alemania (1.6)
+ \n💰 Cuotas Promedio: Ecuador (3.9) | Empate (3.3) | Alemania (1.58)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -668,7 +668,7 @@ DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-057@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 3\n
- \n💰 Cuotas Promedio: Japón (1.9) | Empate (3.15) | Suecia (3.3)
+ \n💰 Cuotas Promedio: Japón (1.92) | Empate (3.2) | Suecia (3.2)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -679,7 +679,7 @@ DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-058@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 3\n
- \n💰 Cuotas Promedio: Túnez (5.3) | Empate (3.8) | Países Bajos (1.36)
+ \n💰 Cuotas Promedio: Túnez (5.9) | Empate (4.0) | Países Bajos (1.3)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -723,7 +723,7 @@ DTEND;TZID=America/El_Salvador:20260626T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-062@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 3\n
- \n💰 Cuotas Promedio: Senegal (1.45) | Empate (4.31) | Irak (7.72)
+ \n💰 Cuotas Promedio: Senegal (1.45) | Empate (4.53) | Irak (7.72)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
@@ -825,7 +825,7 @@ DTEND;TZID=America/El_Salvador:20260627T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-071@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Jordania (14.0) | Empate (6.5) | Argentina (1.16)
+ \n💰 Cuotas Promedio: Jordania (13.0) | Empate (6.7) | Argentina (1.16)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
