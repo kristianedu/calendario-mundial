@@ -154,7 +154,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇸🇪 Suecia [0] - [0] Túnez 🇹🇳 - Grupo F
+SUMMARY:⚽ 🇸🇪 Suecia vs Túnez 🇹🇳 - Grupo F
 DTSTART;TZID=America/El_Salvador:20260614T200000
 DTEND;TZID=America/El_Salvador:20260614T220000
 DTSTAMP:20260602T170000Z
@@ -165,7 +165,7 @@ LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇧🇪 Bélgica [0] - [0] Egipto 🇪🇬 - Grupo G
+SUMMARY:⚽ 🇧🇪 Bélgica vs Egipto 🇪🇬 - Grupo G
 DTSTART;TZID=America/El_Salvador:20260615T110000
 DTEND;TZID=America/El_Salvador:20260615T130000
 DTSTAMP:20260602T170000Z
@@ -198,7 +198,7 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇸🇦 Arabia Saudita [0] - [0] Uruguay 🇺🇾 - Grupo H
+SUMMARY:⚽ 🇸🇦 Arabia Saudita vs Uruguay 🇺🇾 - Grupo H
 DTSTART;TZID=America/El_Salvador:20260615T200000
 DTEND;TZID=America/El_Salvador:20260615T220000
 DTSTAMP:20260602T170000Z
