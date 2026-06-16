@@ -189,8 +189,8 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇮🇷 Irán [1] - [1] Nueva Zelanda 🇳🇿 - Grupo G (En 
- Vivo)
+SUMMARY:✅ 🇮🇷 Irán [1] - [1] Nueva Zelanda 🇳🇿 - Grupo G (Fin
+ al)
 DTSTART;TZID=America/El_Salvador:20260615T170000
 DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
@@ -215,7 +215,7 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇫🇷 Francia [0] - [0] Senegal 🇸🇳 - Grupo I
+SUMMARY:⚽ 🇫🇷 Francia vs Senegal 🇸🇳 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260616T110000
 DTEND;TZID=America/El_Salvador:20260616T130000
 DTSTAMP:20260602T170000Z
@@ -226,7 +226,7 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇮🇶 Irak [0] - [0] Noruega 🇳🇴 - Grupo I
+SUMMARY:⚽ 🇮🇶 Irak vs Noruega 🇳🇴 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260616T140000
 DTEND;TZID=America/El_Salvador:20260616T160000
 DTSTAMP:20260602T170000Z
