@@ -176,7 +176,7 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇪🇸 España [2] - [0] Cabo Verde 🇨🇻 - Grupo H (Fina
+SUMMARY:✅ 🇪🇸 España [0] - [0] Cabo Verde 🇨🇻 - Grupo H (Fina
  l)
 DTSTART;TZID=America/El_Salvador:20260615T140000
 DTEND;TZID=America/El_Salvador:20260615T160000
@@ -189,8 +189,8 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇮🇷 Irán [1] - [1] Nueva Zelanda 🇳🇿 - Grupo G (Fin
- al)
+SUMMARY:✅ 🇮🇷 Irán [1] - [1] Nueva Zelanda 🇳🇿 - Grupo G (En 
+ Vivo)
 DTSTART;TZID=America/El_Salvador:20260615T170000
 DTEND;TZID=America/El_Salvador:20260615T190000
 DTSTAMP:20260602T170000Z
@@ -202,7 +202,8 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇸🇦 Arabia Saudita vs Uruguay 🇺🇾 - Grupo H
+SUMMARY:✅ 🇸🇦 Arabia Saudita [1] - [1] Uruguay 🇺🇾 - Grupo H (
+ Final)
 DTSTART;TZID=America/El_Salvador:20260615T200000
 DTEND;TZID=America/El_Salvador:20260615T220000
 DTSTAMP:20260602T170000Z
@@ -214,7 +215,7 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇫🇷 Francia vs Senegal 🇸🇳 - Grupo I
+SUMMARY:⚽ 🇫🇷 Francia [0] - [0] Senegal 🇸🇳 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260616T110000
 DTEND;TZID=America/El_Salvador:20260616T130000
 DTSTAMP:20260602T170000Z
@@ -225,7 +226,7 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇮🇶 Irak vs Noruega 🇳🇴 - Grupo I
+SUMMARY:⚽ 🇮🇶 Irak [0] - [0] Noruega 🇳🇴 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260616T140000
 DTEND;TZID=America/El_Salvador:20260616T160000
 DTSTAMP:20260602T170000Z
