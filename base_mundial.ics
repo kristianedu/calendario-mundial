@@ -266,7 +266,7 @@ DTEND;TZID=America/El_Salvador:20260617T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-021@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 1\n
- \n💰 Cuotas Promedio: Portugal (1.29) | Empate (5.8) | RD Congo (12.5)
+ \n💰 Cuotas Promedio: Portugal (1.29) | Empate (6.0) | RD Congo (13.0)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -277,7 +277,7 @@ DTEND;TZID=America/El_Salvador:20260617T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-022@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 1\n
- \n💰 Cuotas Promedio: Ghana (2.3) | Empate (3.1) | Panamá (3.2)
+ \n💰 Cuotas Promedio: Ghana (2.25) | Empate (3.1) | Panamá (3.25)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -288,7 +288,8 @@ DTEND;TZID=America/El_Salvador:20260617T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-023@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 1\n
- \n💰 Cuotas Promedio: Uzbekistán (9.5) | Empate (4.8) | Colombia (1.36)
+ \n💰 Cuotas Promedio: Uzbekistán (10.0) | Empate (4.8) | Colombia (1.34
+ )
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -322,8 +323,8 @@ DTEND;TZID=America/El_Salvador:20260618T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-026@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 2\n
- \n💰 Cuotas Promedio: Suiza (1.56) | Empate (4.0) | Bosnia y Herzegovina
-  (6.25)
+ \n💰 Cuotas Promedio: Suiza (1.53) | Empate (4.1) | Bosnia y Herzegovina
+  (6.5)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -345,8 +346,8 @@ DTEND;TZID=America/El_Salvador:20260618T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-028@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 2\n
- \n💰 Cuotas Promedio: México (2.0) | Empate (3.25) | Corea del Sur (4.1
- )
+ \n💰 Cuotas Promedio: México (2.02) | Empate (3.3) | Corea del Sur (3.9
+ 5)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -357,7 +358,7 @@ DTEND;TZID=America/El_Salvador:20260619T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-029@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: EE.UU. (1.59) | Empate (4.5) | Australia (5.0)
+ \n💰 Cuotas Promedio: EE.UU. (1.59) | Empate (4.5) | Australia (5.1)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -380,7 +381,7 @@ DTEND;TZID=America/El_Salvador:20260619T203000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.1) | Empate (10.5) | Haití (23.0)
+ \n💰 Cuotas Promedio: Brasil (1.1) | Empate (10.0) | Haití (23.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -391,7 +392,7 @@ DTEND;TZID=America/El_Salvador:20260619T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-032@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: Turquía (2.02) | Empate (3.4) | Paraguay (4.2)
+ \n💰 Cuotas Promedio: Turquía (2.04) | Empate (3.45) | Paraguay (4.25)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -402,7 +403,8 @@ DTEND;TZID=America/El_Salvador:20260620T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-033@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 2\n
- \n💰 Cuotas Promedio: Países Bajos (1.71) | Empate (3.7) | Suecia (5.1)
+ \n💰 Cuotas Promedio: Países Bajos (1.67) | Empate (3.75) | Suecia (5.3
+ )
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -425,7 +427,7 @@ DTEND;TZID=America/El_Salvador:20260620T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-035@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 2\n
- \n💰 Cuotas Promedio: Ecuador (1.09) | Empate (12.0) | Curazao (20.0)
+ \n💰 Cuotas Promedio: Ecuador (1.1) | Empate (12.0) | Curazao (20.0)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
@@ -447,8 +449,8 @@ DTEND;TZID=America/El_Salvador:20260621T120000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-037@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: España (1.11) | Empate (11.3) | Arabia Saudita (3
- 4.0)
+ \n💰 Cuotas Promedio: España (1.11) | Empate (11.9) | Arabia Saudita (3
+ 3.0)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -470,7 +472,7 @@ DTEND;TZID=America/El_Salvador:20260621T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-039@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: Uruguay (1.49) | Empate (4.0) | Cabo Verde (7.5)
+ \n💰 Cuotas Promedio: Uruguay (1.48) | Empate (4.1) | Cabo Verde (7.5)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -481,8 +483,7 @@ DTEND;TZID=America/El_Salvador:20260621T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-040@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 2\n
- \n💰 Cuotas Promedio: Nueva Zelanda (5.75) | Empate (3.8) | Egipto (1.57
- )
+ \n💰 Cuotas Promedio: Nueva Zelanda (5.5) | Empate (3.9) | Egipto (1.6)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
@@ -493,7 +494,7 @@ DTEND;TZID=America/El_Salvador:20260622T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-041@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 2\n
- \n💰 Cuotas Promedio: Argentina (1.51) | Empate (3.95) | Austria (6.25)
+ \n💰 Cuotas Promedio: Argentina (1.53) | Empate (3.9) | Austria (6.25)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -515,7 +516,7 @@ DTEND;TZID=America/El_Salvador:20260622T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-043@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 2\n
- \n💰 Cuotas Promedio: Noruega (2.44) | Empate (3.54) | Senegal (3.1)
+ \n💰 Cuotas Promedio: Noruega (2.42) | Empate (3.54) | Senegal (3.12)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -526,7 +527,7 @@ DTEND;TZID=America/El_Salvador:20260622T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-044@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 2\n
- \n💰 Cuotas Promedio: Jordania (6.47) | Empate (4.16) | Argelia (1.61)
+ \n💰 Cuotas Promedio: Jordania (6.21) | Empate (4.21) | Argelia (1.62)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -537,7 +538,7 @@ DTEND;TZID=America/El_Salvador:20260623T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-045@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 2\n
- \n💰 Cuotas Promedio: Portugal (1.2) | Empate (5.8) | Uzbekistán (9.0)
+ \n💰 Cuotas Promedio: Portugal (1.18) | Empate (6.0) | Uzbekistán (9.5)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -549,7 +550,7 @@ DTEND;TZID=America/El_Salvador:20260623T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-046@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 2\n
- \n💰 Cuotas Promedio: Inglaterra (1.26) | Empate (5.1) | Ghana (7.75)
+ \n💰 Cuotas Promedio: Inglaterra (1.27) | Empate (5.1) | Ghana (7.75)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -799,7 +800,7 @@ DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-068@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Croacia (1.6) | Empate (4.0) | Ghana (5.5)
+ \n💰 Cuotas Promedio: Croacia (1.6) | Empate (3.9) | Ghana (5.8)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -843,7 +844,7 @@ DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-072@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Argelia (2.6) | Empate (2.8) | Austria (2.2)
+ \n💰 Cuotas Promedio: Argelia (2.6) | Empate (2.8) | Austria (2.25)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
