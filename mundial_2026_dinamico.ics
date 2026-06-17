@@ -272,7 +272,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇬🇭 Ghana [0] - [0] Panamá 🇵🇦 - Grupo L
+SUMMARY:⚽ 🇬🇭 Ghana vs Panamá 🇵🇦 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260617T170000
 DTEND;TZID=America/El_Salvador:20260617T190000
 DTSTAMP:20260602T170000Z
@@ -295,8 +295,8 @@ LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra [0] - [0] Croacia 🇭
- 🇷 - Grupo L
+SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs Croacia 🇭🇷 - 
+ Grupo L
 DTSTART;TZID=America/El_Salvador:20260617T140000
 DTEND;TZID=America/El_Salvador:20260617T160000
 DTSTAMP:20260602T170000Z
