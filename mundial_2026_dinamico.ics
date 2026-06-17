@@ -249,7 +249,7 @@ LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇦🇹 Austria vs Jordania 🇯🇴 - Grupo J
+SUMMARY:⚽ 🇦🇹 Austria [0] - [0] Jordania 🇯🇴 - Grupo J
 DTSTART;TZID=America/El_Salvador:20260616T220000
 DTEND;TZID=America/El_Salvador:20260617T000000
 DTSTAMP:20260602T170000Z
@@ -260,7 +260,7 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇹 Portugal vs RD Congo 🇨🇩 - Grupo K
+SUMMARY:⚽ 🇵🇹 Portugal [0] - [0] RD Congo 🇨🇩 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260617T110000
 DTEND;TZID=America/El_Salvador:20260617T130000
 DTSTAMP:20260602T170000Z
@@ -271,7 +271,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇬🇭 Ghana vs Panamá 🇵🇦 - Grupo L
+SUMMARY:⚽ 🇬🇭 Ghana [0] - [0] Panamá 🇵🇦 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260617T170000
 DTEND;TZID=America/El_Salvador:20260617T190000
 DTSTAMP:20260602T170000Z
@@ -293,8 +293,8 @@ LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs Croacia 🇭🇷 - 
- Grupo L
+SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra [0] - [0] Croacia 🇭
+ 🇷 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260617T140000
 DTEND;TZID=America/El_Salvador:20260617T160000
 DTSTAMP:20260602T170000Z
