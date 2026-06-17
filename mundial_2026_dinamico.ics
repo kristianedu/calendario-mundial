@@ -237,7 +237,8 @@ LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇦🇷 Argentina [0] - [0] Argelia 🇩🇿 - Grupo J
+SUMMARY:🔴 🇦🇷 Argentina [0] - [0] Argelia 🇩🇿 - Grupo J (En V
+ ivo)
 DTSTART;TZID=America/El_Salvador:20260616T190000
 DTEND;TZID=America/El_Salvador:20260616T210000
 DTSTAMP:20260602T170000Z
