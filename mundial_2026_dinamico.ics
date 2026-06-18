@@ -307,7 +307,8 @@ LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇿 Chequia [0] - [0] Sudáfrica 🇿🇦 - Grupo A
+SUMMARY:🔴 🇨🇿 Chequia [0] - [0] Sudáfrica 🇿🇦 - Grupo A (En 
+ Vivo)
 DTSTART;TZID=America/El_Salvador:20260618T100000
 DTEND;TZID=America/El_Salvador:20260618T120000
 DTSTAMP:20260602T170000Z
