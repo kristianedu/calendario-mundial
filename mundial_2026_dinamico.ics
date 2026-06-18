@@ -272,7 +272,8 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇬🇭 Ghana [0] - [0] Panamá 🇵🇦 - Grupo L (En Vivo)
+SUMMARY:🔴 🇬🇭 Ghana [0] - [0] Panamá 🇵🇦 - Grupo L (Medio Ti
+ empo)
 DTSTART;TZID=America/El_Salvador:20260617T170000
 DTEND;TZID=America/El_Salvador:20260617T190000
 DTSTAMP:20260602T170000Z
@@ -283,7 +284,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇺🇿 Uzbekistán vs Colombia 🇨🇴 - Grupo K
+SUMMARY:⚽ 🇺🇿 Uzbekistán [0] - [0] Colombia 🇨🇴 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260617T200000
 DTEND;TZID=America/El_Salvador:20260617T220000
 DTSTAMP:20260602T170000Z
@@ -306,7 +307,7 @@ LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇿 Chequia vs Sudáfrica 🇿🇦 - Grupo A
+SUMMARY:⚽ 🇨🇿 Chequia [0] - [0] Sudáfrica 🇿🇦 - Grupo A
 DTSTART;TZID=America/El_Salvador:20260618T100000
 DTEND;TZID=America/El_Salvador:20260618T120000
 DTSTAMP:20260602T170000Z
@@ -329,7 +330,7 @@ LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇦 Canadá vs Qatar 🇶🇦 - Grupo B
+SUMMARY:⚽ 🇨🇦 Canadá [0] - [0] Qatar 🇶🇦 - Grupo B
 DTSTART;TZID=America/El_Salvador:20260618T160000
 DTEND;TZID=America/El_Salvador:20260618T180000
 DTSTAMP:20260602T170000Z
