@@ -331,7 +331,8 @@ LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇨🇦 Canadá [3] - [0] Qatar 🇶🇦 - Grupo B (En Vivo)
+SUMMARY:🔴 🇨🇦 Canadá [3] - [0] Qatar 🇶🇦 - Grupo B (Medio Ti
+ empo)
 DTSTART;TZID=America/El_Salvador:20260618T160000
 DTEND;TZID=America/El_Salvador:20260618T180000
 DTSTAMP:20260602T170000Z
