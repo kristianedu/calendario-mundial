@@ -123,9 +123,16 @@ BANDERAS_MAP = {
     "El Salvador": "🇸🇻"
 }
 
+# Mapa auxiliar en minúsculas para búsqueda insensible a mayúsculas/minúsculas
+# (la API a veces devuelve "Bosnia and Herzegovina" con 'and' en minúscula, etc.)
+_EQUIPOS_MAP_LOWER = {clave.lower(): valor for clave, valor in EQUIPOS_MAP.items()}
+
 def normalize_name(name):
     """Convierte el nombre de la API al nombre en español del calendario."""
-    return EQUIPOS_MAP.get(name, name)
+    if name in EQUIPOS_MAP:
+        return EQUIPOS_MAP[name]
+    # Fallback insensible a mayúsculas/minúsculas
+    return _EQUIPOS_MAP_LOWER.get(name.lower(), name)
 
 def get_bandera(nombre_espanol):
     """Devuelve el emoji de bandera para un equipo."""
