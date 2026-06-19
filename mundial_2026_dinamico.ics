@@ -366,14 +366,14 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [1] Marruecos 🇲
- 🇦 - Grupo C (En Vivo)
+SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia vs Marruecos 🇲🇦 - G
+ rupo C
 DTSTART;TZID=America/El_Salvador:20260619T160000
 DTEND;TZID=America/El_Salvador:20260619T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-030@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Escocia (5.6) | Empate (3.75) | Marruecos (1.66)
+ \n💰 Cuotas Promedio: Escocia (17.0) | Empate (5.9) | Marruecos (1.19)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -384,7 +384,7 @@ DTEND;TZID=America/El_Salvador:20260619T203000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-031@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 2\n
- \n💰 Cuotas Promedio: Brasil (1.1) | Empate (11.0) | Haití (23.0)
+ \n💰 Cuotas Promedio: Brasil (1.09) | Empate (11.0) | Haití (23.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -395,7 +395,7 @@ DTEND;TZID=America/El_Salvador:20260619T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-032@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 2\n
- \n💰 Cuotas Promedio: Turquía (2.08) | Empate (3.5) | Paraguay (3.95)
+ \n💰 Cuotas Promedio: Turquía (2.07) | Empate (3.5) | Paraguay (4.0)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -474,7 +474,7 @@ DTEND;TZID=America/El_Salvador:20260621T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-039@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 2\n
- \n💰 Cuotas Promedio: Uruguay (1.44) | Empate (4.2) | Cabo Verde (8.0)
+ \n💰 Cuotas Promedio: Uruguay (1.45) | Empate (4.1) | Cabo Verde (7.5)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -598,7 +598,7 @@ DTEND;TZID=America/El_Salvador:20260624T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-050@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo B - Jornada 3\n
- \n💰 Cuotas Promedio: Bosnia y Herzegovina (1.45) | Empate (4.75) | Qata
+ \n💰 Cuotas Promedio: Bosnia y Herzegovina (1.44) | Empate (4.75) | Qata
  r (7.75)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
@@ -622,7 +622,7 @@ DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-052@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 3\n
- \n💰 Cuotas Promedio: Marruecos (1.25) | Empate (6.2) | Haití (10.5)
+ \n💰 Cuotas Promedio: Marruecos (1.22) | Empate (6.7) | Haití (11.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -713,7 +713,7 @@ DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-060@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Paraguay (2.1) | Empate (3.4) | Australia (3.5)
+ \n💰 Cuotas Promedio: Paraguay (1.98) | Empate (3.15) | Australia (3.1)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
