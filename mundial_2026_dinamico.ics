@@ -355,7 +355,7 @@ LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇺🇸 EE.UU. vs Australia 🇦🇺 - Grupo D
+SUMMARY:⚽ 🇺🇸 EE.UU. [0] - [0] Australia 🇦🇺 - Grupo D
 DTSTART;TZID=America/El_Salvador:20260619T130000
 DTEND;TZID=America/El_Salvador:20260619T150000
 DTSTAMP:20260602T170000Z
@@ -366,8 +366,8 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia vs Marruecos 🇲🇦 - G
- rupo C
+SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [0] Marruecos 🇲
+ 🇦 - Grupo C
 DTSTART;TZID=America/El_Salvador:20260619T160000
 DTEND;TZID=America/El_Salvador:20260619T180000
 DTSTAMP:20260602T170000Z
