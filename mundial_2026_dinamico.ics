@@ -378,7 +378,7 @@ LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇧🇷 Brasil [0] - [0] Haití 🇭🇹 - Grupo C
+SUMMARY:⚽ 🇧🇷 Brasil vs Haití 🇭🇹 - Grupo C
 DTSTART;TZID=America/El_Salvador:20260619T183000
 DTEND;TZID=America/El_Salvador:20260619T203000
 DTSTAMP:20260602T170000Z
@@ -389,7 +389,7 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇹🇷 Turquía [0] - [0] Paraguay 🇵🇾 - Grupo D
+SUMMARY:⚽ 🇹🇷 Turquía vs Paraguay 🇵🇾 - Grupo D
 DTSTART;TZID=America/El_Salvador:20260619T210000
 DTEND;TZID=America/El_Salvador:20260619T230000
 DTSTAMP:20260602T170000Z
@@ -400,7 +400,7 @@ LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇱 Países Bajos [0] - [0] Suecia 🇸🇪 - Grupo F
+SUMMARY:⚽ 🇳🇱 Países Bajos vs Suecia 🇸🇪 - Grupo F
 DTSTART;TZID=America/El_Salvador:20260620T110000
 DTEND;TZID=America/El_Salvador:20260620T130000
 DTSTAMP:20260602T170000Z
@@ -411,7 +411,7 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇩🇪 Alemania [0] - [0] Costa de Marfil 🇨🇮 - Grupo E
+SUMMARY:⚽ 🇩🇪 Alemania vs Costa de Marfil 🇨🇮 - Grupo E
 DTSTART;TZID=America/El_Salvador:20260620T140000
 DTEND;TZID=America/El_Salvador:20260620T160000
 DTSTAMP:20260602T170000Z
@@ -423,7 +423,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇪🇨 Ecuador [0] - [0] Curazao 🇨🇼 - Grupo E
+SUMMARY:⚽ 🇪🇨 Ecuador vs Curazao 🇨🇼 - Grupo E
 DTSTART;TZID=America/El_Salvador:20260620T180000
 DTEND;TZID=America/El_Salvador:20260620T200000
 DTSTAMP:20260602T170000Z
