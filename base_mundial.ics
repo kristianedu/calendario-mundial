@@ -401,7 +401,8 @@ LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇱 Países Bajos vs Suecia 🇸🇪 - Grupo F
+SUMMARY:✅ 🇳🇱 Países Bajos [5] - [1] Suecia 🇸🇪 - Grupo F (Fi
+ nal)
 DTSTART;TZID=America/El_Salvador:20260620T110000
 DTEND;TZID=America/El_Salvador:20260620T130000
 DTSTAMP:20260602T170000Z
