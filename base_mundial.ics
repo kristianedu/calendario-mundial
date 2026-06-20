@@ -389,7 +389,8 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇹🇷 Turquía vs Paraguay 🇵🇾 - Grupo D
+SUMMARY:✅ 🇹🇷 Turquía [0] - [1] Paraguay 🇵🇾 - Grupo D (Final
+ )
 DTSTART;TZID=America/El_Salvador:20260619T210000
 DTEND;TZID=America/El_Salvador:20260619T230000
 DTSTAMP:20260602T170000Z
