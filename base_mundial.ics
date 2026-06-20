@@ -414,7 +414,8 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇩🇪 Alemania vs Costa de Marfil 🇨🇮 - Grupo E
+SUMMARY:✅ 🇩🇪 Alemania [2] - [1] Costa de Marfil 🇨🇮 - Grupo E
+  (Final)
 DTSTART;TZID=America/El_Salvador:20260620T140000
 DTEND;TZID=America/El_Salvador:20260620T160000
 DTSTAMP:20260602T170000Z
