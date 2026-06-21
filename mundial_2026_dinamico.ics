@@ -449,7 +449,7 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇪🇸 España vs Arabia Saudita 🇸🇦 - Grupo H
+SUMMARY:⚽ 🇪🇸 España [0] - [0] Arabia Saudita 🇸🇦 - Grupo H
 DTSTART;TZID=America/El_Salvador:20260621T100000
 DTEND;TZID=America/El_Salvador:20260621T120000
 DTSTAMP:20260602T170000Z
@@ -461,7 +461,7 @@ LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇧🇪 Bélgica vs Irán 🇮🇷 - Grupo G
+SUMMARY:⚽ 🇧🇪 Bélgica [0] - [0] Irán 🇮🇷 - Grupo G
 DTSTART;TZID=America/El_Salvador:20260621T130000
 DTEND;TZID=America/El_Salvador:20260621T150000
 DTSTAMP:20260602T170000Z
@@ -472,7 +472,7 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇺🇾 Uruguay vs Cabo Verde 🇨🇻 - Grupo H
+SUMMARY:⚽ 🇺🇾 Uruguay [0] - [0] Cabo Verde 🇨🇻 - Grupo H
 DTSTART;TZID=America/El_Salvador:20260621T160000
 DTEND;TZID=America/El_Salvador:20260621T180000
 DTSTAMP:20260602T170000Z
