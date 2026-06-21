@@ -449,7 +449,8 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇪🇸 España [0] - [0] Arabia Saudita 🇸🇦 - Grupo H
+SUMMARY:🔴 🇪🇸 España [0] - [0] Arabia Saudita 🇸🇦 - Grupo H 
+ (En Vivo)
 DTSTART;TZID=America/El_Salvador:20260621T100000
 DTEND;TZID=America/El_Salvador:20260621T120000
 DTSTAMP:20260602T170000Z
