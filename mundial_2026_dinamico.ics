@@ -462,8 +462,8 @@ LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇧🇪 Bélgica [0] - [0] Irán 🇮🇷 - Grupo G (Medio T
- iempo)
+SUMMARY:🔴 🇧🇪 Bélgica [0] - [0] Irán 🇮🇷 - Grupo G (En Vivo
+ )
 DTSTART;TZID=America/El_Salvador:20260621T130000
 DTEND;TZID=America/El_Salvador:20260621T150000
 DTSTAMP:20260602T170000Z
