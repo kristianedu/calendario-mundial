@@ -497,7 +497,8 @@ LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇦🇷 Argentina vs Austria 🇦🇹 - Grupo J
+SUMMARY:🔴 🇦🇷 Argentina [1] - [0] Austria 🇦🇹 - Grupo J (En V
+ ivo)
 DTSTART;TZID=America/El_Salvador:20260622T110000
 DTEND;TZID=America/El_Salvador:20260622T130000
 DTSTAMP:20260602T170000Z
@@ -508,7 +509,7 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇫🇷 Francia vs Irak 🇮🇶 - Grupo I
+SUMMARY:⚽ 🇫🇷 Francia [0] - [0] Irak 🇮🇶 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260622T150000
 DTEND;TZID=America/El_Salvador:20260622T170000
 DTSTAMP:20260602T170000Z
@@ -519,7 +520,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇴 Noruega vs Senegal 🇸🇳 - Grupo I
+SUMMARY:⚽ 🇳🇴 Noruega [0] - [0] Senegal 🇸🇳 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260622T180000
 DTEND;TZID=America/El_Salvador:20260622T200000
 DTSTAMP:20260602T170000Z
