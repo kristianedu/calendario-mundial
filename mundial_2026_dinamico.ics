@@ -503,7 +503,7 @@ DTEND;TZID=America/El_Salvador:20260622T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-041@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 2\n
- \n💰 Cuotas Promedio: Argentina (1.48) | Empate (4.0) | Austria (7.0)
+ \n💰 Cuotas Promedio: Argentina (1.43) | Empate (4.1) | Austria (7.5)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -514,7 +514,7 @@ DTEND;TZID=America/El_Salvador:20260622T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-042@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 2\n
- \n💰 Cuotas Promedio: Francia (1.06) | Empate (11.5) | Irak (29.0)
+ \n💰 Cuotas Promedio: Francia (1.05) | Empate (13.0) | Irak (31.0)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -525,7 +525,7 @@ DTEND;TZID=America/El_Salvador:20260622T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-043@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 2\n
- \n💰 Cuotas Promedio: Noruega (2.33) | Empate (3.61) | Senegal (3.23)
+ \n💰 Cuotas Promedio: Noruega (2.31) | Empate (3.62) | Senegal (3.25)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -536,7 +536,7 @@ DTEND;TZID=America/El_Salvador:20260622T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-044@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 2\n
- \n💰 Cuotas Promedio: Jordania (6.36) | Empate (4.21) | Argelia (1.61)
+ \n💰 Cuotas Promedio: Jordania (6.36) | Empate (4.24) | Argelia (1.61)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -582,7 +582,7 @@ DTEND;TZID=America/El_Salvador:20260623T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-048@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 2\n
- \n💰 Cuotas Promedio: Colombia (1.57) | Empate (4.0) | RD Congo (7.0)
+ \n💰 Cuotas Promedio: Colombia (1.51) | Empate (4.1) | RD Congo (7.5)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -662,8 +662,8 @@ DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-055@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
- \n💰 Cuotas Promedio: Curazao (20.0) | Empate (8.0) | Costa de Marfil (1
- .17)
+ \n💰 Cuotas Promedio: Curazao (20.0) | Empate (8.25) | Costa de Marfil (
+ 1.16)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -708,7 +708,7 @@ DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-059@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Turquía (3.15) | Empate (4.1) | EE.UU. (1.92)
+ \n💰 Cuotas Promedio: Turquía (3.25) | Empate (4.1) | EE.UU. (1.88)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -752,8 +752,8 @@ DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-063@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Cabo Verde (2.5) | Empate (3.9) | Arabia Saudita (
- 2.5)
+ \n💰 Cuotas Promedio: Cabo Verde (2.3) | Empate (3.6) | Arabia Saudita (
+ 2.9)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
@@ -764,7 +764,7 @@ DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-064@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Uruguay (6.5) | Empate (4.5) | España (1.47)
+ \n💰 Cuotas Promedio: Uruguay (6.7) | Empate (4.4) | España (1.47)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -775,7 +775,7 @@ DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-065@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Egipto (2.14) | Empate (3.08) | Irán (4.04)
+ \n💰 Cuotas Promedio: Egipto (2.26) | Empate (2.88) | Irán (3.63)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
@@ -786,8 +786,8 @@ DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-066@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Nueva Zelanda (13.0) | Empate (7.0) | Bélgica (1.
- 2)
+ \n💰 Cuotas Promedio: Nueva Zelanda (10.5) | Empate (7.0) | Bélgica (1.
+ 22)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
