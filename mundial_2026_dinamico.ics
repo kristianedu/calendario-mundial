@@ -555,8 +555,8 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs Ghana 🇬🇭 - Gr
- upo L
+SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra [0] - [0] Ghana 🇬
+ 🇭 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260623T140000
 DTEND;TZID=America/El_Salvador:20260623T160000
 DTSTAMP:20260602T170000Z
@@ -567,7 +567,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇦 Panamá vs Croacia 🇭🇷 - Grupo L
+SUMMARY:⚽ 🇵🇦 Panamá [0] - [0] Croacia 🇭🇷 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260623T170000
 DTEND;TZID=America/El_Salvador:20260623T190000
 DTSTAMP:20260602T170000Z
