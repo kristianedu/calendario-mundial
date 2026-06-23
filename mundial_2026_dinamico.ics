@@ -561,7 +561,7 @@ DTEND;TZID=America/El_Salvador:20260623T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-046@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 2\n
- \n💰 Cuotas Promedio: Inglaterra (1.18) | Empate (8.0) | Ghana (14.5)
+ \n💰 Cuotas Promedio: Inglaterra (1.18) | Empate (7.75) | Ghana (14.5)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -583,7 +583,7 @@ DTEND;TZID=America/El_Salvador:20260623T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-048@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 2\n
- \n💰 Cuotas Promedio: Colombia (1.56) | Empate (4.1) | RD Congo (7.0)
+ \n💰 Cuotas Promedio: Colombia (1.54) | Empate (4.1) | RD Congo (7.0)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -618,7 +618,7 @@ DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-051@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 3\n
- \n💰 Cuotas Promedio: Escocia (8.0) | Empate (5.1) | Brasil (1.33)
+ \n💰 Cuotas Promedio: Escocia (8.0) | Empate (5.2) | Brasil (1.32)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -629,7 +629,7 @@ DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-052@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 3\n
- \n💰 Cuotas Promedio: Marruecos (1.15) | Empate (7.5) | Haití (19.0)
+ \n💰 Cuotas Promedio: Marruecos (1.15) | Empate (7.8) | Haití (17.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -663,8 +663,8 @@ DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-055@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
- \n💰 Cuotas Promedio: Curazao (18.0) | Empate (8.0) | Costa de Marfil (1
- .18)
+ \n💰 Cuotas Promedio: Curazao (19.0) | Empate (7.75) | Costa de Marfil (
+ 1.18)
 LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
@@ -753,7 +753,7 @@ DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-063@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Cabo Verde (2.3) | Empate (3.5) | Arabia Saudita (
+ \n💰 Cuotas Promedio: Cabo Verde (2.4) | Empate (3.3) | Arabia Saudita (
  3.0)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
@@ -765,7 +765,7 @@ DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-064@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Uruguay (7.5) | Empate (4.3) | España (1.45)
+ \n💰 Cuotas Promedio: Uruguay (7.2) | Empate (4.2) | España (1.47)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -800,7 +800,7 @@ DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-067@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Panamá (12.0) | Empate (7.5) | Inglaterra (1.18)
+ \n💰 Cuotas Promedio: Panamá (14.0) | Empate (7.5) | Inglaterra (1.18)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -811,7 +811,7 @@ DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-068@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Croacia (1.62) | Empate (3.7) | Ghana (6.0)
+ \n💰 Cuotas Promedio: Croacia (1.65) | Empate (3.6) | Ghana (5.8)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -855,7 +855,7 @@ DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-072@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Argelia (3.5) | Empate (2.45) | Austria (2.6)
+ \n💰 Cuotas Promedio: Argelia (3.55) | Empate (2.4) | Austria (2.65)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
