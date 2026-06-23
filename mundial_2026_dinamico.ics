@@ -542,7 +542,7 @@ LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇹 Portugal vs Uzbekistán 🇺🇿 - Grupo K
+SUMMARY:⚽ 🇵🇹 Portugal [0] - [0] Uzbekistán 🇺🇿 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260623T110000
 DTEND;TZID=America/El_Salvador:20260623T130000
 DTSTAMP:20260602T170000Z
@@ -554,8 +554,8 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs Ghana 🇬🇭 - Gr
- upo L
+SUMMARY:⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra [0] - [0] Ghana 🇬
+ 🇭 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260623T140000
 DTEND;TZID=America/El_Salvador:20260623T160000
 DTSTAMP:20260602T170000Z
@@ -566,7 +566,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇦 Panamá vs Croacia 🇭🇷 - Grupo L
+SUMMARY:⚽ 🇵🇦 Panamá [0] - [0] Croacia 🇭🇷 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260623T170000
 DTEND;TZID=America/El_Salvador:20260623T190000
 DTSTAMP:20260602T170000Z
