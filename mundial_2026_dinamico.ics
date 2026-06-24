@@ -614,7 +614,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [3] Brasil 🇧
- 🇷 - Grupo C (En Vivo)
+ 🇷 - Grupo C (Medio Tiempo)
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
@@ -625,7 +625,7 @@ LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇲🇦 Marruecos [2] - [2] Haití 🇭🇹 - Grupo C (En Vi
+SUMMARY:🔴 🇲🇦 Marruecos [3] - [2] Haití 🇭🇹 - Grupo C (En Vi
  vo)
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
