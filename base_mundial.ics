@@ -578,7 +578,8 @@ LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇴 Colombia vs RD Congo 🇨🇩 - Grupo K
+SUMMARY:✅ 🇨🇴 Colombia [1] - [0] RD Congo 🇨🇩 - Grupo K (Final
+ )
 DTSTART;TZID=America/El_Salvador:20260623T200000
 DTEND;TZID=America/El_Salvador:20260623T220000
 DTSTAMP:20260602T170000Z
