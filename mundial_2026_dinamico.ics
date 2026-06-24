@@ -567,7 +567,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇦 Panamá [0] - [0] Croacia 🇭🇷 - Grupo L
+SUMMARY:⚽ 🇵🇦 Panamá [0] - [1] Croacia 🇭🇷 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260623T170000
 DTEND;TZID=America/El_Salvador:20260623T190000
 DTSTAMP:20260602T170000Z
