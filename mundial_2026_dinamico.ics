@@ -613,26 +613,25 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [2] Brasil 🇧
- 🇷 - Grupo C (Medio Tiempo)
+SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia vs Brasil 🇧🇷 - Grup
+ o C
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-051@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 3\n
- \n💰 Cuotas Promedio: Escocia (11.0) | Empate (6.0) | Brasil (1.3)
+ \n💰 Cuotas Promedio: Escocia (151.0) | Empate (25.0) | Brasil (1.01)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇲🇦 Marruecos [2] - [2] Haití 🇭🇹 - Grupo C (Medio
-  Tiempo)
+SUMMARY:⚽ 🇲🇦 Marruecos vs Haití 🇭🇹 - Grupo C
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-052@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo C - Jornada 3\n
- \n💰 Cuotas Promedio: Marruecos (1.25) | Empate (6.0) | Haití (11.0)
+ \n💰 Cuotas Promedio: Marruecos (1.4) | Empate (3.8) | Haití (9.0)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -643,7 +642,7 @@ DTEND;TZID=America/El_Salvador:20260624T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-053@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 3\n
- \n💰 Cuotas Promedio: Chequia (3.75) | Empate (3.9) | México (2.0)
+ \n💰 Cuotas Promedio: Chequia (3.85) | Empate (3.95) | México (1.93)
 LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
@@ -654,8 +653,8 @@ DTEND;TZID=America/El_Salvador:20260624T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-054@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo A - Jornada 3\n
- \n💰 Cuotas Promedio: Sudáfrica (6.1) | Empate (4.0) | Corea del Sur (1
- .64)
+ \n💰 Cuotas Promedio: Sudáfrica (6.1) | Empate (3.95) | Corea del Sur (
+ 1.65)
 LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
@@ -678,7 +677,7 @@ DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-056@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo E - Jornada 3\n
- \n💰 Cuotas Promedio: Ecuador (3.55) | Empate (4.1) | Alemania (1.8)
+ \n💰 Cuotas Promedio: Ecuador (3.6) | Empate (4.2) | Alemania (1.78)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -803,7 +802,7 @@ DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-067@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Panamá (17.0) | Empate (7.5) | Inglaterra (1.15)
+ \n💰 Cuotas Promedio: Panamá (17.0) | Empate (7.5) | Inglaterra (1.17)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -837,7 +836,7 @@ DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-070@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 3\n
- \n💰 Cuotas Promedio: Colombia (3.95) | Empate (3.55) | Portugal (1.93)
+ \n💰 Cuotas Promedio: Colombia (4.3) | Empate (3.65) | Portugal (1.83)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
