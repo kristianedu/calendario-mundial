@@ -613,8 +613,8 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [2] Brasil 🇧🇷
-  - Grupo C
+SUMMARY:🔴 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [2] Brasil 🇧
+ 🇷 - Grupo C (En Vivo)
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
