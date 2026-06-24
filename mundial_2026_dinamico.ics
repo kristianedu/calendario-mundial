@@ -613,8 +613,8 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [2] Brasil 🇧
- 🇷 - Grupo C (Medio Tiempo)
+SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [2] Brasil 🇧🇷
+  - Grupo C
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
@@ -625,8 +625,8 @@ LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇲🇦 Marruecos [2] - [2] Haití 🇭🇹 - Grupo C (Medio
-  Tiempo)
+SUMMARY:🔴 🇲🇦 Marruecos [2] - [2] Haití 🇭🇹 - Grupo C (En Vi
+ vo)
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
