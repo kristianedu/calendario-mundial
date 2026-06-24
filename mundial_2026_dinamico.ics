@@ -578,7 +578,7 @@ LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇴 Colombia [0] - [0] RD Congo 🇨🇩 - Grupo K
+SUMMARY:⚽ 🇨🇴 Colombia vs RD Congo 🇨🇩 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260623T200000
 DTEND;TZID=America/El_Salvador:20260623T220000
 DTSTAMP:20260602T170000Z
@@ -589,7 +589,7 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇭 Suiza [0] - [0] Canadá 🇨🇦 - Grupo B
+SUMMARY:⚽ 🇨🇭 Suiza vs Canadá 🇨🇦 - Grupo B
 DTSTART;TZID=America/El_Salvador:20260624T130000
 DTEND;TZID=America/El_Salvador:20260624T150000
 DTSTAMP:20260602T170000Z
@@ -612,8 +612,8 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia [0] - [0] Brasil 🇧🇷
-  - Grupo C
+SUMMARY:⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia vs Brasil 🇧🇷 - Grup
+ o C
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
@@ -624,7 +624,7 @@ LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇲🇦 Marruecos [0] - [0] Haití 🇭🇹 - Grupo C
+SUMMARY:⚽ 🇲🇦 Marruecos vs Haití 🇭🇹 - Grupo C
 DTSTART;TZID=America/El_Salvador:20260624T160000
 DTEND;TZID=America/El_Salvador:20260624T180000
 DTSTAMP:20260602T170000Z
