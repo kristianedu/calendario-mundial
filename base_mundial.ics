@@ -660,7 +660,8 @@ LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇼 Curazao vs Costa de Marfil 🇨🇮 - Grupo E
+SUMMARY:✅ 🇨🇼 Curazao [0] - [2] Costa de Marfil 🇨🇮 - Grupo E 
+ (Final)
 DTSTART;TZID=America/El_Salvador:20260625T140000
 DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
@@ -672,7 +673,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇪🇨 Ecuador vs Alemania 🇩🇪 - Grupo E
+SUMMARY:✅ 🇪🇨 Ecuador [2] - [1] Alemania 🇩🇪 - Grupo E (Final)
 DTSTART;TZID=America/El_Salvador:20260625T140000
 DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
