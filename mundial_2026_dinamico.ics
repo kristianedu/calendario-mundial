@@ -689,7 +689,7 @@ DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-057@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 3\n
- \n💰 Cuotas Promedio: Japón (1.89) | Empate (3.57) | Suecia (4.7)
+ \n💰 Cuotas Promedio: Japón (1.95) | Empate (3.5) | Suecia (4.45)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -700,8 +700,8 @@ DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-058@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo F - Jornada 3\n
- \n💰 Cuotas Promedio: Túnez (25.0) | Empate (11.0) | Países Bajos (1.1
- 2)
+ \n💰 Cuotas Promedio: Túnez (30.0) | Empate (11.5) | Países Bajos (1.1
+ 1)
 LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
@@ -712,7 +712,7 @@ DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-059@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Turquía (3.7) | Empate (4.3) | EE.UU. (1.82)
+ \n💰 Cuotas Promedio: Turquía (3.6) | Empate (4.1) | EE.UU. (1.86)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -723,7 +723,7 @@ DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-060@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Paraguay (2.9) | Empate (2.25) | Australia (3.85)
+ \n💰 Cuotas Promedio: Paraguay (2.75) | Empate (2.25) | Australia (4.0)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
@@ -825,8 +825,7 @@ DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-069@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 3\n
- \n💰 Cuotas Promedio: RD Congo (1.8) | Empate (4.25) | Uzbekistán (4.35
- )
+ \n💰 Cuotas Promedio: RD Congo (1.78) | Empate (4.2) | Uzbekistán (4.5)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
@@ -837,7 +836,7 @@ DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-070@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 3\n
- \n💰 Cuotas Promedio: Colombia (4.1) | Empate (3.65) | Portugal (1.87)
+ \n💰 Cuotas Promedio: Colombia (4.1) | Empate (3.8) | Portugal (1.83)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
