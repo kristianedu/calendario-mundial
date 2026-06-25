@@ -636,8 +636,7 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇨🇿 Chequia [0] - [3] México 🇲🇽 - Grupo A (En Viv
- o)
+SUMMARY:✅ 🇨🇿 Chequia [0] - [3] México 🇲🇽 - Grupo A (Final)
 DTSTART;TZID=America/El_Salvador:20260624T190000
 DTEND;TZID=America/El_Salvador:20260624T210000
 DTSTAMP:20260602T170000Z
@@ -648,8 +647,8 @@ LOCATION:Estadio Azteca\, Ciudad de México
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇿🇦 Sudáfrica [1] - [0] Corea del Sur 🇰🇷 - Grupo 
- A (En Vivo)
+SUMMARY:✅ 🇿🇦 Sudáfrica [1] - [0] Corea del Sur 🇰🇷 - Grupo A
+  (Final)
 DTSTART;TZID=America/El_Salvador:20260624T190000
 DTEND;TZID=America/El_Salvador:20260624T210000
 DTSTAMP:20260602T170000Z
