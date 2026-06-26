@@ -660,8 +660,7 @@ LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇨🇼 Curazao [0] - [2] Costa de Marfil 🇨🇮 - Grupo E 
- (Final)
+SUMMARY:✅ 🇨🇼 Curazao [0] - [0] Costa de Marfil 🇨🇮 - Grupo E
 DTSTART;TZID=America/El_Salvador:20260625T140000
 DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
@@ -673,7 +672,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇪🇨 Ecuador [2] - [1] Alemania 🇩🇪 - Grupo E (Final)
+SUMMARY:✅ 🇪🇨 Ecuador [0] - [0] Alemania 🇩🇪 - Grupo E
 DTSTART;TZID=America/El_Salvador:20260625T140000
 DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
@@ -684,7 +683,7 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇯🇵 Japón [1] - [1] Suecia 🇸🇪 - Grupo F (Final)
+SUMMARY:✅ 🇯🇵 Japón [0] - [0] Suecia 🇸🇪 - Grupo F
 DTSTART;TZID=America/El_Salvador:20260625T170000
 DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
@@ -695,8 +694,7 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇹🇳 Túnez [1] - [3] Países Bajos 🇳🇱 - Grupo F (Fi
- nal)
+SUMMARY:✅ 🇹🇳 Túnez [0] - [0] Países Bajos 🇳🇱 - Grupo F
 DTSTART;TZID=America/El_Salvador:20260625T170000
 DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
@@ -708,8 +706,7 @@ LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇹🇷 Turquía [2] - [1] EE.UU. 🇺🇸 - Grupo D (En Viv
- o)
+SUMMARY:⚽ 🇹🇷 Turquía [0] - [0] EE.UU. 🇺🇸 - Grupo D
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
@@ -720,8 +717,7 @@ LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇵🇾 Paraguay [0] - [0] Australia 🇦🇺 - Grupo D (En 
- Vivo)
+SUMMARY:⚽ 🇵🇾 Paraguay [0] - [0] Australia 🇦🇺 - Grupo D
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
