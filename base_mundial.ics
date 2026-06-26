@@ -711,7 +711,7 @@ LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇹🇷 Turquía vs EE.UU. 🇺🇸 - Grupo D
+SUMMARY:✅ 🇹🇷 Turquía [3] - [2] EE.UU. 🇺🇸 - Grupo D (Final)
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
@@ -722,7 +722,8 @@ LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇾 Paraguay vs Australia 🇦🇺 - Grupo D
+SUMMARY:✅ 🇵🇾 Paraguay [0] - [0] Australia 🇦🇺 - Grupo D (Fina
+ l)
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
