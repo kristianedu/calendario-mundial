@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T21:00:35",
+  "lastUpdated": "2026-06-26T21:05:30",
   "rounds": {
     "round_of_32": [
       {
@@ -1386,14 +1386,14 @@
           "name": "FRA",
           "fullName": "Francia",
           "flag": "🇫🇷",
-          "pts": 6,
-          "pj": 2,
-          "pg": 2,
+          "pts": 9,
+          "pj": 3,
+          "pg": 3,
           "pe": 0,
           "pp": 0,
-          "gf": 6,
-          "gc": 1,
-          "dg": 5,
+          "gf": 10,
+          "gc": 2,
+          "dg": 8,
           "maxPts": 9,
           "eliminated": false,
           "pos": 1,
@@ -1404,14 +1404,14 @@
           "fullName": "Noruega",
           "flag": "🇳🇴",
           "pts": 6,
-          "pj": 2,
+          "pj": 3,
           "pg": 2,
           "pe": 0,
-          "pp": 0,
-          "gf": 7,
-          "gc": 3,
-          "dg": 4,
-          "maxPts": 9,
+          "pp": 1,
+          "gf": 8,
+          "gc": 7,
+          "dg": 1,
+          "maxPts": 6,
           "eliminated": false,
           "pos": 2,
           "status": "qualified"
@@ -1451,7 +1451,7 @@
           "status": "contention"
         }
       ],
-      "played": 4,
+      "played": 5,
       "total": 6,
       "complete": false
     },
@@ -1890,6 +1890,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "26 jun",
+        "time": "13:00",
+        "_sort": "2026-06-26T13:00:00",
+        "comp": "Grupo I",
+        "team1": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega"
+        },
+        "team2": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "score1": 1,
+        "score2": 4,
+        "status": "finished"
+      },
+      {
         "date": "25 jun",
         "time": "20:00",
         "_sort": "2026-06-25T20:00:00",
@@ -2021,47 +2040,9 @@
         "score1": 0,
         "score2": 3,
         "status": "finished"
-      },
-      {
-        "date": "24 jun",
-        "time": "19:00",
-        "_sort": "2026-06-24T19:00:00",
-        "comp": "Grupo A",
-        "team1": {
-          "name": "RSA",
-          "flag": "🇿🇦",
-          "fullName": "Sudáfrica"
-        },
-        "team2": {
-          "name": "KOR",
-          "flag": "🇰🇷",
-          "fullName": "Corea del Sur"
-        },
-        "score1": 1,
-        "score2": 0,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "26 jun",
-        "time": "13:00",
-        "_sort": "2026-06-26T13:00:00",
-        "comp": "Grupo I",
-        "team1": {
-          "name": "NOR",
-          "flag": "🇳🇴",
-          "fullName": "Noruega"
-        },
-        "team2": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "26 jun",
         "time": "13:00",
@@ -2190,6 +2171,25 @@
           "name": "GHA",
           "flag": "🇬🇭",
           "fullName": "Ghana"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "27 jun",
+        "time": "17:30",
+        "_sort": "2026-06-27T17:30:00",
+        "comp": "Grupo K",
+        "team1": {
+          "name": "COD",
+          "flag": "🇨🇩",
+          "fullName": "RD Congo"
+        },
+        "team2": {
+          "name": "UZB",
+          "flag": "🇺🇿",
+          "fullName": "Uzbekistán"
         },
         "score1": null,
         "score2": null,
