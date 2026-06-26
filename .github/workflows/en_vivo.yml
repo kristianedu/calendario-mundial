@@ -64,6 +64,9 @@ jobs:
           git reset --hard
           git fetch origin gh-pages
           git checkout gh-pages
+          # Guardar el bracket ANTERIOR ya publicado para detectar qué partidos
+          # finalizaron (lo usa notificar_whatsapp.py). Si aún no existe, se omite.
+          cp bracket_data.json /tmp/old_bracket_data.json || true
           cp /tmp/mundial_2026_dinamico.ics .
           cp /tmp/bracket_data.json .
           cp /tmp/bracket.html .
@@ -79,6 +82,7 @@ jobs:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
           GREENAPI_TOKEN: ${{ secrets.GREENAPI_TOKEN }}
           WHATSAPP_GROUP_ID: ${{ secrets.WHATSAPP_GROUP_ID }}
+          PREV_BRACKET_JSON: /tmp/old_bracket_data.json
         run: |
           pip install playwright
           playwright install chromium --with-deps
