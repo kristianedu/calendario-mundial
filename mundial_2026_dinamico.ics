@@ -660,7 +660,8 @@ LOCATION:Estadio BBVA\, Monterrey
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇨🇼 Curazao [0] - [0] Costa de Marfil 🇨🇮 - Grupo E
+SUMMARY:✅ 🇨🇼 Curazao [0] - [2] Costa de Marfil 🇨🇮 - Grupo E 
+ (Final)
 DTSTART;TZID=America/El_Salvador:20260625T140000
 DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
@@ -672,7 +673,7 @@ LOCATION:Lincoln Financial Field\, Filadelfia
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇪🇨 Ecuador [0] - [0] Alemania 🇩🇪 - Grupo E
+SUMMARY:✅ 🇪🇨 Ecuador [2] - [1] Alemania 🇩🇪 - Grupo E (Final)
 DTSTART;TZID=America/El_Salvador:20260625T140000
 DTEND;TZID=America/El_Salvador:20260625T160000
 DTSTAMP:20260602T170000Z
@@ -683,7 +684,7 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇯🇵 Japón [0] - [0] Suecia 🇸🇪 - Grupo F
+SUMMARY:✅ 🇯🇵 Japón [1] - [1] Suecia 🇸🇪 - Grupo F (Final)
 DTSTART;TZID=America/El_Salvador:20260625T170000
 DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
@@ -694,7 +695,8 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇹🇳 Túnez [0] - [0] Países Bajos 🇳🇱 - Grupo F
+SUMMARY:✅ 🇹🇳 Túnez [1] - [3] Países Bajos 🇳🇱 - Grupo F (Fi
+ nal)
 DTSTART;TZID=America/El_Salvador:20260625T170000
 DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
