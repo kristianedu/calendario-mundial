@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T08:50:26",
+  "lastUpdated": "2026-06-26T08:55:22",
   "rounds": {
     "round_of_32": [
       {
@@ -55,16 +55,16 @@
         "koNum": 5,
         "date": "29 jun",
         "team1": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia",
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "PAR",
-          "flag": "🇵🇾",
-          "fullName": "Paraguay",
+          "name": "JPN",
+          "flag": "🇯🇵",
+          "fullName": "Japón",
           "score": null,
           "placeholder": false
         },
