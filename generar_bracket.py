@@ -452,6 +452,67 @@ def resolver_origen(spec, ko_num, tablas, terceros_asignacion, mejores_terceros,
     return slot_obj("?", "Por definir")
 
 
+def _fixture_team(nombre):
+    """Objeto compacto de equipo para la pestaña Resumen."""
+    return {"name": get_codigo(nombre), "flag": get_bandera(nombre), "fullName": nombre}
+
+
+def extraer_fixtures(cal):
+    """
+    Extrae los partidos (grupos + eliminatorias) con equipos reales para la
+    pestaña Resumen: últimos resultados y próximos partidos.
+    """
+    eventos = []
+    for c in cal.walk():
+        if c.name != "VEVENT":
+            continue
+        uid = str(c.get("uid", ""))
+        es_gs = uid.startswith("wc2026-GS")
+        es_ko = uid.startswith("wc2026-KO")
+        if not (es_gs or es_ko):
+            continue
+
+        summary = str(c.get("summary", ""))
+        p = parsear_equipo_del_summary(summary)
+        if not p["team1"] or not p["team2"]:
+            continue  # cruce aún sin equipos definidos
+
+        dt = c.get("dtstart").dt
+        try:
+            orden = dt.replace(tzinfo=None)
+        except (AttributeError, TypeError):
+            orden = datetime(dt.year, dt.month, dt.day)
+
+        if es_gs:
+            desc = str(c.get("description", ""))
+            mg = re.search(r"Grupo ([A-L])", desc) or re.search(r"Grupo ([A-L])", summary)
+            comp = f"Grupo {mg.group(1)}" if mg else "Fase de grupos"
+        else:
+            comp = "Eliminatorias"
+
+        eventos.append({
+            "date": formatear_fecha(dt),
+            "time": dt.strftime("%H:%M") if hasattr(dt, "hour") else "",
+            "_sort": orden.isoformat(),
+            "comp": comp,
+            "team1": _fixture_team(p["team1"]),
+            "team2": _fixture_team(p["team2"]),
+            "score1": p["score1"],
+            "score2": p["score2"],
+            "status": p["status"],
+        })
+
+    finalizados = [e for e in eventos if e["status"] == "finished"]
+    pendientes = [e for e in eventos if e["status"] != "finished"]
+    finalizados.sort(key=lambda e: e["_sort"], reverse=True)
+    pendientes.sort(key=lambda e: (e["status"] != "live", e["_sort"]))
+
+    return {
+        "recent": finalizados[:8],
+        "upcoming": pendientes[:8],
+    }
+
+
 def generar_bracket():
     """Lee base_mundial.ics y genera bracket_data.json."""
     try:
@@ -464,6 +525,7 @@ def generar_bracket():
     tablas = calcular_tablas_grupos(cal)
     mejores_terceros = calcular_mejores_terceros(tablas)
     tabla_terceros = construir_tabla_terceros(tablas, mejores_terceros)
+    fixtures = extraer_fixtures(cal)
     terceros_asignacion = asignar_terceros(mejores_terceros)
     eventos_ko = leer_eventos_ko(cal)
     print(f"📊 Tablas: {len(tablas)} grupos | "
@@ -545,6 +607,7 @@ def generar_bracket():
         "champion": champion,
         "groups": tablas,
         "bestThirds": tabla_terceros,
+        "fixtures": fixtures,
     }
 
     with open('bracket_data.json', 'w', encoding='utf-8') as f:

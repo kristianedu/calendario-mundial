@@ -405,10 +405,10 @@
             border: 1px solid var(--border);
             color: var(--text-2);
             font-family: var(--font);
-            font-size: 0.7rem;
+            font-size: 0.82rem;
             font-weight: 600;
             letter-spacing: 0.4px;
-            padding: 7px 16px;
+            padding: 8px 18px;
             border-radius: 999px;
             cursor: pointer;
             transition: all 0.2s ease;
@@ -439,22 +439,22 @@
         .standings.complete { border-color: rgba(34,197,94,0.15); }
         .standings-head {
             display: flex; justify-content: space-between; align-items: center;
-            padding: 8px 12px;
-            font-size: 0.72rem; font-weight: 700; color: var(--text-1);
+            padding: 10px 14px;
+            font-size: 0.86rem; font-weight: 700; color: var(--text-1);
             border-bottom: 1px solid var(--border);
         }
         .standings-head .badge {
-            font-size: 0.5rem; color: var(--text-3); font-weight: 600;
+            font-size: 0.58rem; color: var(--text-3); font-weight: 600;
             text-transform: uppercase; letter-spacing: 0.5px;
         }
-        table.tbl { width: 100%; border-collapse: collapse; font-size: 0.66rem; }
+        table.tbl { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
         table.tbl th {
-            font-size: 0.5rem; font-weight: 600; color: var(--text-3);
+            font-size: 0.58rem; font-weight: 600; color: var(--text-3);
             text-transform: uppercase; letter-spacing: 0.5px;
-            padding: 6px 3px; text-align: center;
+            padding: 7px 3px; text-align: center;
         }
         table.tbl th.l, table.tbl td.l { text-align: left; }
-        table.tbl td { padding: 6px 3px; text-align: center; color: var(--text-2); }
+        table.tbl td { padding: 7px 3px; text-align: center; color: var(--text-2); }
         table.tbl tbody tr { border-top: 1px solid var(--border); }
         table.tbl .tname {
             color: var(--text-1); font-weight: 500;
@@ -466,17 +466,17 @@
         table.tbl tr.possible td:first-child { box-shadow: inset 3px 0 0 var(--gold); }
         table.tbl tr.eliminated .tname { color: var(--text-3); }
         table.tbl tr.eliminated td { opacity: 0.6; }
-        .flag-cell { font-size: 0.9rem; line-height: 1; }
+        .flag-cell { font-size: 1.15rem; line-height: 1; }
         .grp-badge {
-            display: inline-block; font-size: 0.5rem; font-weight: 700;
+            display: inline-block; font-size: 0.58rem; font-weight: 700;
             color: var(--text-2); background: var(--bg-card-hover);
-            border-radius: 4px; padding: 1px 5px;
+            border-radius: 4px; padding: 2px 6px;
         }
 
         /* ═══ BEST THIRDS TABLE ═══ */
         .thirds-wrap { max-width: 720px; margin: 0 auto; padding: 8px 16px 32px; }
         .thirds-title {
-            font-size: 0.95rem; font-weight: 800; color: var(--text-1);
+            font-size: 1.1rem; font-weight: 800; color: var(--text-1);
             margin: 14px 0 8px;
         }
         .thirds-wrap .standings { padding: 0; }
@@ -487,6 +487,96 @@
         .legend .dot {
             display: inline-block; width: 8px; height: 8px;
             border-radius: 50%; margin-right: 6px; vertical-align: middle;
+        }
+
+        /* ═══ RESUMEN (overview) ═══ */
+        .resumen { max-width: 1000px; margin: 0 auto; padding: 14px 16px 32px; }
+        .resumen-cols {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 14px;
+        }
+        .fx-block, .scorers-wrap {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .fx-title {
+            font-size: 0.92rem; font-weight: 700; color: var(--text-1);
+            padding: 12px 16px; border-bottom: 1px solid var(--border);
+        }
+        .fx-list { display: flex; flex-direction: column; }
+        .fx-empty { padding: 16px; font-size: 0.78rem; color: var(--text-3); text-align: center; }
+        .fx-row {
+            display: grid;
+            grid-template-columns: 58px 1fr auto 1fr 46px;
+            align-items: center;
+            gap: 7px;
+            padding: 10px 14px;
+            font-size: 0.8rem;
+        }
+        .fx-row + .fx-row { border-top: 1px solid var(--border); }
+        .fx-row.live { background: var(--bg-card-live); }
+        .fx-comp {
+            font-size: 0.56rem; color: var(--text-3); font-weight: 600;
+            text-transform: uppercase; letter-spacing: 0.3px;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .fx-team { display: flex; align-items: center; gap: 6px; min-width: 0; }
+        .fx-team.r { justify-content: flex-end; }
+        .fx-team.l { justify-content: flex-start; }
+        .fx-name {
+            color: var(--text-2); font-weight: 600;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .fx-team.win .fx-name { color: var(--text-1); font-weight: 700; }
+        .fx-flag { font-size: 1.2rem; line-height: 1; flex-shrink: 0; }
+        .fx-mid { text-align: center; min-width: 40px; }
+        .fx-score { font-weight: 800; color: var(--text-1); font-size: 0.88rem; }
+        .fx-dash { color: var(--text-3); margin: 0 1px; }
+        .fx-time { font-size: 0.72rem; color: var(--text-2); font-weight: 600; }
+        .fx-live {
+            display: inline-flex; align-items: center; gap: 3px;
+            color: var(--red); font-weight: 800; font-size: 0.82rem;
+        }
+        .fx-date {
+            font-size: 0.58rem; color: var(--text-3); text-align: right;
+            white-space: nowrap;
+        }
+
+        .scorers-wrap { margin-top: 16px; }
+        .scorers-list { display: flex; flex-direction: column; }
+        .sc-row {
+            display: grid;
+            grid-template-columns: 26px 30px minmax(130px, 1.4fr) 2fr 34px;
+            align-items: center;
+            gap: 9px;
+            padding: 9px 16px;
+            font-size: 0.82rem;
+        }
+        .sc-row + .sc-row { border-top: 1px solid var(--border); }
+        .sc-pos { color: var(--text-3); font-weight: 700; text-align: center; font-size: 0.72rem; }
+        .sc-flag { font-size: 1.3rem; line-height: 1; text-align: center; }
+        .sc-info { display: flex; flex-direction: column; min-width: 0; }
+        .sc-name {
+            color: var(--text-1); font-weight: 600;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .sc-country { font-size: 0.62rem; color: var(--text-3); }
+        .sc-bar {
+            height: 7px; background: var(--bg-card-hover);
+            border-radius: 3px; overflow: hidden;
+        }
+        .sc-bar-fill {
+            display: block; height: 100%;
+            background: linear-gradient(90deg, rgba(251,191,36,0.5), var(--gold));
+            border-radius: 3px;
+        }
+        .sc-goals { font-weight: 800; color: var(--gold); text-align: right; }
+        .scorers-foot {
+            padding: 8px 14px; font-size: 0.5rem; color: var(--text-3);
+            border-top: 1px solid var(--border);
         }
     </style>
 </head>
@@ -537,9 +627,11 @@
             const html = `
                 <div class="tabs">
                     <button class="tab-btn active" data-tab="bracket">🏆 Bracket</button>
-                    <button class="tab-btn" data-tab="groups">📊 Grupos y Terceros</button>
+                    <button class="tab-btn" data-tab="resumen">📰 Resumen</button>
+                    <button class="tab-btn" data-tab="groups">📊 Grupos</button>
                 </div>
                 <div id="view-bracket" class="view">${buildBracketHtml(data)}</div>
+                <div id="view-resumen" class="view hidden">${buildResumenView(data)}</div>
                 <div id="view-groups" class="view hidden">${buildGroupsView(data)}</div>
             `;
             document.getElementById('app').innerHTML = html;
@@ -555,6 +647,7 @@
                     btn.classList.add('active');
                     const tab = btn.dataset.tab;
                     document.getElementById('view-bracket').classList.toggle('hidden', tab !== 'bracket');
+                    document.getElementById('view-resumen').classList.toggle('hidden', tab !== 'resumen');
                     document.getElementById('view-groups').classList.toggle('hidden', tab !== 'groups');
                     if (tab === 'bracket') requestAnimationFrame(() => drawConnectors());
                 });
@@ -591,6 +684,97 @@
                     </div>
                 </div>
             `;
+        }
+
+        // ─── Resumen (overview) view ─────────────────────────
+        // Máximos goleadores históricos del Mundial (estático, FIFA).
+        const ALL_TIME_SCORERS = [
+            { name: 'Miroslav Klose',    flag: '🇩🇪', country: 'Alemania',  goals: 16 },
+            { name: 'Ronaldo',           flag: '🇧🇷', country: 'Brasil',    goals: 15 },
+            { name: 'Gerd Müller',       flag: '🇩🇪', country: 'Alemania',  goals: 14 },
+            { name: 'Just Fontaine',     flag: '🇫🇷', country: 'Francia',   goals: 13 },
+            { name: 'Lionel Messi',      flag: '🇦🇷', country: 'Argentina', goals: 13 },
+            { name: 'Pelé',              flag: '🇧🇷', country: 'Brasil',    goals: 12 },
+            { name: 'Kylian Mbappé',     flag: '🇫🇷', country: 'Francia',   goals: 12 },
+            { name: 'Sándor Kocsis',     flag: '🇭🇺', country: 'Hungría',   goals: 11 },
+            { name: 'Jürgen Klinsmann',  flag: '🇩🇪', country: 'Alemania',  goals: 11 },
+            { name: 'Gabriel Batistuta', flag: '🇦🇷', country: 'Argentina', goals: 10 },
+        ];
+
+        function buildResumenView(data) {
+            const fx = data.fixtures || { recent: [], upcoming: [] };
+            return `
+                <div class="resumen">
+                    <div class="resumen-cols">
+                        ${renderFixtureBlock('Próximos partidos', fx.upcoming)}
+                        ${renderFixtureBlock('Últimos resultados', fx.recent)}
+                    </div>
+                    ${renderAllTimeScorers()}
+                </div>
+            `;
+        }
+
+        function renderFixtureBlock(title, list) {
+            if (!list || !list.length) {
+                return `<div class="fx-block"><div class="fx-title">${title}</div>
+                        <div class="fx-empty">Sin partidos</div></div>`;
+            }
+            const rows = list.map(renderFixtureRow).join('');
+            return `<div class="fx-block">
+                <div class="fx-title">${title}</div>
+                <div class="fx-list">${rows}</div>
+            </div>`;
+        }
+
+        function renderFixtureRow(e) {
+            const finished = e.status === 'finished';
+            const live = e.status === 'live';
+            const w1 = finished && e.score1 > e.score2;
+            const w2 = finished && e.score2 > e.score1;
+            const mid = finished
+                ? `<span class="fx-score">${e.score1}<span class="fx-dash">-</span>${e.score2}</span>`
+                : live
+                    ? `<span class="fx-live"><span class="live-dot"></span>${e.score1 ?? 0}-${e.score2 ?? 0}</span>`
+                    : `<span class="fx-time">${e.time || ''}</span>`;
+            return `
+                <div class="fx-row ${live ? 'live' : ''}">
+                    <span class="fx-comp">${e.comp}</span>
+                    <span class="fx-team r ${w1 ? 'win' : ''}">
+                        <span class="fx-name">${e.team1.name}</span>
+                        <span class="fx-flag">${e.team1.flag}</span>
+                    </span>
+                    <span class="fx-mid">${mid}</span>
+                    <span class="fx-team l ${w2 ? 'win' : ''}">
+                        <span class="fx-flag">${e.team2.flag}</span>
+                        <span class="fx-name">${e.team2.name}</span>
+                    </span>
+                    <span class="fx-date">${e.date}</span>
+                </div>`;
+        }
+
+        function renderAllTimeScorers() {
+            const max = ALL_TIME_SCORERS[0].goals;
+            let rows = '';
+            ALL_TIME_SCORERS.forEach((p, i) => {
+                const pct = Math.round((p.goals / max) * 100);
+                rows += `
+                    <div class="sc-row">
+                        <span class="sc-pos">${i + 1}</span>
+                        <span class="sc-flag">${p.flag}</span>
+                        <span class="sc-info">
+                            <span class="sc-name">${p.name}</span>
+                            <span class="sc-country">${p.country}</span>
+                        </span>
+                        <span class="sc-bar"><span class="sc-bar-fill" style="width:${pct}%"></span></span>
+                        <span class="sc-goals">${p.goals}</span>
+                    </div>`;
+            });
+            return `
+                <div class="scorers-wrap">
+                    <div class="fx-title">Máximos goleadores de todos los tiempos</div>
+                    <div class="scorers-list">${rows}</div>
+                    <div class="scorers-foot">Goles en fases finales de la Copa Mundial · FIFA</div>
+                </div>`;
         }
 
         // ─── Groups + Best-Thirds view ───────────────────────
