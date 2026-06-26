@@ -5,3 +5,6 @@ __pycache__/
 .env
 .bracket_hash
 bracket_screenshot.png
+# Se genera en cada corrida y se publica directo a la rama gh-pages.
+# No debe trackearse en main (ensucia el árbol y rompe el git pull --rebase del CI).
+bracket_data.json
