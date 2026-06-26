@@ -157,10 +157,20 @@ async def _capturar(url):
     print(f"  📸 Capturando: {url}")
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page(viewport={"width": 1920, "height": 1080})
+        # device_scale_factor=2 => imagen al doble de resolución (más nítida).
+        page = await browser.new_page(
+            viewport={"width": 1920, "height": 1080},
+            device_scale_factor=2,
+        )
         await page.goto(url, wait_until="networkidle", timeout=30000)
         await page.wait_for_timeout(2000)  # animaciones CSS iniciales
-        await page.screenshot(path=SCREENSHOT_PATH, full_page=True)
+        # Recortar al cuadro (#bracket) en vez de toda la página: evita el espacio
+        # vacío del min-height:100vh y hace que los íconos ocupen todo el alto.
+        el = await page.query_selector("#bracket")
+        if el:
+            await el.screenshot(path=SCREENSHOT_PATH)
+        else:
+            await page.screenshot(path=SCREENSHOT_PATH, full_page=True)
         await browser.close()
     kb = os.path.getsize(SCREENSHOT_PATH) / 1024
     print(f"  ✅ Screenshot guardado: {SCREENSHOT_PATH} ({kb:.0f} KB)")
