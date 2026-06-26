@@ -43,7 +43,7 @@ MESES_ES = {
 # ═══════════════════════════════════════════════════════════════════
 BRACKET = {
     # ─── Treintaidosavos (Round of 32) — mitad IZQUIERDA ───
-    2:  dict(round="round_of_32", side="left",  order=0, t1=("pos", "1E"), t2=("third", ["A", "C", "D", "F"])),
+    2:  dict(round="round_of_32", side="left",  order=0, t1=("pos", "1E"), t2=("third", ["A", "B", "C", "D", "F"])),
     5:  dict(round="round_of_32", side="left",  order=1, t1=("pos", "1I"), t2=("third", ["C", "D", "F", "G", "H"])),
     1:  dict(round="round_of_32", side="left",  order=2, t1=("pos", "2A"), t2=("pos", "2B")),
     3:  dict(round="round_of_32", side="left",  order=3, t1=("pos", "1F"), t2=("pos", "2C")),
@@ -54,8 +54,8 @@ BRACKET = {
     # ─── Treintaidosavos (Round of 32) — mitad DERECHA ───
     4:  dict(round="round_of_32", side="right", order=0, t1=("pos", "1C"), t2=("pos", "2F")),
     6:  dict(round="round_of_32", side="right", order=1, t1=("pos", "2E"), t2=("pos", "2I")),
-    7:  dict(round="round_of_32", side="right", order=2, t1=("pos", "1A"), t2=("third", ["C", "E", "H"])),
-    8:  dict(round="round_of_32", side="right", order=3, t1=("pos", "1L"), t2=("third", ["E", "I", "J", "K"])),
+    7:  dict(round="round_of_32", side="right", order=2, t1=("pos", "1A"), t2=("third", ["C", "E", "F", "H", "I"])),
+    8:  dict(round="round_of_32", side="right", order=3, t1=("pos", "1L"), t2=("third", ["E", "H", "I", "J", "K"])),
     14: dict(round="round_of_32", side="right", order=4, t1=("pos", "1J"), t2=("pos", "2H")),
     16: dict(round="round_of_32", side="right", order=5, t1=("pos", "2D"), t2=("pos", "2G")),
     13: dict(round="round_of_32", side="right", order=6, t1=("pos", "1B"), t2=("third", ["E", "F", "G", "I", "J"])),
