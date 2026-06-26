@@ -66,6 +66,9 @@ jobs:
           cp mundial_2026_dinamico.ics /tmp/mundial_2026_dinamico.ics
           cp bracket_data.json /tmp/bracket_data.json
           cp bracket.html /tmp/bracket.html
+          # El notificador vive en main; la rama gh-pages no lo tiene, así que lo
+          # guardamos para ejecutarlo luego desde /tmp (el paso corre sobre gh-pages).
+          cp notificar_whatsapp.py /tmp/notificar_whatsapp.py
           git reset --hard
           git fetch origin gh-pages
           git checkout gh-pages
@@ -92,4 +95,6 @@ jobs:
         run: |
           pip install playwright
           playwright install chromium --with-deps
-          python notificar_whatsapp.py
+          # Se ejecuta desde /tmp porque el working dir está en la rama gh-pages,
+          # que no contiene el script. Lee bracket_data.json / bracket.html del cwd.
+          python /tmp/notificar_whatsapp.py
