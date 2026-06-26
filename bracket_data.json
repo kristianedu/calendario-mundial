@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T04:00:37",
+  "lastUpdated": "2026-06-26T04:33:53",
   "rounds": {
     "round_of_32": [
       {
@@ -1012,14 +1012,14 @@
           "fullName": "EE.UU.",
           "flag": "🇺🇸",
           "pts": 6,
-          "pj": 2,
+          "pj": 3,
           "pg": 2,
           "pe": 0,
-          "pp": 0,
-          "gf": 6,
-          "gc": 1,
-          "dg": 5,
-          "maxPts": 9,
+          "pp": 1,
+          "gf": 8,
+          "gc": 4,
+          "dg": 4,
+          "maxPts": 6,
           "eliminated": false,
           "pos": 1,
           "status": "qualified"
@@ -1028,15 +1028,15 @@
           "name": "AUS",
           "fullName": "Australia",
           "flag": "🇦🇺",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
           "gf": 2,
           "gc": 2,
           "dg": 0,
-          "maxPts": 6,
+          "maxPts": 4,
           "eliminated": false,
           "pos": 2,
           "status": "qualified"
@@ -1045,15 +1045,15 @@
           "name": "PAR",
           "fullName": "Paraguay",
           "flag": "🇵🇾",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
           "gf": 2,
           "gc": 4,
           "dg": -2,
-          "maxPts": 6,
+          "maxPts": 4,
           "eliminated": false,
           "pos": 3,
           "status": "qualified"
@@ -1062,23 +1062,23 @@
           "name": "TUR",
           "fullName": "Turquía",
           "flag": "🇹🇷",
-          "pts": 0,
-          "pj": 2,
-          "pg": 0,
+          "pts": 3,
+          "pj": 3,
+          "pg": 1,
           "pe": 0,
           "pp": 2,
-          "gf": 0,
-          "gc": 3,
-          "dg": -3,
+          "gf": 3,
+          "gc": 5,
+          "dg": -2,
           "maxPts": 3,
-          "eliminated": false,
+          "eliminated": true,
           "pos": 4,
-          "status": "contention"
+          "status": "eliminated"
         }
       ],
-      "played": 4,
+      "played": 6,
       "total": 6,
-      "complete": false
+      "complete": true
     },
     "E": {
       "teams": [
@@ -1734,6 +1734,23 @@
       "pos": 3
     },
     {
+      "group": "D",
+      "name": "PAR",
+      "flag": "🇵🇾",
+      "fullName": "Paraguay",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 2,
+      "gc": 4,
+      "dg": -2,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 4
+    },
+    {
       "group": "L",
       "name": "CRO",
       "flag": "🇭🇷",
@@ -1748,7 +1765,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 4
+      "pos": 5
     },
     {
       "group": "A",
@@ -1762,23 +1779,6 @@
       "gf": 2,
       "gc": 3,
       "dg": -1,
-      "pts": 3,
-      "qualified": true,
-      "eliminated": false,
-      "pos": 5
-    },
-    {
-      "group": "D",
-      "name": "PAR",
-      "flag": "🇵🇾",
-      "fullName": "Paraguay",
-      "pj": 2,
-      "pg": 1,
-      "pe": 0,
-      "pp": 1,
-      "gf": 2,
-      "gc": 4,
-      "dg": -2,
       "pts": 3,
       "qualified": true,
       "eliminated": false,
@@ -1886,5 +1886,315 @@
       "eliminated": false,
       "pos": 12
     }
-  ]
+  ],
+  "fixtures": {
+    "recent": [
+      {
+        "date": "25 jun",
+        "time": "20:00",
+        "_sort": "2026-06-25T20:00:00",
+        "comp": "Grupo D",
+        "team1": {
+          "name": "TUR",
+          "flag": "🇹🇷",
+          "fullName": "Turquía"
+        },
+        "team2": {
+          "name": "USA",
+          "flag": "🇺🇸",
+          "fullName": "EE.UU."
+        },
+        "score1": 3,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
+        "date": "25 jun",
+        "time": "20:00",
+        "_sort": "2026-06-25T20:00:00",
+        "comp": "Grupo D",
+        "team1": {
+          "name": "PAR",
+          "flag": "🇵🇾",
+          "fullName": "Paraguay"
+        },
+        "team2": {
+          "name": "AUS",
+          "flag": "🇦🇺",
+          "fullName": "Australia"
+        },
+        "score1": 0,
+        "score2": 0,
+        "status": "finished"
+      },
+      {
+        "date": "25 jun",
+        "time": "17:00",
+        "_sort": "2026-06-25T17:00:00",
+        "comp": "Grupo F",
+        "team1": {
+          "name": "JPN",
+          "flag": "🇯🇵",
+          "fullName": "Japón"
+        },
+        "team2": {
+          "name": "SWE",
+          "flag": "🇸🇪",
+          "fullName": "Suecia"
+        },
+        "score1": 1,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
+        "date": "25 jun",
+        "time": "17:00",
+        "_sort": "2026-06-25T17:00:00",
+        "comp": "Grupo F",
+        "team1": {
+          "name": "TUN",
+          "flag": "🇹🇳",
+          "fullName": "Túnez"
+        },
+        "team2": {
+          "name": "NED",
+          "flag": "🇳🇱",
+          "fullName": "Países Bajos"
+        },
+        "score1": 1,
+        "score2": 3,
+        "status": "finished"
+      },
+      {
+        "date": "25 jun",
+        "time": "14:00",
+        "_sort": "2026-06-25T14:00:00",
+        "comp": "Grupo E",
+        "team1": {
+          "name": "CUW",
+          "flag": "🇨🇼",
+          "fullName": "Curazao"
+        },
+        "team2": {
+          "name": "CIV",
+          "flag": "🇨🇮",
+          "fullName": "Costa de Marfil"
+        },
+        "score1": 0,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
+        "date": "25 jun",
+        "time": "14:00",
+        "_sort": "2026-06-25T14:00:00",
+        "comp": "Grupo E",
+        "team1": {
+          "name": "ECU",
+          "flag": "🇪🇨",
+          "fullName": "Ecuador"
+        },
+        "team2": {
+          "name": "GER",
+          "flag": "🇩🇪",
+          "fullName": "Alemania"
+        },
+        "score1": 2,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
+        "date": "24 jun",
+        "time": "19:00",
+        "_sort": "2026-06-24T19:00:00",
+        "comp": "Grupo A",
+        "team1": {
+          "name": "CZE",
+          "flag": "🇨🇿",
+          "fullName": "Chequia"
+        },
+        "team2": {
+          "name": "MEX",
+          "flag": "🇲🇽",
+          "fullName": "México"
+        },
+        "score1": 0,
+        "score2": 3,
+        "status": "finished"
+      },
+      {
+        "date": "24 jun",
+        "time": "19:00",
+        "_sort": "2026-06-24T19:00:00",
+        "comp": "Grupo A",
+        "team1": {
+          "name": "RSA",
+          "flag": "🇿🇦",
+          "fullName": "Sudáfrica"
+        },
+        "team2": {
+          "name": "KOR",
+          "flag": "🇰🇷",
+          "fullName": "Corea del Sur"
+        },
+        "score1": 1,
+        "score2": 0,
+        "status": "finished"
+      }
+    ],
+    "upcoming": [
+      {
+        "date": "26 jun",
+        "time": "13:00",
+        "_sort": "2026-06-26T13:00:00",
+        "comp": "Grupo I",
+        "team1": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega"
+        },
+        "team2": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "26 jun",
+        "time": "13:00",
+        "_sort": "2026-06-26T13:00:00",
+        "comp": "Grupo I",
+        "team1": {
+          "name": "SEN",
+          "flag": "🇸🇳",
+          "fullName": "Senegal"
+        },
+        "team2": {
+          "name": "IRQ",
+          "flag": "🇮🇶",
+          "fullName": "Irak"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "26 jun",
+        "time": "18:00",
+        "_sort": "2026-06-26T18:00:00",
+        "comp": "Grupo H",
+        "team1": {
+          "name": "CPV",
+          "flag": "🇨🇻",
+          "fullName": "Cabo Verde"
+        },
+        "team2": {
+          "name": "KSA",
+          "flag": "🇸🇦",
+          "fullName": "Arabia Saudita"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "26 jun",
+        "time": "18:00",
+        "_sort": "2026-06-26T18:00:00",
+        "comp": "Grupo H",
+        "team1": {
+          "name": "URU",
+          "flag": "🇺🇾",
+          "fullName": "Uruguay"
+        },
+        "team2": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "26 jun",
+        "time": "21:00",
+        "_sort": "2026-06-26T21:00:00",
+        "comp": "Grupo G",
+        "team1": {
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto"
+        },
+        "team2": {
+          "name": "IRN",
+          "flag": "🇮🇷",
+          "fullName": "Irán"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "26 jun",
+        "time": "21:00",
+        "_sort": "2026-06-26T21:00:00",
+        "comp": "Grupo G",
+        "team1": {
+          "name": "NZL",
+          "flag": "🇳🇿",
+          "fullName": "Nueva Zelanda"
+        },
+        "team2": {
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "27 jun",
+        "time": "15:00",
+        "_sort": "2026-06-27T15:00:00",
+        "comp": "Grupo L",
+        "team1": {
+          "name": "PAN",
+          "flag": "🇵🇦",
+          "fullName": "Panamá"
+        },
+        "team2": {
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "27 jun",
+        "time": "15:00",
+        "_sort": "2026-06-27T15:00:00",
+        "comp": "Grupo L",
+        "team1": {
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia"
+        },
+        "team2": {
+          "name": "GHA",
+          "flag": "🇬🇭",
+          "fullName": "Ghana"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      }
+    ]
+  }
 }
