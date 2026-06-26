@@ -45,7 +45,8 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇨🇦 Canadá [1] - [1] Bosnia y Herzegovina 🇧🇦 - Grupo B (Final)
+SUMMARY:✅ 🇨🇦 Canadá [1] - [1] Bosnia y Herzegovina 🇧🇦 - Gru
+ po B (Final)
 DTSTART;TZID=America/El_Salvador:20260612T130000
 DTEND;TZID=America/El_Salvador:20260612T150000
 DTSTAMP:20260602T170000Z
@@ -319,7 +320,8 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇨🇭 Suiza [4] - [1] Bosnia y Herzegovina 🇧🇦 - Grupo B (Final)
+SUMMARY:✅ 🇨🇭 Suiza [4] - [1] Bosnia y Herzegovina 🇧🇦 - Grupo
+  B (Final)
 DTSTART;TZID=America/El_Salvador:20260618T130000
 DTEND;TZID=America/El_Salvador:20260618T150000
 DTSTAMP:20260602T170000Z
@@ -601,7 +603,8 @@ LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇧🇦 Bosnia y Herzegovina [3] - [1] Qatar 🇶🇦 - Grupo B (Final)
+SUMMARY:✅ 🇧🇦 Bosnia y Herzegovina [3] - [1] Qatar 🇶🇦 - Grupo
+  B (Final)
 DTSTART;TZID=America/El_Salvador:20260624T130000
 DTEND;TZID=America/El_Salvador:20260624T150000
 DTSTAMP:20260602T170000Z
