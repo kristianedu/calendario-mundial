@@ -16,7 +16,8 @@ Detección de cambios:
 Variables de entorno:
   GREENAPI_ID         - ID de instancia de Green API
   GREENAPI_TOKEN      - Token de API de Green API
-  WHATSAPP_GROUP_ID   - ID del grupo de WhatsApp (formato: XXXXXXXXXXX@g.us)
+  WHATSAPP_GROUP_ID   - ID(s) de grupo de WhatsApp (formato: XXXXXXXXXXX@g.us).
+                        Acepta varios separados por coma para enviar a todos.
   PREV_BRACKET_JSON   - Ruta al bracket_data.json anterior (default: /tmp/old_bracket_data.json)
   BRACKET_HTML        - Página a capturar (default: bracket.html local)
   BRACKET_URL         - Fallback si no existe el HTML local (GitHub Pages)
@@ -205,8 +206,14 @@ def tomar_screenshot():
 
 
 # ─── Envío WhatsApp ──────────────────────────────────────────────────
+def _parse_grupos(valor):
+    """WHATSAPP_GROUP_ID admite varios grupos separados por coma (o salto de línea)."""
+    return [g.strip() for g in (valor or "").replace("\n", ",").split(",") if g.strip()]
+
+
 def enviar_whatsapp(caption):
-    if not GREENAPI_ID or not GREENAPI_TOKEN or not WHATSAPP_GROUP_ID:
+    grupos = _parse_grupos(WHATSAPP_GROUP_ID)
+    if not GREENAPI_ID or not GREENAPI_TOKEN or not grupos:
         print("  ❌ Faltan variables de entorno de Green API "
               "(GREENAPI_ID / GREENAPI_TOKEN / WHATSAPP_GROUP_ID).")
         return False
@@ -215,23 +222,30 @@ def enviar_whatsapp(caption):
         return False
 
     url = f"https://api.green-api.com/waInstance{GREENAPI_ID}/sendFileByUpload/{GREENAPI_TOKEN}"
-    print(f"  📤 Enviando al grupo {WHATSAPP_GROUP_ID}...")
-    try:
-        with open(SCREENSHOT_PATH, "rb") as f:
+    with open(SCREENSHOT_PATH, "rb") as f:
+        imagen = f.read()  # se lee una vez y se reusa para cada grupo
+
+    enviados = 0
+    for chat_id in grupos:
+        print(f"  📤 Enviando al grupo {chat_id}...")
+        try:
             response = requests.post(
                 url,
-                data={"chatId": WHATSAPP_GROUP_ID, "caption": caption},
-                files={"file": ("bracket_mundial_2026.png", f, "image/png")},
+                data={"chatId": chat_id, "caption": caption},
+                files={"file": ("bracket_mundial_2026.png", imagen, "image/png")},
                 timeout=30,
             )
-        if response.status_code == 200 and response.json().get("idMessage"):
-            print(f"  ✅ Enviado (ID: {response.json()['idMessage']})")
-            return True
-        print(f"  ⚠️ Respuesta inesperada [{response.status_code}]: {response.text}")
-        return False
-    except Exception as e:
-        print(f"  ❌ Error enviando a WhatsApp: {e}")
-        return False
+            if response.status_code == 200 and response.json().get("idMessage"):
+                print(f"  ✅ Enviado a {chat_id} (ID: {response.json()['idMessage']})")
+                enviados += 1
+            else:
+                print(f"  ⚠️ Respuesta inesperada [{response.status_code}] "
+                      f"para {chat_id}: {response.text}")
+        except Exception as e:
+            print(f"  ❌ Error enviando a {chat_id}: {e}")
+
+    print(f"  📬 Enviado a {enviados}/{len(grupos)} grupo(s).")
+    return enviados > 0
 
 
 # ─── Main ────────────────────────────────────────────────────────────
