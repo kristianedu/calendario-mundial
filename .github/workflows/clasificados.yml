@@ -27,6 +27,9 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
         run: python actualizar_clasificados.py
 
+      - name: Generar datos del bracket eliminatorio
+        run: python generar_bracket.py
+
       - name: Guardar cambios en base_mundial.ics
         run: |
           git config --global user.name "GitHub Action"

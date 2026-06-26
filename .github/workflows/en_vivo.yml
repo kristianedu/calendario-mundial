@@ -35,6 +35,9 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
         run: python generador.py
 
+      - name: Generar datos del bracket eliminatorio
+        run: python generar_bracket.py
+
       - name: Guardar resultados finales permanentes
         run: |
           git config --global user.name "GitHub Action"
@@ -56,11 +59,27 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           cp mundial_2026_dinamico.ics /tmp/mundial_2026_dinamico.ics
+          cp bracket_data.json /tmp/bracket_data.json
+          cp bracket.html /tmp/bracket.html
           git reset --hard
           git fetch origin gh-pages
           git checkout gh-pages
           cp /tmp/mundial_2026_dinamico.ics .
-          git add mundial_2026_dinamico.ics
-          git commit -m "Update calendar (Live)" || echo "No changes to commit"
+          cp /tmp/bracket_data.json .
+          cp /tmp/bracket.html .
+          git add mundial_2026_dinamico.ics bracket_data.json bracket.html
+          git commit -m "Update calendar & bracket (Live)" || echo "No changes to commit"
           git pull origin gh-pages --rebase || true
           git push origin gh-pages
+
+      - name: Notificar WhatsApp con screenshot del bracket
+        if: success()
+        continue-on-error: true
+        env:
+          GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
+          GREENAPI_TOKEN: ${{ secrets.GREENAPI_TOKEN }}
+          WHATSAPP_GROUP_ID: ${{ secrets.WHATSAPP_GROUP_ID }}
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+          python notificar_whatsapp.py
