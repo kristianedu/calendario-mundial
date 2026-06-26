@@ -137,3 +137,60 @@ def normalize_name(name):
 def get_bandera(nombre_espanol):
     """Devuelve el emoji de bandera para un equipo."""
     return BANDERAS_MAP.get(nombre_espanol, "🏳️")
+
+# Mapa de nombre en español → código de 3 letras (para el bracket visual)
+CODIGOS_MAP = {
+    "México": "MEX",
+    "Sudáfrica": "RSA",
+    "Canadá": "CAN",
+    "Bosnia y Herzegovina": "BIH",
+    "España": "ESP",
+    "Alemania": "GER",
+    "Países Bajos": "NED",
+    "EE.UU.": "USA",
+    "Corea del Sur": "KOR",
+    "Chequia": "CZE",
+    "Suiza": "SUI",
+    "Marruecos": "MAR",
+    "Japón": "JPN",
+    "Ecuador": "ECU",
+    "Inglaterra": "ENG",
+    "Francia": "FRA",
+    "Portugal": "POR",
+    "Haití": "HAI",
+    "Nueva Zelanda": "NZL",
+    "Qatar": "QAT",
+    "Brasil": "BRA",
+    "Escocia": "SCO",
+    "Australia": "AUS",
+    "Turquía": "TUR",
+    "Paraguay": "PAR",
+    "Curazao": "CUW",
+    "Costa de Marfil": "CIV",
+    "Suecia": "SWE",
+    "Túnez": "TUN",
+    "Bélgica": "BEL",
+    "Egipto": "EGY",
+    "Cabo Verde": "CPV",
+    "Irán": "IRN",
+    "Arabia Saudita": "KSA",
+    "Uruguay": "URU",
+    "Argentina": "ARG",
+    "Argelia": "ALG",
+    "Austria": "AUT",
+    "Jordania": "JOR",
+    "Senegal": "SEN",
+    "Irak": "IRQ",
+    "Noruega": "NOR",
+    "Colombia": "COL",
+    "RD Congo": "COD",
+    "Uzbekistán": "UZB",
+    "Croacia": "CRO",
+    "Ghana": "GHA",
+    "Panamá": "PAN",
+    "El Salvador": "SLV",
+}
+
+def get_codigo(nombre_espanol):
+    """Devuelve el código de 3 letras para un equipo."""
+    return CODIGOS_MAP.get(nombre_espanol, "TBD")

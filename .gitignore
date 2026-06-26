@@ -1,4 +1,7 @@
 .venv/
+venv/
 __pycache__/
 *.pyc
 .env
+.bracket_hash
+bracket_screenshot.png

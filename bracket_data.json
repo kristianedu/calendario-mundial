@@ -1,0 +1,1890 @@
+{
+  "lastUpdated": "2026-06-25T21:51:54",
+  "rounds": {
+    "round_of_32": [
+      {
+        "id": "KO-002",
+        "koNum": 2,
+        "date": "28 jun",
+        "team1": {
+          "name": "GER",
+          "flag": "🇩🇪",
+          "fullName": "Alemania",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "KOR",
+          "flag": "🇰🇷",
+          "fullName": "Corea del Sur",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 0,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-004",
+        "koNum": 4,
+        "date": "28 jun",
+        "team1": {
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "JPN",
+          "flag": "🇯🇵",
+          "fullName": "Japón",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 0,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-005",
+        "koNum": 5,
+        "date": "29 jun",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "PAR",
+          "flag": "🇵🇾",
+          "fullName": "Paraguay",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 1,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-006",
+        "koNum": 6,
+        "date": "29 jun",
+        "team1": {
+          "name": "CIV",
+          "flag": "🇨🇮",
+          "fullName": "Costa de Marfil",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 1,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-001",
+        "koNum": 1,
+        "date": "28 jun",
+        "team1": {
+          "name": "RSA",
+          "flag": "🇿🇦",
+          "fullName": "Sudáfrica",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "CAN",
+          "flag": "🇨🇦",
+          "fullName": "Canadá",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 2,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-007",
+        "koNum": 7,
+        "date": "29 jun",
+        "team1": {
+          "name": "MEX",
+          "flag": "🇲🇽",
+          "fullName": "México",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "SCO",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "fullName": "Escocia",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 2,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-003",
+        "koNum": 3,
+        "date": "28 jun",
+        "team1": {
+          "name": "NED",
+          "flag": "🇳🇱",
+          "fullName": "Países Bajos",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "MAR",
+          "flag": "🇲🇦",
+          "fullName": "Marruecos",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 3,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-008",
+        "koNum": 8,
+        "date": "29 jun",
+        "team1": {
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "ECU",
+          "flag": "🇪🇨",
+          "fullName": "Ecuador",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 3,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-011",
+        "koNum": 11,
+        "date": "30 jun",
+        "team1": {
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "GHA",
+          "flag": "🇬🇭",
+          "fullName": "Ghana",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 4,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-014",
+        "koNum": 14,
+        "date": "1 jul",
+        "team1": {
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "URU",
+          "flag": "🇺🇾",
+          "fullName": "Uruguay",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 4,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-012",
+        "koNum": 12,
+        "date": "30 jun",
+        "team1": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "AUT",
+          "flag": "🇦🇹",
+          "fullName": "Austria",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 5,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-016",
+        "koNum": 16,
+        "date": "2 jul",
+        "team1": {
+          "name": "AUS",
+          "flag": "🇦🇺",
+          "fullName": "Australia",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "IRN",
+          "flag": "🇮🇷",
+          "fullName": "Irán",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 5,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-009",
+        "koNum": 9,
+        "date": "30 jun",
+        "team1": {
+          "name": "USA",
+          "flag": "🇺🇸",
+          "fullName": "EE.UU.",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "BIH",
+          "flag": "🇧🇦",
+          "fullName": "Bosnia y Herzegovina",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 6,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-013",
+        "koNum": 13,
+        "date": "1 jul",
+        "team1": {
+          "name": "SUI",
+          "flag": "🇨🇭",
+          "fullName": "Suiza",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "SWE",
+          "flag": "🇸🇪",
+          "fullName": "Suecia",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 6,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-010",
+        "koNum": 10,
+        "date": "30 jun",
+        "team1": {
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "ALG",
+          "flag": "🇩🇿",
+          "fullName": "Argelia",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 7,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-015",
+        "koNum": 15,
+        "date": "2 jul",
+        "team1": {
+          "name": "COL",
+          "flag": "🇨🇴",
+          "fullName": "Colombia",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 7,
+        "round": "round_of_32"
+      }
+    ],
+    "round_of_16": [
+      {
+        "id": "KO-017",
+        "koNum": 17,
+        "date": "4 jul",
+        "team1": {
+          "name": "G·T2",
+          "flag": "🛡️",
+          "fullName": "Ganador T2",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T5",
+          "flag": "🛡️",
+          "fullName": "Ganador T5",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 0,
+        "round": "round_of_16"
+      },
+      {
+        "id": "KO-019",
+        "koNum": 19,
+        "date": "5 jul",
+        "team1": {
+          "name": "G·T4",
+          "flag": "🛡️",
+          "fullName": "Ganador T4",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T6",
+          "flag": "🛡️",
+          "fullName": "Ganador T6",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 0,
+        "round": "round_of_16"
+      },
+      {
+        "id": "KO-018",
+        "koNum": 18,
+        "date": "4 jul",
+        "team1": {
+          "name": "G·T1",
+          "flag": "🛡️",
+          "fullName": "Ganador T1",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T3",
+          "flag": "🛡️",
+          "fullName": "Ganador T3",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 1,
+        "round": "round_of_16"
+      },
+      {
+        "id": "KO-020",
+        "koNum": 20,
+        "date": "5 jul",
+        "team1": {
+          "name": "G·T7",
+          "flag": "🛡️",
+          "fullName": "Ganador T7",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T8",
+          "flag": "🛡️",
+          "fullName": "Ganador T8",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 1,
+        "round": "round_of_16"
+      },
+      {
+        "id": "KO-021",
+        "koNum": 21,
+        "date": "6 jul",
+        "team1": {
+          "name": "G·T11",
+          "flag": "🛡️",
+          "fullName": "Ganador T11",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T12",
+          "flag": "🛡️",
+          "fullName": "Ganador T12",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 2,
+        "round": "round_of_16"
+      },
+      {
+        "id": "KO-023",
+        "koNum": 23,
+        "date": "7 jul",
+        "team1": {
+          "name": "G·T14",
+          "flag": "🛡️",
+          "fullName": "Ganador T14",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T16",
+          "flag": "🛡️",
+          "fullName": "Ganador T16",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 2,
+        "round": "round_of_16"
+      },
+      {
+        "id": "KO-022",
+        "koNum": 22,
+        "date": "6 jul",
+        "team1": {
+          "name": "G·T9",
+          "flag": "🛡️",
+          "fullName": "Ganador T9",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T10",
+          "flag": "🛡️",
+          "fullName": "Ganador T10",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 3,
+        "round": "round_of_16"
+      },
+      {
+        "id": "KO-024",
+        "koNum": 24,
+        "date": "7 jul",
+        "team1": {
+          "name": "G·T13",
+          "flag": "🛡️",
+          "fullName": "Ganador T13",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·T15",
+          "flag": "🛡️",
+          "fullName": "Ganador T15",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 3,
+        "round": "round_of_16"
+      }
+    ],
+    "quarter_finals": [
+      {
+        "id": "KO-025",
+        "koNum": 25,
+        "date": "9 jul",
+        "team1": {
+          "name": "G·O1",
+          "flag": "🛡️",
+          "fullName": "Ganador O1",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·O2",
+          "flag": "🛡️",
+          "fullName": "Ganador O2",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 0,
+        "round": "quarter_finals"
+      },
+      {
+        "id": "KO-027",
+        "koNum": 27,
+        "date": "10 jul",
+        "team1": {
+          "name": "G·O3",
+          "flag": "🛡️",
+          "fullName": "Ganador O3",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·O4",
+          "flag": "🛡️",
+          "fullName": "Ganador O4",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 0,
+        "round": "quarter_finals"
+      },
+      {
+        "id": "KO-026",
+        "koNum": 26,
+        "date": "9 jul",
+        "team1": {
+          "name": "G·O5",
+          "flag": "🛡️",
+          "fullName": "Ganador O5",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·O6",
+          "flag": "🛡️",
+          "fullName": "Ganador O6",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 1,
+        "round": "quarter_finals"
+      },
+      {
+        "id": "KO-028",
+        "koNum": 28,
+        "date": "11 jul",
+        "team1": {
+          "name": "G·O7",
+          "flag": "🛡️",
+          "fullName": "Ganador O7",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·O8",
+          "flag": "🛡️",
+          "fullName": "Ganador O8",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 1,
+        "round": "quarter_finals"
+      }
+    ],
+    "semi_finals": [
+      {
+        "id": "KO-029",
+        "koNum": 29,
+        "date": "14 jul",
+        "team1": {
+          "name": "G·C1",
+          "flag": "🛡️",
+          "fullName": "Ganador C1",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·C2",
+          "flag": "🛡️",
+          "fullName": "Ganador C2",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "left",
+        "order": 0,
+        "round": "semi_finals"
+      },
+      {
+        "id": "KO-030",
+        "koNum": 30,
+        "date": "15 jul",
+        "team1": {
+          "name": "G·C3",
+          "flag": "🛡️",
+          "fullName": "Ganador C3",
+          "score": null,
+          "placeholder": true
+        },
+        "team2": {
+          "name": "G·C4",
+          "flag": "🛡️",
+          "fullName": "Ganador C4",
+          "score": null,
+          "placeholder": true
+        },
+        "status": "pending",
+        "winner": null,
+        "side": "right",
+        "order": 0,
+        "round": "semi_finals"
+      }
+    ],
+    "third_place": {
+      "id": "KO-031",
+      "koNum": 31,
+      "date": "18 jul",
+      "team1": {
+        "name": "P·S1",
+        "flag": "🛡️",
+        "fullName": "Perdedor S1",
+        "score": null,
+        "placeholder": true
+      },
+      "team2": {
+        "name": "P·S2",
+        "flag": "🛡️",
+        "fullName": "Perdedor S2",
+        "score": null,
+        "placeholder": true
+      },
+      "status": "pending",
+      "winner": null,
+      "side": "center",
+      "order": 0,
+      "round": "third_place"
+    },
+    "final": {
+      "id": "KO-032",
+      "koNum": 32,
+      "date": "19 jul",
+      "team1": {
+        "name": "G·S1",
+        "flag": "🛡️",
+        "fullName": "Ganador S1",
+        "score": null,
+        "placeholder": true
+      },
+      "team2": {
+        "name": "G·S2",
+        "flag": "🛡️",
+        "fullName": "Ganador S2",
+        "score": null,
+        "placeholder": true
+      },
+      "status": "pending",
+      "winner": null,
+      "side": "center",
+      "order": 0,
+      "round": "final"
+    }
+  },
+  "champion": null,
+  "groups": {
+    "A": {
+      "teams": [
+        {
+          "name": "MEX",
+          "fullName": "México",
+          "flag": "🇲🇽",
+          "pts": 9,
+          "pj": 3,
+          "pg": 3,
+          "pe": 0,
+          "pp": 0,
+          "gf": 6,
+          "gc": 0,
+          "dg": 6,
+          "maxPts": 9,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "RSA",
+          "fullName": "Sudáfrica",
+          "flag": "🇿🇦",
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
+          "pe": 1,
+          "pp": 1,
+          "gf": 2,
+          "gc": 3,
+          "dg": -1,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "KOR",
+          "fullName": "Corea del Sur",
+          "flag": "🇰🇷",
+          "pts": 3,
+          "pj": 3,
+          "pg": 1,
+          "pe": 0,
+          "pp": 2,
+          "gf": 2,
+          "gc": 3,
+          "dg": -1,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "CZE",
+          "fullName": "Chequia",
+          "flag": "🇨🇿",
+          "pts": 1,
+          "pj": 3,
+          "pg": 0,
+          "pe": 1,
+          "pp": 2,
+          "gf": 2,
+          "gc": 6,
+          "dg": -4,
+          "maxPts": 1,
+          "eliminated": true,
+          "pos": 4,
+          "status": "eliminated"
+        }
+      ],
+      "played": 6,
+      "total": 6,
+      "complete": true
+    },
+    "B": {
+      "teams": [
+        {
+          "name": "SUI",
+          "fullName": "Suiza",
+          "flag": "🇨🇭",
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
+          "pe": 1,
+          "pp": 0,
+          "gf": 7,
+          "gc": 3,
+          "dg": 4,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "CAN",
+          "fullName": "Canadá",
+          "flag": "🇨🇦",
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
+          "pe": 1,
+          "pp": 1,
+          "gf": 8,
+          "gc": 3,
+          "dg": 5,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "BIH",
+          "fullName": "Bosnia y Herzegovina",
+          "flag": "🇧🇦",
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
+          "pe": 1,
+          "pp": 1,
+          "gf": 5,
+          "gc": 6,
+          "dg": -1,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "QAT",
+          "fullName": "Qatar",
+          "flag": "🇶🇦",
+          "pts": 1,
+          "pj": 3,
+          "pg": 0,
+          "pe": 1,
+          "pp": 2,
+          "gf": 2,
+          "gc": 10,
+          "dg": -8,
+          "maxPts": 1,
+          "eliminated": true,
+          "pos": 4,
+          "status": "eliminated"
+        }
+      ],
+      "played": 6,
+      "total": 6,
+      "complete": true
+    },
+    "C": {
+      "teams": [
+        {
+          "name": "BRA",
+          "fullName": "Brasil",
+          "flag": "🇧🇷",
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
+          "pe": 1,
+          "pp": 0,
+          "gf": 7,
+          "gc": 1,
+          "dg": 6,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "MAR",
+          "fullName": "Marruecos",
+          "flag": "🇲🇦",
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
+          "pe": 1,
+          "pp": 0,
+          "gf": 6,
+          "gc": 3,
+          "dg": 3,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "SCO",
+          "fullName": "Escocia",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "pts": 3,
+          "pj": 3,
+          "pg": 1,
+          "pe": 0,
+          "pp": 2,
+          "gf": 1,
+          "gc": 4,
+          "dg": -3,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "HAI",
+          "fullName": "Haití",
+          "flag": "🇭🇹",
+          "pts": 0,
+          "pj": 3,
+          "pg": 0,
+          "pe": 0,
+          "pp": 3,
+          "gf": 2,
+          "gc": 8,
+          "dg": -6,
+          "maxPts": 0,
+          "eliminated": true,
+          "pos": 4,
+          "status": "eliminated"
+        }
+      ],
+      "played": 6,
+      "total": 6,
+      "complete": true
+    },
+    "D": {
+      "teams": [
+        {
+          "name": "USA",
+          "fullName": "EE.UU.",
+          "flag": "🇺🇸",
+          "pts": 6,
+          "pj": 2,
+          "pg": 2,
+          "pe": 0,
+          "pp": 0,
+          "gf": 6,
+          "gc": 1,
+          "dg": 5,
+          "maxPts": 9,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "AUS",
+          "fullName": "Australia",
+          "flag": "🇦🇺",
+          "pts": 3,
+          "pj": 2,
+          "pg": 1,
+          "pe": 0,
+          "pp": 1,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "maxPts": 6,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "PAR",
+          "fullName": "Paraguay",
+          "flag": "🇵🇾",
+          "pts": 3,
+          "pj": 2,
+          "pg": 1,
+          "pe": 0,
+          "pp": 1,
+          "gf": 2,
+          "gc": 4,
+          "dg": -2,
+          "maxPts": 6,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "TUR",
+          "fullName": "Turquía",
+          "flag": "🇹🇷",
+          "pts": 0,
+          "pj": 2,
+          "pg": 0,
+          "pe": 0,
+          "pp": 2,
+          "gf": 0,
+          "gc": 3,
+          "dg": -3,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 4,
+          "status": "contention"
+        }
+      ],
+      "played": 4,
+      "total": 6,
+      "complete": false
+    },
+    "E": {
+      "teams": [
+        {
+          "name": "GER",
+          "fullName": "Alemania",
+          "flag": "🇩🇪",
+          "pts": 6,
+          "pj": 3,
+          "pg": 2,
+          "pe": 0,
+          "pp": 1,
+          "gf": 10,
+          "gc": 4,
+          "dg": 6,
+          "maxPts": 6,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "CIV",
+          "fullName": "Costa de Marfil",
+          "flag": "🇨🇮",
+          "pts": 6,
+          "pj": 3,
+          "pg": 2,
+          "pe": 0,
+          "pp": 1,
+          "gf": 4,
+          "gc": 2,
+          "dg": 2,
+          "maxPts": 6,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "ECU",
+          "fullName": "Ecuador",
+          "flag": "🇪🇨",
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
+          "pe": 1,
+          "pp": 1,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "CUW",
+          "fullName": "Curazao",
+          "flag": "🇨🇼",
+          "pts": 1,
+          "pj": 3,
+          "pg": 0,
+          "pe": 1,
+          "pp": 2,
+          "gf": 1,
+          "gc": 9,
+          "dg": -8,
+          "maxPts": 1,
+          "eliminated": true,
+          "pos": 4,
+          "status": "eliminated"
+        }
+      ],
+      "played": 6,
+      "total": 6,
+      "complete": true
+    },
+    "F": {
+      "teams": [
+        {
+          "name": "NED",
+          "fullName": "Países Bajos",
+          "flag": "🇳🇱",
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
+          "pe": 1,
+          "pp": 0,
+          "gf": 10,
+          "gc": 4,
+          "dg": 6,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "JPN",
+          "fullName": "Japón",
+          "flag": "🇯🇵",
+          "pts": 5,
+          "pj": 3,
+          "pg": 1,
+          "pe": 2,
+          "pp": 0,
+          "gf": 7,
+          "gc": 3,
+          "dg": 4,
+          "maxPts": 5,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "SWE",
+          "fullName": "Suecia",
+          "flag": "🇸🇪",
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
+          "pe": 1,
+          "pp": 1,
+          "gf": 7,
+          "gc": 7,
+          "dg": 0,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "TUN",
+          "fullName": "Túnez",
+          "flag": "🇹🇳",
+          "pts": 0,
+          "pj": 3,
+          "pg": 0,
+          "pe": 0,
+          "pp": 3,
+          "gf": 2,
+          "gc": 12,
+          "dg": -10,
+          "maxPts": 0,
+          "eliminated": true,
+          "pos": 4,
+          "status": "eliminated"
+        }
+      ],
+      "played": 6,
+      "total": 6,
+      "complete": true
+    },
+    "G": {
+      "teams": [
+        {
+          "name": "EGY",
+          "fullName": "Egipto",
+          "flag": "🇪🇬",
+          "pts": 4,
+          "pj": 2,
+          "pg": 1,
+          "pe": 1,
+          "pp": 0,
+          "gf": 4,
+          "gc": 2,
+          "dg": 2,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "IRN",
+          "fullName": "Irán",
+          "flag": "🇮🇷",
+          "pts": 2,
+          "pj": 2,
+          "pg": 0,
+          "pe": 2,
+          "pp": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "maxPts": 5,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "BEL",
+          "fullName": "Bélgica",
+          "flag": "🇧🇪",
+          "pts": 2,
+          "pj": 2,
+          "pg": 0,
+          "pe": 2,
+          "pp": 0,
+          "gf": 1,
+          "gc": 1,
+          "dg": 0,
+          "maxPts": 5,
+          "eliminated": false,
+          "pos": 3,
+          "status": "possible"
+        },
+        {
+          "name": "NZL",
+          "fullName": "Nueva Zelanda",
+          "flag": "🇳🇿",
+          "pts": 1,
+          "pj": 2,
+          "pg": 0,
+          "pe": 1,
+          "pp": 1,
+          "gf": 3,
+          "gc": 5,
+          "dg": -2,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 4,
+          "status": "contention"
+        }
+      ],
+      "played": 4,
+      "total": 6,
+      "complete": false
+    },
+    "H": {
+      "teams": [
+        {
+          "name": "ESP",
+          "fullName": "España",
+          "flag": "🇪🇸",
+          "pts": 4,
+          "pj": 2,
+          "pg": 1,
+          "pe": 1,
+          "pp": 0,
+          "gf": 4,
+          "gc": 0,
+          "dg": 4,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "URU",
+          "fullName": "Uruguay",
+          "flag": "🇺🇾",
+          "pts": 2,
+          "pj": 2,
+          "pg": 0,
+          "pe": 2,
+          "pp": 0,
+          "gf": 3,
+          "gc": 3,
+          "dg": 0,
+          "maxPts": 5,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "CPV",
+          "fullName": "Cabo Verde",
+          "flag": "🇨🇻",
+          "pts": 2,
+          "pj": 2,
+          "pg": 0,
+          "pe": 2,
+          "pp": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "maxPts": 5,
+          "eliminated": false,
+          "pos": 3,
+          "status": "possible"
+        },
+        {
+          "name": "KSA",
+          "fullName": "Arabia Saudita",
+          "flag": "🇸🇦",
+          "pts": 1,
+          "pj": 2,
+          "pg": 0,
+          "pe": 1,
+          "pp": 1,
+          "gf": 1,
+          "gc": 5,
+          "dg": -4,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 4,
+          "status": "contention"
+        }
+      ],
+      "played": 4,
+      "total": 6,
+      "complete": false
+    },
+    "I": {
+      "teams": [
+        {
+          "name": "FRA",
+          "fullName": "Francia",
+          "flag": "🇫🇷",
+          "pts": 6,
+          "pj": 2,
+          "pg": 2,
+          "pe": 0,
+          "pp": 0,
+          "gf": 6,
+          "gc": 1,
+          "dg": 5,
+          "maxPts": 9,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "NOR",
+          "fullName": "Noruega",
+          "flag": "🇳🇴",
+          "pts": 6,
+          "pj": 2,
+          "pg": 2,
+          "pe": 0,
+          "pp": 0,
+          "gf": 7,
+          "gc": 3,
+          "dg": 4,
+          "maxPts": 9,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "SEN",
+          "fullName": "Senegal",
+          "flag": "🇸🇳",
+          "pts": 0,
+          "pj": 2,
+          "pg": 0,
+          "pe": 0,
+          "pp": 2,
+          "gf": 3,
+          "gc": 6,
+          "dg": -3,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 3,
+          "status": "possible"
+        },
+        {
+          "name": "IRQ",
+          "fullName": "Irak",
+          "flag": "🇮🇶",
+          "pts": 0,
+          "pj": 2,
+          "pg": 0,
+          "pe": 0,
+          "pp": 2,
+          "gf": 1,
+          "gc": 7,
+          "dg": -6,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 4,
+          "status": "contention"
+        }
+      ],
+      "played": 4,
+      "total": 6,
+      "complete": false
+    },
+    "J": {
+      "teams": [
+        {
+          "name": "ARG",
+          "fullName": "Argentina",
+          "flag": "🇦🇷",
+          "pts": 6,
+          "pj": 2,
+          "pg": 2,
+          "pe": 0,
+          "pp": 0,
+          "gf": 5,
+          "gc": 0,
+          "dg": 5,
+          "maxPts": 9,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "AUT",
+          "fullName": "Austria",
+          "flag": "🇦🇹",
+          "pts": 3,
+          "pj": 2,
+          "pg": 1,
+          "pe": 0,
+          "pp": 1,
+          "gf": 3,
+          "gc": 3,
+          "dg": 0,
+          "maxPts": 6,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "ALG",
+          "fullName": "Argelia",
+          "flag": "🇩🇿",
+          "pts": 3,
+          "pj": 2,
+          "pg": 1,
+          "pe": 0,
+          "pp": 1,
+          "gf": 2,
+          "gc": 4,
+          "dg": -2,
+          "maxPts": 6,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "JOR",
+          "fullName": "Jordania",
+          "flag": "🇯🇴",
+          "pts": 0,
+          "pj": 2,
+          "pg": 0,
+          "pe": 0,
+          "pp": 2,
+          "gf": 2,
+          "gc": 5,
+          "dg": -3,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 4,
+          "status": "contention"
+        }
+      ],
+      "played": 4,
+      "total": 6,
+      "complete": false
+    },
+    "K": {
+      "teams": [
+        {
+          "name": "COL",
+          "fullName": "Colombia",
+          "flag": "🇨🇴",
+          "pts": 6,
+          "pj": 2,
+          "pg": 2,
+          "pe": 0,
+          "pp": 0,
+          "gf": 4,
+          "gc": 1,
+          "dg": 3,
+          "maxPts": 9,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "POR",
+          "fullName": "Portugal",
+          "flag": "🇵🇹",
+          "pts": 4,
+          "pj": 2,
+          "pg": 1,
+          "pe": 1,
+          "pp": 0,
+          "gf": 6,
+          "gc": 1,
+          "dg": 5,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "COD",
+          "fullName": "RD Congo",
+          "flag": "🇨🇩",
+          "pts": 1,
+          "pj": 2,
+          "pg": 0,
+          "pe": 1,
+          "pp": 1,
+          "gf": 1,
+          "gc": 2,
+          "dg": -1,
+          "maxPts": 4,
+          "eliminated": false,
+          "pos": 3,
+          "status": "possible"
+        },
+        {
+          "name": "UZB",
+          "fullName": "Uzbekistán",
+          "flag": "🇺🇿",
+          "pts": 0,
+          "pj": 2,
+          "pg": 0,
+          "pe": 0,
+          "pp": 2,
+          "gf": 1,
+          "gc": 8,
+          "dg": -7,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 4,
+          "status": "contention"
+        }
+      ],
+      "played": 4,
+      "total": 6,
+      "complete": false
+    },
+    "L": {
+      "teams": [
+        {
+          "name": "ENG",
+          "fullName": "Inglaterra",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "pts": 4,
+          "pj": 2,
+          "pg": 1,
+          "pe": 1,
+          "pp": 0,
+          "gf": 4,
+          "gc": 2,
+          "dg": 2,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
+          "name": "GHA",
+          "fullName": "Ghana",
+          "flag": "🇬🇭",
+          "pts": 4,
+          "pj": 2,
+          "pg": 1,
+          "pe": 1,
+          "pp": 0,
+          "gf": 1,
+          "gc": 0,
+          "dg": 1,
+          "maxPts": 7,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
+          "name": "CRO",
+          "fullName": "Croacia",
+          "flag": "🇭🇷",
+          "pts": 3,
+          "pj": 2,
+          "pg": 1,
+          "pe": 0,
+          "pp": 1,
+          "gf": 3,
+          "gc": 4,
+          "dg": -1,
+          "maxPts": 6,
+          "eliminated": false,
+          "pos": 3,
+          "status": "qualified"
+        },
+        {
+          "name": "PAN",
+          "fullName": "Panamá",
+          "flag": "🇵🇦",
+          "pts": 0,
+          "pj": 2,
+          "pg": 0,
+          "pe": 0,
+          "pp": 2,
+          "gf": 0,
+          "gc": 2,
+          "dg": -2,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 4,
+          "status": "contention"
+        }
+      ],
+      "played": 4,
+      "total": 6,
+      "complete": false
+    }
+  },
+  "bestThirds": [
+    {
+      "group": "F",
+      "name": "SWE",
+      "flag": "🇸🇪",
+      "fullName": "Suecia",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 7,
+      "gc": 7,
+      "dg": 0,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 1
+    },
+    {
+      "group": "E",
+      "name": "ECU",
+      "flag": "🇪🇨",
+      "fullName": "Ecuador",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 2,
+      "gc": 2,
+      "dg": 0,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 2
+    },
+    {
+      "group": "B",
+      "name": "BIH",
+      "flag": "🇧🇦",
+      "fullName": "Bosnia y Herzegovina",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 5,
+      "gc": 6,
+      "dg": -1,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 3
+    },
+    {
+      "group": "L",
+      "name": "CRO",
+      "flag": "🇭🇷",
+      "fullName": "Croacia",
+      "pj": 2,
+      "pg": 1,
+      "pe": 0,
+      "pp": 1,
+      "gf": 3,
+      "gc": 4,
+      "dg": -1,
+      "pts": 3,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 4
+    },
+    {
+      "group": "A",
+      "name": "KOR",
+      "flag": "🇰🇷",
+      "fullName": "Corea del Sur",
+      "pj": 3,
+      "pg": 1,
+      "pe": 0,
+      "pp": 2,
+      "gf": 2,
+      "gc": 3,
+      "dg": -1,
+      "pts": 3,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 5
+    },
+    {
+      "group": "D",
+      "name": "PAR",
+      "flag": "🇵🇾",
+      "fullName": "Paraguay",
+      "pj": 2,
+      "pg": 1,
+      "pe": 0,
+      "pp": 1,
+      "gf": 2,
+      "gc": 4,
+      "dg": -2,
+      "pts": 3,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 6
+    },
+    {
+      "group": "J",
+      "name": "ALG",
+      "flag": "🇩🇿",
+      "fullName": "Argelia",
+      "pj": 2,
+      "pg": 1,
+      "pe": 0,
+      "pp": 1,
+      "gf": 2,
+      "gc": 4,
+      "dg": -2,
+      "pts": 3,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 7
+    },
+    {
+      "group": "C",
+      "name": "SCO",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "fullName": "Escocia",
+      "pj": 3,
+      "pg": 1,
+      "pe": 0,
+      "pp": 2,
+      "gf": 1,
+      "gc": 4,
+      "dg": -3,
+      "pts": 3,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 8
+    },
+    {
+      "group": "H",
+      "name": "CPV",
+      "flag": "🇨🇻",
+      "fullName": "Cabo Verde",
+      "pj": 2,
+      "pg": 0,
+      "pe": 2,
+      "pp": 0,
+      "gf": 2,
+      "gc": 2,
+      "dg": 0,
+      "pts": 2,
+      "qualified": false,
+      "eliminated": false,
+      "pos": 9
+    },
+    {
+      "group": "G",
+      "name": "BEL",
+      "flag": "🇧🇪",
+      "fullName": "Bélgica",
+      "pj": 2,
+      "pg": 0,
+      "pe": 2,
+      "pp": 0,
+      "gf": 1,
+      "gc": 1,
+      "dg": 0,
+      "pts": 2,
+      "qualified": false,
+      "eliminated": false,
+      "pos": 10
+    },
+    {
+      "group": "K",
+      "name": "COD",
+      "flag": "🇨🇩",
+      "fullName": "RD Congo",
+      "pj": 2,
+      "pg": 0,
+      "pe": 1,
+      "pp": 1,
+      "gf": 1,
+      "gc": 2,
+      "dg": -1,
+      "pts": 1,
+      "qualified": false,
+      "eliminated": false,
+      "pos": 11
+    },
+    {
+      "group": "I",
+      "name": "SEN",
+      "flag": "🇸🇳",
+      "fullName": "Senegal",
+      "pj": 2,
+      "pg": 0,
+      "pe": 0,
+      "pp": 2,
+      "gf": 3,
+      "gc": 6,
+      "dg": -3,
+      "pts": 0,
+      "qualified": false,
+      "eliminated": false,
+      "pos": 12
+    }
+  ]
+}
