@@ -684,7 +684,7 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇯🇵 Japón [1] - [0] Suecia 🇸🇪 - Grupo F (En Vivo)
+SUMMARY:🔴 🇯🇵 Japón [1] - [1] Suecia 🇸🇪 - Grupo F (En Vivo)
 DTSTART;TZID=America/El_Salvador:20260625T170000
 DTEND;TZID=America/El_Salvador:20260625T190000
 DTSTAMP:20260602T170000Z
@@ -695,7 +695,7 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇹🇳 Túnez [1] - [2] Países Bajos 🇳🇱 - Grupo F (E
+SUMMARY:🔴 🇹🇳 Túnez [1] - [3] Países Bajos 🇳🇱 - Grupo F (E
  n Vivo)
 DTSTART;TZID=America/El_Salvador:20260625T170000
 DTEND;TZID=America/El_Salvador:20260625T190000
