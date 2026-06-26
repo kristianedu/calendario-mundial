@@ -227,6 +227,8 @@ def enviar_whatsapp(caption):
 # ─── Main ────────────────────────────────────────────────────────────
 def main():
     dry_run = "--dry-run" in sys.argv
+    force = "--force" in sys.argv or \
+        os.environ.get("FORCE_NOTIFY", "").strip().lower() in ("1", "true", "yes")
     print("🏆 Notificador de Bracket por WhatsApp")
     print("=" * 45)
 
@@ -236,7 +238,11 @@ def main():
         return
 
     eventos = []
-    if not dry_run:
+    if force:
+        print("  🧪 Modo forzado: se enviará sin importar si hubo cambios.")
+        viejo = cargar_json(PREV_BRACKET_JSON)
+        eventos = detectar_eventos(viejo, nuevo) if viejo else []
+    elif not dry_run:
         viejo = cargar_json(PREV_BRACKET_JSON)
         if viejo is None:
             print("  ℹ️ Sin versión anterior: se establece la línea base, "

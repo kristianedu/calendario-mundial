@@ -8,6 +8,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      force_notify:
+        description: 'Enviar la captura al grupo de WhatsApp aunque no haya partido nuevo (prueba)'
+        type: boolean
+        default: false
 
 concurrency:
   group: en-vivo
@@ -83,6 +88,7 @@ jobs:
           GREENAPI_TOKEN: ${{ secrets.GREENAPI_TOKEN }}
           WHATSAPP_GROUP_ID: ${{ secrets.WHATSAPP_GROUP_ID }}
           PREV_BRACKET_JSON: /tmp/old_bracket_data.json
+          FORCE_NOTIFY: ${{ github.event.inputs.force_notify }}
         run: |
           pip install playwright
           playwright install chromium --with-deps
