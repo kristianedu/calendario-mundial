@@ -708,8 +708,8 @@ LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇹🇷 Turquía [2] - [1] EE.UU. 🇺🇸 - Grupo D (Medio 
- Tiempo)
+SUMMARY:🔴 🇹🇷 Turquía [2] - [1] EE.UU. 🇺🇸 - Grupo D (En Viv
+ o)
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
@@ -720,8 +720,8 @@ LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇵🇾 Paraguay [0] - [0] Australia 🇦🇺 - Grupo D (Med
- io Tiempo)
+SUMMARY:🔴 🇵🇾 Paraguay [0] - [0] Australia 🇦🇺 - Grupo D (En 
+ Vivo)
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
