@@ -734,7 +734,7 @@ LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇴 Noruega [1] - [2] Francia 🇫🇷 - Grupo I
+SUMMARY:⚽ 🇳🇴 Noruega [1] - [3] Francia 🇫🇷 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260626T130000
 DTEND;TZID=America/El_Salvador:20260626T150000
 DTSTAMP:20260602T170000Z
