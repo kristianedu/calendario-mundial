@@ -711,72 +711,69 @@ LOCATION:Arrowhead Stadium\, Kansas City
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇹🇷 Turquía [2] - [2] EE.UU. 🇺🇸 - Grupo D (En Viv
- o)
+SUMMARY:⚽ 🇹🇷 Turquía vs EE.UU. 🇺🇸 - Grupo D
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-059@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Turquía (3.75) | Empate (4.2) | EE.UU. (1.8)
+ \n💰 Cuotas Promedio: Turquía (16.0) | Empate (1.03) | EE.UU. (19.0)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇵🇾 Paraguay [0] - [0] Australia 🇦🇺 - Grupo D (En 
- Vivo)
+SUMMARY:⚽ 🇵🇾 Paraguay vs Australia 🇦🇺 - Grupo D
 DTSTART;TZID=America/El_Salvador:20260625T200000
 DTEND;TZID=America/El_Salvador:20260625T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-060@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo D - Jornada 3\n
- \n💰 Cuotas Promedio: Paraguay (2.6) | Empate (2.3) | Australia (4.4)
+ \n💰 Cuotas Promedio: Paraguay (28.0) | Empate (1.03) | Australia (34.0)
 LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇴 Noruega [0] - [0] Francia 🇫🇷 - Grupo I
+SUMMARY:⚽ 🇳🇴 Noruega vs Francia 🇫🇷 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260626T130000
 DTEND;TZID=America/El_Salvador:20260626T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-061@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 3\n
- \n💰 Cuotas Promedio: Noruega (4.95) | Empate (4.3) | Francia (1.69)
+ \n💰 Cuotas Promedio: Noruega (4.95) | Empate (4.52) | Francia (1.61)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇸🇳 Senegal [0] - [0] Irak 🇮🇶 - Grupo I
+SUMMARY:⚽ 🇸🇳 Senegal vs Irak 🇮🇶 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260626T130000
 DTEND;TZID=America/El_Salvador:20260626T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-062@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo I - Jornada 3\n
- \n💰 Cuotas Promedio: Senegal (1.25) | Empate (6.75) | Irak (14.0)
+ \n💰 Cuotas Promedio: Senegal (1.24) | Empate (6.75) | Irak (14.0)
 LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇻 Cabo Verde [0] - [0] Arabia Saudita 🇸🇦 - Grupo 
- H
+SUMMARY:⚽ 🇨🇻 Cabo Verde vs Arabia Saudita 🇸🇦 - Grupo H
 DTSTART;TZID=America/El_Salvador:20260626T180000
 DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-063@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Cabo Verde (2.55) | Empate (3.4) | Arabia Saudita 
- (2.7)
+ \n💰 Cuotas Promedio: Cabo Verde (2.6) | Empate (3.3) | Arabia Saudita (
+ 2.7)
 LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇺🇾 Uruguay [0] - [0] España 🇪🇸 - Grupo H
+SUMMARY:⚽ 🇺🇾 Uruguay vs España 🇪🇸 - Grupo H
 DTSTART;TZID=America/El_Salvador:20260626T180000
 DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-064@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo H - Jornada 3\n
- \n💰 Cuotas Promedio: Uruguay (7.8) | Empate (4.2) | España (1.45)
+ \n💰 Cuotas Promedio: Uruguay (7.5) | Empate (4.1) | España (1.47)
 LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
@@ -811,7 +808,7 @@ DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-067@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Panamá (17.0) | Empate (7.5) | Inglaterra (1.15)
+ \n💰 Cuotas Promedio: Panamá (18.0) | Empate (7.5) | Inglaterra (1.14)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
@@ -822,7 +819,7 @@ DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-068@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Croacia (1.72) | Empate (3.3) | Ghana (5.8)
+ \n💰 Cuotas Promedio: Croacia (1.7) | Empate (3.4) | Ghana (5.8)
 LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
@@ -844,7 +841,7 @@ DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-070@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 3\n
- \n💰 Cuotas Promedio: Colombia (4.25) | Empate (3.7) | Portugal (1.83)
+ \n💰 Cuotas Promedio: Colombia (3.95) | Empate (3.55) | Portugal (1.93)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -855,7 +852,7 @@ DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-071@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Jordania (15.0) | Empate (7.8) | Argentina (1.16)
+ \n💰 Cuotas Promedio: Jordania (17.0) | Empate (7.8) | Argentina (1.15)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
