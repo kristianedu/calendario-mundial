@@ -14,6 +14,7 @@ de prioridad:
   4. Etiqueta de origen (ej. "1°E", "G·T2") cuando aún no se puede definir.
 """
 import json
+import os
 import re
 from datetime import datetime
 from collections import defaultdict
@@ -85,6 +86,29 @@ BRACKET = {
 # Slots de "mejor tercero" con sus grupos permitidos (para el emparejamiento)
 THIRD_SLOTS = {ko: spec["t2"][1] for ko, spec in BRACKET.items()
                if spec["t2"][0] == "third"}
+
+# Ganador de grupo (1X) que enfrenta a cada slot de tercero, p.ej. {5: "I", ...}.
+THIRD_SLOT_WINNER = {ko: spec["t1"][1][1] for ko, spec in BRACKET.items()
+                     if spec["t2"][0] == "third"}
+
+
+def _cargar_tabla_terceros():
+    """
+    Tabla oficial FIFA (Annexe C, 495 combinaciones). Para cada combinación de
+    los 8 grupos cuyos terceros clasifican, indica qué tercero enfrenta cada
+    ganador de grupo. Clave: grupos ordenados (ej. "ABCDEFJL"). Valor:
+    {ganador: tercero}, ej. {"I": "F", ...} = 1º del Grupo I vs 3º del Grupo F.
+    """
+    ruta = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        "terceros_oficial.json")
+    try:
+        with open(ruta, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+TERCEROS_OFICIAL = _cargar_tabla_terceros()
 
 
 def parsear_equipo_del_summary(summary):
@@ -370,10 +394,27 @@ def construir_tabla_terceros(tablas, mejores_terceros):
 
 def asignar_terceros(mejores_terceros):
     """
-    Empareja los grupos de los mejores terceros con los slots '3°' del cuadro,
-    respetando los grupos permitidos de cada slot (backtracking).
-    Devuelve {ko_num: grupo}.
+    Asigna cada grupo de mejor tercero a su slot del cuadro usando la tabla
+    oficial FIFA (Annexe C). Si la combinación no está disponible (p.ej. aún no
+    hay exactamente 8 terceros definidos), cae al backtracking por grupos
+    permitidos. Devuelve {ko_num: grupo}.
     """
+    grupos = set(mejores_terceros.keys())
+    oficial = TERCEROS_OFICIAL.get("".join(sorted(grupos)))
+    if oficial and len(grupos) == 8:
+        asignacion = {}
+        for ko, winner in THIRD_SLOT_WINNER.items():
+            tercero = oficial.get(winner)
+            if tercero in grupos:
+                asignacion[ko] = tercero
+        if len(asignacion) == len(THIRD_SLOT_WINNER):
+            return asignacion
+
+    return _asignar_terceros_backtrack(mejores_terceros)
+
+
+def _asignar_terceros_backtrack(mejores_terceros):
+    """Fallback: cualquier asignación válida respetando los grupos permitidos."""
     grupos_disponibles = set(mejores_terceros.keys())
     # Resolver primero los slots más restringidos
     slots = sorted(THIRD_SLOTS.items(), key=lambda kv: len(kv[1]))
