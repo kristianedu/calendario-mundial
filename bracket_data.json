@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T21:05:30",
+  "lastUpdated": "2026-06-26T21:10:33",
   "rounds": {
     "round_of_32": [
       {
@@ -134,9 +134,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "SCO",
-          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-          "fullName": "Escocia",
+          "name": "ECU",
+          "flag": "🇪🇨",
+          "fullName": "Ecuador",
           "score": null,
           "placeholder": false
         },
@@ -182,9 +182,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "ECU",
-          "flag": "🇪🇨",
-          "fullName": "Ecuador",
+          "name": "SEN",
+          "flag": "🇸🇳",
+          "fullName": "Senegal",
           "score": null,
           "placeholder": false
         },
@@ -981,7 +981,7 @@
           "maxPts": 3,
           "eliminated": false,
           "pos": 3,
-          "status": "qualified"
+          "status": "eliminated"
         },
         {
           "name": "HAI",
@@ -1420,40 +1420,40 @@
           "name": "SEN",
           "fullName": "Senegal",
           "flag": "🇸🇳",
-          "pts": 0,
-          "pj": 2,
-          "pg": 0,
+          "pts": 3,
+          "pj": 3,
+          "pg": 1,
           "pe": 0,
           "pp": 2,
-          "gf": 3,
+          "gf": 8,
           "gc": 6,
-          "dg": -3,
+          "dg": 2,
           "maxPts": 3,
           "eliminated": false,
           "pos": 3,
-          "status": "possible"
+          "status": "qualified"
         },
         {
           "name": "IRQ",
           "fullName": "Irak",
           "flag": "🇮🇶",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
+          "pp": 3,
           "gf": 1,
-          "gc": 7,
-          "dg": -6,
-          "maxPts": 3,
-          "eliminated": false,
+          "gc": 12,
+          "dg": -11,
+          "maxPts": 0,
+          "eliminated": true,
           "pos": 4,
-          "status": "contention"
+          "status": "eliminated"
         }
       ],
-      "played": 5,
+      "played": 6,
       "total": 6,
-      "complete": false
+      "complete": true
     },
     "J": {
       "teams": [
@@ -1751,6 +1751,23 @@
       "pos": 4
     },
     {
+      "group": "I",
+      "name": "SEN",
+      "flag": "🇸🇳",
+      "fullName": "Senegal",
+      "pj": 3,
+      "pg": 1,
+      "pe": 0,
+      "pp": 2,
+      "gf": 8,
+      "gc": 6,
+      "dg": 2,
+      "pts": 3,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 5
+    },
+    {
       "group": "L",
       "name": "CRO",
       "flag": "🇭🇷",
@@ -1765,7 +1782,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 5
+      "pos": 6
     },
     {
       "group": "A",
@@ -1782,7 +1799,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 6
+      "pos": 7
     },
     {
       "group": "J",
@@ -1799,7 +1816,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 7
+      "pos": 8
     },
     {
       "group": "C",
@@ -1814,9 +1831,9 @@
       "gc": 4,
       "dg": -3,
       "pts": 3,
-      "qualified": true,
+      "qualified": false,
       "eliminated": false,
-      "pos": 8
+      "pos": 9
     },
     {
       "group": "H",
@@ -1833,7 +1850,7 @@
       "pts": 2,
       "qualified": false,
       "eliminated": false,
-      "pos": 9
+      "pos": 10
     },
     {
       "group": "G",
@@ -1850,7 +1867,7 @@
       "pts": 2,
       "qualified": false,
       "eliminated": false,
-      "pos": 10
+      "pos": 11
     },
     {
       "group": "K",
@@ -1865,23 +1882,6 @@
       "gc": 2,
       "dg": -1,
       "pts": 1,
-      "qualified": false,
-      "eliminated": false,
-      "pos": 11
-    },
-    {
-      "group": "I",
-      "name": "SEN",
-      "flag": "🇸🇳",
-      "fullName": "Senegal",
-      "pj": 2,
-      "pg": 0,
-      "pe": 0,
-      "pp": 2,
-      "gf": 3,
-      "gc": 6,
-      "dg": -3,
-      "pts": 0,
       "qualified": false,
       "eliminated": false,
       "pos": 12
@@ -1906,6 +1906,25 @@
         },
         "score1": 1,
         "score2": 4,
+        "status": "finished"
+      },
+      {
+        "date": "26 jun",
+        "time": "13:00",
+        "_sort": "2026-06-26T13:00:00",
+        "comp": "Grupo I",
+        "team1": {
+          "name": "SEN",
+          "flag": "🇸🇳",
+          "fullName": "Senegal"
+        },
+        "team2": {
+          "name": "IRQ",
+          "flag": "🇮🇶",
+          "fullName": "Irak"
+        },
+        "score1": 5,
+        "score2": 0,
         "status": "finished"
       },
       {
@@ -2021,47 +2040,9 @@
         "score1": 2,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "24 jun",
-        "time": "19:00",
-        "_sort": "2026-06-24T19:00:00",
-        "comp": "Grupo A",
-        "team1": {
-          "name": "CZE",
-          "flag": "🇨🇿",
-          "fullName": "Chequia"
-        },
-        "team2": {
-          "name": "MEX",
-          "flag": "🇲🇽",
-          "fullName": "México"
-        },
-        "score1": 0,
-        "score2": 3,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "26 jun",
-        "time": "13:00",
-        "_sort": "2026-06-26T13:00:00",
-        "comp": "Grupo I",
-        "team1": {
-          "name": "SEN",
-          "flag": "🇸🇳",
-          "fullName": "Senegal"
-        },
-        "team2": {
-          "name": "IRQ",
-          "flag": "🇮🇶",
-          "fullName": "Irak"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "26 jun",
         "time": "18:00",
@@ -2190,6 +2171,25 @@
           "name": "UZB",
           "flag": "🇺🇿",
           "fullName": "Uzbekistán"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "27 jun",
+        "time": "17:30",
+        "_sort": "2026-06-27T17:30:00",
+        "comp": "Grupo K",
+        "team1": {
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal"
+        },
+        "team2": {
+          "name": "COL",
+          "flag": "🇨🇴",
+          "fullName": "Colombia"
         },
         "score1": null,
         "score2": null,
