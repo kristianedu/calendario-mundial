@@ -16,7 +16,9 @@ on:
 
 concurrency:
   group: en-vivo
-  cancel-in-progress: true
+  # Las corridas nuevas hacen cola en vez de cancelar la que está en curso,
+  # para no interrumpir el envío de la notificación a mitad de camino.
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
