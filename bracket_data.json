@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T20:05:26",
+  "lastUpdated": "2026-06-26T20:07:52",
   "rounds": {
     "round_of_32": [
       {
@@ -182,9 +182,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "ECU",
-          "flag": "🇪🇨",
-          "fullName": "Ecuador",
+          "name": "ALG",
+          "flag": "🇩🇿",
+          "fullName": "Argelia",
           "score": null,
           "placeholder": false
         },
@@ -350,9 +350,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "ALG",
-          "flag": "🇩🇿",
-          "fullName": "Argelia",
+          "name": "ECU",
+          "flag": "🇪🇨",
+          "fullName": "Ecuador",
           "score": null,
           "placeholder": false
         },
