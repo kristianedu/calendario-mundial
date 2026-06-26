@@ -910,14 +910,13 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇧🇷 Brasil vs Japón 🇯🇵 - Treintaidosavos de Final
+SUMMARY:🏆 Treintaidosavos de Final - Partido 5
 DTSTART;TZID=America/El_Salvador:20260629T110000
 DTEND;TZID=America/El_Salvador:20260629T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-005@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Brasil (1.74) | Empate (3.85) | Japón (5.
- 3)
+  Final
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
