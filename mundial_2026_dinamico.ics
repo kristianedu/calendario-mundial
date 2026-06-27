@@ -756,8 +756,8 @@ LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇨🇻 Cabo Verde [0] - [0] Arabia Saudita 🇸🇦 - Grupo
-  H (En Vivo)
+SUMMARY:✅ 🇨🇻 Cabo Verde [0] - [0] Arabia Saudita 🇸🇦 - Grupo 
+ H (Final)
 DTSTART;TZID=America/El_Salvador:20260626T180000
 DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z

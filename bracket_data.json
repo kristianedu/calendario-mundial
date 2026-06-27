@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T02:00:42",
+  "lastUpdated": "2026-06-27T02:05:23",
   "rounds": {
     "round_of_32": [
       {
@@ -230,9 +230,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "URU",
-          "flag": "🇺🇾",
-          "fullName": "Uruguay",
+          "name": "CPV",
+          "flag": "🇨🇻",
+          "fullName": "Cabo Verde",
           "score": null,
           "placeholder": false
         },
@@ -1325,6 +1325,23 @@
           "status": "qualified"
         },
         {
+          "name": "CPV",
+          "fullName": "Cabo Verde",
+          "flag": "🇨🇻",
+          "pts": 3,
+          "pj": 3,
+          "pg": 0,
+          "pe": 3,
+          "pp": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "maxPts": 3,
+          "eliminated": false,
+          "pos": 2,
+          "status": "qualified"
+        },
+        {
           "name": "URU",
           "fullName": "Uruguay",
           "flag": "🇺🇾",
@@ -1338,23 +1355,6 @@
           "dg": 0,
           "maxPts": 5,
           "eliminated": false,
-          "pos": 2,
-          "status": "qualified"
-        },
-        {
-          "name": "CPV",
-          "fullName": "Cabo Verde",
-          "flag": "🇨🇻",
-          "pts": 2,
-          "pj": 2,
-          "pg": 0,
-          "pe": 2,
-          "pp": 0,
-          "gf": 2,
-          "gc": 2,
-          "dg": 0,
-          "maxPts": 5,
-          "eliminated": false,
           "pos": 3,
           "status": "possible"
         },
@@ -1362,21 +1362,21 @@
           "name": "KSA",
           "fullName": "Arabia Saudita",
           "flag": "🇸🇦",
-          "pts": 1,
-          "pj": 2,
+          "pts": 2,
+          "pj": 3,
           "pg": 0,
-          "pe": 1,
+          "pe": 2,
           "pp": 1,
           "gf": 1,
           "gc": 5,
           "dg": -4,
-          "maxPts": 4,
+          "maxPts": 2,
           "eliminated": false,
           "pos": 4,
           "status": "contention"
         }
       ],
-      "played": 4,
+      "played": 5,
       "total": 6,
       "complete": false
     },
@@ -1837,15 +1837,15 @@
     },
     {
       "group": "H",
-      "name": "CPV",
-      "flag": "🇨🇻",
-      "fullName": "Cabo Verde",
+      "name": "URU",
+      "flag": "🇺🇾",
+      "fullName": "Uruguay",
       "pj": 2,
       "pg": 0,
       "pe": 2,
       "pp": 0,
-      "gf": 2,
-      "gc": 2,
+      "gf": 3,
+      "gc": 3,
       "dg": 0,
       "pts": 2,
       "qualified": false,
@@ -1889,6 +1889,25 @@
   ],
   "fixtures": {
     "recent": [
+      {
+        "date": "26 jun",
+        "time": "18:00",
+        "_sort": "2026-06-26T18:00:00",
+        "comp": "Grupo H",
+        "team1": {
+          "name": "CPV",
+          "flag": "🇨🇻",
+          "fullName": "Cabo Verde"
+        },
+        "team2": {
+          "name": "KSA",
+          "flag": "🇸🇦",
+          "fullName": "Arabia Saudita"
+        },
+        "score1": 0,
+        "score2": 0,
+        "status": "finished"
+      },
       {
         "date": "26 jun",
         "time": "13:00",
@@ -2021,47 +2040,9 @@
         "score1": 0,
         "score2": 2,
         "status": "finished"
-      },
-      {
-        "date": "25 jun",
-        "time": "14:00",
-        "_sort": "2026-06-25T14:00:00",
-        "comp": "Grupo E",
-        "team1": {
-          "name": "ECU",
-          "flag": "🇪🇨",
-          "fullName": "Ecuador"
-        },
-        "team2": {
-          "name": "GER",
-          "flag": "🇩🇪",
-          "fullName": "Alemania"
-        },
-        "score1": 2,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "26 jun",
-        "time": "18:00",
-        "_sort": "2026-06-26T18:00:00",
-        "comp": "Grupo H",
-        "team1": {
-          "name": "CPV",
-          "flag": "🇨🇻",
-          "fullName": "Cabo Verde"
-        },
-        "team2": {
-          "name": "KSA",
-          "flag": "🇸🇦",
-          "fullName": "Arabia Saudita"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "26 jun",
         "time": "18:00",
@@ -2190,6 +2171,25 @@
           "name": "COL",
           "flag": "🇨🇴",
           "fullName": "Colombia"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "27 jun",
+        "time": "21:00",
+        "_sort": "2026-06-27T21:00:00",
+        "comp": "Grupo J",
+        "team1": {
+          "name": "JOR",
+          "flag": "🇯🇴",
+          "fullName": "Jordania"
+        },
+        "team2": {
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina"
         },
         "score1": null,
         "score2": null,
