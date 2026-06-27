@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T05:05:31",
+  "lastUpdated": "2026-06-27T05:10:25",
   "rounds": {
     "round_of_32": [
       {
@@ -278,9 +278,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto",
+          "name": "IRN",
+          "flag": "🇮🇷",
+          "fullName": "Irán",
           "score": null,
           "placeholder": false
         },
@@ -326,9 +326,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "ALG",
-          "flag": "🇩🇿",
-          "fullName": "Argelia",
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto",
           "score": null,
           "placeholder": false
         },
@@ -1250,38 +1250,38 @@
           "status": "qualified"
         },
         {
-          "name": "EGY",
-          "fullName": "Egipto",
-          "flag": "🇪🇬",
-          "pts": 4,
-          "pj": 2,
+          "name": "IRN",
+          "fullName": "Irán",
+          "flag": "🇮🇷",
+          "pts": 5,
+          "pj": 3,
           "pg": 1,
-          "pe": 1,
+          "pe": 2,
           "pp": 0,
           "gf": 4,
-          "gc": 2,
-          "dg": 2,
-          "maxPts": 7,
+          "gc": 3,
+          "dg": 1,
+          "maxPts": 5,
           "eliminated": false,
           "pos": 2,
           "status": "qualified"
         },
         {
-          "name": "IRN",
-          "fullName": "Irán",
-          "flag": "🇮🇷",
-          "pts": 2,
-          "pj": 2,
-          "pg": 0,
-          "pe": 2,
-          "pp": 0,
-          "gf": 2,
-          "gc": 2,
-          "dg": 0,
-          "maxPts": 5,
+          "name": "EGY",
+          "fullName": "Egipto",
+          "flag": "🇪🇬",
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
+          "pe": 1,
+          "pp": 1,
+          "gf": 5,
+          "gc": 4,
+          "dg": 1,
+          "maxPts": 4,
           "eliminated": false,
           "pos": 3,
-          "status": "possible"
+          "status": "qualified"
         },
         {
           "name": "NZL",
@@ -1301,9 +1301,9 @@
           "status": "eliminated"
         }
       ],
-      "played": 5,
+      "played": 6,
       "total": 6,
-      "complete": false
+      "complete": true
     },
     "H": {
       "teams": [
@@ -1506,7 +1506,7 @@
           "maxPts": 6,
           "eliminated": false,
           "pos": 3,
-          "status": "qualified"
+          "status": "possible"
         },
         {
           "name": "JOR",
@@ -1683,6 +1683,23 @@
   },
   "bestThirds": [
     {
+      "group": "G",
+      "name": "EGY",
+      "flag": "🇪🇬",
+      "fullName": "Egipto",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 5,
+      "gc": 4,
+      "dg": 1,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 1
+    },
+    {
       "group": "F",
       "name": "SWE",
       "flag": "🇸🇪",
@@ -1697,7 +1714,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 1
+      "pos": 2
     },
     {
       "group": "E",
@@ -1714,7 +1731,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 2
+      "pos": 3
     },
     {
       "group": "B",
@@ -1731,7 +1748,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 3
+      "pos": 4
     },
     {
       "group": "D",
@@ -1748,7 +1765,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 4
+      "pos": 5
     },
     {
       "group": "I",
@@ -1765,7 +1782,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 5
+      "pos": 6
     },
     {
       "group": "L",
@@ -1782,7 +1799,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 6
+      "pos": 7
     },
     {
       "group": "A",
@@ -1799,7 +1816,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 7
+      "pos": 8
     },
     {
       "group": "J",
@@ -1814,9 +1831,9 @@
       "gc": 4,
       "dg": -2,
       "pts": 3,
-      "qualified": true,
+      "qualified": false,
       "eliminated": false,
-      "pos": 8
+      "pos": 9
     },
     {
       "group": "C",
@@ -1831,23 +1848,6 @@
       "gc": 4,
       "dg": -3,
       "pts": 3,
-      "qualified": false,
-      "eliminated": false,
-      "pos": 9
-    },
-    {
-      "group": "G",
-      "name": "IRN",
-      "flag": "🇮🇷",
-      "fullName": "Irán",
-      "pj": 2,
-      "pg": 0,
-      "pe": 2,
-      "pp": 0,
-      "gf": 2,
-      "gc": 2,
-      "dg": 0,
-      "pts": 2,
       "qualified": false,
       "eliminated": false,
       "pos": 10
@@ -1889,6 +1889,25 @@
   ],
   "fixtures": {
     "recent": [
+      {
+        "date": "26 jun",
+        "time": "21:00",
+        "_sort": "2026-06-26T21:00:00",
+        "comp": "Grupo G",
+        "team1": {
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto"
+        },
+        "team2": {
+          "name": "IRN",
+          "flag": "🇮🇷",
+          "fullName": "Irán"
+        },
+        "score1": 1,
+        "score2": 2,
+        "status": "finished"
+      },
       {
         "date": "26 jun",
         "time": "21:00",
@@ -2021,47 +2040,9 @@
         "score1": 0,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "25 jun",
-        "time": "17:00",
-        "_sort": "2026-06-25T17:00:00",
-        "comp": "Grupo F",
-        "team1": {
-          "name": "JPN",
-          "flag": "🇯🇵",
-          "fullName": "Japón"
-        },
-        "team2": {
-          "name": "SWE",
-          "flag": "🇸🇪",
-          "fullName": "Suecia"
-        },
-        "score1": 1,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "26 jun",
-        "time": "21:00",
-        "_sort": "2026-06-26T21:00:00",
-        "comp": "Grupo G",
-        "team1": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto"
-        },
-        "team2": {
-          "name": "IRN",
-          "flag": "🇮🇷",
-          "fullName": "Irán"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "27 jun",
         "time": "15:00",
