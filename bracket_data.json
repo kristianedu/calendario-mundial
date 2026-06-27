@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T23:00:31",
+  "lastUpdated": "2026-06-27T23:05:29",
   "rounds": {
     "round_of_32": [
       {
@@ -206,9 +206,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "GHA",
-          "flag": "🇬🇭",
-          "fullName": "Ghana",
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia",
           "score": null,
           "placeholder": false
         },
@@ -374,9 +374,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "CRO",
-          "flag": "🇭🇷",
-          "fullName": "Croacia",
+          "name": "GHA",
+          "flag": "🇬🇭",
+          "fullName": "Ghana",
           "score": null,
           "placeholder": false
         },
@@ -1625,35 +1625,35 @@
           "status": "qualified"
         },
         {
-          "name": "GHA",
-          "fullName": "Ghana",
-          "flag": "🇬🇭",
-          "pts": 4,
-          "pj": 2,
-          "pg": 1,
-          "pe": 1,
-          "pp": 0,
-          "gf": 1,
-          "gc": 0,
-          "dg": 1,
-          "maxPts": 7,
+          "name": "CRO",
+          "fullName": "Croacia",
+          "flag": "🇭🇷",
+          "pts": 6,
+          "pj": 3,
+          "pg": 2,
+          "pe": 0,
+          "pp": 1,
+          "gf": 5,
+          "gc": 5,
+          "dg": 0,
+          "maxPts": 6,
           "eliminated": false,
           "pos": 2,
           "status": "qualified"
         },
         {
-          "name": "CRO",
-          "fullName": "Croacia",
-          "flag": "🇭🇷",
-          "pts": 3,
-          "pj": 2,
+          "name": "GHA",
+          "fullName": "Ghana",
+          "flag": "🇬🇭",
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 3,
-          "gc": 4,
-          "dg": -1,
-          "maxPts": 6,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "maxPts": 4,
           "eliminated": false,
           "pos": 3,
           "status": "qualified"
@@ -1676,9 +1676,9 @@
           "status": "eliminated"
         }
       ],
-      "played": 5,
+      "played": 6,
       "total": 6,
-      "complete": false
+      "complete": true
     }
   },
   "bestThirds": [
@@ -1717,6 +1717,23 @@
       "pos": 2
     },
     {
+      "group": "L",
+      "name": "GHA",
+      "flag": "🇬🇭",
+      "fullName": "Ghana",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 2,
+      "gc": 2,
+      "dg": 0,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 3
+    },
+    {
       "group": "B",
       "name": "BIH",
       "flag": "🇧🇦",
@@ -1731,7 +1748,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 3
+      "pos": 4
     },
     {
       "group": "D",
@@ -1748,7 +1765,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 4
+      "pos": 5
     },
     {
       "group": "I",
@@ -1765,7 +1782,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 5
+      "pos": 6
     },
     {
       "group": "G",
@@ -1779,23 +1796,6 @@
       "gf": 3,
       "gc": 3,
       "dg": 0,
-      "pts": 3,
-      "qualified": true,
-      "eliminated": false,
-      "pos": 6
-    },
-    {
-      "group": "L",
-      "name": "CRO",
-      "flag": "🇭🇷",
-      "fullName": "Croacia",
-      "pj": 2,
-      "pg": 1,
-      "pe": 0,
-      "pp": 1,
-      "gf": 3,
-      "gc": 4,
-      "dg": -1,
       "pts": 3,
       "qualified": true,
       "eliminated": false,
@@ -1906,6 +1906,25 @@
         },
         "score1": 0,
         "score2": 2,
+        "status": "finished"
+      },
+      {
+        "date": "27 jun",
+        "time": "15:00",
+        "_sort": "2026-06-27T15:00:00",
+        "comp": "Grupo L",
+        "team1": {
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia"
+        },
+        "team2": {
+          "name": "GHA",
+          "flag": "🇬🇭",
+          "fullName": "Ghana"
+        },
+        "score1": 2,
+        "score2": 1,
         "status": "finished"
       },
       {
@@ -2021,47 +2040,9 @@
         "score1": 5,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "25 jun",
-        "time": "20:00",
-        "_sort": "2026-06-25T20:00:00",
-        "comp": "Grupo D",
-        "team1": {
-          "name": "TUR",
-          "flag": "🇹🇷",
-          "fullName": "Turquía"
-        },
-        "team2": {
-          "name": "USA",
-          "flag": "🇺🇸",
-          "fullName": "EE.UU."
-        },
-        "score1": 3,
-        "score2": 2,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "27 jun",
-        "time": "15:00",
-        "_sort": "2026-06-27T15:00:00",
-        "comp": "Grupo L",
-        "team1": {
-          "name": "CRO",
-          "flag": "🇭🇷",
-          "fullName": "Croacia"
-        },
-        "team2": {
-          "name": "GHA",
-          "flag": "🇬🇭",
-          "fullName": "Ghana"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "27 jun",
         "time": "17:30",
