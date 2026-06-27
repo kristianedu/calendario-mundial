@@ -828,7 +828,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇩 RD Congo [0] - [1] Uzbekistán 🇺🇿 - Grupo K
+SUMMARY:⚽ 🇨🇩 RD Congo [1] - [1] Uzbekistán 🇺🇿 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
