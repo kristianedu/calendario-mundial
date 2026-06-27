@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T21:35:26",
+  "lastUpdated": "2026-06-27T21:40:28",
   "rounds": {
     "round_of_32": [
       {
@@ -278,9 +278,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "IRN",
-          "flag": "🇮🇷",
-          "fullName": "Irán",
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto",
           "score": null,
           "placeholder": false
         },
@@ -326,9 +326,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto",
+          "name": "IRN",
+          "flag": "🇮🇷",
+          "fullName": "Irán",
           "score": null,
           "placeholder": false
         },
@@ -1250,35 +1250,35 @@
           "status": "qualified"
         },
         {
-          "name": "IRN",
-          "fullName": "Irán",
-          "flag": "🇮🇷",
+          "name": "EGY",
+          "fullName": "Egipto",
+          "flag": "🇪🇬",
           "pts": 5,
           "pj": 3,
           "pg": 1,
           "pe": 2,
           "pp": 0,
-          "gf": 4,
+          "gf": 5,
           "gc": 3,
-          "dg": 1,
+          "dg": 2,
           "maxPts": 5,
           "eliminated": false,
           "pos": 2,
           "status": "qualified"
         },
         {
-          "name": "EGY",
-          "fullName": "Egipto",
-          "flag": "🇪🇬",
-          "pts": 4,
+          "name": "IRN",
+          "fullName": "Irán",
+          "flag": "🇮🇷",
+          "pts": 3,
           "pj": 3,
-          "pg": 1,
-          "pe": 1,
-          "pp": 1,
-          "gf": 5,
-          "gc": 4,
-          "dg": 1,
-          "maxPts": 4,
+          "pg": 0,
+          "pe": 3,
+          "pp": 0,
+          "gf": 3,
+          "gc": 3,
+          "dg": 0,
+          "maxPts": 3,
           "eliminated": false,
           "pos": 3,
           "status": "qualified"
@@ -1683,23 +1683,6 @@
   },
   "bestThirds": [
     {
-      "group": "G",
-      "name": "EGY",
-      "flag": "🇪🇬",
-      "fullName": "Egipto",
-      "pj": 3,
-      "pg": 1,
-      "pe": 1,
-      "pp": 1,
-      "gf": 5,
-      "gc": 4,
-      "dg": 1,
-      "pts": 4,
-      "qualified": true,
-      "eliminated": false,
-      "pos": 1
-    },
-    {
       "group": "F",
       "name": "SWE",
       "flag": "🇸🇪",
@@ -1714,7 +1697,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 2
+      "pos": 1
     },
     {
       "group": "E",
@@ -1731,7 +1714,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 3
+      "pos": 2
     },
     {
       "group": "B",
@@ -1748,7 +1731,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 4
+      "pos": 3
     },
     {
       "group": "D",
@@ -1765,7 +1748,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 5
+      "pos": 4
     },
     {
       "group": "I",
@@ -1779,6 +1762,23 @@
       "gf": 8,
       "gc": 6,
       "dg": 2,
+      "pts": 3,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 5
+    },
+    {
+      "group": "G",
+      "name": "IRN",
+      "flag": "🇮🇷",
+      "fullName": "Irán",
+      "pj": 3,
+      "pg": 0,
+      "pe": 3,
+      "pp": 0,
+      "gf": 3,
+      "gc": 3,
+      "dg": 0,
       "pts": 3,
       "qualified": true,
       "eliminated": false,
@@ -1905,7 +1905,7 @@
           "fullName": "Irán"
         },
         "score1": 1,
-        "score2": 2,
+        "score2": 1,
         "status": "finished"
       },
       {
