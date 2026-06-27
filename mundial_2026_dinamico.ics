@@ -734,7 +734,7 @@ LOCATION:Levi's Stadium\, San Francisco
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇳🇴 Noruega [1] - [4] Francia 🇫🇷 - Grupo I (Final)
+SUMMARY:✅ 🇳🇴 Noruega [0] - [0] Francia 🇫🇷 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260626T130000
 DTEND;TZID=America/El_Salvador:20260626T150000
 DTSTAMP:20260602T170000Z
@@ -745,7 +745,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇸🇳 Senegal [5] - [0] Irak 🇮🇶 - Grupo I (Final)
+SUMMARY:✅ 🇸🇳 Senegal [0] - [0] Irak 🇮🇶 - Grupo I
 DTSTART;TZID=America/El_Salvador:20260626T130000
 DTEND;TZID=America/El_Salvador:20260626T150000
 DTSTAMP:20260602T170000Z
