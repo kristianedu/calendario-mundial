@@ -805,7 +805,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 🇵🇦 Panamá [0] - [0] Inglaterra 🏴󠁧󠁢󠁥󠁮
- 󠁧󠁿 - Grupo L (En Vivo)
+ 󠁧󠁿 - Grupo L (Medio Tiempo)
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
@@ -816,7 +816,8 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇭🇷 Croacia [1] - [0] Ghana 🇬🇭 - Grupo L
+SUMMARY:🔴 🇭🇷 Croacia [1] - [0] Ghana 🇬🇭 - Grupo L (Medio Ti
+ empo)
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
