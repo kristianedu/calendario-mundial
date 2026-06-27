@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T02:05:23",
+  "lastUpdated": "2026-06-27T02:10:28",
   "rounds": {
     "round_of_32": [
       {
@@ -1311,14 +1311,14 @@
           "name": "ESP",
           "fullName": "España",
           "flag": "🇪🇸",
-          "pts": 4,
-          "pj": 2,
-          "pg": 1,
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
           "pe": 1,
           "pp": 0,
-          "gf": 4,
+          "gf": 5,
           "gc": 0,
-          "dg": 4,
+          "dg": 5,
           "maxPts": 7,
           "eliminated": false,
           "pos": 1,
@@ -1346,17 +1346,17 @@
           "fullName": "Uruguay",
           "flag": "🇺🇾",
           "pts": 2,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 2,
-          "pp": 0,
+          "pp": 1,
           "gf": 3,
-          "gc": 3,
-          "dg": 0,
-          "maxPts": 5,
+          "gc": 4,
+          "dg": -1,
+          "maxPts": 2,
           "eliminated": false,
           "pos": 3,
-          "status": "possible"
+          "status": "eliminated"
         },
         {
           "name": "KSA",
@@ -1376,9 +1376,9 @@
           "status": "contention"
         }
       ],
-      "played": 5,
+      "played": 6,
       "total": 6,
-      "complete": false
+      "complete": true
     },
     "I": {
       "teams": [
@@ -1836,23 +1836,6 @@
       "pos": 9
     },
     {
-      "group": "H",
-      "name": "URU",
-      "flag": "🇺🇾",
-      "fullName": "Uruguay",
-      "pj": 2,
-      "pg": 0,
-      "pe": 2,
-      "pp": 0,
-      "gf": 3,
-      "gc": 3,
-      "dg": 0,
-      "pts": 2,
-      "qualified": false,
-      "eliminated": false,
-      "pos": 10
-    },
-    {
       "group": "G",
       "name": "BEL",
       "flag": "🇧🇪",
@@ -1864,6 +1847,23 @@
       "gf": 1,
       "gc": 1,
       "dg": 0,
+      "pts": 2,
+      "qualified": false,
+      "eliminated": false,
+      "pos": 10
+    },
+    {
+      "group": "H",
+      "name": "URU",
+      "flag": "🇺🇾",
+      "fullName": "Uruguay",
+      "pj": 3,
+      "pg": 0,
+      "pe": 2,
+      "pp": 1,
+      "gf": 3,
+      "gc": 4,
+      "dg": -1,
       "pts": 2,
       "qualified": false,
       "eliminated": false,
@@ -1906,6 +1906,25 @@
         },
         "score1": 0,
         "score2": 0,
+        "status": "finished"
+      },
+      {
+        "date": "26 jun",
+        "time": "18:00",
+        "_sort": "2026-06-26T18:00:00",
+        "comp": "Grupo H",
+        "team1": {
+          "name": "URU",
+          "flag": "🇺🇾",
+          "fullName": "Uruguay"
+        },
+        "team2": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España"
+        },
+        "score1": 0,
+        "score2": 1,
         "status": "finished"
       },
       {
@@ -2021,47 +2040,9 @@
         "score1": 1,
         "score2": 3,
         "status": "finished"
-      },
-      {
-        "date": "25 jun",
-        "time": "14:00",
-        "_sort": "2026-06-25T14:00:00",
-        "comp": "Grupo E",
-        "team1": {
-          "name": "CUW",
-          "flag": "🇨🇼",
-          "fullName": "Curazao"
-        },
-        "team2": {
-          "name": "CIV",
-          "flag": "🇨🇮",
-          "fullName": "Costa de Marfil"
-        },
-        "score1": 0,
-        "score2": 2,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "26 jun",
-        "time": "18:00",
-        "_sort": "2026-06-26T18:00:00",
-        "comp": "Grupo H",
-        "team1": {
-          "name": "URU",
-          "flag": "🇺🇾",
-          "fullName": "Uruguay"
-        },
-        "team2": {
-          "name": "ESP",
-          "flag": "🇪🇸",
-          "fullName": "España"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "26 jun",
         "time": "21:00",
@@ -2190,6 +2171,25 @@
           "name": "ARG",
           "flag": "🇦🇷",
           "fullName": "Argentina"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "27 jun",
+        "time": "21:00",
+        "_sort": "2026-06-27T21:00:00",
+        "comp": "Grupo J",
+        "team1": {
+          "name": "ALG",
+          "flag": "🇩🇿",
+          "fullName": "Argelia"
+        },
+        "team2": {
+          "name": "AUT",
+          "flag": "🇦🇹",
+          "fullName": "Austria"
         },
         "score1": null,
         "score2": null,
