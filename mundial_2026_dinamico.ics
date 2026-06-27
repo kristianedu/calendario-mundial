@@ -756,7 +756,8 @@ LOCATION:BMO Field\, Toronto
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇻 Cabo Verde vs Arabia Saudita 🇸🇦 - Grupo H
+SUMMARY:⚽ 🇨🇻 Cabo Verde [0] - [0] Arabia Saudita 🇸🇦 - Grupo 
+ H
 DTSTART;TZID=America/El_Salvador:20260626T180000
 DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
@@ -768,7 +769,7 @@ LOCATION:NRG Stadium\, Houston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇺🇾 Uruguay vs España 🇪🇸 - Grupo H
+SUMMARY:⚽ 🇺🇾 Uruguay [0] - [0] España 🇪🇸 - Grupo H
 DTSTART;TZID=America/El_Salvador:20260626T180000
 DTEND;TZID=America/El_Salvador:20260626T200000
 DTSTAMP:20260602T170000Z
@@ -779,7 +780,7 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇪🇬 Egipto vs Irán 🇮🇷 - Grupo G
+SUMMARY:⚽ 🇪🇬 Egipto [0] - [0] Irán 🇮🇷 - Grupo G
 DTSTART;TZID=America/El_Salvador:20260626T210000
 DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
@@ -790,7 +791,7 @@ LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇿 Nueva Zelanda vs Bélgica 🇧🇪 - Grupo G
+SUMMARY:⚽ 🇳🇿 Nueva Zelanda [0] - [0] Bélgica 🇧🇪 - Grupo G
 DTSTART;TZID=America/El_Salvador:20260626T210000
 DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
@@ -802,8 +803,8 @@ LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇦 Panamá vs Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 - 
- Grupo L
+SUMMARY:⚽ 🇵🇦 Panamá [0] - [0] Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧
+ 󠁿 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
@@ -814,7 +815,7 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇭🇷 Croacia vs Ghana 🇬🇭 - Grupo L
+SUMMARY:⚽ 🇭🇷 Croacia [0] - [0] Ghana 🇬🇭 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
@@ -825,7 +826,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇩 RD Congo vs Uzbekistán 🇺🇿 - Grupo K
+SUMMARY:⚽ 🇨🇩 RD Congo [0] - [0] Uzbekistán 🇺🇿 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
@@ -836,7 +837,7 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇹 Portugal vs Colombia 🇨🇴 - Grupo K
+SUMMARY:⚽ 🇵🇹 Portugal [0] - [0] Colombia 🇨🇴 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
