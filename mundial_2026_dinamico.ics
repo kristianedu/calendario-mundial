@@ -780,42 +780,42 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇪🇬 Egipto [1] - [1] Irán 🇮🇷 - Grupo G (En Vivo)
+SUMMARY:⚽ 🇪🇬 Egipto vs Irán 🇮🇷 - Grupo G
 DTSTART;TZID=America/El_Salvador:20260626T210000
 DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-065@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Egipto (2.53) | Empate (2.6) | Irán (3.61)
+ \n💰 Cuotas Promedio: Egipto (2.6) | Empate (2.15) | Irán (3.7)
 LOCATION:Lumen Field\, Seattle
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇳🇿 Nueva Zelanda [0] - [1] Bélgica 🇧🇪 - Grupo G
+SUMMARY:⚽ 🇳🇿 Nueva Zelanda vs Bélgica 🇧🇪 - Grupo G
 DTSTART;TZID=America/El_Salvador:20260626T210000
 DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-066@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo G - Jornada 3\n
- \n💰 Cuotas Promedio: Nueva Zelanda (15.5) | Empate (8.2) | Bélgica (1.
- 2)
+ \n💰 Cuotas Promedio: Nueva Zelanda (82.0) | Empate (16.25) | Bélgica (
+ 1.05)
 LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇦 Panamá [0] - [0] Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧
- 󠁿 - Grupo L
+SUMMARY:⚽ 🇵🇦 Panamá vs Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 - 
+ Grupo L
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-067@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo L - Jornada 3\n
- \n💰 Cuotas Promedio: Panamá (15.0) | Empate (7.5) | Inglaterra (1.17)
+ \n💰 Cuotas Promedio: Panamá (15.0) | Empate (8.0) | Inglaterra (1.17)
 LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇭🇷 Croacia [0] - [0] Ghana 🇬🇭 - Grupo L
+SUMMARY:⚽ 🇭🇷 Croacia vs Ghana 🇬🇭 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
@@ -826,24 +826,24 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇩 RD Congo [0] - [0] Uzbekistán 🇺🇿 - Grupo K
+SUMMARY:⚽ 🇨🇩 RD Congo vs Uzbekistán 🇺🇿 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-069@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 3\n
- \n💰 Cuotas Promedio: RD Congo (1.8) | Empate (4.1) | Uzbekistán (4.45)
+ \n💰 Cuotas Promedio: RD Congo (1.77) | Empate (4.1) | Uzbekistán (4.7)
 LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇹 Portugal [0] - [0] Colombia 🇨🇴 - Grupo K
+SUMMARY:⚽ 🇵🇹 Portugal vs Colombia 🇨🇴 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-070@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo K - Jornada 3\n
- \n💰 Cuotas Promedio: Colombia (4.0) | Empate (3.55) | Portugal (1.92)
+ \n💰 Cuotas Promedio: Colombia (4.0) | Empate (3.5) | Portugal (1.93)
 LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
@@ -854,7 +854,7 @@ DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-071@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Jordania (15.0) | Empate (8.0) | Argentina (1.16)
+ \n💰 Cuotas Promedio: Jordania (18.0) | Empate (8.2) | Argentina (1.14)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
