@@ -804,8 +804,8 @@ LOCATION:BC Place\, Vancouver
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇦 Panamá [0] - [0] Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧
- 󠁿 - Grupo L
+SUMMARY:⚽ 🇵🇦 Panamá vs Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 - 
+ Grupo L
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
@@ -816,7 +816,7 @@ LOCATION:MetLife Stadium\, Nueva York/NJ
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇭🇷 Croacia [0] - [0] Ghana 🇬🇭 - Grupo L
+SUMMARY:⚽ 🇭🇷 Croacia vs Ghana 🇬🇭 - Grupo L
 DTSTART;TZID=America/El_Salvador:20260627T150000
 DTEND;TZID=America/El_Salvador:20260627T170000
 DTSTAMP:20260602T170000Z
@@ -827,7 +827,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇩 RD Congo [0] - [0] Uzbekistán 🇺🇿 - Grupo K
+SUMMARY:⚽ 🇨🇩 RD Congo vs Uzbekistán 🇺🇿 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
@@ -838,7 +838,7 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇹 Portugal [0] - [0] Colombia 🇨🇴 - Grupo K
+SUMMARY:⚽ 🇵🇹 Portugal vs Colombia 🇨🇴 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
