@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T08:25:19",
+  "lastUpdated": "2026-06-27T08:30:23",
   "rounds": {
     "round_of_32": [
       {
@@ -55,16 +55,16 @@
         "koNum": 5,
         "date": "29 jun",
         "team1": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia",
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "SWE",
-          "flag": "🇸🇪",
-          "fullName": "Suecia",
+          "name": "JPN",
+          "flag": "🇯🇵",
+          "fullName": "Japón",
           "score": null,
           "placeholder": false
         },
@@ -2152,6 +2152,25 @@
           "name": "AUT",
           "flag": "🇦🇹",
           "fullName": "Austria"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "29 jun",
+        "time": "11:00",
+        "_sort": "2026-06-29T11:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil"
+        },
+        "team2": {
+          "name": "JPN",
+          "flag": "🇯🇵",
+          "fullName": "Japón"
         },
         "score1": null,
         "score2": null,
