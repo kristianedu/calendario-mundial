@@ -828,7 +828,7 @@ LOCATION:Gillette Stadium\, Boston
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇨🇩 RD Congo vs Uzbekistán 🇺🇿 - Grupo K
+SUMMARY:⚽ 🇨🇩 RD Congo [0] - [0] Uzbekistán 🇺🇿 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
@@ -840,7 +840,7 @@ LOCATION:Mercedes-Benz Stadium\, Atlanta
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ 🇵🇹 Portugal vs Colombia 🇨🇴 - Grupo K
+SUMMARY:⚽ 🇵🇹 Portugal [0] - [0] Colombia 🇨🇴 - Grupo K
 DTSTART;TZID=America/El_Salvador:20260627T173000
 DTEND;TZID=America/El_Salvador:20260627T193000
 DTSTAMP:20260602T170000Z
