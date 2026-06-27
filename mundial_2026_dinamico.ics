@@ -780,8 +780,7 @@ LOCATION:Estadio Akron\, Guadalajara
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇪🇬 Egipto [1] - [1] Irán 🇮🇷 - Grupo G (Medio Tie
- mpo)
+SUMMARY:⚽ 🇪🇬 Egipto [1] - [1] Irán 🇮🇷 - Grupo G
 DTSTART;TZID=America/El_Salvador:20260626T210000
 DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
@@ -793,7 +792,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 🇳🇿 Nueva Zelanda [0] - [1] Bélgica 🇧🇪 - Grupo G 
- (Medio Tiempo)
+ (En Vivo)
 DTSTART;TZID=America/El_Salvador:20260626T210000
 DTEND;TZID=America/El_Salvador:20260626T230000
 DTSTAMP:20260602T170000Z
