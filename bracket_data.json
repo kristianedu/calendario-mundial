@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T05:00:36",
+  "lastUpdated": "2026-06-27T05:05:31",
   "rounds": {
     "round_of_32": [
       {
@@ -278,9 +278,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "IRN",
-          "flag": "🇮🇷",
-          "fullName": "Irán",
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto",
           "score": null,
           "placeholder": false
         },
@@ -343,9 +343,9 @@
         "koNum": 10,
         "date": "30 jun",
         "team1": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto",
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica",
           "score": null,
           "placeholder": false
         },
@@ -1233,6 +1233,23 @@
     "G": {
       "teams": [
         {
+          "name": "BEL",
+          "fullName": "Bélgica",
+          "flag": "🇧🇪",
+          "pts": 5,
+          "pj": 3,
+          "pg": 1,
+          "pe": 2,
+          "pp": 0,
+          "gf": 6,
+          "gc": 2,
+          "dg": 4,
+          "maxPts": 5,
+          "eliminated": false,
+          "pos": 1,
+          "status": "qualified"
+        },
+        {
           "name": "EGY",
           "fullName": "Egipto",
           "flag": "🇪🇬",
@@ -1246,7 +1263,7 @@
           "dg": 2,
           "maxPts": 7,
           "eliminated": false,
-          "pos": 1,
+          "pos": 2,
           "status": "qualified"
         },
         {
@@ -1263,23 +1280,6 @@
           "dg": 0,
           "maxPts": 5,
           "eliminated": false,
-          "pos": 2,
-          "status": "qualified"
-        },
-        {
-          "name": "BEL",
-          "fullName": "Bélgica",
-          "flag": "🇧🇪",
-          "pts": 2,
-          "pj": 2,
-          "pg": 0,
-          "pe": 2,
-          "pp": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "maxPts": 5,
-          "eliminated": false,
           "pos": 3,
           "status": "possible"
         },
@@ -1288,20 +1288,20 @@
           "fullName": "Nueva Zelanda",
           "flag": "🇳🇿",
           "pts": 1,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 1,
-          "pp": 1,
-          "gf": 3,
-          "gc": 5,
-          "dg": -2,
-          "maxPts": 4,
-          "eliminated": false,
+          "pp": 2,
+          "gf": 4,
+          "gc": 10,
+          "dg": -6,
+          "maxPts": 1,
+          "eliminated": true,
           "pos": 4,
-          "status": "contention"
+          "status": "eliminated"
         }
       ],
-      "played": 4,
+      "played": 5,
       "total": 6,
       "complete": false
     },
@@ -1837,15 +1837,15 @@
     },
     {
       "group": "G",
-      "name": "BEL",
-      "flag": "🇧🇪",
-      "fullName": "Bélgica",
+      "name": "IRN",
+      "flag": "🇮🇷",
+      "fullName": "Irán",
       "pj": 2,
       "pg": 0,
       "pe": 2,
       "pp": 0,
-      "gf": 1,
-      "gc": 1,
+      "gf": 2,
+      "gc": 2,
       "dg": 0,
       "pts": 2,
       "qualified": false,
@@ -1889,6 +1889,25 @@
   ],
   "fixtures": {
     "recent": [
+      {
+        "date": "26 jun",
+        "time": "21:00",
+        "_sort": "2026-06-26T21:00:00",
+        "comp": "Grupo G",
+        "team1": {
+          "name": "NZL",
+          "flag": "🇳🇿",
+          "fullName": "Nueva Zelanda"
+        },
+        "team2": {
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica"
+        },
+        "score1": 1,
+        "score2": 5,
+        "status": "finished"
+      },
       {
         "date": "26 jun",
         "time": "18:00",
@@ -2021,25 +2040,6 @@
         "score1": 1,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "25 jun",
-        "time": "17:00",
-        "_sort": "2026-06-25T17:00:00",
-        "comp": "Grupo F",
-        "team1": {
-          "name": "TUN",
-          "flag": "🇹🇳",
-          "fullName": "Túnez"
-        },
-        "team2": {
-          "name": "NED",
-          "flag": "🇳🇱",
-          "fullName": "Países Bajos"
-        },
-        "score1": 1,
-        "score2": 3,
-        "status": "finished"
       }
     ],
     "upcoming": [
@@ -2057,25 +2057,6 @@
           "name": "IRN",
           "flag": "🇮🇷",
           "fullName": "Irán"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
-      {
-        "date": "26 jun",
-        "time": "21:00",
-        "_sort": "2026-06-26T21:00:00",
-        "comp": "Grupo G",
-        "team1": {
-          "name": "NZL",
-          "flag": "🇳🇿",
-          "fullName": "Nueva Zelanda"
-        },
-        "team2": {
-          "name": "BEL",
-          "flag": "🇧🇪",
-          "fullName": "Bélgica"
         },
         "score1": null,
         "score2": null,
