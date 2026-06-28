@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T04:00:36",
+  "lastUpdated": "2026-06-28T04:05:26",
   "rounds": {
     "round_of_32": [
       {
@@ -326,9 +326,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "IRN",
-          "flag": "🇮🇷",
-          "fullName": "Irán",
+          "name": "ALG",
+          "flag": "🇩🇿",
+          "fullName": "Argelia",
           "score": null,
           "placeholder": false
         },
@@ -1281,7 +1281,7 @@
           "maxPts": 3,
           "eliminated": false,
           "pos": 3,
-          "status": "qualified"
+          "status": "eliminated"
         },
         {
           "name": "NZL",
@@ -1461,14 +1461,14 @@
           "name": "ARG",
           "fullName": "Argentina",
           "flag": "🇦🇷",
-          "pts": 6,
-          "pj": 2,
-          "pg": 2,
+          "pts": 9,
+          "pj": 3,
+          "pg": 3,
           "pe": 0,
           "pp": 0,
-          "gf": 5,
-          "gc": 0,
-          "dg": 5,
+          "gf": 8,
+          "gc": 1,
+          "dg": 7,
           "maxPts": 9,
           "eliminated": false,
           "pos": 1,
@@ -1478,15 +1478,15 @@
           "name": "AUT",
           "fullName": "Austria",
           "flag": "🇦🇹",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 3,
-          "gc": 3,
+          "gf": 6,
+          "gc": 6,
           "dg": 0,
-          "maxPts": 6,
+          "maxPts": 4,
           "eliminated": false,
           "pos": 2,
           "status": "qualified"
@@ -1495,40 +1495,40 @@
           "name": "ALG",
           "fullName": "Argelia",
           "flag": "🇩🇿",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 2,
-          "gc": 4,
+          "gf": 5,
+          "gc": 7,
           "dg": -2,
-          "maxPts": 6,
+          "maxPts": 4,
           "eliminated": false,
           "pos": 3,
-          "status": "possible"
+          "status": "qualified"
         },
         {
           "name": "JOR",
           "fullName": "Jordania",
           "flag": "🇯🇴",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
-          "gf": 2,
-          "gc": 5,
-          "dg": -3,
-          "maxPts": 3,
-          "eliminated": false,
+          "pp": 3,
+          "gf": 3,
+          "gc": 8,
+          "dg": -5,
+          "maxPts": 0,
+          "eliminated": true,
           "pos": 4,
-          "status": "contention"
+          "status": "eliminated"
         }
       ],
-      "played": 4,
+      "played": 6,
       "total": 6,
-      "complete": false
+      "complete": true
     },
     "K": {
       "teams": [
@@ -1768,6 +1768,23 @@
       "pos": 5
     },
     {
+      "group": "J",
+      "name": "ALG",
+      "flag": "🇩🇿",
+      "fullName": "Argelia",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 5,
+      "gc": 7,
+      "dg": -2,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 6
+    },
+    {
       "group": "D",
       "name": "PAR",
       "flag": "🇵🇾",
@@ -1782,7 +1799,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 6
+      "pos": 7
     },
     {
       "group": "I",
@@ -1799,7 +1816,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 7
+      "pos": 8
     },
     {
       "group": "G",
@@ -1814,9 +1831,9 @@
       "gc": 3,
       "dg": 0,
       "pts": 3,
-      "qualified": true,
+      "qualified": false,
       "eliminated": false,
-      "pos": 8
+      "pos": 9
     },
     {
       "group": "A",
@@ -1830,23 +1847,6 @@
       "gf": 2,
       "gc": 3,
       "dg": -1,
-      "pts": 3,
-      "qualified": false,
-      "eliminated": false,
-      "pos": 9
-    },
-    {
-      "group": "J",
-      "name": "ALG",
-      "flag": "🇩🇿",
-      "fullName": "Argelia",
-      "pj": 2,
-      "pg": 1,
-      "pe": 0,
-      "pp": 1,
-      "gf": 2,
-      "gc": 4,
-      "dg": -2,
       "pts": 3,
       "qualified": false,
       "eliminated": false,
@@ -1889,6 +1889,44 @@
   ],
   "fixtures": {
     "recent": [
+      {
+        "date": "27 jun",
+        "time": "21:00",
+        "_sort": "2026-06-27T21:00:00",
+        "comp": "Grupo J",
+        "team1": {
+          "name": "JOR",
+          "flag": "🇯🇴",
+          "fullName": "Jordania"
+        },
+        "team2": {
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina"
+        },
+        "score1": 1,
+        "score2": 3,
+        "status": "finished"
+      },
+      {
+        "date": "27 jun",
+        "time": "21:00",
+        "_sort": "2026-06-27T21:00:00",
+        "comp": "Grupo J",
+        "team1": {
+          "name": "ALG",
+          "flag": "🇩🇿",
+          "fullName": "Argelia"
+        },
+        "team2": {
+          "name": "AUT",
+          "flag": "🇦🇹",
+          "fullName": "Austria"
+        },
+        "score1": 3,
+        "score2": 3,
+        "status": "finished"
+      },
       {
         "date": "27 jun",
         "time": "17:30",
@@ -2002,85 +2040,9 @@
         "score1": 1,
         "score2": 5,
         "status": "finished"
-      },
-      {
-        "date": "26 jun",
-        "time": "18:00",
-        "_sort": "2026-06-26T18:00:00",
-        "comp": "Grupo H",
-        "team1": {
-          "name": "CPV",
-          "flag": "🇨🇻",
-          "fullName": "Cabo Verde"
-        },
-        "team2": {
-          "name": "KSA",
-          "flag": "🇸🇦",
-          "fullName": "Arabia Saudita"
-        },
-        "score1": 0,
-        "score2": 0,
-        "status": "finished"
-      },
-      {
-        "date": "26 jun",
-        "time": "18:00",
-        "_sort": "2026-06-26T18:00:00",
-        "comp": "Grupo H",
-        "team1": {
-          "name": "URU",
-          "flag": "🇺🇾",
-          "fullName": "Uruguay"
-        },
-        "team2": {
-          "name": "ESP",
-          "flag": "🇪🇸",
-          "fullName": "España"
-        },
-        "score1": 0,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "27 jun",
-        "time": "21:00",
-        "_sort": "2026-06-27T21:00:00",
-        "comp": "Grupo J",
-        "team1": {
-          "name": "JOR",
-          "flag": "🇯🇴",
-          "fullName": "Jordania"
-        },
-        "team2": {
-          "name": "ARG",
-          "flag": "🇦🇷",
-          "fullName": "Argentina"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
-      {
-        "date": "27 jun",
-        "time": "21:00",
-        "_sort": "2026-06-27T21:00:00",
-        "comp": "Grupo J",
-        "team1": {
-          "name": "ALG",
-          "flag": "🇩🇿",
-          "fullName": "Argelia"
-        },
-        "team2": {
-          "name": "AUT",
-          "flag": "🇦🇹",
-          "fullName": "Austria"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "29 jun",
         "time": "11:00",
