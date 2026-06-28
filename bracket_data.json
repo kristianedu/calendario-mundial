@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T01:35:25",
+  "lastUpdated": "2026-06-28T01:40:31",
   "rounds": {
     "round_of_32": [
       {
@@ -182,9 +182,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "SEN",
-          "flag": "🇸🇳",
-          "fullName": "Senegal",
+          "name": "COD",
+          "flag": "🇨🇩",
+          "fullName": "RD Congo",
           "score": null,
           "placeholder": false
         },
@@ -350,9 +350,9 @@
           "placeholder": false
         },
         "team2": {
-          "name": "KOR",
-          "flag": "🇰🇷",
-          "fullName": "Corea del Sur",
+          "name": "SEN",
+          "flag": "🇸🇳",
+          "fullName": "Senegal",
           "score": null,
           "placeholder": false
         },
@@ -831,7 +831,7 @@
           "maxPts": 3,
           "eliminated": false,
           "pos": 3,
-          "status": "qualified"
+          "status": "eliminated"
         },
         {
           "name": "CZE",
@@ -1570,40 +1570,40 @@
           "name": "COD",
           "fullName": "RD Congo",
           "flag": "🇨🇩",
-          "pts": 1,
-          "pj": 2,
-          "pg": 0,
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
           "pe": 1,
           "pp": 1,
-          "gf": 1,
-          "gc": 2,
-          "dg": -1,
+          "gf": 4,
+          "gc": 3,
+          "dg": 1,
           "maxPts": 4,
           "eliminated": false,
           "pos": 3,
-          "status": "possible"
+          "status": "qualified"
         },
         {
           "name": "UZB",
           "fullName": "Uzbekistán",
           "flag": "🇺🇿",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
-          "gf": 1,
-          "gc": 8,
-          "dg": -7,
-          "maxPts": 3,
-          "eliminated": false,
+          "pp": 3,
+          "gf": 2,
+          "gc": 11,
+          "dg": -9,
+          "maxPts": 0,
+          "eliminated": true,
           "pos": 4,
-          "status": "contention"
+          "status": "eliminated"
         }
       ],
-      "played": 5,
+      "played": 6,
       "total": 6,
-      "complete": false
+      "complete": true
     },
     "L": {
       "teams": [
@@ -1683,6 +1683,23 @@
   },
   "bestThirds": [
     {
+      "group": "K",
+      "name": "COD",
+      "flag": "🇨🇩",
+      "fullName": "RD Congo",
+      "pj": 3,
+      "pg": 1,
+      "pe": 1,
+      "pp": 1,
+      "gf": 4,
+      "gc": 3,
+      "dg": 1,
+      "pts": 4,
+      "qualified": true,
+      "eliminated": false,
+      "pos": 1
+    },
+    {
       "group": "F",
       "name": "SWE",
       "flag": "🇸🇪",
@@ -1697,7 +1714,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 1
+      "pos": 2
     },
     {
       "group": "E",
@@ -1714,7 +1731,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 2
+      "pos": 3
     },
     {
       "group": "L",
@@ -1731,7 +1748,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 3
+      "pos": 4
     },
     {
       "group": "B",
@@ -1748,7 +1765,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 4
+      "pos": 5
     },
     {
       "group": "D",
@@ -1765,7 +1782,7 @@
       "pts": 4,
       "qualified": true,
       "eliminated": false,
-      "pos": 5
+      "pos": 6
     },
     {
       "group": "I",
@@ -1782,7 +1799,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 6
+      "pos": 7
     },
     {
       "group": "G",
@@ -1799,7 +1816,7 @@
       "pts": 3,
       "qualified": true,
       "eliminated": false,
-      "pos": 7
+      "pos": 8
     },
     {
       "group": "A",
@@ -1814,9 +1831,9 @@
       "gc": 3,
       "dg": -1,
       "pts": 3,
-      "qualified": true,
+      "qualified": false,
       "eliminated": false,
-      "pos": 8
+      "pos": 9
     },
     {
       "group": "J",
@@ -1833,7 +1850,7 @@
       "pts": 3,
       "qualified": false,
       "eliminated": false,
-      "pos": 9
+      "pos": 10
     },
     {
       "group": "C",
@@ -1850,7 +1867,7 @@
       "pts": 3,
       "qualified": false,
       "eliminated": false,
-      "pos": 10
+      "pos": 11
     },
     {
       "group": "H",
@@ -1867,28 +1884,30 @@
       "pts": 2,
       "qualified": false,
       "eliminated": false,
-      "pos": 11
-    },
-    {
-      "group": "K",
-      "name": "COD",
-      "flag": "🇨🇩",
-      "fullName": "RD Congo",
-      "pj": 2,
-      "pg": 0,
-      "pe": 1,
-      "pp": 1,
-      "gf": 1,
-      "gc": 2,
-      "dg": -1,
-      "pts": 1,
-      "qualified": false,
-      "eliminated": false,
       "pos": 12
     }
   ],
   "fixtures": {
     "recent": [
+      {
+        "date": "27 jun",
+        "time": "17:30",
+        "_sort": "2026-06-27T17:30:00",
+        "comp": "Grupo K",
+        "team1": {
+          "name": "COD",
+          "flag": "🇨🇩",
+          "fullName": "RD Congo"
+        },
+        "team2": {
+          "name": "UZB",
+          "flag": "🇺🇿",
+          "fullName": "Uzbekistán"
+        },
+        "score1": 3,
+        "score2": 1,
+        "status": "finished"
+      },
       {
         "date": "27 jun",
         "time": "17:30",
@@ -2021,47 +2040,9 @@
         "score1": 0,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "26 jun",
-        "time": "13:00",
-        "_sort": "2026-06-26T13:00:00",
-        "comp": "Grupo I",
-        "team1": {
-          "name": "NOR",
-          "flag": "🇳🇴",
-          "fullName": "Noruega"
-        },
-        "team2": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "score1": 1,
-        "score2": 4,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "27 jun",
-        "time": "17:30",
-        "_sort": "2026-06-27T17:30:00",
-        "comp": "Grupo K",
-        "team1": {
-          "name": "COD",
-          "flag": "🇨🇩",
-          "fullName": "RD Congo"
-        },
-        "team2": {
-          "name": "UZB",
-          "flag": "🇺🇿",
-          "fullName": "Uzbekistán"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "27 jun",
         "time": "21:00",
