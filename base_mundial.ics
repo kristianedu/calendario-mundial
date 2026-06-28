@@ -958,7 +958,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 9
+SUMMARY:🏆 🇨🇮 Costa de Marfil vs Noruega 🇳🇴 - Treintaidosavo
+ s de Final
 DTSTART;TZID=America/El_Salvador:20260630T110000
 DTEND;TZID=America/El_Salvador:20260630T130000
 DTSTAMP:20260602T170000Z
@@ -1018,7 +1019,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 15
+SUMMARY:🏆 🇪🇸 España vs Austria 🇦🇹 - Treintaidosavos de Fin
+ al
 DTSTART;TZID=America/El_Salvador:20260702T130000
 DTEND;TZID=America/El_Salvador:20260702T150000
 DTSTAMP:20260602T170000Z
@@ -1028,7 +1030,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 16
+SUMMARY:🏆 🇵🇹 Portugal vs Croacia 🇭🇷 - Treintaidosavos de Fi
+ nal
 DTSTART;TZID=America/El_Salvador:20260702T170000
 DTEND;TZID=America/El_Salvador:20260702T190000
 DTSTAMP:20260602T170000Z
