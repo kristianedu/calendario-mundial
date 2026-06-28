@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T08:40:21",
+  "lastUpdated": "2026-06-28T08:45:23",
   "rounds": {
     "round_of_32": [
       {
@@ -271,16 +271,16 @@
         "koNum": 16,
         "date": "2 jul",
         "team1": {
-          "name": "AUS",
-          "flag": "🇦🇺",
-          "fullName": "Australia",
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto",
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia",
           "score": null,
           "placeholder": false
         },
@@ -295,16 +295,16 @@
         "koNum": 9,
         "date": "30 jun",
         "team1": {
-          "name": "USA",
-          "flag": "🇺🇸",
-          "fullName": "EE.UU.",
+          "name": "CIV",
+          "flag": "🇨🇮",
+          "fullName": "Costa de Marfil",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "BIH",
-          "flag": "🇧🇦",
-          "fullName": "Bosnia y Herzegovina",
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega",
           "score": null,
           "placeholder": false
         },
@@ -367,16 +367,16 @@
         "koNum": 15,
         "date": "2 jul",
         "team1": {
-          "name": "COL",
-          "flag": "🇨🇴",
-          "fullName": "Colombia",
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "GHA",
-          "flag": "🇬🇭",
-          "fullName": "Ghana",
+          "name": "AUT",
+          "flag": "🇦🇹",
+          "fullName": "Austria",
           "score": null,
           "placeholder": false
         },
@@ -2057,6 +2057,63 @@
           "name": "JPN",
           "flag": "🇯🇵",
           "fullName": "Japón"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "30 jun",
+        "time": "11:00",
+        "_sort": "2026-06-30T11:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "CIV",
+          "flag": "🇨🇮",
+          "fullName": "Costa de Marfil"
+        },
+        "team2": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "2 jul",
+        "time": "13:00",
+        "_sort": "2026-07-02T13:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España"
+        },
+        "team2": {
+          "name": "AUT",
+          "flag": "🇦🇹",
+          "fullName": "Austria"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "2 jul",
+        "time": "17:00",
+        "_sort": "2026-07-02T17:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal"
+        },
+        "team2": {
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia"
         },
         "score1": null,
         "score2": null,
