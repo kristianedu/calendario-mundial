@@ -853,8 +853,8 @@ LOCATION:Hard Rock Stadium\, Miami
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇯🇴 Jordania [0] - [2] Argentina 🇦🇷 - Grupo J (Med
- io Tiempo)
+SUMMARY:🔴 🇯🇴 Jordania [0] - [2] Argentina 🇦🇷 - Grupo J (En 
+ Vivo)
 DTSTART;TZID=America/El_Salvador:20260627T210000
 DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
@@ -865,8 +865,8 @@ LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇩🇿 Argelia [1] - [1] Austria 🇦🇹 - Grupo J (Medio 
- Tiempo)
+SUMMARY:🔴 🇩🇿 Argelia [1] - [1] Austria 🇦🇹 - Grupo J (En Viv
+ o)
 DTSTART;TZID=America/El_Salvador:20260627T210000
 DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
