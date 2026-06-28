@@ -860,7 +860,8 @@ DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-071@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Jordania (17.0) | Empate (9.0) | Argentina (1.13)
+ \n💰 Cuotas Promedio: Jordania (100.0) | Empate (100.0) | Argentina (1.0
+ )
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
@@ -871,7 +872,7 @@ DTEND;TZID=America/El_Salvador:20260627T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-GS-072@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase de Grupos - Grupo J - Jornada 3\n
- \n💰 Cuotas Promedio: Argelia (3.4) | Empate (2.0) | Austria (3.7)
+ \n💰 Cuotas Promedio: Argelia (50.0) | Empate (1.0) | Austria (50.0)
 LOCATION:SoFi Stadium\, Los Ángeles
 STATUS:CONFIRMED
 END:VEVENT
@@ -922,7 +923,7 @@ DTEND;TZID=America/El_Salvador:20260629T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-005@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Brasil (1.71) | Empate (3.9) | Japón (5.5
+  Final\n\n💰 Cuotas Promedio: Brasil (1.73) | Empate (3.9) | Japón (5.3
  )
 STATUS:CONFIRMED
 END:VEVENT
