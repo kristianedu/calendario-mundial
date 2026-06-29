@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T21:10:29",
+  "lastUpdated": "2026-06-29T21:13:32",
   "rounds": {
     "round_of_32": [
       {
@@ -29,30 +29,6 @@
       {
         "id": "KO-004",
         "koNum": 4,
-        "date": "28 jun",
-        "team1": {
-          "name": "BRA",
-          "flag": "🇧🇷",
-          "fullName": "Brasil",
-          "score": null,
-          "placeholder": false
-        },
-        "team2": {
-          "name": "JPN",
-          "flag": "🇯🇵",
-          "fullName": "Japón",
-          "score": null,
-          "placeholder": false
-        },
-        "status": "pending",
-        "winner": null,
-        "side": "right",
-        "order": 0,
-        "round": "round_of_32"
-      },
-      {
-        "id": "KO-005",
-        "koNum": 5,
         "date": "29 jun",
         "team1": {
           "name": "BRA",
@@ -70,6 +46,30 @@
         },
         "status": "finished",
         "winner": "team1",
+        "side": "right",
+        "order": 0,
+        "round": "round_of_32"
+      },
+      {
+        "id": "KO-005",
+        "koNum": 5,
+        "date": "29 jun",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia",
+          "score": null,
+          "placeholder": false
+        },
+        "team2": {
+          "name": "SWE",
+          "flag": "🇸🇪",
+          "fullName": "Suecia",
+          "score": null,
+          "placeholder": false
+        },
+        "status": "pending",
+        "winner": null,
         "side": "left",
         "order": 1,
         "round": "round_of_32"
@@ -77,7 +77,7 @@
       {
         "id": "KO-006",
         "koNum": 6,
-        "date": "29 jun",
+        "date": "30 jun",
         "team1": {
           "name": "CIV",
           "flag": "🇨🇮",
@@ -106,18 +106,18 @@
           "name": "RSA",
           "flag": "🇿🇦",
           "fullName": "Sudáfrica",
-          "score": null,
+          "score": 0,
           "placeholder": false
         },
         "team2": {
           "name": "CAN",
           "flag": "🇨🇦",
           "fullName": "Canadá",
-          "score": null,
+          "score": 1,
           "placeholder": false
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "left",
         "order": 2,
         "round": "round_of_32"
@@ -197,7 +197,7 @@
       {
         "id": "KO-011",
         "koNum": 11,
-        "date": "30 jun",
+        "date": "2 jul",
         "team1": {
           "name": "POR",
           "flag": "🇵🇹",
@@ -245,7 +245,7 @@
       {
         "id": "KO-012",
         "koNum": 12,
-        "date": "30 jun",
+        "date": "2 jul",
         "team1": {
           "name": "ESP",
           "flag": "🇪🇸",
@@ -271,16 +271,16 @@
         "koNum": 16,
         "date": "2 jul",
         "team1": {
-          "name": "POR",
-          "flag": "🇵🇹",
-          "fullName": "Portugal",
+          "name": "AUS",
+          "flag": "🇦🇺",
+          "fullName": "Australia",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "CRO",
-          "flag": "🇭🇷",
-          "fullName": "Croacia",
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto",
           "score": null,
           "placeholder": false
         },
@@ -295,16 +295,16 @@
         "koNum": 9,
         "date": "30 jun",
         "team1": {
-          "name": "CIV",
-          "flag": "🇨🇮",
-          "fullName": "Costa de Marfil",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "fullName": "EE.UU.",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "NOR",
-          "flag": "🇳🇴",
-          "fullName": "Noruega",
+          "name": "BIH",
+          "flag": "🇧🇦",
+          "fullName": "Bosnia y Herzegovina",
           "score": null,
           "placeholder": false
         },
@@ -367,16 +367,16 @@
         "koNum": 15,
         "date": "2 jul",
         "team1": {
-          "name": "ESP",
-          "flag": "🇪🇸",
-          "fullName": "España",
+          "name": "COL",
+          "flag": "🇨🇴",
+          "fullName": "Colombia",
           "score": null,
           "placeholder": false
         },
         "team2": {
-          "name": "AUT",
-          "flag": "🇦🇹",
-          "fullName": "Austria",
+          "name": "GHA",
+          "flag": "🇬🇭",
+          "fullName": "Ghana",
           "score": null,
           "placeholder": false
         },
@@ -400,11 +400,11 @@
           "placeholder": true
         },
         "team2": {
-          "name": "BRA",
-          "flag": "🇧🇷",
-          "fullName": "Brasil",
+          "name": "G·T5",
+          "flag": "🛡️",
+          "fullName": "Ganador T5",
           "score": null,
-          "placeholder": false
+          "placeholder": true
         },
         "status": "pending",
         "winner": null,
@@ -417,11 +417,11 @@
         "koNum": 19,
         "date": "5 jul",
         "team1": {
-          "name": "G·T4",
-          "flag": "🛡️",
-          "fullName": "Ganador T4",
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil",
           "score": null,
-          "placeholder": true
+          "placeholder": false
         },
         "team2": {
           "name": "G·T6",
@@ -441,11 +441,11 @@
         "koNum": 18,
         "date": "4 jul",
         "team1": {
-          "name": "G·T1",
-          "flag": "🛡️",
-          "fullName": "Ganador T1",
+          "name": "CAN",
+          "flag": "🇨🇦",
+          "fullName": "Canadá",
           "score": null,
-          "placeholder": true
+          "placeholder": false
         },
         "team2": {
           "name": "G·T3",
@@ -1909,6 +1909,25 @@
         "status": "finished"
       },
       {
+        "date": "28 jun",
+        "time": "11:00",
+        "_sort": "2026-06-28T11:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "RSA",
+          "flag": "🇿🇦",
+          "fullName": "Sudáfrica"
+        },
+        "team2": {
+          "name": "CAN",
+          "flag": "🇨🇦",
+          "fullName": "Canadá"
+        },
+        "score1": 0,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
         "date": "27 jun",
         "time": "21:00",
         "_sort": "2026-06-27T21:00:00",
@@ -2019,25 +2038,6 @@
           "fullName": "Ghana"
         },
         "score1": 2,
-        "score2": 1,
-        "status": "finished"
-      },
-      {
-        "date": "26 jun",
-        "time": "21:00",
-        "_sort": "2026-06-26T21:00:00",
-        "comp": "Grupo G",
-        "team1": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto"
-        },
-        "team2": {
-          "name": "IRN",
-          "flag": "🇮🇷",
-          "fullName": "Irán"
-        },
-        "score1": 1,
         "score2": 1,
         "status": "finished"
       }
