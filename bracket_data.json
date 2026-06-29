@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T19:05:25",
+  "lastUpdated": "2026-06-29T19:10:25",
   "rounds": {
     "round_of_32": [
       {
@@ -58,18 +58,18 @@
           "name": "BRA",
           "flag": "🇧🇷",
           "fullName": "Brasil",
-          "score": null,
+          "score": 2,
           "placeholder": false
         },
         "team2": {
           "name": "JPN",
           "flag": "🇯🇵",
           "fullName": "Japón",
-          "score": null,
+          "score": 1,
           "placeholder": false
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "left",
         "order": 1,
         "round": "round_of_32"
@@ -400,11 +400,11 @@
           "placeholder": true
         },
         "team2": {
-          "name": "G·T5",
-          "flag": "🛡️",
-          "fullName": "Ganador T5",
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil",
           "score": null,
-          "placeholder": true
+          "placeholder": false
         },
         "status": "pending",
         "winner": null,
@@ -1890,6 +1890,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "29 jun",
+        "time": "11:00",
+        "_sort": "2026-06-29T11:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil"
+        },
+        "team2": {
+          "name": "JPN",
+          "flag": "🇯🇵",
+          "fullName": "Japón"
+        },
+        "score1": 2,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
         "date": "27 jun",
         "time": "21:00",
         "_sort": "2026-06-27T21:00:00",
@@ -2021,47 +2040,9 @@
         "score1": 1,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "26 jun",
-        "time": "21:00",
-        "_sort": "2026-06-26T21:00:00",
-        "comp": "Grupo G",
-        "team1": {
-          "name": "NZL",
-          "flag": "🇳🇿",
-          "fullName": "Nueva Zelanda"
-        },
-        "team2": {
-          "name": "BEL",
-          "flag": "🇧🇪",
-          "fullName": "Bélgica"
-        },
-        "score1": 1,
-        "score2": 5,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "29 jun",
-        "time": "11:00",
-        "_sort": "2026-06-29T11:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "BRA",
-          "flag": "🇧🇷",
-          "fullName": "Brasil"
-        },
-        "team2": {
-          "name": "JPN",
-          "flag": "🇯🇵",
-          "fullName": "Japón"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "30 jun",
         "time": "11:00",
