@@ -888,15 +888,15 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇩🇪 Alemania [2] - [1] Paraguay 🇵🇾 - Treintaidosav
- os de Final (Medio Tiempo)
+SUMMARY:🏆 🇩🇪 Alemania vs Paraguay 🇵🇾 - Treintaidosavos de F
+ inal
 DTSTART;TZID=America/El_Salvador:20260628T140000
 DTEND;TZID=America/El_Salvador:20260628T160000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-002@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Alemania (2.2) | Empate (3.0) | Paraguay (
- 3.4)
+  Final\n\n💰 Cuotas Promedio: Alemania (3.1) | Empate (1.45) | Paraguay 
+ (13.0)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -907,7 +907,7 @@ DTEND;TZID=America/El_Salvador:20260628T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-003@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Países Bajos (2.4) | Empate (3.1) | Marru
+  Final\n\n💰 Cuotas Promedio: Países Bajos (2.4) | Empate (3.2) | Marru
  ecos (3.45)
 STATUS:CONFIRMED
 END:VEVENT
@@ -930,7 +930,7 @@ DTEND;TZID=America/El_Salvador:20260629T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-005@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Francia (1.28) | Empate (6.4) | Suecia (12
+  Final\n\n💰 Cuotas Promedio: Francia (1.29) | Empate (6.2) | Suecia (11
  .0)
 STATUS:CONFIRMED
 END:VEVENT
@@ -954,8 +954,8 @@ DTEND;TZID=America/El_Salvador:20260629T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-007@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: México (2.25) | Empate (2.9) | Ecuador (4
- .1)
+  Final\n\n💰 Cuotas Promedio: México (2.28) | Empate (2.9) | Ecuador (4
+ .2)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1014,8 +1014,8 @@ DTEND;TZID=America/El_Salvador:20260630T220000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-012@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: España (1.28) | Empate (5.0) | Austria (1
- 1.5)
+  Final\n\n💰 Cuotas Promedio: España (1.27) | Empate (5.1) | Austria (1
+ 2.0)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1025,8 +1025,7 @@ DTEND;TZID=America/El_Salvador:20260701T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-013@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Suiza (2.05) | Empate (3.2) | Argelia (4.0
- )
+  Final\n\n💰 Cuotas Promedio: Suiza (2.0) | Empate (3.2) | Argelia (4.1)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
