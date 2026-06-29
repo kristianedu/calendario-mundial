@@ -87,6 +87,17 @@ BRACKET = {
 THIRD_SLOTS = {ko: spec["t2"][1] for ko, spec in BRACKET.items()
                if spec["t2"][0] == "third"}
 
+# Topología de avance: a qué cruce/slot va el GANADOR (y el PERDEDOR, solo en
+# semifinales -> 3er lugar) de cada cruce. Es estática; la usa el front para
+# simular el avance de equipos de forma interactiva.
+ADVANCES = {}
+for _ko, _spec in BRACKET.items():
+    for _slot, (_kind, _val) in (("team1", _spec["t1"]), ("team2", _spec["t2"])):
+        if _kind == "w":
+            ADVANCES.setdefault(_val, {})["winnerTo"] = {"ko": _ko, "slot": _slot}
+        elif _kind == "l":
+            ADVANCES.setdefault(_val, {})["loserTo"] = {"ko": _ko, "slot": _slot}
+
 # Ganador de grupo (1X) que enfrenta a cada slot de tercero, p.ej. {5: "I", ...}.
 THIRD_SLOT_WINNER = {ko: spec["t1"][1][1] for ko, spec in BRACKET.items()
                      if spec["t2"][0] == "third"}
@@ -679,6 +690,8 @@ def generar_bracket():
             "side": spec["side"],
             "order": spec["order"],
             "round": spec["round"],
+            "winnerTo": ADVANCES.get(ko_num, {}).get("winnerTo"),
+            "loserTo": ADVANCES.get(ko_num, {}).get("loserTo"),
         })
 
     # Agrupar por ronda y ordenar por 'order' (lado izquierdo y derecho intercalados,

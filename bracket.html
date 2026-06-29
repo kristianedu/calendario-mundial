@@ -253,6 +253,28 @@
         }
         .team-row.winner .team-name { color: var(--text-1); font-weight: 700; }
         .team-row.loser { opacity: 0.35; }
+        .team-row.pickable { cursor: pointer; border-radius: 3px; transition: background 0.12s ease; }
+        .team-row.pickable:hover { background: rgba(88,166,255,0.12); }
+        .match-card.simulated {
+            border-color: rgba(251,191,36,0.4);
+            box-shadow: inset 3px 0 0 var(--gold);
+        }
+
+        /* ═══ SIMULATION BAR ═══ */
+        .sim-bar {
+            display: flex; justify-content: center; align-items: center;
+            gap: 12px; flex-wrap: wrap;
+            padding: 8px 16px 0;
+        }
+        .sim-hint { font-size: 0.72rem; color: var(--text-2); }
+        .sim-reset {
+            background: var(--bg-card); border: 1px solid var(--border-hl);
+            color: var(--text-1); font-family: var(--font);
+            font-size: 0.72rem; font-weight: 600;
+            padding: 6px 14px; border-radius: 999px; cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .sim-reset:hover { background: var(--bg-card-hover); border-color: var(--gold); color: var(--gold); }
         .team-flag { font-size: 0.8rem; line-height: 1; flex-shrink: 0; }
         .team-name {
             font-size: 0.65rem;
@@ -624,13 +646,18 @@
         const LEFT_GROUPS = ['A', 'B', 'C', 'D', 'E', 'F'];
         const RIGHT_GROUPS = ['G', 'H', 'I', 'J', 'K', 'L'];
 
+        // Datos cargados + estado de simulación (en memoria, NO se guarda).
+        let DATA = null;
+        let currentTab = 'bracket';
+        const sim = { picks: {} };   // picks[koNum] = 'team1' | 'team2'
+
         async function init() {
             try {
                 const res = await fetch(DATA_URL + '?t=' + Date.now());
-                const data = await res.json();
-                renderApp(data);
+                DATA = await res.json();
+                renderApp(DATA);
                 document.getElementById('lastUpdated').textContent =
-                    'Última actualización: ' + data.lastUpdated;
+                    'Última actualización: ' + DATA.lastUpdated;
             } catch (err) {
                 document.getElementById('app').innerHTML =
                     '<div class="loading"><div class="loading-text">Error al cargar datos</div></div>';
@@ -640,19 +667,93 @@
 
         // ─── App shell with tabs ─────────────────────────────
         function renderApp(data) {
+            const resolved = resolveState(data);
+            const active = currentTab;
             const html = `
                 <div class="tabs">
-                    <button class="tab-btn active" data-tab="bracket">🏆 Bracket</button>
-                    <button class="tab-btn" data-tab="resumen">📰 Resumen</button>
-                    <button class="tab-btn" data-tab="groups">📊 Grupos</button>
+                    <button class="tab-btn ${active==='bracket'?'active':''}" data-tab="bracket">🏆 Bracket</button>
+                    <button class="tab-btn ${active==='resumen'?'active':''}" data-tab="resumen">📰 Resumen</button>
+                    <button class="tab-btn ${active==='groups'?'active':''}" data-tab="groups">📊 Grupos</button>
                 </div>
-                <div id="view-bracket" class="view">${buildBracketHtml(data)}</div>
-                <div id="view-resumen" class="view hidden">${buildResumenView(data)}</div>
-                <div id="view-groups" class="view hidden">${buildGroupsView(data)}</div>
+                <div id="view-bracket" class="view ${active==='bracket'?'':'hidden'}">${buildBracketHtml(resolved)}</div>
+                <div id="view-resumen" class="view ${active==='resumen'?'':'hidden'}">${buildResumenView(data)}</div>
+                <div id="view-groups" class="view ${active==='groups'?'':'hidden'}">${buildGroupsView(data)}</div>
             `;
             document.getElementById('app').innerHTML = html;
             wireTabs();
             requestAnimationFrame(() => drawConnectors());
+        }
+
+        // ─── Simulation resolver ─────────────────────────────
+        // Construye una copia resuelta del cuadro: rellena los slots indefinidos
+        // con los ganadores reales (bloqueados) o simulados (picks), en cascada.
+        function resolveState(data) {
+            const byKo = {};
+            const collect = m => { if (m) byKo[m.koNum] = JSON.parse(JSON.stringify(m)); };
+            ['round_of_32','round_of_16','quarter_finals','semi_finals']
+                .forEach(r => data.rounds[r].forEach(collect));
+            collect(data.rounds.third_place);
+            collect(data.rounds.final);
+
+            // childOf[targetKo][slot] = { from: koOrigen, type: 'winner'|'loser' }
+            const childOf = {};
+            Object.values(byKo).forEach(m => {
+                if (m.winnerTo) (childOf[m.winnerTo.ko] = childOf[m.winnerTo.ko] || {})[m.winnerTo.slot] = { from: m.koNum, type: 'winner' };
+                if (m.loserTo)  (childOf[m.loserTo.ko]  = childOf[m.loserTo.ko]  || {})[m.loserTo.slot]  = { from: m.koNum, type: 'loser' };
+            });
+
+            const eff = {};   // ko -> { winner, loser, slot }
+            const kos = Object.keys(byKo).map(Number).sort((a, b) => a - b);
+            for (const ko of kos) {
+                const m = byKo[ko];
+                // Rellenar SOLO los slots placeholder desde el resultado aguas arriba
+                for (const slot of ['team1', 'team2']) {
+                    const c = childOf[ko] && childOf[ko][slot];
+                    if (c && m[slot].placeholder) {
+                        const fe = eff[c.from];
+                        const t = fe ? (c.type === 'winner' ? fe.winner : fe.loser) : null;
+                        if (t) m[slot] = Object.assign({}, t, { score: null });
+                    }
+                }
+                // Determinar ganador: real (bloqueado) tiene prioridad; si no, pick.
+                let wslot = null, locked = false, simWin = false;
+                if (m.status === 'finished' && m.winner) {
+                    wslot = m.winner; locked = true;
+                } else if (sim.picks[ko]) {
+                    const pk = sim.picks[ko];
+                    // El pick sigue siendo válido solo si el equipo elegido continúa
+                    // ocupando ese slot (si cambió aguas arriba, se invalida en cascada).
+                    if (!m.team1.placeholder && !m.team2.placeholder && m[pk.slot].fullName === pk.team) {
+                        wslot = pk.slot; simWin = true;
+                    } else {
+                        delete sim.picks[ko];
+                    }
+                }
+                m._locked = locked;
+                m._pickedSlot = wslot;
+                m._simWinner = simWin;
+                m._pickable = !locked && !m.team1.placeholder && !m.team2.placeholder;
+                eff[ko] = wslot
+                    ? { winner: m[wslot], loser: m[wslot === 'team1' ? 'team2' : 'team1'], slot: wslot }
+                    : { winner: null, loser: null, slot: null };
+            }
+
+            const mapArr = arr => arr.map(m => byKo[m.koNum]);
+            const finalKo = data.rounds.final ? data.rounds.final.koNum : 32;
+            return {
+                rounds: {
+                    round_of_32: mapArr(data.rounds.round_of_32),
+                    round_of_16: mapArr(data.rounds.round_of_16),
+                    quarter_finals: mapArr(data.rounds.quarter_finals),
+                    semi_finals: mapArr(data.rounds.semi_finals),
+                    third_place: data.rounds.third_place ? byKo[data.rounds.third_place.koNum] : null,
+                    final: data.rounds.final ? byKo[data.rounds.final.koNum] : null,
+                },
+                groups: data.groups || {},
+                champion: (eff[finalKo] || {}).winner || null,
+                championSim: !!((eff[finalKo] || {}).winner && byKo[finalKo] && byKo[finalKo]._simWinner),
+                hasPicks: Object.keys(sim.picks).length > 0,
+            };
         }
 
         function wireTabs() {
@@ -662,6 +763,7 @@
                     btns.forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
                     const tab = btn.dataset.tab;
+                    currentTab = tab;
                     document.getElementById('view-bracket').classList.toggle('hidden', tab !== 'bracket');
                     document.getElementById('view-resumen').classList.toggle('hidden', tab !== 'resumen');
                     document.getElementById('view-groups').classList.toggle('hidden', tab !== 'groups');
@@ -684,6 +786,10 @@
             const rightSF = r.semi_finals.filter(m => m.side === 'right');
 
             return `
+                <div class="sim-bar">
+                    <span class="sim-hint">🎮 Haz clic en un equipo para simular su avance</span>
+                    ${data.hasPicks ? '<button class="sim-reset" id="simReset">↺ Reiniciar simulación</button>' : ''}
+                </div>
                 <div class="bracket-wrapper">
                     <div class="bracket" id="bracket">
                         ${renderGroupsPanel(LEFT_GROUPS, g)}
@@ -691,7 +797,7 @@
                         ${renderRound('Octavos', leftR16)}
                         ${renderRound('Cuartos', leftQF)}
                         ${renderRound('Semifinal', leftSF)}
-                        ${renderCenterColumn(r, data.champion)}
+                        ${renderCenterColumn(r, data.champion, data.championSim)}
                         ${renderRound('Semifinal', rightSF)}
                         ${renderRound('Cuartos', rightQF)}
                         ${renderRound('Octavos', rightR16)}
@@ -929,14 +1035,18 @@
         function renderMatchCard(match) {
             const sc = match.status === 'finished' ? 'finished' :
                        match.status === 'live' ? 'live' : '';
-            const t1W = match.winner === 'team1';
-            const t2W = match.winner === 'team2';
-            const hasW = match.winner !== null;
+            const wslot = match._pickedSlot || null;        // ganador real o simulado
+            const t1W = wslot === 'team1';
+            const t2W = wslot === 'team2';
+            const hasW = wslot !== null;
+            const cls = [sc,
+                         match._pickable ? 'pickable' : '',
+                         match._simWinner ? 'simulated' : ''].join(' ').trim();
 
             return `
-                <div class="match-card ${sc}" data-match-id="${match.id}" title="${match.team1.fullName} vs ${match.team2.fullName}">
-                    ${teamRow(match.team1, t1W, hasW && !t1W)}
-                    ${teamRow(match.team2, t2W, hasW && !t2W)}
+                <div class="match-card ${cls}" data-match-id="${match.id}" title="${match.team1.fullName} vs ${match.team2.fullName}">
+                    ${teamRow(match.team1, 'team1', t1W, hasW && !t1W, match)}
+                    ${teamRow(match.team2, 'team2', t2W, hasW && !t2W, match)}
                     <div class="match-date">
                         ${match.status === 'live'
                             ? '<span class="live-indicator"><span class="live-dot"></span> EN VIVO</span>'
@@ -946,14 +1056,18 @@
             `;
         }
 
-        function teamRow(team, isW, isL) {
+        function teamRow(team, slot, isW, isL, match) {
             const isTBD = team.placeholder === true || team.name === 'TBD';
-            const cls = isW ? 'winner' : (isL ? 'loser' : '');
+            const pickable = match._pickable && !isTBD;
+            const cls = [isW ? 'winner' : (isL ? 'loser' : ''), pickable ? 'pickable' : ''].join(' ').trim();
             const nCls = isTBD ? 'team-name tbd' : 'team-name';
-            const sc = team.score !== null ? team.score : '-';
-            const sCls = team.score !== null ? 'team-score' : 'team-score no-score';
+            const sc = (team.score !== null && team.score !== undefined) ? team.score : '-';
+            const sCls = (team.score !== null && team.score !== undefined) ? 'team-score' : 'team-score no-score';
+            const data = pickable
+                ? `data-ko="${match.koNum}" data-slot="${slot}" data-team="${team.fullName}"`
+                : '';
             return `
-                <div class="team-row ${cls}">
+                <div class="team-row ${cls}" ${data}>
                     <span class="team-flag">${team.flag}</span>
                     <span class="${nCls}">${team.name}</span>
                     <span class="${sCls}">${sc}</span>
@@ -962,7 +1076,7 @@
         }
 
         // ─── Center Column ───────────────────────────────────
-        function renderCenterColumn(rounds, champion) {
+        function renderCenterColumn(rounds, champion, championSim) {
             const f = rounds.final;
             const tp = rounds.third_place;
 
@@ -975,7 +1089,7 @@
                 <div class="center-column">
                     <div class="champion-area">
                         <span class="trophy">🏆</span>
-                        <div class="champion-label">Campeón</div>
+                        <div class="champion-label">${championSim ? 'Campeón (simulado)' : 'Campeón'}</div>
                         ${champHtml}
                     </div>
                     ${f ? renderMatchCard(f) : ''}
@@ -1056,7 +1170,8 @@
                 }
 
                 const mX = (s1X + tX) / 2;
-                const active = s1.classList.contains('finished') || s2.classList.contains('finished');
+                const isActive = el => el.classList.contains('finished') || el.classList.contains('simulated');
+                const active = isActive(s1) || isActive(s2);
                 const cls = active ? 'connector-line active' : 'connector-line';
 
                 addL(svg, s1X, s1Y, mX, s1Y, cls);
@@ -1092,7 +1207,7 @@
             }
 
             const mX = (sX + tX) / 2;
-            const active = sCard.classList.contains('finished');
+            const active = sCard.classList.contains('finished') || sCard.classList.contains('simulated');
             const cls = active ? 'connector-line active' : 'connector-line';
 
             addL(svg, sX, sY, mX, sY, cls);
@@ -1107,6 +1222,22 @@
             l.setAttribute('class', cls);
             svg.appendChild(l);
         }
+
+        // ─── Interacción de simulación (delegación única) ────
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('#simReset')) {
+                sim.picks = {};
+                renderApp(DATA);
+                return;
+            }
+            const row = e.target.closest('.team-row.pickable');
+            if (row && row.dataset.ko) {
+                const ko = +row.dataset.ko, slot = row.dataset.slot, team = row.dataset.team;
+                if (sim.picks[ko] && sim.picks[ko].slot === slot) delete sim.picks[ko];  // toggle off
+                else sim.picks[ko] = { slot, team };
+                renderApp(DATA);
+            }
+        });
 
         let rt;
         window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(drawConnectors, 200); });

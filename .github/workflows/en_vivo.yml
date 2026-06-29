@@ -68,6 +68,7 @@ jobs:
           cp mundial_2026_dinamico.ics /tmp/mundial_2026_dinamico.ics
           cp bracket_data.json /tmp/bracket_data.json
           cp bracket.html /tmp/bracket.html
+          cp trofeo.png /tmp/trofeo.png
           # El notificador vive en main; la rama gh-pages no lo tiene, así que lo
           # guardamos para ejecutarlo luego desde /tmp (el paso corre sobre gh-pages).
           cp notificar_whatsapp.py /tmp/notificar_whatsapp.py
@@ -80,7 +81,8 @@ jobs:
           cp /tmp/mundial_2026_dinamico.ics .
           cp /tmp/bracket_data.json .
           cp /tmp/bracket.html .
-          git add mundial_2026_dinamico.ics bracket_data.json bracket.html
+          cp /tmp/trofeo.png .
+          git add mundial_2026_dinamico.ics bracket_data.json bracket.html trofeo.png
           git commit -m "Update calendar & bracket (Live)" || echo "No changes to commit"
           git pull origin gh-pages --rebase || true
           git push origin gh-pages
