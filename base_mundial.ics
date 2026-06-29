@@ -888,7 +888,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 2
+SUMMARY:🏆 🇩🇪 Alemania vs Paraguay 🇵🇾 - Treintaidosavos de F
+ inal
 DTSTART;TZID=America/El_Salvador:20260628T140000
 DTEND;TZID=America/El_Salvador:20260628T160000
 DTSTAMP:20260602T170000Z
@@ -898,7 +899,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 3
+SUMMARY:🏆 🇳🇱 Países Bajos vs Marruecos 🇲🇦 - Treintaidosavo
+ s de Final
 DTSTART;TZID=America/El_Salvador:20260628T170000
 DTEND;TZID=America/El_Salvador:20260628T190000
 DTSTAMP:20260602T170000Z
@@ -908,7 +910,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 4
+SUMMARY:✅ 🇧🇷 Brasil [2] - [1] Japón 🇯🇵 - Treintaidosavos de
+  Final (Final)
 DTSTART;TZID=America/El_Salvador:20260628T200000
 DTEND;TZID=America/El_Salvador:20260628T220000
 DTSTAMP:20260602T170000Z
@@ -918,8 +921,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇧🇷 Brasil [2] - [1] Japón 🇯🇵 - Treintaidosavos de
-  Final (Final)
+SUMMARY:🏆 🇫🇷 Francia vs Suecia 🇸🇪 - Treintaidosavos de Fina
+ l
 DTSTART;TZID=America/El_Salvador:20260629T110000
 DTEND;TZID=America/El_Salvador:20260629T130000
 DTSTAMP:20260602T170000Z
@@ -930,7 +933,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 6
+SUMMARY:🏆 🇨🇮 Costa de Marfil vs Noruega 🇳🇴 - Treintaidosavo
+ s de Final
 DTSTART;TZID=America/El_Salvador:20260629T140000
 DTEND;TZID=America/El_Salvador:20260629T160000
 DTSTAMP:20260602T170000Z
@@ -940,7 +944,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 7
+SUMMARY:🏆 🇲🇽 México vs Ecuador 🇪🇨 - Treintaidosavos de Fin
+ al
 DTSTART;TZID=America/El_Salvador:20260629T170000
 DTEND;TZID=America/El_Salvador:20260629T190000
 DTSTAMP:20260602T170000Z
@@ -950,7 +955,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 8
+SUMMARY:🏆 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs RD Congo 🇨🇩 
+ - Treintaidosavos de Final
 DTSTART;TZID=America/El_Salvador:20260629T200000
 DTEND;TZID=America/El_Salvador:20260629T220000
 DTSTAMP:20260602T170000Z
@@ -960,8 +966,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇨🇮 Costa de Marfil vs Noruega 🇳🇴 - Treintaidosavo
- s de Final
+SUMMARY:🏆 🇺🇸 EE.UU. vs Bosnia y Herzegovina 🇧🇦 - Treintaido
+ savos de Final
 DTSTART;TZID=America/El_Salvador:20260630T110000
 DTEND;TZID=America/El_Salvador:20260630T130000
 DTSTAMP:20260602T170000Z
@@ -972,7 +978,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 10
+SUMMARY:🏆 🇧🇪 Bélgica vs Senegal 🇸🇳 - Treintaidosavos de Fi
+ nal
 DTSTART;TZID=America/El_Salvador:20260630T140000
 DTEND;TZID=America/El_Salvador:20260630T160000
 DTSTAMP:20260602T170000Z
@@ -982,7 +989,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 11
+SUMMARY:🏆 🇵🇹 Portugal vs Croacia 🇭🇷 - Treintaidosavos de Fi
+ nal
 DTSTART;TZID=America/El_Salvador:20260630T170000
 DTEND;TZID=America/El_Salvador:20260630T190000
 DTSTAMP:20260602T170000Z
@@ -992,7 +1000,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 12
+SUMMARY:🏆 🇪🇸 España vs Austria 🇦🇹 - Treintaidosavos de Fin
+ al
 DTSTART;TZID=America/El_Salvador:20260630T200000
 DTEND;TZID=America/El_Salvador:20260630T220000
 DTSTAMP:20260602T170000Z
@@ -1002,7 +1011,7 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 13
+SUMMARY:🏆 🇨🇭 Suiza vs Argelia 🇩🇿 - Treintaidosavos de Final
 DTSTART;TZID=America/El_Salvador:20260701T130000
 DTEND;TZID=America/El_Salvador:20260701T150000
 DTSTAMP:20260602T170000Z
@@ -1012,7 +1021,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Treintaidosavos de Final - Partido 14
+SUMMARY:🏆 🇦🇷 Argentina vs Cabo Verde 🇨🇻 - Treintaidosavos d
+ e Final
 DTSTART;TZID=America/El_Salvador:20260701T170000
 DTEND;TZID=America/El_Salvador:20260701T190000
 DTSTAMP:20260602T170000Z
@@ -1022,8 +1032,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇪🇸 España vs Austria 🇦🇹 - Treintaidosavos de Fin
- al
+SUMMARY:🏆 🇨🇴 Colombia vs Ghana 🇬🇭 - Treintaidosavos de Fina
+ l
 DTSTART;TZID=America/El_Salvador:20260702T130000
 DTEND;TZID=America/El_Salvador:20260702T150000
 DTSTAMP:20260602T170000Z
@@ -1034,7 +1044,7 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇵🇹 Portugal vs Croacia 🇭🇷 - Treintaidosavos de Fi
+SUMMARY:🏆 🇦🇺 Australia vs Egipto 🇪🇬 - Treintaidosavos de Fi
  nal
 DTSTART;TZID=America/El_Salvador:20260702T170000
 DTEND;TZID=America/El_Salvador:20260702T190000
