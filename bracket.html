@@ -59,6 +59,21 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+        .header h1 .h1-trophy {
+            -webkit-text-fill-color: initial;
+            background: none;
+            filter: drop-shadow(0 0 8px rgba(251,191,36,0.3));
+        }
+        .header h1 {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .h1-trophy-img {
+            height: 1.5em;
+            width: auto;
+            filter: drop-shadow(0 0 10px rgba(251,191,36,0.35));
+        }
         .header .sub {
             font-size: 0.65rem;
             color: var(--text-2);
@@ -582,7 +597,8 @@
 </head>
 <body>
     <header class="header">
-        <h1>⚽ Copa Mundial FIFA 2026</h1>
+        <h1><img class="h1-trophy-img" src="trofeo.png" alt="🏆"
+            onerror="this.outerHTML='&lt;span class=\'h1-trophy\'&gt;🏆&lt;/span&gt;'"> Copa Mundial FIFA 2026</h1>
         <div class="sub">Fase Eliminatoria</div>
         <div class="last-updated" id="lastUpdated"></div>
     </header>
