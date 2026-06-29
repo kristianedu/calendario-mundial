@@ -458,6 +458,60 @@ def leer_eventos_ko(cal):
     return eventos
 
 
+def construir_pool_resultados(eventos_ko):
+    """
+    Indexa los resultados de los cruces KO por el PAR de equipos (no por slot).
+    Permite ubicar cada resultado según QUIÉN juega y no según la fecha del .ics
+    (que puede meter el partido en el slot equivocado). Clave: frozenset de los
+    dos nombres. Valor: el evento (team1, team2, score1, score2, status, date).
+    """
+    pool = {}
+    for ev in eventos_ko.values():
+        if ev["team1"] and ev["team2"]:
+            pool[frozenset({ev["team1"], ev["team2"]})] = ev
+    return pool
+
+
+def proyectar_equipos_ko(cal):
+    """
+    Proyecta los equipos de cada cruce KO desde la estructura oficial (más los
+    ganadores ya decididos), devolviendo {ko_num: (team1_fullName|None,
+    team2_fullName|None)}. Lo usa actualizar_clasificados.py para ubicar cada
+    partido en su slot correcto por EQUIPOS (no por fecha).
+    """
+    tablas = calcular_tablas_grupos(cal)
+    mejores = calcular_mejores_terceros(tablas)
+    terceros = asignar_terceros(mejores)
+    pool = construir_pool_resultados(leer_eventos_ko(cal))
+
+    ganadores, perdedores, proyeccion = {}, {}, {}
+    for ko_num in sorted(BRACKET.keys()):
+        spec = BRACKET[ko_num]
+        t1 = resolver_origen(spec["t1"], ko_num, tablas, terceros, mejores,
+                             ganadores, perdedores)
+        t2 = resolver_origen(spec["t2"], ko_num, tablas, terceros, mejores,
+                             ganadores, perdedores)
+        n1 = None if t1["placeholder"] else t1["fullName"]
+        n2 = None if t2["placeholder"] else t2["fullName"]
+        proyeccion[ko_num] = (n1, n2)
+
+        # Propagar el ganador si ya hay resultado para este par (igual que el
+        # loop principal), para poder proyectar también las rondas siguientes.
+        if n1 and n2:
+            res = pool.get(frozenset({n1, n2}))
+            if (res and res["status"] == "finished"
+                    and res["score1"] is not None and res["score2"] is not None):
+                if res["team1"] == n1:
+                    s1, s2 = res["score1"], res["score2"]
+                else:
+                    s1, s2 = res["score2"], res["score1"]
+                if s1 > s2:
+                    ganadores[ko_num], perdedores[ko_num] = t1, t2
+                elif s2 > s1:
+                    ganadores[ko_num], perdedores[ko_num] = t2, t1
+    return proyeccion
+
+
 def resolver_origen(spec, ko_num, tablas, terceros_asignacion, mejores_terceros,
                     ganadores, perdedores):
     """Resuelve el equipo de un slot según su origen. Devuelve un team/slot obj."""
@@ -569,6 +623,7 @@ def generar_bracket():
     fixtures = extraer_fixtures(cal)
     terceros_asignacion = asignar_terceros(mejores_terceros)
     eventos_ko = leer_eventos_ko(cal)
+    pool_resultados = construir_pool_resultados(eventos_ko)
     print(f"📊 Tablas: {len(tablas)} grupos | "
           f"{len(mejores_terceros)} mejores terceros asignados")
 
@@ -578,41 +633,45 @@ def generar_bracket():
     # Procesar en orden de KO (las rondas posteriores dependen de las previas)
     for ko_num in sorted(BRACKET.keys()):
         spec = BRACKET[ko_num]
-        ev = eventos_ko.get(ko_num, {"team1": None, "team2": None,
-                                     "score1": None, "score2": None,
-                                     "status": "pending", "date": ""})
 
-        # Equipo 1: real (.ics) > origen del cuadro
-        if ev["team1"]:
-            t1 = team_obj(ev["team1"], ev["score1"])
-        else:
-            t1 = resolver_origen(spec["t1"], ko_num, tablas, terceros_asignacion,
-                                 mejores_terceros, ganadores, perdedores)
+        # Equipos: SIEMPRE se proyectan desde la estructura oficial. No se confía
+        # en los equipos que el .ics cargó en este slot, porque el emparejamiento
+        # por fecha puede haberlos puesto en el slot equivocado.
+        t1 = resolver_origen(spec["t1"], ko_num, tablas, terceros_asignacion,
+                             mejores_terceros, ganadores, perdedores)
+        t2 = resolver_origen(spec["t2"], ko_num, tablas, terceros_asignacion,
+                             mejores_terceros, ganadores, perdedores)
 
-        # Equipo 2: real (.ics) > origen del cuadro
-        if ev["team2"]:
-            t2 = team_obj(ev["team2"], ev["score2"])
-        else:
-            t2 = resolver_origen(spec["t2"], ko_num, tablas, terceros_asignacion,
-                                 mejores_terceros, ganadores, perdedores)
-
-        # Estado y ganador
-        status = ev["status"]
+        # Fecha por defecto: la del slot en el .ics (partido aún sin jugar).
+        date = eventos_ko.get(ko_num, {}).get("date", "")
+        status = "pending"
         winner = None
-        if status == "finished" and ev["score1"] is not None and ev["score2"] is not None:
-            if ev["score1"] > ev["score2"]:
-                winner = "team1"
-                ganadores[ko_num] = t1
-                perdedores[ko_num] = t2
-            elif ev["score2"] > ev["score1"]:
-                winner = "team2"
-                ganadores[ko_num] = t2
-                perdedores[ko_num] = t1
+
+        # Aplicar marcador buscando por el PAR de equipos proyectados (no por slot).
+        if not t1["placeholder"] and not t2["placeholder"]:
+            res = pool_resultados.get(frozenset({t1["fullName"], t2["fullName"]}))
+            if res:
+                status = res["status"]
+                date = res["date"] or date
+                if res["score1"] is not None and res["score2"] is not None:
+                    # Orientar los marcadores al orden t1/t2 del cuadro.
+                    if res["team1"] == t1["fullName"]:
+                        s1, s2 = res["score1"], res["score2"]
+                    else:
+                        s1, s2 = res["score2"], res["score1"]
+                    t1["score"], t2["score"] = s1, s2
+                    if status == "finished":
+                        if s1 > s2:
+                            winner = "team1"
+                            ganadores[ko_num], perdedores[ko_num] = t1, t2
+                        elif s2 > s1:
+                            winner = "team2"
+                            ganadores[ko_num], perdedores[ko_num] = t2, t1
 
         partidos.append({
             "id": f"KO-{ko_num:03d}",
             "koNum": ko_num,
-            "date": ev["date"],
+            "date": date,
             "team1": t1,
             "team2": t2,
             "status": status,

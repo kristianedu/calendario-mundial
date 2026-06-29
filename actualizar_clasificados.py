@@ -126,66 +126,80 @@ def actualizar_clasificados():
         print("Archivo base_mundial.ics no encontrado.")
         return False
     
-    # 4. Buscar los eventos genéricos de eliminatorias y reemplazarlos
+    # 4. Asignar cada partido a su slot por EQUIPOS (no por fecha). Se proyecta
+    #    quién juega en cada cruce desde la estructura oficial y se busca el
+    #    partido de la API con esos dos equipos. Evita que se pierdan o se
+    #    ubiquen mal (el bug del emparejamiento por hora). Si la proyección
+    #    falla, cae al emparejamiento por fecha (lógica anterior).
+    try:
+        import generar_bracket
+        proyeccion = generar_bracket.proyectar_equipos_ko(cal)
+    except Exception as e:
+        print(f"  ⚠️ No se pudo proyectar equipos ({e}); se usa fecha.")
+        proyeccion = None
+
+    fixtures_por_par = {frozenset({p['home'], p['away']}): p
+                        for p in eliminatorias_api.values()}
+
     modificados = 0
     for component in cal.walk():
         if component.name != "VEVENT":
             continue
-        
+
         uid = str(component.get('uid', ''))
         summary = str(component.get('summary', ''))
-        
-        # Solo nos interesan los eventos de fase eliminatoria (UIDs que empiezan con wc2026-KO)
-        if not uid.startswith('wc2026-KO'):
+        m = re.search(r'wc2026-KO-(\d+)', uid)
+        if not m:
             continue
-        
-        # Verificar si ya tiene equipos asignados (si ya tiene "vs" es que ya fue actualizado)
-        if ' vs ' in summary:
+        # Si ya tiene equipos ("vs") o marcador ("[x] - [y]"), no tocar.
+        if ' vs ' in summary or '] - [' in summary:
             continue
-        
-        # Obtener la fecha/hora del evento para emparejar con la API
-        dtstart = component.get('dtstart').dt
-        if hasattr(dtstart, 'strftime'):
-            # Convertir a UTC para comparar
-            if hasattr(dtstart, 'tzinfo') and dtstart.tzinfo is not None:
-                import pytz
-                dtstart_utc = dtstart.astimezone(pytz.utc)
-            else:
-                dtstart_utc = dtstart
-            
-            clave_evento = dtstart_utc.strftime("%Y%m%dT%H%M")
-            
-            if clave_evento in eliminatorias_api:
-                partido = eliminatorias_api[clave_evento]
-                
-                # Determinar el emoji y la ronda en español
-                ronda_esp = ""
-                for ronda_key, ronda_val in RONDAS_ESPANOL.items():
-                    if ronda_key.lower() in partido['ronda'].lower():
-                        ronda_esp = ronda_val
-                        break
-                
-                # Construir el nuevo SUMMARY con banderas y nombres
-                if "GRAN FINAL" in summary:
-                    nuevo_summary = f"🏆🥇 {partido['home_bandera']} {partido['home']} vs {partido['away']} {partido['away_bandera']} - GRAN FINAL"
-                elif "Tercer Lugar" in summary:
-                    nuevo_summary = f"🏆🥉 {partido['home_bandera']} {partido['home']} vs {partido['away']} {partido['away_bandera']} - Tercer Lugar"
-                elif "Semifinal" in summary:
-                    nuevo_summary = f"🏆⭐ {partido['home_bandera']} {partido['home']} vs {partido['away']} {partido['away_bandera']} - {ronda_esp}"
-                else:
-                    nuevo_summary = f"🏆 {partido['home_bandera']} {partido['home']} vs {partido['away']} {partido['away_bandera']} - {ronda_esp}"
-                
-                component['summary'] = nuevo_summary
-                
-                # Actualizar ubicación si la API la tiene
-                if partido['venue']:
-                    location = partido['venue']
-                    if partido['city']:
-                        location += f", {partido['city']}"
-                    component['location'] = location
-                
-                modificados += 1
-                print(f"  ✅ Actualizado: {summary} → {nuevo_summary}")
+        ko_num = int(m.group(1))
+
+        partido = orden = None
+        if proyeccion is not None:
+            n1, n2 = proyeccion.get(ko_num, (None, None))
+            if n1 and n2:
+                partido = fixtures_por_par.get(frozenset({n1, n2}))
+                orden = (n1, n2)  # respeta la orientación del cuadro
+        else:
+            dtstart = component.get('dtstart').dt
+            if hasattr(dtstart, 'strftime'):
+                if getattr(dtstart, 'tzinfo', None) is not None:
+                    import pytz
+                    dtstart = dtstart.astimezone(pytz.utc)
+                partido = eliminatorias_api.get(dtstart.strftime("%Y%m%dT%H%M"))
+                if partido:
+                    orden = (partido['home'], partido['away'])
+
+        if not partido or not orden:
+            continue
+
+        b1, b2 = get_bandera(orden[0]), get_bandera(orden[1])
+        ronda_esp = ""
+        for ronda_key, ronda_val in RONDAS_ESPANOL.items():
+            if ronda_key.lower() in partido['ronda'].lower():
+                ronda_esp = ronda_val
+                break
+
+        if "GRAN FINAL" in summary:
+            nuevo_summary = f"🏆🥇 {b1} {orden[0]} vs {orden[1]} {b2} - GRAN FINAL"
+        elif "Tercer Lugar" in summary:
+            nuevo_summary = f"🏆🥉 {b1} {orden[0]} vs {orden[1]} {b2} - Tercer Lugar"
+        elif "Semifinal" in summary:
+            nuevo_summary = f"🏆⭐ {b1} {orden[0]} vs {orden[1]} {b2} - {ronda_esp}"
+        else:
+            nuevo_summary = f"🏆 {b1} {orden[0]} vs {orden[1]} {b2} - {ronda_esp}"
+
+        component['summary'] = nuevo_summary
+        if partido['venue']:
+            location = partido['venue']
+            if partido['city']:
+                location += f", {partido['city']}"
+            component['location'] = location
+
+        modificados += 1
+        print(f"  ✅ KO-{ko_num:03d}: {orden[0]} vs {orden[1]}")
     
     if modificados == 0:
         print("No se encontraron nuevos cruces para actualizar.")
