@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T23:30:28",
+  "lastUpdated": "2026-06-29T23:35:22",
   "rounds": {
     "round_of_32": [
       {
@@ -10,18 +10,18 @@
           "name": "GER",
           "flag": "🇩🇪",
           "fullName": "Alemania",
-          "score": null,
+          "score": 5,
           "placeholder": false
         },
         "team2": {
           "name": "PAR",
           "flag": "🇵🇾",
           "fullName": "Paraguay",
-          "score": null,
+          "score": 6,
           "placeholder": false
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "left",
         "order": 0,
         "round": "round_of_32",
@@ -473,11 +473,11 @@
         "koNum": 17,
         "date": "4 jul",
         "team1": {
-          "name": "G·T2",
-          "flag": "🛡️",
-          "fullName": "Ganador T2",
+          "name": "PAR",
+          "flag": "🇵🇾",
+          "fullName": "Paraguay",
           "score": null,
-          "placeholder": true
+          "placeholder": false
         },
         "team2": {
           "name": "G·T5",
@@ -2070,6 +2070,25 @@
       },
       {
         "date": "28 jun",
+        "time": "14:00",
+        "_sort": "2026-06-28T14:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "GER",
+          "flag": "🇩🇪",
+          "fullName": "Alemania"
+        },
+        "team2": {
+          "name": "PAR",
+          "flag": "🇵🇾",
+          "fullName": "Paraguay"
+        },
+        "score1": 5,
+        "score2": 6,
+        "status": "finished"
+      },
+      {
+        "date": "28 jun",
         "time": "11:00",
         "_sort": "2026-06-28T11:00:00",
         "comp": "Eliminatorias",
@@ -2181,47 +2200,9 @@
         "score1": 0,
         "score2": 2,
         "status": "finished"
-      },
-      {
-        "date": "27 jun",
-        "time": "15:00",
-        "_sort": "2026-06-27T15:00:00",
-        "comp": "Grupo L",
-        "team1": {
-          "name": "CRO",
-          "flag": "🇭🇷",
-          "fullName": "Croacia"
-        },
-        "team2": {
-          "name": "GHA",
-          "flag": "🇬🇭",
-          "fullName": "Ghana"
-        },
-        "score1": 2,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "28 jun",
-        "time": "14:00",
-        "_sort": "2026-06-28T14:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "GER",
-          "flag": "🇩🇪",
-          "fullName": "Alemania"
-        },
-        "team2": {
-          "name": "PAR",
-          "flag": "🇵🇾",
-          "fullName": "Paraguay"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "28 jun",
         "time": "17:00",
@@ -2350,6 +2331,25 @@
           "name": "SEN",
           "flag": "🇸🇳",
           "fullName": "Senegal"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "30 jun",
+        "time": "17:00",
+        "_sort": "2026-06-30T17:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal"
+        },
+        "team2": {
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia"
         },
         "score1": null,
         "score2": null,
