@@ -86,7 +86,9 @@ jobs:
           git push origin gh-pages
 
       - name: Notificar WhatsApp con screenshot del bracket
-        if: success()
+        # PAUSADO temporalmente mientras se corrige la asignación de 32avos.
+        # Reactivar cambiando a: if: success()
+        if: false
         continue-on-error: true
         env:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
