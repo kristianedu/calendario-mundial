@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T22:00:33",
+  "lastUpdated": "2026-06-29T22:03:11",
   "rounds": {
     "round_of_32": [
       {
@@ -24,7 +24,12 @@
         "winner": null,
         "side": "left",
         "order": 0,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 17,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-004",
@@ -48,7 +53,12 @@
         "winner": "team1",
         "side": "right",
         "order": 0,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 19,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-005",
@@ -72,7 +82,12 @@
         "winner": null,
         "side": "left",
         "order": 1,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 17,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-006",
@@ -96,7 +111,12 @@
         "winner": null,
         "side": "right",
         "order": 1,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 19,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-001",
@@ -120,7 +140,12 @@
         "winner": "team2",
         "side": "left",
         "order": 2,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 18,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-007",
@@ -144,7 +169,12 @@
         "winner": null,
         "side": "right",
         "order": 2,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 20,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-003",
@@ -168,7 +198,12 @@
         "winner": null,
         "side": "left",
         "order": 3,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 18,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-008",
@@ -192,7 +227,12 @@
         "winner": null,
         "side": "right",
         "order": 3,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 20,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-011",
@@ -216,7 +256,12 @@
         "winner": null,
         "side": "left",
         "order": 4,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 21,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-014",
@@ -240,7 +285,12 @@
         "winner": null,
         "side": "right",
         "order": 4,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 23,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-012",
@@ -264,7 +314,12 @@
         "winner": null,
         "side": "left",
         "order": 5,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 21,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-016",
@@ -288,7 +343,12 @@
         "winner": null,
         "side": "right",
         "order": 5,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 23,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-009",
@@ -312,7 +372,12 @@
         "winner": null,
         "side": "left",
         "order": 6,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 22,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-013",
@@ -336,7 +401,12 @@
         "winner": null,
         "side": "right",
         "order": 6,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 24,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-010",
@@ -360,7 +430,12 @@
         "winner": null,
         "side": "left",
         "order": 7,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 22,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-015",
@@ -384,7 +459,12 @@
         "winner": null,
         "side": "right",
         "order": 7,
-        "round": "round_of_32"
+        "round": "round_of_32",
+        "winnerTo": {
+          "ko": 24,
+          "slot": "team2"
+        },
+        "loserTo": null
       }
     ],
     "round_of_16": [
@@ -410,7 +490,12 @@
         "winner": null,
         "side": "left",
         "order": 0,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 25,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-019",
@@ -434,7 +519,12 @@
         "winner": null,
         "side": "right",
         "order": 0,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 27,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-018",
@@ -458,7 +548,12 @@
         "winner": null,
         "side": "left",
         "order": 1,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 25,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-020",
@@ -482,7 +577,12 @@
         "winner": null,
         "side": "right",
         "order": 1,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 27,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-021",
@@ -506,7 +606,12 @@
         "winner": null,
         "side": "left",
         "order": 2,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 26,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-023",
@@ -530,7 +635,12 @@
         "winner": null,
         "side": "right",
         "order": 2,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 28,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-022",
@@ -554,7 +664,12 @@
         "winner": null,
         "side": "left",
         "order": 3,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 26,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-024",
@@ -578,7 +693,12 @@
         "winner": null,
         "side": "right",
         "order": 3,
-        "round": "round_of_16"
+        "round": "round_of_16",
+        "winnerTo": {
+          "ko": 28,
+          "slot": "team2"
+        },
+        "loserTo": null
       }
     ],
     "quarter_finals": [
@@ -604,7 +724,12 @@
         "winner": null,
         "side": "left",
         "order": 0,
-        "round": "quarter_finals"
+        "round": "quarter_finals",
+        "winnerTo": {
+          "ko": 29,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-027",
@@ -628,7 +753,12 @@
         "winner": null,
         "side": "right",
         "order": 0,
-        "round": "quarter_finals"
+        "round": "quarter_finals",
+        "winnerTo": {
+          "ko": 30,
+          "slot": "team1"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-026",
@@ -652,7 +782,12 @@
         "winner": null,
         "side": "left",
         "order": 1,
-        "round": "quarter_finals"
+        "round": "quarter_finals",
+        "winnerTo": {
+          "ko": 29,
+          "slot": "team2"
+        },
+        "loserTo": null
       },
       {
         "id": "KO-028",
@@ -676,7 +811,12 @@
         "winner": null,
         "side": "right",
         "order": 1,
-        "round": "quarter_finals"
+        "round": "quarter_finals",
+        "winnerTo": {
+          "ko": 30,
+          "slot": "team2"
+        },
+        "loserTo": null
       }
     ],
     "semi_finals": [
@@ -702,7 +842,15 @@
         "winner": null,
         "side": "left",
         "order": 0,
-        "round": "semi_finals"
+        "round": "semi_finals",
+        "winnerTo": {
+          "ko": 32,
+          "slot": "team1"
+        },
+        "loserTo": {
+          "ko": 31,
+          "slot": "team1"
+        }
       },
       {
         "id": "KO-030",
@@ -726,7 +874,15 @@
         "winner": null,
         "side": "right",
         "order": 0,
-        "round": "semi_finals"
+        "round": "semi_finals",
+        "winnerTo": {
+          "ko": 32,
+          "slot": "team2"
+        },
+        "loserTo": {
+          "ko": 31,
+          "slot": "team2"
+        }
       }
     ],
     "third_place": {
@@ -751,7 +907,9 @@
       "winner": null,
       "side": "center",
       "order": 0,
-      "round": "third_place"
+      "round": "third_place",
+      "winnerTo": null,
+      "loserTo": null
     },
     "final": {
       "id": "KO-032",
@@ -775,7 +933,9 @@
       "winner": null,
       "side": "center",
       "order": 0,
-      "round": "final"
+      "round": "final",
+      "winnerTo": null,
+      "loserTo": null
     }
   },
   "champion": null,
