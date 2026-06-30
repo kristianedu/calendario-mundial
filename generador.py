@@ -187,9 +187,18 @@ def actualizar_calendario():
                 if res['home_name'] in summary and res['away_name'] in summary:
                     home_goals = res['home_goals'] if res['home_goals'] is not None else 0
                     away_goals = res['away_goals'] if res['away_goals'] is not None else 0
-                    
-                    resultado_str = f" [{home_goals}] - [{away_goals}] "
-                    
+
+                    # Orientar los goles al orden en que aparecen los equipos en
+                    # el summary (puede diferir del orden home/away de la API,
+                    # p.ej. en los cruces KO que se arman en el orden del cuadro).
+                    i_home = summary.find(res['home_name'])
+                    i_away = summary.find(res['away_name'])
+                    if i_away != -1 and i_home != -1 and i_away < i_home:
+                        g1, g2 = away_goals, home_goals
+                    else:
+                        g1, g2 = home_goals, away_goals
+                    resultado_str = f" [{g1}] - [{g2}] "
+
                     if " vs " in summary:
                         nuevo_summary = summary.replace(" vs ", resultado_str)
                     else:

@@ -88,7 +88,9 @@ jobs:
           git push origin gh-pages
 
       - name: Notificar WhatsApp con screenshot del bracket
-        if: success()
+        # PAUSADO mientras se corrige el bug de orientación de marcadores.
+        # Reactivar cambiando a: if: success()
+        if: false
         continue-on-error: true
         env:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
