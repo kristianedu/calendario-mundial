@@ -182,7 +182,14 @@ def actualizar_calendario():
     for comp_dinamico, comp_base in zip(cal.walk(), cal_base.walk()):
         if comp_dinamico.name == "VEVENT":
             summary = str(comp_dinamico.get('summary'))
-            
+
+            # Partido ya finalizado y guardado permanentemente: NO re-procesar.
+            # Evita que una nueva consulta a la API sobrescriba marcadores ya
+            # finales o correcciones manuales (p.ej. cruces definidos por penales,
+            # donde la API reporta el empate del tiempo reglamentario sin ganador).
+            if "(Final)" in summary:
+                continue
+
             for match_key, res in resultados_api.items():
                 if res['home_name'] in summary and res['away_name'] in summary:
                     home_goals = res['home_goals'] if res['home_goals'] is not None else 0
