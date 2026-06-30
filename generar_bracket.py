@@ -127,8 +127,15 @@ def parsear_equipo_del_summary(summary):
     result = {
         "team1": None, "team2": None,
         "score1": None, "score2": None,
+        "pen1": None, "pen2": None,
         "status": "pending",
     }
+
+    # Tanda de penales, si el cruce se definió así: "[Penales: 4-2]" (orden del cuadro).
+    match_pen = re.search(r"\[Penales:\s*(\d+)\s*-\s*(\d+)\]", summary)
+    if match_pen:
+        result["pen1"] = int(match_pen.group(1))
+        result["pen2"] = int(match_pen.group(2))
 
     if "(Final)" in summary:
         result["status"] = "finished"
@@ -514,12 +521,20 @@ def proyectar_equipos_ko(cal):
                     and res["score1"] is not None and res["score2"] is not None):
                 if res["team1"] == n1:
                     s1, s2 = res["score1"], res["score2"]
+                    p1, p2 = res.get("pen1"), res.get("pen2")
                 else:
                     s1, s2 = res["score2"], res["score1"]
+                    p1, p2 = res.get("pen2"), res.get("pen1")
                 if s1 > s2:
                     ganadores[ko_num], perdedores[ko_num] = t1, t2
                 elif s2 > s1:
                     ganadores[ko_num], perdedores[ko_num] = t2, t1
+                elif p1 is not None and p2 is not None and p1 != p2:
+                    # Empate en juego resuelto por penales.
+                    if p1 > p2:
+                        ganadores[ko_num], perdedores[ko_num] = t1, t2
+                    else:
+                        ganadores[ko_num], perdedores[ko_num] = t2, t1
     return proyeccion
 
 
@@ -671,6 +686,12 @@ def generar_bracket():
                     else:
                         s1, s2 = res["score2"], res["score1"]
                     t1["score"], t2["score"] = s1, s2
+                    # Orientar también la tanda de penales al orden del cuadro.
+                    if res["team1"] == t1["fullName"]:
+                        p1, p2 = res.get("pen1"), res.get("pen2")
+                    else:
+                        p1, p2 = res.get("pen2"), res.get("pen1")
+                    t1["pen"], t2["pen"] = p1, p2
                     if status == "finished":
                         if s1 > s2:
                             winner = "team1"
@@ -678,6 +699,14 @@ def generar_bracket():
                         elif s2 > s1:
                             winner = "team2"
                             ganadores[ko_num], perdedores[ko_num] = t2, t1
+                        elif p1 is not None and p2 is not None and p1 != p2:
+                            # Empate en juego: lo define la tanda de penales.
+                            if p1 > p2:
+                                winner = "team1"
+                                ganadores[ko_num], perdedores[ko_num] = t1, t2
+                            else:
+                                winner = "team2"
+                                ganadores[ko_num], perdedores[ko_num] = t2, t1
 
         partidos.append({
             "id": f"KO-{ko_num:03d}",

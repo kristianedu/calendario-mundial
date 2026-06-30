@@ -99,15 +99,24 @@ def actualizar_calendario():
         full_time = score_info.get('fullTime', {}) or {}
         home_goals = full_time.get('home')
         away_goals = full_time.get('away')
+        # Tanda de penales (solo en eliminatorias empatadas tras el tiempo extra).
+        # 'winner' refleja al clasificado real (incluye penales): HOME_TEAM/AWAY_TEAM/DRAW.
+        penalties = score_info.get('penalties', {}) or {}
+        pen_home = penalties.get('home')
+        pen_away = penalties.get('away')
+        winner = score_info.get('winner')
         fixture_id = fix['id']
-        
+
         match_key = f"{home} vs {away}"
         resultados_api[match_key] = {
             'status': status,
             'home_goals': home_goals,
             'away_goals': away_goals,
             'home_name': home,
-            'away_name': away
+            'away_name': away,
+            'pen_home': pen_home,
+            'pen_away': pen_away,
+            'winner': winner
         }
         
         # Solo guardamos el fixture_id para partidos activos (en curso o finalizados hoy)
@@ -219,6 +228,16 @@ def actualizar_calendario():
                     if status == "FINISHED":
                         nuevo_summary = nuevo_summary.replace("⚽", "✅").replace("🏆", "✅")
                         nuevo_summary += " (Final)"
+                        # Si se definió por penales, anexar la tanda (orientada al
+                        # orden del cuadro) para que el bracket sepa quién avanza
+                        # aunque el tiempo reglamentario haya quedado empatado.
+                        ph, pa = res.get('pen_home'), res.get('pen_away')
+                        if ph is not None and pa is not None:
+                            if i_away != -1 and i_home != -1 and i_away < i_home:
+                                p1, p2 = pa, ph
+                            else:
+                                p1, p2 = ph, pa
+                            nuevo_summary += f" [Penales: {p1}-{p2}]"
                     elif status == "PAUSED":
                         nuevo_summary = nuevo_summary.replace("⚽", "🔴").replace("🏆", "🔴")
                         nuevo_summary += " (Medio Tiempo)"
