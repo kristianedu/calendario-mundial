@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-30T15:40:23",
+  "lastUpdated": "2026-06-30T15:40:50",
   "rounds": {
     "round_of_32": [
       {
         "id": "KO-002",
         "koNum": 2,
-        "date": "28 jun",
+        "date": "29 jun",
         "team1": {
           "name": "GER",
           "flag": "🇩🇪",
@@ -36,7 +36,7 @@
       {
         "id": "KO-004",
         "koNum": 4,
-        "date": "28 jun",
+        "date": "29 jun",
         "team1": {
           "name": "BRA",
           "flag": "🇧🇷",
@@ -67,7 +67,7 @@
       {
         "id": "KO-005",
         "koNum": 5,
-        "date": "29 jun",
+        "date": "30 jun",
         "team1": {
           "name": "FRA",
           "flag": "🇫🇷",
@@ -96,7 +96,7 @@
       {
         "id": "KO-006",
         "koNum": 6,
-        "date": "29 jun",
+        "date": "30 jun",
         "team1": {
           "name": "CIV",
           "flag": "🇨🇮",
@@ -156,7 +156,7 @@
       {
         "id": "KO-007",
         "koNum": 7,
-        "date": "29 jun",
+        "date": "30 jun",
         "team1": {
           "name": "MEX",
           "flag": "🇲🇽",
@@ -185,7 +185,7 @@
       {
         "id": "KO-003",
         "koNum": 3,
-        "date": "28 jun",
+        "date": "29 jun",
         "team1": {
           "name": "NED",
           "flag": "🇳🇱",
@@ -216,7 +216,7 @@
       {
         "id": "KO-008",
         "koNum": 8,
-        "date": "29 jun",
+        "date": "1 jul",
         "team1": {
           "name": "ENG",
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -245,7 +245,7 @@
       {
         "id": "KO-011",
         "koNum": 11,
-        "date": "30 jun",
+        "date": "2 jul",
         "team1": {
           "name": "POR",
           "flag": "🇵🇹",
@@ -274,7 +274,7 @@
       {
         "id": "KO-014",
         "koNum": 14,
-        "date": "1 jul",
+        "date": "3 jul",
         "team1": {
           "name": "ARG",
           "flag": "🇦🇷",
@@ -303,7 +303,7 @@
       {
         "id": "KO-012",
         "koNum": 12,
-        "date": "30 jun",
+        "date": "2 jul",
         "team1": {
           "name": "ESP",
           "flag": "🇪🇸",
@@ -332,7 +332,7 @@
       {
         "id": "KO-016",
         "koNum": 16,
-        "date": "2 jul",
+        "date": "3 jul",
         "team1": {
           "name": "AUS",
           "flag": "🇦🇺",
@@ -361,7 +361,7 @@
       {
         "id": "KO-009",
         "koNum": 9,
-        "date": "30 jun",
+        "date": "1 jul",
         "team1": {
           "name": "USA",
           "flag": "🇺🇸",
@@ -390,7 +390,7 @@
       {
         "id": "KO-013",
         "koNum": 13,
-        "date": "1 jul",
+        "date": "2 jul",
         "team1": {
           "name": "SUI",
           "flag": "🇨🇭",
@@ -419,7 +419,7 @@
       {
         "id": "KO-010",
         "koNum": 10,
-        "date": "30 jun",
+        "date": "1 jul",
         "team1": {
           "name": "BEL",
           "flag": "🇧🇪",
@@ -448,7 +448,7 @@
       {
         "id": "KO-015",
         "koNum": 15,
-        "date": "2 jul",
+        "date": "3 jul",
         "team1": {
           "name": "COL",
           "flag": "🇨🇴",
@@ -2062,9 +2062,47 @@
   "fixtures": {
     "recent": [
       {
-        "date": "28 jun",
-        "time": "20:00",
-        "_sort": "2026-06-28T20:00:00",
+        "date": "29 jun",
+        "time": "19:00",
+        "_sort": "2026-06-29T19:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "NED",
+          "flag": "🇳🇱",
+          "fullName": "Países Bajos"
+        },
+        "team2": {
+          "name": "MAR",
+          "flag": "🇲🇦",
+          "fullName": "Marruecos"
+        },
+        "score1": 3,
+        "score2": 4,
+        "status": "finished"
+      },
+      {
+        "date": "29 jun",
+        "time": "14:30",
+        "_sort": "2026-06-29T14:30:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "GER",
+          "flag": "🇩🇪",
+          "fullName": "Alemania"
+        },
+        "team2": {
+          "name": "PAR",
+          "flag": "🇵🇾",
+          "fullName": "Paraguay"
+        },
+        "score1": 4,
+        "score2": 5,
+        "status": "finished"
+      },
+      {
+        "date": "29 jun",
+        "time": "11:00",
+        "_sort": "2026-06-29T11:00:00",
         "comp": "Eliminatorias",
         "team1": {
           "name": "BRA",
@@ -2082,46 +2120,8 @@
       },
       {
         "date": "28 jun",
-        "time": "17:00",
-        "_sort": "2026-06-28T17:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "NED",
-          "flag": "🇳🇱",
-          "fullName": "Países Bajos"
-        },
-        "team2": {
-          "name": "MAR",
-          "flag": "🇲🇦",
-          "fullName": "Marruecos"
-        },
-        "score1": 3,
-        "score2": 4,
-        "status": "finished"
-      },
-      {
-        "date": "28 jun",
-        "time": "14:00",
-        "_sort": "2026-06-28T14:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "GER",
-          "flag": "🇩🇪",
-          "fullName": "Alemania"
-        },
-        "team2": {
-          "name": "PAR",
-          "flag": "🇵🇾",
-          "fullName": "Paraguay"
-        },
-        "score1": 4,
-        "score2": 5,
-        "status": "finished"
-      },
-      {
-        "date": "28 jun",
-        "time": "11:00",
-        "_sort": "2026-06-28T11:00:00",
+        "time": "13:00",
+        "_sort": "2026-06-28T13:00:00",
         "comp": "Eliminatorias",
         "team1": {
           "name": "RSA",
@@ -2216,28 +2216,9 @@
     ],
     "upcoming": [
       {
-        "date": "29 jun",
+        "date": "30 jun",
         "time": "11:00",
-        "_sort": "2026-06-29T11:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "team2": {
-          "name": "SWE",
-          "flag": "🇸🇪",
-          "fullName": "Suecia"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
-      {
-        "date": "29 jun",
-        "time": "14:00",
-        "_sort": "2026-06-29T14:00:00",
+        "_sort": "2026-06-30T11:00:00",
         "comp": "Eliminatorias",
         "team1": {
           "name": "CIV",
@@ -2254,9 +2235,28 @@
         "status": "pending"
       },
       {
-        "date": "29 jun",
-        "time": "17:00",
-        "_sort": "2026-06-29T17:00:00",
+        "date": "30 jun",
+        "time": "15:00",
+        "_sort": "2026-06-30T15:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "team2": {
+          "name": "SWE",
+          "flag": "🇸🇪",
+          "fullName": "Suecia"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "30 jun",
+        "time": "19:00",
+        "_sort": "2026-06-30T19:00:00",
         "comp": "Eliminatorias",
         "team1": {
           "name": "MEX",
@@ -2273,9 +2273,9 @@
         "status": "pending"
       },
       {
-        "date": "29 jun",
-        "time": "20:00",
-        "_sort": "2026-06-29T20:00:00",
+        "date": "1 jul",
+        "time": "10:00",
+        "_sort": "2026-07-01T10:00:00",
         "comp": "Eliminatorias",
         "team1": {
           "name": "ENG",
@@ -2292,28 +2292,9 @@
         "status": "pending"
       },
       {
-        "date": "30 jun",
-        "time": "11:00",
-        "_sort": "2026-06-30T11:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "USA",
-          "flag": "🇺🇸",
-          "fullName": "EE.UU."
-        },
-        "team2": {
-          "name": "BIH",
-          "flag": "🇧🇦",
-          "fullName": "Bosnia y Herzegovina"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
-      {
-        "date": "30 jun",
+        "date": "1 jul",
         "time": "14:00",
-        "_sort": "2026-06-30T14:00:00",
+        "_sort": "2026-07-01T14:00:00",
         "comp": "Eliminatorias",
         "team1": {
           "name": "BEL",
@@ -2330,28 +2311,28 @@
         "status": "pending"
       },
       {
-        "date": "30 jun",
-        "time": "17:00",
-        "_sort": "2026-06-30T17:00:00",
+        "date": "1 jul",
+        "time": "18:00",
+        "_sort": "2026-07-01T18:00:00",
         "comp": "Eliminatorias",
         "team1": {
-          "name": "POR",
-          "flag": "🇵🇹",
-          "fullName": "Portugal"
+          "name": "USA",
+          "flag": "🇺🇸",
+          "fullName": "EE.UU."
         },
         "team2": {
-          "name": "CRO",
-          "flag": "🇭🇷",
-          "fullName": "Croacia"
+          "name": "BIH",
+          "flag": "🇧🇦",
+          "fullName": "Bosnia y Herzegovina"
         },
         "score1": null,
         "score2": null,
         "status": "pending"
       },
       {
-        "date": "30 jun",
-        "time": "20:00",
-        "_sort": "2026-06-30T20:00:00",
+        "date": "2 jul",
+        "time": "13:00",
+        "_sort": "2026-07-02T13:00:00",
         "comp": "Eliminatorias",
         "team1": {
           "name": "ESP",
@@ -2362,6 +2343,25 @@
           "name": "AUT",
           "flag": "🇦🇹",
           "fullName": "Austria"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "2 jul",
+        "time": "17:00",
+        "_sort": "2026-07-02T17:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal"
+        },
+        "team2": {
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia"
         },
         "score1": null,
         "score2": null,
