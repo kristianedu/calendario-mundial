@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T14:25:21",
+  "lastUpdated": "2026-06-30T14:26:37",
   "rounds": {
     "round_of_32": [
       {
@@ -11,14 +11,16 @@
           "flag": "🇩🇪",
           "fullName": "Alemania",
           "score": 4,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "PAR",
           "flag": "🇵🇾",
           "fullName": "Paraguay",
           "score": 5,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "status": "finished",
         "winner": "team2",
@@ -40,14 +42,16 @@
           "flag": "🇧🇷",
           "fullName": "Brasil",
           "score": 2,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "JPN",
           "flag": "🇯🇵",
           "fullName": "Japón",
           "score": 1,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "status": "finished",
         "winner": "team1",
@@ -127,14 +131,16 @@
           "flag": "🇿🇦",
           "fullName": "Sudáfrica",
           "score": 0,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "CAN",
           "flag": "🇨🇦",
           "fullName": "Canadá",
           "score": 1,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "status": "finished",
         "winner": "team2",
@@ -185,14 +191,16 @@
           "flag": "🇳🇱",
           "fullName": "Países Bajos",
           "score": 3,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "MAR",
           "flag": "🇲🇦",
           "fullName": "Marruecos",
           "score": 4,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "status": "finished",
         "winner": "team2",
@@ -477,7 +485,8 @@
           "flag": "🇵🇾",
           "fullName": "Paraguay",
           "score": null,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "G·T5",
@@ -506,7 +515,8 @@
           "flag": "🇧🇷",
           "fullName": "Brasil",
           "score": null,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "G·T6",
@@ -535,14 +545,16 @@
           "flag": "🇨🇦",
           "fullName": "Canadá",
           "score": null,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "MAR",
           "flag": "🇲🇦",
           "fullName": "Marruecos",
           "score": null,
-          "placeholder": false
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,

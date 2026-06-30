@@ -295,6 +295,7 @@
             text-align: center;
         }
         .team-score.no-score { color: var(--text-3); font-weight: 400; }
+        .team-pen { font-size: 0.85em; font-weight: 700; color: var(--text-3); }
         .match-date {
             font-size: 0.45rem;
             color: var(--text-3);
@@ -712,7 +713,9 @@
                     if (c && m[slot].placeholder) {
                         const fe = eff[c.from];
                         const t = fe ? (c.type === 'winner' ? fe.winner : fe.loser) : null;
-                        if (t) m[slot] = Object.assign({}, t, { score: null });
+                        // score/pen en null: el equipo que avanza no arrastra el
+                        // marcador ni la tanda de penales de su partido anterior.
+                        if (t) m[slot] = Object.assign({}, t, { score: null, pen: null });
                     }
                 }
                 // Determinar ganador: real (bloqueado) tiene prioridad; si no, pick.
@@ -1061,8 +1064,14 @@
             const pickable = match._pickable && !isTBD;
             const cls = [isW ? 'winner' : (isL ? 'loser' : ''), pickable ? 'pickable' : ''].join(' ').trim();
             const nCls = isTBD ? 'team-name tbd' : 'team-name';
-            const sc = (team.score !== null && team.score !== undefined) ? team.score : '-';
-            const sCls = (team.score !== null && team.score !== undefined) ? 'team-score' : 'team-score no-score';
+            const hasScore = (team.score !== null && team.score !== undefined);
+            const hasPen = (team.pen !== null && team.pen !== undefined);
+            // En cruces definidos por penales muestra el marcador y, entre
+            // paréntesis, los penales: "1 (5)".
+            const sc = hasScore
+                ? (hasPen ? `${team.score} <span class="team-pen">(${team.pen})</span>` : team.score)
+                : '-';
+            const sCls = hasScore ? 'team-score' : 'team-score no-score';
             const data = pickable
                 ? `data-ko="${match.koNum}" data-slot="${slot}" data-team="${team.fullName}"`
                 : '';
