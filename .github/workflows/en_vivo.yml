@@ -88,7 +88,7 @@ jobs:
           git push origin gh-pages
 
       - name: Notificar WhatsApp con screenshot del bracket
-        if: false  # Notificaciones de WhatsApp DESACTIVADAS por pedido del usuario
+        if: success()  # Envía la captura cada vez que finaliza un partido (1 por partido)
         continue-on-error: true
         env:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
