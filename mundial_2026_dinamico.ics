@@ -924,7 +924,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🔴 🇫🇷 Francia [1] - [0] Suecia 🇸🇪 - Treintaidosavos 
- de Final (En Vivo)
+ de Final (Medio Tiempo)
 DTSTART;TZID=America/El_Salvador:20260630T150000
 DTEND;TZID=America/El_Salvador:20260630T170000
 DTSTAMP:20260602T170000Z
