@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T00:25:21",
+  "lastUpdated": "2026-06-30T00:30:29",
   "rounds": {
     "round_of_32": [
       {
@@ -10,14 +10,14 @@
           "name": "GER",
           "flag": "🇩🇪",
           "fullName": "Alemania",
-          "score": 5,
+          "score": 4,
           "placeholder": false
         },
         "team2": {
           "name": "PAR",
           "flag": "🇵🇾",
           "fullName": "Paraguay",
-          "score": 6,
+          "score": 5,
           "placeholder": false
         },
         "status": "finished",
@@ -2083,8 +2083,8 @@
           "flag": "🇵🇾",
           "fullName": "Paraguay"
         },
-        "score1": 5,
-        "score2": 6,
+        "score1": 4,
+        "score2": 5,
         "status": "finished"
       },
       {
