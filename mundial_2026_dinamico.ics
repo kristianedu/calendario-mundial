@@ -900,7 +900,7 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇳🇱 Países Bajos [4] - [3] Marruecos 🇲🇦 - Treintai
+SUMMARY:✅ 🇳🇱 Países Bajos [3] - [4] Marruecos 🇲🇦 - Treintai
  dosavos de Final (Final)
 DTSTART;TZID=America/El_Salvador:20260628T170000
 DTEND;TZID=America/El_Salvador:20260628T190000
@@ -923,8 +923,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇫🇷 Francia vs Suecia 🇸🇪 - Treintaidosavos de Fina
- l
+SUMMARY:🏆 🇫🇷 Francia [0] - [0] Suecia 🇸🇪 - Treintaidosavos 
+ de Final
 DTSTART;TZID=America/El_Salvador:20260629T110000
 DTEND;TZID=America/El_Salvador:20260629T130000
 DTSTAMP:20260602T170000Z
@@ -935,8 +935,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇨🇮 Costa de Marfil vs Noruega 🇳🇴 - Treintaidosavo
- s de Final
+SUMMARY:🏆 🇨🇮 Costa de Marfil [0] - [0] Noruega 🇳🇴 - Treinta
+ idosavos de Final
 DTSTART;TZID=America/El_Salvador:20260629T140000
 DTEND;TZID=America/El_Salvador:20260629T160000
 DTSTAMP:20260602T170000Z
