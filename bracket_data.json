@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T19:00:39",
+  "lastUpdated": "2026-06-30T19:05:23",
   "rounds": {
     "round_of_32": [
       {
@@ -101,18 +101,20 @@
           "name": "CIV",
           "flag": "🇨🇮",
           "fullName": "Costa de Marfil",
-          "score": null,
-          "placeholder": false
+          "score": 1,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "NOR",
           "flag": "🇳🇴",
           "fullName": "Noruega",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "right",
         "order": 1,
         "round": "round_of_32",
@@ -519,11 +521,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·T6",
-          "flag": "🛡️",
-          "fullName": "Ganador T6",
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2062,6 +2065,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "30 jun",
+        "time": "11:00",
+        "_sort": "2026-06-30T11:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "CIV",
+          "flag": "🇨🇮",
+          "fullName": "Costa de Marfil"
+        },
+        "team2": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega"
+        },
+        "score1": 1,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
         "date": "29 jun",
         "time": "19:00",
         "_sort": "2026-06-29T19:00:00",
@@ -2193,47 +2215,9 @@
         "score1": 3,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "27 jun",
-        "time": "17:30",
-        "_sort": "2026-06-27T17:30:00",
-        "comp": "Grupo K",
-        "team1": {
-          "name": "POR",
-          "flag": "🇵🇹",
-          "fullName": "Portugal"
-        },
-        "team2": {
-          "name": "COL",
-          "flag": "🇨🇴",
-          "fullName": "Colombia"
-        },
-        "score1": 0,
-        "score2": 0,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "30 jun",
-        "time": "11:00",
-        "_sort": "2026-06-30T11:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "CIV",
-          "flag": "🇨🇮",
-          "fullName": "Costa de Marfil"
-        },
-        "team2": {
-          "name": "NOR",
-          "flag": "🇳🇴",
-          "fullName": "Noruega"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "30 jun",
         "time": "15:00",
@@ -2362,6 +2346,25 @@
           "name": "CRO",
           "flag": "🇭🇷",
           "fullName": "Croacia"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "2 jul",
+        "time": "21:00",
+        "_sort": "2026-07-02T21:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "SUI",
+          "flag": "🇨🇭",
+          "fullName": "Suiza"
+        },
+        "team2": {
+          "name": "ALG",
+          "flag": "🇩🇿",
+          "fullName": "Argelia"
         },
         "score1": null,
         "score2": null,
