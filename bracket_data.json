@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T04:06:38",
+  "lastUpdated": "2026-06-30T04:07:15",
   "rounds": {
     "round_of_32": [
       {
@@ -184,7 +184,7 @@
           "name": "NED",
           "flag": "🇳🇱",
           "fullName": "Países Bajos",
-          "score": 3,
+          "score": 4,
           "placeholder": false
         },
         "team2": {
@@ -195,7 +195,7 @@
           "placeholder": false
         },
         "status": "finished",
-        "winner": "team2",
+        "winner": null,
         "side": "left",
         "order": 3,
         "round": "round_of_32",
@@ -538,11 +538,11 @@
           "placeholder": false
         },
         "team2": {
-          "name": "MAR",
-          "flag": "🇲🇦",
-          "fullName": "Marruecos",
+          "name": "G·T3",
+          "flag": "🛡️",
+          "fullName": "Ganador T3",
           "score": null,
-          "placeholder": false
+          "placeholder": true
         },
         "status": "pending",
         "winner": null,
@@ -2083,7 +2083,7 @@
           "flag": "🇲🇦",
           "fullName": "Marruecos"
         },
-        "score1": 3,
+        "score1": 4,
         "score2": 4,
         "status": "finished"
       },
