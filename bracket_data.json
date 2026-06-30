@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T22:55:23",
+  "lastUpdated": "2026-06-30T23:00:38",
   "rounds": {
     "round_of_32": [
       {
@@ -72,18 +72,20 @@
           "name": "FRA",
           "flag": "🇫🇷",
           "fullName": "Francia",
-          "score": null,
-          "placeholder": false
+          "score": 3,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "SWE",
           "flag": "🇸🇪",
           "fullName": "Suecia",
-          "score": null,
-          "placeholder": false
+          "score": 0,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "left",
         "order": 1,
         "round": "round_of_32",
@@ -491,11 +493,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·T5",
-          "flag": "🛡️",
-          "fullName": "Ganador T5",
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2066,6 +2069,25 @@
     "recent": [
       {
         "date": "30 jun",
+        "time": "15:00",
+        "_sort": "2026-06-30T15:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "team2": {
+          "name": "SWE",
+          "flag": "🇸🇪",
+          "fullName": "Suecia"
+        },
+        "score1": 3,
+        "score2": 0,
+        "status": "finished"
+      },
+      {
+        "date": "30 jun",
         "time": "11:00",
         "_sort": "2026-06-30T11:00:00",
         "comp": "Eliminatorias",
@@ -2196,47 +2218,9 @@
         "score1": 3,
         "score2": 3,
         "status": "finished"
-      },
-      {
-        "date": "27 jun",
-        "time": "17:30",
-        "_sort": "2026-06-27T17:30:00",
-        "comp": "Grupo K",
-        "team1": {
-          "name": "COD",
-          "flag": "🇨🇩",
-          "fullName": "RD Congo"
-        },
-        "team2": {
-          "name": "UZB",
-          "flag": "🇺🇿",
-          "fullName": "Uzbekistán"
-        },
-        "score1": 3,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "30 jun",
-        "time": "15:00",
-        "_sort": "2026-06-30T15:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "team2": {
-          "name": "SWE",
-          "flag": "🇸🇪",
-          "fullName": "Suecia"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "30 jun",
         "time": "19:00",
@@ -2365,6 +2349,25 @@
           "name": "ALG",
           "flag": "🇩🇿",
           "fullName": "Argelia"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "3 jul",
+        "time": "12:00",
+        "_sort": "2026-07-03T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "AUS",
+          "flag": "🇦🇺",
+          "fullName": "Australia"
+        },
+        "team2": {
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto"
         },
         "score1": null,
         "score2": null,
