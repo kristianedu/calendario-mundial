@@ -942,8 +942,8 @@ DTEND;TZID=America/El_Salvador:20260630T130000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-006@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Costa de Marfil (3.6) | Empate (3.3) | Nor
- uega (2.12)
+  Final\n\n💰 Cuotas Promedio: Costa de Marfil (8.0) | Empate (3.5) | Nor
+ uega (1.4)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -954,8 +954,8 @@ DTEND;TZID=America/El_Salvador:20260630T210000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-007@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: México (2.3) | Empate (2.85) | Ecuador (4
- .0)
+  Final\n\n💰 Cuotas Promedio: México (2.28) | Empate (2.85) | Ecuador (
+ 4.1)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1025,8 +1025,8 @@ DTEND;TZID=America/El_Salvador:20260702T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-013@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Suiza (2.02) | Empate (3.15) | Argelia (4.
- 2)
+  Final\n\n💰 Cuotas Promedio: Suiza (2.02) | Empate (3.1) | Argelia (4.3
+ )
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1061,8 +1061,8 @@ DTEND;TZID=America/El_Salvador:20260703T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-016@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Australia (3.55) | Empate (2.75) | Egipto 
- (2.43)
+  Final\n\n💰 Cuotas Promedio: Australia (3.45) | Empate (2.75) | Egipto 
+ (2.5)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1081,7 +1081,7 @@ DTEND;TZID=America/El_Salvador:20260704T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-018@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Canadá (4.9) | Empate (3.45) | Marruecos (1.73)
+ \n💰 Cuotas Promedio: Canadá (4.9) | Empate (3.45) | Marruecos (1.74)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
