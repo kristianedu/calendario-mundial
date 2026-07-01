@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:50:25",
+  "lastUpdated": "2026-07-01T22:55:24",
   "rounds": {
     "round_of_32": [
       {
@@ -432,18 +432,20 @@
           "name": "BEL",
           "flag": "🇧🇪",
           "fullName": "Bélgica",
-          "score": null,
-          "placeholder": false
+          "score": 3,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "SEN",
           "flag": "🇸🇳",
           "fullName": "Senegal",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "left",
         "order": 7,
         "round": "round_of_32",
@@ -678,11 +680,12 @@
           "placeholder": true
         },
         "team2": {
-          "name": "G·T10",
-          "flag": "🛡️",
-          "fullName": "Ganador T10",
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2075,6 +2078,25 @@
     "recent": [
       {
         "date": "1 jul",
+        "time": "14:00",
+        "_sort": "2026-07-01T14:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica"
+        },
+        "team2": {
+          "name": "SEN",
+          "flag": "🇸🇳",
+          "fullName": "Senegal"
+        },
+        "score1": 3,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
+        "date": "1 jul",
         "time": "10:00",
         "_sort": "2026-07-01T10:00:00",
         "comp": "Eliminatorias",
@@ -2205,47 +2227,9 @@
         "score1": 2,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "28 jun",
-        "time": "13:00",
-        "_sort": "2026-06-28T13:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "RSA",
-          "flag": "🇿🇦",
-          "fullName": "Sudáfrica"
-        },
-        "team2": {
-          "name": "CAN",
-          "flag": "🇨🇦",
-          "fullName": "Canadá"
-        },
-        "score1": 0,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "1 jul",
-        "time": "14:00",
-        "_sort": "2026-07-01T14:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "BEL",
-          "flag": "🇧🇪",
-          "fullName": "Bélgica"
-        },
-        "team2": {
-          "name": "SEN",
-          "flag": "🇸🇳",
-          "fullName": "Senegal"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "1 jul",
         "time": "18:00",
@@ -2374,6 +2358,25 @@
           "name": "GHA",
           "flag": "🇬🇭",
           "fullName": "Ghana"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "4 jul",
+        "time": "12:00",
+        "_sort": "2026-07-04T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "PAR",
+          "flag": "🇵🇾",
+          "fullName": "Paraguay"
+        },
+        "team2": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
         },
         "score1": null,
         "score2": null,
