@@ -959,8 +959,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs RD Congo 🇨🇩 
- - Treintaidosavos de Final
+SUMMARY:🏆 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra [0] - [0] RD Congo 
+ 🇨🇩 - Treintaidosavos de Final
 DTSTART;TZID=America/El_Salvador:20260701T100000
 DTEND;TZID=America/El_Salvador:20260701T120000
 DTSTAMP:20260602T170000Z
@@ -983,8 +983,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇧🇪 Bélgica vs Senegal 🇸🇳 - Treintaidosavos de Fi
- nal
+SUMMARY:🏆 🇧🇪 Bélgica [0] - [0] Senegal 🇸🇳 - Treintaidosavo
+ s de Final
 DTSTART;TZID=America/El_Salvador:20260701T140000
 DTEND;TZID=America/El_Salvador:20260701T160000
 DTSTAMP:20260602T170000Z
