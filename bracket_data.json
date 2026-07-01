@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T18:00:35",
+  "lastUpdated": "2026-07-01T18:05:28",
   "rounds": {
     "round_of_32": [
       {
@@ -227,18 +227,20 @@
           "name": "ENG",
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
           "fullName": "Inglaterra",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "COD",
           "flag": "🇨🇩",
           "fullName": "RD Congo",
-          "score": null,
-          "placeholder": false
+          "score": 1,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "right",
         "order": 3,
         "round": "round_of_32",
@@ -588,11 +590,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·T8",
-          "flag": "🛡️",
-          "fullName": "Ganador T8",
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2071,6 +2074,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "1 jul",
+        "time": "10:00",
+        "_sort": "2026-07-01T10:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra"
+        },
+        "team2": {
+          "name": "COD",
+          "flag": "🇨🇩",
+          "fullName": "RD Congo"
+        },
+        "score1": 2,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
         "date": "30 jun",
         "time": "19:00",
         "_sort": "2026-06-30T19:00:00",
@@ -2202,47 +2224,9 @@
         "score1": 0,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "27 jun",
-        "time": "21:00",
-        "_sort": "2026-06-27T21:00:00",
-        "comp": "Grupo J",
-        "team1": {
-          "name": "JOR",
-          "flag": "🇯🇴",
-          "fullName": "Jordania"
-        },
-        "team2": {
-          "name": "ARG",
-          "flag": "🇦🇷",
-          "fullName": "Argentina"
-        },
-        "score1": 1,
-        "score2": 3,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "1 jul",
-        "time": "10:00",
-        "_sort": "2026-07-01T10:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "ENG",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "fullName": "Inglaterra"
-        },
-        "team2": {
-          "name": "COD",
-          "flag": "🇨🇩",
-          "fullName": "RD Congo"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "1 jul",
         "time": "14:00",
@@ -2371,6 +2355,25 @@
           "name": "CPV",
           "flag": "🇨🇻",
           "fullName": "Cabo Verde"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "3 jul",
+        "time": "19:30",
+        "_sort": "2026-07-03T19:30:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "COL",
+          "flag": "🇨🇴",
+          "fullName": "Colombia"
+        },
+        "team2": {
+          "name": "GHA",
+          "flag": "🇬🇭",
+          "fullName": "Ghana"
         },
         "score1": null,
         "score2": null,
