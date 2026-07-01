@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T04:05:26",
+  "lastUpdated": "2026-07-01T04:10:29",
   "rounds": {
     "round_of_32": [
       {
@@ -165,18 +165,20 @@
           "name": "MEX",
           "flag": "🇲🇽",
           "fullName": "México",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "ECU",
           "flag": "🇪🇨",
           "fullName": "Ecuador",
-          "score": null,
-          "placeholder": false
+          "score": 0,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "right",
         "order": 2,
         "round": "round_of_32",
@@ -578,11 +580,12 @@
         "koNum": 20,
         "date": "5 jul",
         "team1": {
-          "name": "G·T7",
-          "flag": "🛡️",
-          "fullName": "Ganador T7",
+          "name": "MEX",
+          "flag": "🇲🇽",
+          "fullName": "México",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "G·T8",
@@ -2069,6 +2072,25 @@
     "recent": [
       {
         "date": "30 jun",
+        "time": "19:00",
+        "_sort": "2026-06-30T19:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "MEX",
+          "flag": "🇲🇽",
+          "fullName": "México"
+        },
+        "team2": {
+          "name": "ECU",
+          "flag": "🇪🇨",
+          "fullName": "Ecuador"
+        },
+        "score1": 2,
+        "score2": 0,
+        "status": "finished"
+      },
+      {
+        "date": "30 jun",
         "time": "15:00",
         "_sort": "2026-06-30T15:00:00",
         "comp": "Eliminatorias",
@@ -2199,47 +2221,9 @@
         "score1": 1,
         "score2": 3,
         "status": "finished"
-      },
-      {
-        "date": "27 jun",
-        "time": "21:00",
-        "_sort": "2026-06-27T21:00:00",
-        "comp": "Grupo J",
-        "team1": {
-          "name": "ALG",
-          "flag": "🇩🇿",
-          "fullName": "Argelia"
-        },
-        "team2": {
-          "name": "AUT",
-          "flag": "🇦🇹",
-          "fullName": "Austria"
-        },
-        "score1": 3,
-        "score2": 3,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "30 jun",
-        "time": "19:00",
-        "_sort": "2026-06-30T19:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "MEX",
-          "flag": "🇲🇽",
-          "fullName": "México"
-        },
-        "team2": {
-          "name": "ECU",
-          "flag": "🇪🇨",
-          "fullName": "Ecuador"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "1 jul",
         "time": "10:00",
@@ -2368,6 +2352,25 @@
           "name": "EGY",
           "flag": "🇪🇬",
           "fullName": "Egipto"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "3 jul",
+        "time": "16:00",
+        "_sort": "2026-07-03T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina"
+        },
+        "team2": {
+          "name": "CPV",
+          "flag": "🇨🇻",
+          "fullName": "Cabo Verde"
         },
         "score1": null,
         "score2": null,
