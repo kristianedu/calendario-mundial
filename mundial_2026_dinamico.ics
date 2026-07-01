@@ -947,8 +947,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇲🇽 México [2] - [0] Ecuador 🇪🇨 - Treintaidosavos
-  de Final
+SUMMARY:🔴 🇲🇽 México [2] - [0] Ecuador 🇪🇨 - Treintaidosavos
+  de Final (Medio Tiempo)
 DTSTART;TZID=America/El_Salvador:20260630T190000
 DTEND;TZID=America/El_Salvador:20260630T210000
 DTSTAMP:20260602T170000Z
