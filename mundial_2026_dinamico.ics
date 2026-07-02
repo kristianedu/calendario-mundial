@@ -995,8 +995,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇵🇹 Portugal [0] - [0] Croacia 🇭🇷 - Treintaidosavo
- s de Final
+SUMMARY:🏆 🇵🇹 Portugal vs Croacia 🇭🇷 - Treintaidosavos de Fi
+ nal
 DTSTART;TZID=America/El_Salvador:20260702T170000
 DTEND;TZID=America/El_Salvador:20260702T190000
 DTSTAMP:20260602T170000Z
@@ -1007,8 +1007,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇪🇸 España [0] - [0] Austria 🇦🇹 - Treintaidosavos
-  de Final
+SUMMARY:🏆 🇪🇸 España vs Austria 🇦🇹 - Treintaidosavos de Fin
+ al
 DTSTART;TZID=America/El_Salvador:20260702T130000
 DTEND;TZID=America/El_Salvador:20260702T150000
 DTSTAMP:20260602T170000Z
