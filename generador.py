@@ -9,6 +9,47 @@ API_KEY = os.environ.get("API_KEY")
 
 from equipos import normalize_name
 
+def extraer_equipos(summary):
+    """Extrae los dos equipos de un summary de VEVENT de forma exacta.
+
+    Formatos soportados (el emoji inicial puede ser ⚽, 🏆, ✅, 🔴, etc., y
+    los equipos suelen ir acompañados de su bandera):
+      "<emoji> <bandera> EquipoA vs EquipoB <bandera> - Fase"
+      "<emoji> <bandera> EquipoA [x] - [y] EquipoB <bandera> - Fase (Estado) [Penales: a-b]"
+
+    Devuelve una tupla (equipo1, equipo2) en el orden en que aparecen en el
+    summary, o None si el formato no se reconoce (p.ej. placeholders como
+    "🏆 Octavos de Final - Partido 1").
+    """
+    s = summary
+    # Quitar sufijos opcionales: tanda de penales y estado entre paréntesis
+    s = re.sub(r"\s*\[Penales: \d+-\d+\]\s*$", "", s)
+    s = re.sub(r"\s*\([^)]*\)\s*$", "", s)
+
+    # Separar por el marcador " [x] - [y] " o, si aún no hay marcador, por " vs "
+    m = re.search(r"\s\[\d+\] - \[\d+\]\s", s)
+    if m:
+        izquierda, derecha = s[:m.start()], s[m.end():]
+    elif " vs " in s:
+        izquierda, derecha = s.split(" vs ", 1)
+    else:
+        return None
+
+    # La parte derecha puede traer la fase del torneo: "EquipoB 🇽🇾 - Grupo A"
+    derecha = derecha.split(" - ")[0]
+
+    def limpiar(texto):
+        # Eliminar emojis/banderas y normalizar espacios. Se conservan letras
+        # (incluidos acentos), dígitos, espacios, puntos y guiones para
+        # nombres como "EE.UU.", "Corea del Sur" o "Bosnia y Herzegovina".
+        texto = re.sub(r"[^\w\s.\-]", "", texto)
+        return re.sub(r"\s+", " ", texto).strip()
+
+    equipo1, equipo2 = limpiar(izquierda), limpiar(derecha)
+    if not equipo1 or not equipo2:
+        return None
+    return equipo1, equipo2
+
 def actualizar_calendario():
     if not API_KEY:
         print("API_KEY no encontrada en las variables de entorno. Saliendo.")
@@ -68,7 +109,7 @@ def actualizar_calendario():
     url = f"https://api.football-data.org/v4/matches?competitions=WC&dateFrom={date_from_str}&dateTo={date_to_str}"
     
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=15)
         data = response.json()
         fixtures = data.get('matches', [])
     except Exception as e:
@@ -129,7 +170,7 @@ def actualizar_calendario():
         try:
             # En v4, no hay endpoint /events pero vienen dentro del endpoint /matches/{id}
             events_url = f"https://api.football-data.org/v4/matches/{fid}"
-            events_response = requests.get(events_url, headers=headers)
+            events_response = requests.get(events_url, headers=headers, timeout=15)
             events_data = events_response.json()
             
             events_list = events_data.get('goals', []) + events_data.get('bookings', []) + events_data.get('substitutions', [])
@@ -199,17 +240,25 @@ def actualizar_calendario():
             if "(Final)" in summary:
                 continue
 
+            # Extraer los dos equipos del summary de forma exacta para evitar
+            # falsos positivos por substrings (p.ej. "Congo" dentro de
+            # "RD Congo" actualizaría el partido equivocado).
+            equipos_summary = extraer_equipos(summary)
+            if not equipos_summary:
+                continue
+            eq1, eq2 = equipos_summary
+
             for match_key, res in resultados_api.items():
-                if res['home_name'] in summary and res['away_name'] in summary:
+                directo = (eq1 == res['home_name'] and eq2 == res['away_name'])
+                invertido = (eq1 == res['away_name'] and eq2 == res['home_name'])
+                if directo or invertido:
                     home_goals = res['home_goals'] if res['home_goals'] is not None else 0
                     away_goals = res['away_goals'] if res['away_goals'] is not None else 0
 
                     # Orientar los goles al orden en que aparecen los equipos en
                     # el summary (puede diferir del orden home/away de la API,
                     # p.ej. en los cruces KO que se arman en el orden del cuadro).
-                    i_home = summary.find(res['home_name'])
-                    i_away = summary.find(res['away_name'])
-                    if i_away != -1 and i_home != -1 and i_away < i_home:
+                    if invertido:
                         g1, g2 = away_goals, home_goals
                     else:
                         g1, g2 = home_goals, away_goals
@@ -233,7 +282,7 @@ def actualizar_calendario():
                         # aunque el tiempo reglamentario haya quedado empatado.
                         ph, pa = res.get('pen_home'), res.get('pen_away')
                         if ph is not None and pa is not None:
-                            if i_away != -1 and i_home != -1 and i_away < i_home:
+                            if invertido:
                                 p1, p2 = pa, ph
                             else:
                                 p1, p2 = ph, pa
