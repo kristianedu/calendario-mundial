@@ -1007,8 +1007,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇪🇸 España [3] - [0] Austria 🇦🇹 - Treintaidosavos
-  de Final (En Vivo)
+SUMMARY:✅ 🇪🇸 España [3] - [0] Austria 🇦🇹 - Treintaidosavos 
+ de Final (Final)
 DTSTART;TZID=America/El_Salvador:20260702T130000
 DTEND;TZID=America/El_Salvador:20260702T150000
 DTSTAMP:20260602T170000Z
