@@ -1002,8 +1002,8 @@ DTEND;TZID=America/El_Salvador:20260702T190000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-011@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Portugal (1.74) | Empate (3.7) | Croacia (
- 4.7)
+  Final\n\n💰 Cuotas Promedio: Portugal (1.74) | Empate (3.8) | Croacia (
+ 4.6)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1014,7 +1014,7 @@ DTEND;TZID=America/El_Salvador:20260702T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-012@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: España (1.32) | Empate (5.4) | Austria (9
+  Final\n\n💰 Cuotas Promedio: España (1.32) | Empate (5.5) | Austria (9
  .5)
 STATUS:CONFIRMED
 END:VEVENT
@@ -1025,7 +1025,8 @@ DTEND;TZID=America/El_Salvador:20260702T230000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-013@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Suiza (2.0) | Empate (3.2) | Argelia (4.2)
+  Final\n\n💰 Cuotas Promedio: Suiza (1.96) | Empate (3.2) | Argelia (4.3
+ 5)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1060,8 +1061,8 @@ DTEND;TZID=America/El_Salvador:20260703T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-016@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Australia (3.35) | Empate (2.8) | Egipto (
- 2.5)
+  Final\n\n💰 Cuotas Promedio: Australia (3.4) | Empate (2.8) | Egipto (2
+ .5)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1071,7 +1072,7 @@ DTEND;TZID=America/El_Salvador:20260704T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-017@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Paraguay (20.0) | Empate (7.5) | Francia (1.18)
+ \n💰 Cuotas Promedio: Paraguay (21.0) | Empate (7.5) | Francia (1.19)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1081,7 +1082,7 @@ DTEND;TZID=America/El_Salvador:20260704T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-018@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Canadá (5.25) | Empate (3.35) | Marruecos (1.71)
+ \n💰 Cuotas Promedio: Canadá (5.3) | Empate (3.4) | Marruecos (1.7)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
