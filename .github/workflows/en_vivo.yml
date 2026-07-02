@@ -15,10 +15,16 @@ on:
         default: false
 
 concurrency:
-  group: en-vivo
+  # Grupo compartido con los demás workflows que escriben en el repo,
+  # para serializar los pushes a main y evitar choques entre ellos.
   # Las corridas nuevas hacen cola en vez de cancelar la que está en curso,
   # para no interrumpir el envío de la notificación a mitad de camino.
+  group: repo-writes
   cancel-in-progress: false
+
+env:
+  # Versión fija de Playwright para que el cache de navegadores sea estable
+  PLAYWRIGHT_VERSION: '1.61.0'
 
 jobs:
   build-and-deploy:
@@ -32,7 +38,8 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Instalar dependencias
         run: pip install -r requirements.txt
@@ -87,8 +94,82 @@ jobs:
           git pull origin gh-pages --rebase || true
           git push origin gh-pages
 
+      - name: Detectar si hubo cambios que ameriten notificación
+        # Paso ligero que replica la detección mínima de notificar_whatsapp.py
+        # (detectar_eventos) para no instalar Playwright+Chromium en cada corrida:
+        # compara el bracket recién generado contra el anterior ya publicado.
+        id: cambios
+        run: |
+          python - <<'EOF'
+          import json, os
+
+          def cargar(path):
+              try:
+                  with open(path, encoding="utf-8") as f:
+                      return json.load(f) or None
+              except (FileNotFoundError, json.JSONDecodeError):
+                  return None
+
+          RONDAS_LISTA = ["round_of_32", "round_of_16", "quarter_finals", "semi_finals"]
+          RONDAS_UNICAS = ["third_place", "final"]
+
+          def finalizados(data):
+              res = {}
+              rounds = (data or {}).get("rounds", {}) or {}
+              for key in RONDAS_LISTA:
+                  for p in rounds.get(key) or []:
+                      if p.get("status") == "finished":
+                          res[p["id"]] = p
+              for key in RONDAS_UNICAS:
+                  p = rounds.get(key)
+                  if p and p.get("status") == "finished":
+                      res[p["id"]] = p
+              return res
+
+          def firma(p):
+              return (p["team1"].get("fullName"), p["team1"].get("score"),
+                      p["team2"].get("score"), p["team2"].get("fullName"))
+
+          def grupos(data):
+              return {L: info.get("played", 0)
+                      for L, info in ((data or {}).get("groups") or {}).items()}
+
+          viejo = cargar("/tmp/old_bracket_data.json")
+          nuevo = cargar("/tmp/bracket_data.json")
+
+          if viejo is None:
+              # Primer despliegue: dejar correr al notificador para que
+              # establezca la línea base (él mismo decide no enviar).
+              hubo = True
+          else:
+              viejo_ko = finalizados(viejo)
+              # Cruces KO recién finalizados o con marcador corregido
+              hubo = any(
+                  mid not in viejo_ko or firma(viejo_ko[mid]) != firma(p)
+                  for mid, p in finalizados(nuevo).items()
+              )
+              # Grupos con más partidos jugados que antes
+              if not hubo:
+                  viejo_g = grupos(viejo)
+                  hubo = any(j > viejo_g.get(L, 0) for L, j in grupos(nuevo).items())
+
+          valor = "true" if hubo else "false"
+          print(f"hubo_cambios={valor}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"hubo_cambios={valor}\n")
+          EOF
+
+      - name: Cachear navegadores de Playwright
+        if: steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ env.PLAYWRIGHT_VERSION }}
+
       - name: Notificar WhatsApp con screenshot del bracket
-        if: success()  # Envía la captura cada vez que finaliza un partido (1 por partido)
+        # Solo corre si finalizó un partido (o cambió un marcador/grupo), o si se
+        # forzó manualmente; así evitamos instalar Playwright+Chromium en vano.
+        if: steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true'
         continue-on-error: true
         env:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
@@ -97,7 +178,7 @@ jobs:
           PREV_BRACKET_JSON: /tmp/old_bracket_data.json
           FORCE_NOTIFY: ${{ github.event.inputs.force_notify }}
         run: |
-          pip install playwright
+          pip install playwright==${PLAYWRIGHT_VERSION}
           playwright install chromium --with-deps
           # Se ejecuta desde /tmp porque el working dir está en la rama gh-pages,
           # que no contiene el script. Lee bracket_data.json / bracket.html del cwd.
