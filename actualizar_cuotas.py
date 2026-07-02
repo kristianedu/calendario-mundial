@@ -6,42 +6,40 @@ from equipos import normalize_name
 
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY")
 
-# Diccionario para traducir nombres en inglés comunes de The Odds API a español
-TRADUCCIONES = {
-    "United States": "EE.UU.",
-    "USA": "EE.UU.",
-    "Mexico": "México",
-    "Spain": "España",
-    "Germany": "Alemania",
-    "France": "Francia",
-    "Italy": "Italia",
-    "England": "Inglaterra",
-    "Brazil": "Brasil",
-    "South Africa": "Sudáfrica",
-    "South Korea": "Corea del Sur",
-    "Korea Republic": "Corea del Sur",
-    "Czech Republic": "Chequia",
-    "Canada": "Canadá",
-    "Morocco": "Marruecos",
-    "Haiti": "Haití",
-    "Turkey": "Turquía",
-    "Japan": "Japón",
-    "Netherlands": "Países Bajos",
-    "Belgium": "Bélgica",
-    "Croatia": "Croacia",
-    "Switzerland": "Suiza",
-    "Uruguay": "Uruguay",
-    "Cameroon": "Camerún",
-    "Senegal": "Senegal",
-    "Portugal": "Portugal",
-    "El Salvador": "El Salvador"
-    # Se pueden ir agregando más según se necesite
-}
+def promediar_cuotas(bookmakers, home_team_en, away_team_en):
+    """Promedia las cuotas h2h (home/draw/away) sobre todos los bookmakers
+    que tengan el mercado h2h con los tres outcomes.
+    Devuelve {'home': x, 'draw': y, 'away': z} redondeado a 2 decimales,
+    o None si ningún bookmaker tiene el mercado completo."""
+    sumas = {"home": 0.0, "draw": 0.0, "away": 0.0}
+    contados = 0
+    for bookmaker in bookmakers:
+        mercados = bookmaker.get("markets", [])
+        h2h_market = next((m for m in mercados if m.get("key") == "h2h"), None)
+        if not h2h_market:
+            continue
 
-def traducir_equipo(nombre_en):
-    """Traduce del inglés al español y normaliza el nombre"""
-    esp = TRADUCCIONES.get(nombre_en, nombre_en)
-    return normalize_name(esp)
+        cuotas_bk = {}
+        for outcome in h2h_market.get("outcomes", []):
+            name = outcome.get("name")
+            price = outcome.get("price")
+            if price is None:
+                continue
+            if name == home_team_en:
+                cuotas_bk["home"] = price
+            elif name == away_team_en:
+                cuotas_bk["away"] = price
+            elif name == "Draw":
+                cuotas_bk["draw"] = price
+
+        if len(cuotas_bk) == 3:
+            for clave, valor in cuotas_bk.items():
+                sumas[clave] += valor
+            contados += 1
+
+    if contados == 0:
+        return None
+    return {clave: round(valor / contados, 2) for clave, valor in sumas.items()}
 
 def actualizar_cuotas():
     if not ODDS_API_KEY:
@@ -57,7 +55,7 @@ def actualizar_cuotas():
     print("Buscando deportes disponibles en The Odds API...")
     friendlies_key = None
     try:
-        sports_resp = requests.get(f"https://api.the-odds-api.com/v4/sports?apiKey={ODDS_API_KEY}")
+        sports_resp = requests.get(f"https://api.the-odds-api.com/v4/sports?apiKey={ODDS_API_KEY}", timeout=15)
         if sports_resp.status_code == 200:
             sports = sports_resp.json()
             soccer_sports = [s for s in sports if 'soccer' in s.get('key', '').lower()]
@@ -91,7 +89,7 @@ def actualizar_cuotas():
     for url in urls_a_consultar:
         sport_name = url.split('/sports/')[1].split('/odds')[0]
         try:
-            response = requests.get(url)
+            response = requests.get(url, timeout=15)
             if response.status_code != 200:
                 print(f"Advertencia consultando {sport_name}: {response.status_code}")
                 continue
@@ -102,46 +100,23 @@ def actualizar_cuotas():
             for partido in partidos_api:
                 home_team_en = partido.get("home_team")
                 away_team_en = partido.get("away_team")
-                
-                home_team = traducir_equipo(home_team_en)
-                away_team = traducir_equipo(away_team_en)
-                
+
+                home_team = normalize_name(home_team_en)
+                away_team = normalize_name(away_team_en)
+
                 bookmakers = partido.get("bookmakers", [])
                 if not bookmakers:
                     continue
-                    
-                mercados = bookmakers[0].get("markets", [])
-                h2h_market = next((m for m in mercados if m["key"] == "h2h"), None)
-                
-                if not h2h_market:
-                    continue
-                    
-                outcomes = h2h_market.get("outcomes", [])
-                cuotas = {}
-                for outcome in outcomes:
-                    name = outcome["name"]
-                    price = outcome["price"]
-                    
-                    if name == home_team_en:
-                        cuotas["home"] = price
-                    elif name == away_team_en:
-                        cuotas["away"] = price
-                    elif name == "Draw":
-                        cuotas["draw"] = price
-                        
-                if "home" in cuotas and "away" in cuotas and "draw" in cuotas:
+
+                cuotas = promediar_cuotas(bookmakers, home_team_en, away_team_en)
+
+                if cuotas:
                     texto_cuotas = f"💰 Cuotas Promedio: {home_team} ({cuotas['home']}) | Empate ({cuotas['draw']}) | {away_team} ({cuotas['away']})"
                     cuotas_por_partido[f"{home_team} vs {away_team}"] = texto_cuotas
                     cuotas_por_partido[f"{away_team} vs {home_team}"] = texto_cuotas
                     print(f"  → {home_team} vs {away_team}: ✅")
         except Exception as e:
             print(f"Error en la petición a {sport_name}: {e}")
-
-    # Cuotas reales verificadas de Fox Sports / Bet365 para partidos no cubiertos por The Odds API
-    # (The Odds API no cubre amistosos internacionales)
-    if "Corea del Sur vs El Salvador" not in cuotas_por_partido:
-        cuotas_por_partido["Corea del Sur vs El Salvador"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
-        cuotas_por_partido["El Salvador vs Corea del Sur"] = "💰 Cuotas Reales (Fox Sports): Corea del Sur (1.31) | Empate (5.25) | El Salvador (8.25)"
 
     if not cuotas_por_partido:
         print("No se encontraron cuotas válidas para procesar.")
