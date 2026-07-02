@@ -5,6 +5,12 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+concurrency:
+  # Grupo compartido con los demás workflows que escriben en el repo,
+  # para serializar los pushes a main y evitar choques entre ellos.
+  group: repo-writes
+  cancel-in-progress: false
+
 jobs:
   actualizar-clasificados:
     runs-on: ubuntu-latest
@@ -17,7 +23,8 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Instalar dependencias
         run: pip install -r requirements.txt
