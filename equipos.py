@@ -67,7 +67,9 @@ EQUIPOS_MAP = {
     "Panama": "Panamá",
     "Barracas Central": "CA Barracas Central",
     "Huracan": "Huracán",
-    "El Salvador": "El Salvador"
+    "El Salvador": "El Salvador",
+    "Italy": "Italia",
+    "Cameroon": "Camerún"
 }
 
 # Mapa de nombre en español → emoji de bandera
@@ -120,7 +122,9 @@ BANDERAS_MAP = {
     "Croacia": "🇭🇷",
     "Ghana": "🇬🇭",
     "Panamá": "🇵🇦",
-    "El Salvador": "🇸🇻"
+    "El Salvador": "🇸🇻",
+    "Italia": "🇮🇹",
+    "Camerún": "🇨🇲"
 }
 
 # Mapa auxiliar en minúsculas para búsqueda insensible a mayúsculas/minúsculas
@@ -189,6 +193,8 @@ CODIGOS_MAP = {
     "Ghana": "GHA",
     "Panamá": "PAN",
     "El Salvador": "SLV",
+    "Italia": "ITA",
+    "Camerún": "CMR",
 }
 
 def get_codigo(nombre_espanol):

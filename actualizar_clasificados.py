@@ -43,7 +43,7 @@ def actualizar_clasificados():
     url = "https://api.football-data.org/v4/competitions/WC/matches"
     
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=15)
         data = response.json()
         fixtures = data.get('matches', [])
         print(f"API respondió con {len(fixtures)} partidos del Mundial.")
@@ -220,7 +220,7 @@ def actualizar_tablas():
     url = "https://api.football-data.org/v4/competitions/WC/standings"
     
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=15)
         data = response.json()
         standings_data = data.get('standings', [])
         if not standings_data:
