@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T20:55:16",
+  "lastUpdated": "2026-07-03T21:00:35",
   "rounds": {
     "round_of_32": [
       {
@@ -349,18 +349,20 @@
           "name": "AUS",
           "flag": "🇦🇺",
           "fullName": "Australia",
-          "score": null,
-          "placeholder": false
+          "score": 3,
+          "placeholder": false,
+          "pen": 4
         },
         "team2": {
           "name": "EGY",
           "flag": "🇪🇬",
           "fullName": "Egipto",
-          "score": null,
-          "placeholder": false
+          "score": 5,
+          "placeholder": false,
+          "pen": 4
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "right",
         "order": 5,
         "round": "round_of_32",
@@ -661,11 +663,12 @@
           "placeholder": true
         },
         "team2": {
-          "name": "G·T16",
-          "flag": "🛡️",
-          "fullName": "Ganador T16",
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": 4
         },
         "status": "pending",
         "winner": null,
@@ -2089,6 +2092,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "3 jul",
+        "time": "12:00",
+        "_sort": "2026-07-03T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "AUS",
+          "flag": "🇦🇺",
+          "fullName": "Australia"
+        },
+        "team2": {
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto"
+        },
+        "score1": 3,
+        "score2": 5,
+        "status": "finished"
+      },
+      {
         "date": "2 jul",
         "time": "21:00",
         "_sort": "2026-07-02T21:00:00",
@@ -2220,47 +2242,9 @@
         "score1": 2,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "30 jun",
-        "time": "15:00",
-        "_sort": "2026-06-30T15:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "team2": {
-          "name": "SWE",
-          "flag": "🇸🇪",
-          "fullName": "Suecia"
-        },
-        "score1": 3,
-        "score2": 0,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "3 jul",
-        "time": "12:00",
-        "_sort": "2026-07-03T12:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "AUS",
-          "flag": "🇦🇺",
-          "fullName": "Australia"
-        },
-        "team2": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "3 jul",
         "time": "16:00",
