@@ -1019,7 +1019,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇨🇭 Suiza vs Argelia 🇩🇿 - Treintaidosavos de Final
+SUMMARY:🔴 🇨🇭 Suiza [1] - [0] Argelia 🇩🇿 - Treintaidosavos d
+ e Final (En Vivo)
 DTSTART;TZID=America/El_Salvador:20260702T210000
 DTEND;TZID=America/El_Salvador:20260702T230000
 DTSTAMP:20260602T170000Z
@@ -1030,8 +1031,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇦🇷 Argentina vs Cabo Verde 🇨🇻 - Treintaidosavos d
- e Final
+SUMMARY:🏆 🇦🇷 Argentina [0] - [0] Cabo Verde 🇨🇻 - Treintaido
+ savos de Final
 DTSTART;TZID=America/El_Salvador:20260703T160000
 DTEND;TZID=America/El_Salvador:20260703T180000
 DTSTAMP:20260602T170000Z
@@ -1054,8 +1055,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇦🇺 Australia vs Egipto 🇪🇬 - Treintaidosavos de Fi
- nal
+SUMMARY:🏆 🇦🇺 Australia [0] - [0] Egipto 🇪🇬 - Treintaidosavo
+ s de Final
 DTSTART;TZID=America/El_Salvador:20260703T120000
 DTEND;TZID=America/El_Salvador:20260703T140000
 DTSTAMP:20260602T170000Z
