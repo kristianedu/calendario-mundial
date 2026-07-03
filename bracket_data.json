@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T02:35:14",
+  "lastUpdated": "2026-07-03T02:39:02",
   "rounds": {
     "round_of_32": [
       {
@@ -378,18 +378,20 @@
           "name": "USA",
           "flag": "🇺🇸",
           "fullName": "EE.UU.",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "BIH",
           "flag": "🇧🇦",
           "fullName": "Bosnia y Herzegovina",
-          "score": null,
-          "placeholder": false
+          "score": 0,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "left",
         "order": 6,
         "round": "round_of_32",
@@ -679,11 +681,12 @@
         "koNum": 22,
         "date": "6 jul",
         "team1": {
-          "name": "G·T9",
-          "flag": "🛡️",
-          "fullName": "Ganador T9",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "fullName": "EE.UU.",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "BEL",
@@ -2122,6 +2125,25 @@
       },
       {
         "date": "1 jul",
+        "time": "18:00",
+        "_sort": "2026-07-01T18:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "USA",
+          "flag": "🇺🇸",
+          "fullName": "EE.UU."
+        },
+        "team2": {
+          "name": "BIH",
+          "flag": "🇧🇦",
+          "fullName": "Bosnia y Herzegovina"
+        },
+        "score1": 2,
+        "score2": 0,
+        "status": "finished"
+      },
+      {
+        "date": "1 jul",
         "time": "14:00",
         "_sort": "2026-07-01T14:00:00",
         "comp": "Eliminatorias",
@@ -2214,47 +2236,9 @@
         "score1": 1,
         "score2": 2,
         "status": "finished"
-      },
-      {
-        "date": "29 jun",
-        "time": "19:00",
-        "_sort": "2026-06-29T19:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "NED",
-          "flag": "🇳🇱",
-          "fullName": "Países Bajos"
-        },
-        "team2": {
-          "name": "MAR",
-          "flag": "🇲🇦",
-          "fullName": "Marruecos"
-        },
-        "score1": 3,
-        "score2": 4,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "1 jul",
-        "time": "18:00",
-        "_sort": "2026-07-01T18:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "USA",
-          "flag": "🇺🇸",
-          "fullName": "EE.UU."
-        },
-        "team2": {
-          "name": "BIH",
-          "flag": "🇧🇦",
-          "fullName": "Bosnia y Herzegovina"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "2 jul",
         "time": "21:00",
@@ -2383,6 +2367,25 @@
           "name": "NOR",
           "flag": "🇳🇴",
           "fullName": "Noruega"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "5 jul",
+        "time": "16:00",
+        "_sort": "2026-07-05T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "MEX",
+          "flag": "🇲🇽",
+          "fullName": "México"
+        },
+        "team2": {
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra"
         },
         "score1": null,
         "score2": null,
