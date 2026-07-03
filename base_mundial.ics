@@ -1038,8 +1038,8 @@ DTEND;TZID=America/El_Salvador:20260703T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-014@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Argentina (1.14) | Empate (8.46) | Cabo Ve
- rde (22.79)
+  Final\n\n💰 Cuotas Promedio: Argentina (1.14) | Empate (8.55) | Cabo Ve
+ rde (22.8)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1050,8 +1050,8 @@ DTEND;TZID=America/El_Salvador:20260703T213000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-015@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Colombia (1.42) | Empate (4.41) | Ghana (8
- .89)
+  Final\n\n💰 Cuotas Promedio: Colombia (1.42) | Empate (4.4) | Ghana (8.
+ 95)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1062,8 +1062,8 @@ DTEND;TZID=America/El_Salvador:20260703T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-016@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
-  Final\n\n💰 Cuotas Promedio: Australia (3.6) | Empate (2.88) | Egipto (
- 2.4)
+  Final\n\n💰 Cuotas Promedio: Australia (3.65) | Empate (2.88) | Egipto 
+ (2.38)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1073,7 +1073,7 @@ DTEND;TZID=America/El_Salvador:20260704T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-017@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Paraguay (17.64) | Empate (7.04) | Francia (1.19)
+ \n💰 Cuotas Promedio: Paraguay (17.04) | Empate (7.01) | Francia (1.19)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1083,7 +1083,7 @@ DTEND;TZID=America/El_Salvador:20260704T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-018@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Canadá (5.21) | Empate (3.49) | Marruecos (1.77)
+ \n💰 Cuotas Promedio: Canadá (5.16) | Empate (3.5) | Marruecos (1.77)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1093,7 +1093,7 @@ DTEND;TZID=America/El_Salvador:20260705T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-019@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Brasil (1.87) | Empate (3.66) | Noruega (4.2)
+ \n💰 Cuotas Promedio: Brasil (1.86) | Empate (3.69) | Noruega (4.24)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1104,7 +1104,7 @@ DTEND;TZID=America/El_Salvador:20260705T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-020@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: México (3.12) | Empate (3.19) | Inglaterra (2.43)
+ \n💰 Cuotas Promedio: México (3.14) | Empate (3.2) | Inglaterra (2.41)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1122,7 +1122,8 @@ DTSTART;TZID=America/El_Salvador:20260706T160000
 DTEND;TZID=America/El_Salvador:20260706T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-022@mundial2026
-DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final
+DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
+ \n💰 Cuotas Promedio: EE.UU. (2.63) | Empate (3.39) | Bélgica (2.7)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
