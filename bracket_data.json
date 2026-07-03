@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T01:10:30",
+  "lastUpdated": "2026-07-03T01:15:16",
   "rounds": {
     "round_of_32": [
       {
@@ -258,17 +258,19 @@
           "name": "POR",
           "flag": "🇵🇹",
           "fullName": "Portugal",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "CRO",
           "flag": "🇭🇷",
           "fullName": "Croacia",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
+        "status": "finished",
         "winner": null,
         "side": "left",
         "order": 4,
@@ -2081,6 +2083,25 @@
     "recent": [
       {
         "date": "2 jul",
+        "time": "17:00",
+        "_sort": "2026-07-02T17:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal"
+        },
+        "team2": {
+          "name": "CRO",
+          "flag": "🇭🇷",
+          "fullName": "Croacia"
+        },
+        "score1": 2,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
+        "date": "2 jul",
         "time": "13:00",
         "_sort": "2026-07-02T13:00:00",
         "comp": "Eliminatorias",
@@ -2211,25 +2232,6 @@
         "score1": 3,
         "score2": 4,
         "status": "finished"
-      },
-      {
-        "date": "29 jun",
-        "time": "14:30",
-        "_sort": "2026-06-29T14:30:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "GER",
-          "flag": "🇩🇪",
-          "fullName": "Alemania"
-        },
-        "team2": {
-          "name": "PAR",
-          "flag": "🇵🇾",
-          "fullName": "Paraguay"
-        },
-        "score1": 4,
-        "score2": 5,
-        "status": "finished"
       }
     ],
     "upcoming": [
@@ -2247,25 +2249,6 @@
           "name": "BIH",
           "flag": "🇧🇦",
           "fullName": "Bosnia y Herzegovina"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
-      {
-        "date": "2 jul",
-        "time": "17:00",
-        "_sort": "2026-07-02T17:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "POR",
-          "flag": "🇵🇹",
-          "fullName": "Portugal"
-        },
-        "team2": {
-          "name": "CRO",
-          "flag": "🇭🇷",
-          "fullName": "Croacia"
         },
         "score1": null,
         "score2": null,
@@ -2380,6 +2363,25 @@
           "name": "MAR",
           "flag": "🇲🇦",
           "fullName": "Marruecos"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "5 jul",
+        "time": "12:00",
+        "_sort": "2026-07-05T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "BRA",
+          "flag": "🇧🇷",
+          "fullName": "Brasil"
+        },
+        "team2": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega"
         },
         "score1": null,
         "score2": null,
