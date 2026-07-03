@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T05:00:34",
+  "lastUpdated": "2026-07-03T05:05:18",
   "rounds": {
     "round_of_32": [
       {
@@ -409,18 +409,20 @@
           "name": "SUI",
           "flag": "🇨🇭",
           "fullName": "Suiza",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "ALG",
           "flag": "🇩🇿",
           "fullName": "Argelia",
-          "score": null,
-          "placeholder": false
+          "score": 0,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "right",
         "order": 6,
         "round": "round_of_32",
@@ -712,11 +714,12 @@
         "koNum": 24,
         "date": "7 jul",
         "team1": {
-          "name": "G·T13",
-          "flag": "🛡️",
-          "fullName": "Ganador T13",
+          "name": "SUI",
+          "flag": "🇨🇭",
+          "fullName": "Suiza",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "G·T15",
@@ -2087,6 +2090,25 @@
     "recent": [
       {
         "date": "2 jul",
+        "time": "21:00",
+        "_sort": "2026-07-02T21:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "SUI",
+          "flag": "🇨🇭",
+          "fullName": "Suiza"
+        },
+        "team2": {
+          "name": "ALG",
+          "flag": "🇩🇿",
+          "fullName": "Argelia"
+        },
+        "score1": 2,
+        "score2": 0,
+        "status": "finished"
+      },
+      {
+        "date": "2 jul",
         "time": "17:00",
         "_sort": "2026-07-02T17:00:00",
         "comp": "Eliminatorias",
@@ -2217,47 +2239,9 @@
         "score1": 3,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "30 jun",
-        "time": "11:00",
-        "_sort": "2026-06-30T11:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "CIV",
-          "flag": "🇨🇮",
-          "fullName": "Costa de Marfil"
-        },
-        "team2": {
-          "name": "NOR",
-          "flag": "🇳🇴",
-          "fullName": "Noruega"
-        },
-        "score1": 1,
-        "score2": 2,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "2 jul",
-        "time": "21:00",
-        "_sort": "2026-07-02T21:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "SUI",
-          "flag": "🇨🇭",
-          "fullName": "Suiza"
-        },
-        "team2": {
-          "name": "ALG",
-          "flag": "🇩🇿",
-          "fullName": "Argelia"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "3 jul",
         "time": "12:00",
