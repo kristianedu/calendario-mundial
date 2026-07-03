@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T02:25:16",
+  "lastUpdated": "2026-07-03T02:27:28",
   "rounds": {
     "round_of_32": [
       {
@@ -266,12 +266,12 @@
           "name": "CRO",
           "flag": "🇭🇷",
           "fullName": "Croacia",
-          "score": 2,
+          "score": 1,
           "placeholder": false,
           "pen": null
         },
         "status": "finished",
-        "winner": null,
+        "winner": "team1",
         "side": "left",
         "order": 4,
         "round": "round_of_32",
@@ -619,11 +619,12 @@
         "koNum": 21,
         "date": "6 jul",
         "team1": {
-          "name": "G·T11",
-          "flag": "🛡️",
-          "fullName": "Ganador T11",
+          "name": "POR",
+          "flag": "🇵🇹",
+          "fullName": "Portugal",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "ESP",
@@ -2097,7 +2098,7 @@
           "fullName": "Croacia"
         },
         "score1": 2,
-        "score2": 2,
+        "score2": 1,
         "status": "finished"
       },
       {
