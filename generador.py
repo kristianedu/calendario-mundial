@@ -50,6 +50,14 @@ def extraer_equipos(summary):
         return None
     return equipo1, equipo2
 
+def final_sospechoso(es_eliminatoria, goles1, goles2, pen1, pen2):
+    """True si un FINISHED de la API no puede ser un resultado final real:
+    un cruce eliminatorio empatado sin tanda de penales. Ocurre cuando la
+    API marca FINISHED prematuramente o con marcador stale (p.ej. un gol
+    anulado por VAR que se contó momentáneamente, como Portugal-Croacia
+    en treintaidosavos). Congelarlo como (Final) sellaría el error."""
+    return es_eliminatoria and goles1 == goles2 and (pen1 is None or pen2 is None)
+
 def actualizar_calendario():
     if not API_KEY:
         print("API_KEY no encontrada en las variables de entorno. Saliendo.")
@@ -273,14 +281,23 @@ def actualizar_calendario():
                     nuevo_summary = re.sub(r" \([^)]*\)$", "", nuevo_summary)
                     
                     status = res['status']
-                    
+                    ph, pa = res.get('pen_home'), res.get('pen_away')
+
+                    # Un FINISHED empatado sin penales en eliminatorias es un
+                    # final prematuro o stale: se trata como "En Vivo" para
+                    # re-consultar en la siguiente corrida en vez de congelarlo.
+                    es_eliminatoria = "Eliminatoria" in str(comp_dinamico.get('description', ''))
+                    if status == "FINISHED" and final_sospechoso(es_eliminatoria, g1, g2, ph, pa):
+                        print(f"  ⚠️ Final sospechoso en {match_key} "
+                              f"({g1}-{g2} sin penales en eliminatorias). No se congela.")
+                        status = "IN_PLAY"
+
                     if status == "FINISHED":
                         nuevo_summary = nuevo_summary.replace("⚽", "✅").replace("🏆", "✅")
                         nuevo_summary += " (Final)"
                         # Si se definió por penales, anexar la tanda (orientada al
                         # orden del cuadro) para que el bracket sepa quién avanza
                         # aunque el tiempo reglamentario haya quedado empatado.
-                        ph, pa = res.get('pen_home'), res.get('pen_away')
                         if ph is not None and pa is not None:
                             if invertido:
                                 p1, p2 = pa, ph

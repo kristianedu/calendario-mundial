@@ -167,9 +167,11 @@ jobs:
           key: playwright-${{ runner.os }}-${{ env.PLAYWRIGHT_VERSION }}
 
       - name: Notificar WhatsApp con screenshot del bracket
-        # Solo corre si finalizó un partido (o cambió un marcador/grupo), o si se
-        # forzó manualmente; así evitamos instalar Playwright+Chromium en vano.
-        if: steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true'
+        # TEMPORAL: desactivado mientras se publica la corrección manual del
+        # marcador Portugal-Croacia, para que el detector no la anuncie como
+        # partido nuevo. Restaurar a:
+        #   if: steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true'
+        if: false
         continue-on-error: true
         env:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
