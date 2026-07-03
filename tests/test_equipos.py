@@ -20,6 +20,12 @@ class TestNormalizeName:
         assert normalize_name("MEXICO") == "México"
         assert normalize_name("usa") == "EE.UU."
 
+    def test_variante_con_guion_de_la_api(self):
+        # football-data.org reporta "Bosnia-Herzegovina" con guion; sin este
+        # mapeo el cruce EE.UU.-Bosnia de treintaidosavos 2026 no registró.
+        assert normalize_name("Bosnia-Herzegovina") == "Bosnia y Herzegovina"
+        assert normalize_name("bosnia-herzegovina") == "Bosnia y Herzegovina"
+
     def test_nombre_desconocido_pasa_sin_cambios(self):
         assert normalize_name("Wakanda") == "Wakanda"
         assert normalize_name("Atlántida FC") == "Atlántida FC"
