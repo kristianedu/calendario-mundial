@@ -1043,8 +1043,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇨🇴 Colombia vs Ghana 🇬🇭 - Treintaidosavos de Fina
- l
+SUMMARY:🏆 🇨🇴 Colombia [0] - [0] Ghana 🇬🇭 - Treintaidosavos 
+ de Final
 DTSTART;TZID=America/El_Salvador:20260703T193000
 DTEND;TZID=America/El_Salvador:20260703T213000
 DTSTAMP:20260602T170000Z
@@ -1067,7 +1067,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇵🇾 Paraguay vs Francia 🇫🇷 - Octavos de Final
+SUMMARY:🏆 🇵🇾 Paraguay [0] - [0] Francia 🇫🇷 - Octavos de Fin
+ al
 DTSTART;TZID=America/El_Salvador:20260704T120000
 DTEND;TZID=America/El_Salvador:20260704T140000
 DTSTAMP:20260602T170000Z
@@ -1077,7 +1078,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇨🇦 Canadá vs Marruecos 🇲🇦 - Octavos de Final
+SUMMARY:🏆 🇨🇦 Canadá [0] - [0] Marruecos 🇲🇦 - Octavos de Fi
+ nal
 DTSTART;TZID=America/El_Salvador:20260704T160000
 DTEND;TZID=America/El_Salvador:20260704T180000
 DTSTAMP:20260602T170000Z
