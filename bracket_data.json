@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T03:35:17",
+  "lastUpdated": "2026-07-04T03:40:24",
   "rounds": {
     "round_of_32": [
       {
@@ -475,18 +475,20 @@
           "name": "COL",
           "flag": "🇨🇴",
           "fullName": "Colombia",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "GHA",
           "flag": "🇬🇭",
           "fullName": "Ghana",
-          "score": null,
-          "placeholder": false
+          "score": 0,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "right",
         "order": 7,
         "round": "round_of_32",
@@ -728,11 +730,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·T15",
-          "flag": "🛡️",
-          "fullName": "Ganador T15",
+          "name": "COL",
+          "flag": "🇨🇴",
+          "fullName": "Colombia",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2096,6 +2099,25 @@
     "recent": [
       {
         "date": "3 jul",
+        "time": "19:30",
+        "_sort": "2026-07-03T19:30:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "COL",
+          "flag": "🇨🇴",
+          "fullName": "Colombia"
+        },
+        "team2": {
+          "name": "GHA",
+          "flag": "🇬🇭",
+          "fullName": "Ghana"
+        },
+        "score1": 2,
+        "score2": 0,
+        "status": "finished"
+      },
+      {
+        "date": "3 jul",
         "time": "16:00",
         "_sort": "2026-07-03T16:00:00",
         "comp": "Eliminatorias",
@@ -2226,47 +2248,9 @@
         "score1": 3,
         "score2": 2,
         "status": "finished"
-      },
-      {
-        "date": "1 jul",
-        "time": "10:00",
-        "_sort": "2026-07-01T10:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "ENG",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "fullName": "Inglaterra"
-        },
-        "team2": {
-          "name": "COD",
-          "flag": "🇨🇩",
-          "fullName": "RD Congo"
-        },
-        "score1": 2,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "3 jul",
-        "time": "19:30",
-        "_sort": "2026-07-03T19:30:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "COL",
-          "flag": "🇨🇴",
-          "fullName": "Colombia"
-        },
-        "team2": {
-          "name": "GHA",
-          "flag": "🇬🇭",
-          "fullName": "Ghana"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "4 jul",
         "time": "12:00",
