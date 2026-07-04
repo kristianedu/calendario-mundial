@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T19:05:18",
+  "lastUpdated": "2026-07-04T19:10:27",
   "rounds": {
     "round_of_32": [
       {
@@ -570,7 +570,7 @@
           "name": "CAN",
           "flag": "🇨🇦",
           "fullName": "Canadá",
-          "score": null,
+          "score": 0,
           "placeholder": false,
           "pen": null
         },
@@ -578,12 +578,12 @@
           "name": "MAR",
           "flag": "🇲🇦",
           "fullName": "Marruecos",
-          "score": null,
+          "score": 3,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "left",
         "order": 1,
         "round": "round_of_16",
@@ -762,11 +762,12 @@
           "placeholder": true
         },
         "team2": {
-          "name": "G·O2",
-          "flag": "🛡️",
-          "fullName": "Ganador O2",
+          "name": "MAR",
+          "flag": "🇲🇦",
+          "fullName": "Marruecos",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2098,6 +2099,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "4 jul",
+        "time": "16:00",
+        "_sort": "2026-07-04T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "CAN",
+          "flag": "🇨🇦",
+          "fullName": "Canadá"
+        },
+        "team2": {
+          "name": "MAR",
+          "flag": "🇲🇦",
+          "fullName": "Marruecos"
+        },
+        "score1": 0,
+        "score2": 3,
+        "status": "finished"
+      },
+      {
         "date": "3 jul",
         "time": "19:30",
         "_sort": "2026-07-03T19:30:00",
@@ -2229,25 +2249,6 @@
         "score1": 2,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "1 jul",
-        "time": "14:00",
-        "_sort": "2026-07-01T14:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "BEL",
-          "flag": "🇧🇪",
-          "fullName": "Bélgica"
-        },
-        "team2": {
-          "name": "SEN",
-          "flag": "🇸🇳",
-          "fullName": "Senegal"
-        },
-        "score1": 3,
-        "score2": 2,
-        "status": "finished"
       }
     ],
     "upcoming": [
@@ -2265,25 +2266,6 @@
           "name": "FRA",
           "flag": "🇫🇷",
           "fullName": "Francia"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
-      {
-        "date": "4 jul",
-        "time": "16:00",
-        "_sort": "2026-07-04T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "CAN",
-          "flag": "🇨🇦",
-          "fullName": "Canadá"
-        },
-        "team2": {
-          "name": "MAR",
-          "flag": "🇲🇦",
-          "fullName": "Marruecos"
         },
         "score1": null,
         "score2": null,
