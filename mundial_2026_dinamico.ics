@@ -1067,8 +1067,7 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇵🇾 Paraguay [0] - [0] Francia 🇫🇷 - Octavos de Fin
- al
+SUMMARY:🏆 🇵🇾 Paraguay vs Francia 🇫🇷 - Octavos de Final
 DTSTART;TZID=America/El_Salvador:20260704T120000
 DTEND;TZID=America/El_Salvador:20260704T140000
 DTSTAMP:20260602T170000Z
