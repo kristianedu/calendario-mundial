@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T00:45:18",
+  "lastUpdated": "2026-07-04T00:50:29",
   "rounds": {
     "round_of_32": [
       {
@@ -289,18 +289,20 @@
           "name": "ARG",
           "flag": "🇦🇷",
           "fullName": "Argentina",
-          "score": null,
-          "placeholder": false
+          "score": 3,
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "CPV",
           "flag": "🇨🇻",
           "fullName": "Cabo Verde",
-          "score": null,
-          "placeholder": false
+          "score": 2,
+          "placeholder": false,
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "right",
         "order": 4,
         "round": "round_of_32",
@@ -656,11 +658,12 @@
         "koNum": 23,
         "date": "7 jul",
         "team1": {
-          "name": "G·T14",
-          "flag": "🛡️",
-          "fullName": "Ganador T14",
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "EGY",
@@ -2093,6 +2096,25 @@
     "recent": [
       {
         "date": "3 jul",
+        "time": "16:00",
+        "_sort": "2026-07-03T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina"
+        },
+        "team2": {
+          "name": "CPV",
+          "flag": "🇨🇻",
+          "fullName": "Cabo Verde"
+        },
+        "score1": 3,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
+        "date": "3 jul",
         "time": "12:00",
         "_sort": "2026-07-03T12:00:00",
         "comp": "Eliminatorias",
@@ -2223,47 +2245,9 @@
         "score1": 2,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "30 jun",
-        "time": "19:00",
-        "_sort": "2026-06-30T19:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "MEX",
-          "flag": "🇲🇽",
-          "fullName": "México"
-        },
-        "team2": {
-          "name": "ECU",
-          "flag": "🇪🇨",
-          "fullName": "Ecuador"
-        },
-        "score1": 2,
-        "score2": 0,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "3 jul",
-        "time": "16:00",
-        "_sort": "2026-07-03T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "ARG",
-          "flag": "🇦🇷",
-          "fullName": "Argentina"
-        },
-        "team2": {
-          "name": "CPV",
-          "flag": "🇨🇻",
-          "fullName": "Cabo Verde"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "3 jul",
         "time": "19:30",
