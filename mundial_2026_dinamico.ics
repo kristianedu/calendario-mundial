@@ -1090,7 +1090,7 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇧🇷 Brasil vs Noruega 🇳🇴 - Octavos de Final
+SUMMARY:🏆 🇧🇷 Brasil [0] - [0] Noruega 🇳🇴 - Octavos de Final
 DTSTART;TZID=America/El_Salvador:20260705T120000
 DTEND;TZID=America/El_Salvador:20260705T140000
 DTSTAMP:20260602T170000Z
@@ -1100,8 +1100,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇲🇽 México vs Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 -
-  Octavos de Final
+SUMMARY:🏆 🇲🇽 México [0] - [0] Inglaterra 🏴󠁧󠁢󠁥󠁮
+ 󠁧󠁿 - Octavos de Final
 DTSTART;TZID=America/El_Salvador:20260705T160000
 DTEND;TZID=America/El_Salvador:20260705T180000
 DTSTAMP:20260602T170000Z
