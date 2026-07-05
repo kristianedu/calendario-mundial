@@ -1090,7 +1090,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇧🇷 Brasil [0] - [2] Noruega 🇳🇴 - Octavos de Final
+SUMMARY:✅ 🇧🇷 Brasil [1] - [2] Noruega 🇳🇴 - Octavos de Final 
+ (Final)
 DTSTART;TZID=America/El_Salvador:20260705T120000
 DTEND;TZID=America/El_Salvador:20260705T140000
 DTSTAMP:20260602T170000Z
