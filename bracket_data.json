@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T17:55:14",
+  "lastUpdated": "2026-07-05T18:00:40",
   "rounds": {
     "round_of_32": [
       {
@@ -508,7 +508,7 @@
           "name": "PAR",
           "flag": "🇵🇾",
           "fullName": "Paraguay",
-          "score": null,
+          "score": 0,
           "placeholder": false,
           "pen": null
         },
@@ -516,12 +516,12 @@
           "name": "FRA",
           "flag": "🇫🇷",
           "fullName": "Francia",
-          "score": null,
+          "score": 1,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "left",
         "order": 0,
         "round": "round_of_16",
@@ -755,11 +755,12 @@
         "koNum": 25,
         "date": "9 jul",
         "team1": {
-          "name": "G·O1",
-          "flag": "🛡️",
-          "fullName": "Ganador O1",
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "MAR",
@@ -2118,6 +2119,25 @@
         "status": "finished"
       },
       {
+        "date": "4 jul",
+        "time": "12:00",
+        "_sort": "2026-07-04T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "PAR",
+          "flag": "🇵🇾",
+          "fullName": "Paraguay"
+        },
+        "team2": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "score1": 0,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
         "date": "3 jul",
         "time": "19:30",
         "_sort": "2026-07-03T19:30:00",
@@ -2230,47 +2250,9 @@
         "score1": 3,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "1 jul",
-        "time": "18:00",
-        "_sort": "2026-07-01T18:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "USA",
-          "flag": "🇺🇸",
-          "fullName": "EE.UU."
-        },
-        "team2": {
-          "name": "BIH",
-          "flag": "🇧🇦",
-          "fullName": "Bosnia y Herzegovina"
-        },
-        "score1": 2,
-        "score2": 0,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "4 jul",
-        "time": "12:00",
-        "_sort": "2026-07-04T12:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "PAR",
-          "flag": "🇵🇾",
-          "fullName": "Paraguay"
-        },
-        "team2": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "5 jul",
         "time": "12:00",
