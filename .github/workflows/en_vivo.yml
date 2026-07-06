@@ -169,7 +169,9 @@ jobs:
       - name: Notificar WhatsApp con screenshot del bracket
         # Solo corre si finalizó un partido (o cambió un marcador/grupo), o si se
         # forzó manualmente; así evitamos instalar Playwright+Chromium en vano.
-        if: steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true'
+        # TEMPORAL: gate cerrado para sellar a mano el final México 1-2 Inglaterra
+        # (Octavos KO-020) sin notificar al grupo. Restaurar tras publicar en gh-pages.
+        if: false && (steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true')
         continue-on-error: true
         env:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}

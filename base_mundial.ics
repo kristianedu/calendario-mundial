@@ -1101,8 +1101,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇲🇽 México vs Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 -
-  Octavos de Final
+SUMMARY:✅ 🇲🇽 México [1] - [2] Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 -
+  Octavos de Final (Final)
 DTSTART;TZID=America/El_Salvador:20260705T160000
 DTEND;TZID=America/El_Salvador:20260705T180000
 DTSTAMP:20260602T170000Z
