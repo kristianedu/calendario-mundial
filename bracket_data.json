@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T10:00:43",
+  "lastUpdated": "2026-07-06T10:05:14",
   "rounds": {
     "round_of_32": [
       {
@@ -2344,6 +2344,25 @@
           "name": "COL",
           "flag": "🇨🇴",
           "fullName": "Colombia"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "9 jul",
+        "time": "12:00",
+        "_sort": "2026-07-09T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "team2": {
+          "name": "MAR",
+          "flag": "🇲🇦",
+          "fullName": "Marruecos"
         },
         "score1": null,
         "score2": null,
