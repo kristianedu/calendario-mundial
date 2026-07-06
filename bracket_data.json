@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T14:40:36",
+  "lastUpdated": "2026-07-06T14:41:26",
   "rounds": {
     "round_of_32": [
       {
@@ -601,7 +601,7 @@
           "name": "MEX",
           "flag": "🇲🇽",
           "fullName": "México",
-          "score": null,
+          "score": 1,
           "placeholder": false,
           "pen": null
         },
@@ -609,12 +609,12 @@
           "name": "ENG",
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
           "fullName": "Inglaterra",
-          "score": null,
+          "score": 2,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "right",
         "order": 1,
         "round": "round_of_16",
@@ -794,11 +794,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·O4",
-          "flag": "🛡️",
-          "fullName": "Ganador O4",
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2102,6 +2103,25 @@
     "recent": [
       {
         "date": "5 jul",
+        "time": "16:00",
+        "_sort": "2026-07-05T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "MEX",
+          "flag": "🇲🇽",
+          "fullName": "México"
+        },
+        "team2": {
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra"
+        },
+        "score1": 1,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
+        "date": "5 jul",
         "time": "12:00",
         "_sort": "2026-07-05T12:00:00",
         "comp": "Eliminatorias",
@@ -2232,47 +2252,9 @@
         "score1": 2,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "2 jul",
-        "time": "17:00",
-        "_sort": "2026-07-02T17:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "POR",
-          "flag": "🇵🇹",
-          "fullName": "Portugal"
-        },
-        "team2": {
-          "name": "CRO",
-          "flag": "🇭🇷",
-          "fullName": "Croacia"
-        },
-        "score1": 2,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "5 jul",
-        "time": "16:00",
-        "_sort": "2026-07-05T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "MEX",
-          "flag": "🇲🇽",
-          "fullName": "México"
-        },
-        "team2": {
-          "name": "ENG",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "fullName": "Inglaterra"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "6 jul",
         "time": "12:00",
