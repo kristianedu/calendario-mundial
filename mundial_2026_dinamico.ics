@@ -1112,25 +1112,23 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇵🇹 Portugal [0] - [0] España 🇪🇸 - Octavos de Fin
- al (Medio Tiempo)
+SUMMARY:🏆 🇵🇹 Portugal vs España 🇪🇸 - Octavos de Final
 DTSTART;TZID=America/El_Salvador:20260706T120000
 DTEND;TZID=America/El_Salvador:20260706T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-021@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Portugal (4.08) | Empate (3.56) | España (1.94)
+ \n💰 Cuotas Promedio: Portugal (3.99) | Empate (2.69) | España (2.23)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇺🇸 EE.UU. [0] - [0] Bélgica 🇧🇪 - Octavos de Fina
- l
+SUMMARY:🏆 🇺🇸 EE.UU. vs Bélgica 🇧🇪 - Octavos de Final
 DTSTART;TZID=America/El_Salvador:20260706T160000
 DTEND;TZID=America/El_Salvador:20260706T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-022@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: EE.UU. (2.46) | Empate (3.45) | Bélgica (2.89)
+ \n💰 Cuotas Promedio: EE.UU. (2.52) | Empate (3.45) | Bélgica (2.82)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1140,7 +1138,7 @@ DTEND;TZID=America/El_Salvador:20260707T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-023@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Argentina (1.37) | Empate (4.8) | Egipto (9.62)
+ \n💰 Cuotas Promedio: Argentina (1.36) | Empate (4.82) | Egipto (9.7)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1150,7 +1148,7 @@ DTEND;TZID=America/El_Salvador:20260707T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-024@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
- \n💰 Cuotas Promedio: Suiza (3.53) | Empate (3.08) | Colombia (2.29)
+ \n💰 Cuotas Promedio: Suiza (3.55) | Empate (3.08) | Colombia (2.28)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1160,7 +1158,7 @@ DTEND;TZID=America/El_Salvador:20260709T140000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-025@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Cuartos de Final\n
- \n💰 Cuotas Promedio: Francia (1.59) | Empate (3.9) | Marruecos (6.28)
+ \n💰 Cuotas Promedio: Francia (1.59) | Empate (3.89) | Marruecos (6.28)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
