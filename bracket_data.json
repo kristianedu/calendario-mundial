@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T17:55:13",
+  "lastUpdated": "2026-07-07T18:00:42",
   "rounds": {
     "round_of_32": [
       {
@@ -694,7 +694,7 @@
           "name": "USA",
           "flag": "🇺🇸",
           "fullName": "EE.UU.",
-          "score": null,
+          "score": 1,
           "placeholder": false,
           "pen": null
         },
@@ -702,12 +702,12 @@
           "name": "BEL",
           "flag": "🇧🇪",
           "fullName": "Bélgica",
-          "score": null,
+          "score": 4,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "left",
         "order": 3,
         "round": "round_of_16",
@@ -825,11 +825,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·O6",
-          "flag": "🛡️",
-          "fullName": "Ganador O6",
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2104,6 +2105,25 @@
     "recent": [
       {
         "date": "6 jul",
+        "time": "16:00",
+        "_sort": "2026-07-06T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "USA",
+          "flag": "🇺🇸",
+          "fullName": "EE.UU."
+        },
+        "team2": {
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica"
+        },
+        "score1": 1,
+        "score2": 4,
+        "status": "finished"
+      },
+      {
+        "date": "6 jul",
         "time": "12:00",
         "_sort": "2026-07-06T12:00:00",
         "comp": "Eliminatorias",
@@ -2234,47 +2254,9 @@
         "score1": 3,
         "score2": 2,
         "status": "finished"
-      },
-      {
-        "date": "3 jul",
-        "time": "12:00",
-        "_sort": "2026-07-03T12:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "AUS",
-          "flag": "🇦🇺",
-          "fullName": "Australia"
-        },
-        "team2": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto"
-        },
-        "score1": 3,
-        "score2": 5,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "6 jul",
-        "time": "16:00",
-        "_sort": "2026-07-06T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "USA",
-          "flag": "🇺🇸",
-          "fullName": "EE.UU."
-        },
-        "team2": {
-          "name": "BEL",
-          "flag": "🇧🇪",
-          "fullName": "Bélgica"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "7 jul",
         "time": "12:00",

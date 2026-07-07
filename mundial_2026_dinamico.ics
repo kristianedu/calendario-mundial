@@ -1123,7 +1123,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇺🇸 EE.UU. vs Bélgica 🇧🇪 - Octavos de Final
+SUMMARY:✅ 🇺🇸 EE.UU. [1] - [4] Bélgica 🇧🇪 - Octavos de Final
+  (Final)
 DTSTART;TZID=America/El_Salvador:20260706T160000
 DTEND;TZID=America/El_Salvador:20260706T180000
 DTSTAMP:20260602T170000Z
@@ -1133,7 +1134,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇦🇷 Argentina vs Egipto 🇪🇬 - Octavos de Final
+SUMMARY:🔴 🇦🇷 Argentina [2] - [2] Egipto 🇪🇬 - Octavos de Fin
+ al (En Vivo)
 DTSTART;TZID=America/El_Salvador:20260707T120000
 DTEND;TZID=America/El_Salvador:20260707T140000
 DTSTAMP:20260602T170000Z
@@ -1143,7 +1145,7 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇨🇭 Suiza vs Colombia 🇨🇴 - Octavos de Final
+SUMMARY:🏆 🇨🇭 Suiza [0] - [0] Colombia 🇨🇴 - Octavos de Final
 DTSTART;TZID=America/El_Salvador:20260707T160000
 DTEND;TZID=America/El_Salvador:20260707T180000
 DTSTAMP:20260602T170000Z
