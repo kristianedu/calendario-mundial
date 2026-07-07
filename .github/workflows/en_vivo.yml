@@ -169,7 +169,12 @@ jobs:
       - name: Notificar WhatsApp con screenshot del bracket
         # Solo corre si finalizó un partido (o cambió un marcador/grupo), o si se
         # forzó manualmente; así evitamos instalar Playwright+Chromium en vano.
-        if: steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true'
+        # TEMPORAL (2026-07-07): silenciado mientras la API corrige el falso 1-1
+        # de Suiza-Colombia (octavos). El WhatsApp ya salió con ese empate erróneo
+        # y no queremos reenviarlo al corregirse. Restaurar el `if:` original abajo
+        # una vez publicado el marcador real en gh-pages.
+        # Original: if: steps.cambios.outputs.hubo_cambios == 'true' || github.event.inputs.force_notify == 'true'
+        if: false
         continue-on-error: true
         env:
           GREENAPI_ID: ${{ secrets.GREENAPI_ID }}
