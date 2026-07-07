@@ -1146,7 +1146,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 🇨🇭 Suiza vs Colombia 🇨🇴 - Octavos de Final
+SUMMARY:🔴 🇨🇭 Suiza [0] - [0] Colombia 🇨🇴 - Octavos de Final
+  (Medio Tiempo)
 DTSTART;TZID=America/El_Salvador:20260707T160000
 DTEND;TZID=America/El_Salvador:20260707T180000
 DTSTAMP:20260602T170000Z
