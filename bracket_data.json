@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T09:25:18",
+  "lastUpdated": "2026-07-07T09:30:37",
   "rounds": {
     "round_of_32": [
       {
@@ -2327,6 +2327,25 @@
           "name": "MAR",
           "flag": "🇲🇦",
           "fullName": "Marruecos"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "10 jul",
+        "time": "16:00",
+        "_sort": "2026-07-10T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega"
+        },
+        "team2": {
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra"
         },
         "score1": null,
         "score2": null,

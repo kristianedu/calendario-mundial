@@ -1172,7 +1172,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Cuartos de Final
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏆 Cuartos de Final - Partido 3
+SUMMARY:🏆 🇳🇴 Noruega vs Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 -
+  Cuartos de Final
 DTSTART;TZID=America/El_Salvador:20260710T160000
 DTEND;TZID=America/El_Salvador:20260710T180000
 DTSTAMP:20260602T170000Z
