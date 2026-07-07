@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T22:45:20",
+  "lastUpdated": "2026-07-07T22:50:40",
   "rounds": {
     "round_of_32": [
       {
@@ -725,19 +725,19 @@
           "name": "SUI",
           "flag": "🇨🇭",
           "fullName": "Suiza",
-          "score": null,
+          "score": 1,
           "placeholder": false,
-          "pen": null
+          "pen": 1
         },
         "team2": {
           "name": "COL",
           "flag": "🇨🇴",
           "fullName": "Colombia",
-          "score": null,
+          "score": 1,
           "placeholder": false,
-          "pen": null
+          "pen": 1
         },
-        "status": "pending",
+        "status": "finished",
         "winner": null,
         "side": "right",
         "order": 3,
@@ -2106,6 +2106,25 @@
     "recent": [
       {
         "date": "7 jul",
+        "time": "16:00",
+        "_sort": "2026-07-07T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "SUI",
+          "flag": "🇨🇭",
+          "fullName": "Suiza"
+        },
+        "team2": {
+          "name": "COL",
+          "flag": "🇨🇴",
+          "fullName": "Colombia"
+        },
+        "score1": 1,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
+        "date": "7 jul",
         "time": "12:00",
         "_sort": "2026-07-07T12:00:00",
         "comp": "Eliminatorias",
@@ -2236,47 +2255,9 @@
         "score1": 0,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "3 jul",
-        "time": "19:30",
-        "_sort": "2026-07-03T19:30:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "COL",
-          "flag": "🇨🇴",
-          "fullName": "Colombia"
-        },
-        "team2": {
-          "name": "GHA",
-          "flag": "🇬🇭",
-          "fullName": "Ghana"
-        },
-        "score1": 2,
-        "score2": 0,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "7 jul",
-        "time": "16:00",
-        "_sort": "2026-07-07T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "SUI",
-          "flag": "🇨🇭",
-          "fullName": "Suiza"
-        },
-        "team2": {
-          "name": "COL",
-          "flag": "🇨🇴",
-          "fullName": "Colombia"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "9 jul",
         "time": "12:00",
