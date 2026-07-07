@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T18:05:22",
+  "lastUpdated": "2026-07-07T18:10:38",
   "rounds": {
     "round_of_32": [
       {
@@ -663,7 +663,7 @@
           "name": "ARG",
           "flag": "🇦🇷",
           "fullName": "Argentina",
-          "score": null,
+          "score": 3,
           "placeholder": false,
           "pen": null
         },
@@ -671,12 +671,12 @@
           "name": "EGY",
           "flag": "🇪🇬",
           "fullName": "Egipto",
-          "score": null,
+          "score": 2,
           "placeholder": false,
-          "pen": 4
+          "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "right",
         "order": 2,
         "round": "round_of_16",
@@ -848,11 +848,12 @@
         "koNum": 28,
         "date": "11 jul",
         "team1": {
-          "name": "G·O7",
-          "flag": "🛡️",
-          "fullName": "Ganador O7",
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "G·O8",
@@ -2104,6 +2105,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "7 jul",
+        "time": "12:00",
+        "_sort": "2026-07-07T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina"
+        },
+        "team2": {
+          "name": "EGY",
+          "flag": "🇪🇬",
+          "fullName": "Egipto"
+        },
+        "score1": 3,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
         "date": "6 jul",
         "time": "16:00",
         "_sort": "2026-07-06T16:00:00",
@@ -2235,47 +2255,9 @@
         "score1": 2,
         "score2": 0,
         "status": "finished"
-      },
-      {
-        "date": "3 jul",
-        "time": "16:00",
-        "_sort": "2026-07-03T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "ARG",
-          "flag": "🇦🇷",
-          "fullName": "Argentina"
-        },
-        "team2": {
-          "name": "CPV",
-          "flag": "🇨🇻",
-          "fullName": "Cabo Verde"
-        },
-        "score1": 3,
-        "score2": 2,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "7 jul",
-        "time": "12:00",
-        "_sort": "2026-07-07T12:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "ARG",
-          "flag": "🇦🇷",
-          "fullName": "Argentina"
-        },
-        "team2": {
-          "name": "EGY",
-          "flag": "🇪🇬",
-          "fullName": "Egipto"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "7 jul",
         "time": "16:00",
