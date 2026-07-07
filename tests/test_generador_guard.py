@@ -21,6 +21,13 @@ def test_empate_con_penales_completos_no_es_sospechoso():
     assert final_sospechoso(True, 2, 2, 4, 2) is False
 
 
+def test_empate_con_penales_empatados_es_sospechoso():
+    # Una tanda de penales no puede terminar empatada: la API marcó FINISHED
+    # a mitad de la tanda (Suiza-Colombia 1-1 [Penales: 1-1], octavos 2026)
+    assert final_sospechoso(True, 1, 1, 1, 1) is True
+    assert final_sospechoso(True, 0, 0, 0, 0) is True
+
+
 def test_victoria_en_eliminatorias_no_es_sospechosa():
     assert final_sospechoso(True, 2, 1, None, None) is False
 

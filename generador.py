@@ -52,11 +52,15 @@ def extraer_equipos(summary):
 
 def final_sospechoso(es_eliminatoria, goles1, goles2, pen1, pen2):
     """True si un FINISHED de la API no puede ser un resultado final real:
-    un cruce eliminatorio empatado sin tanda de penales. Ocurre cuando la
-    API marca FINISHED prematuramente o con marcador stale (p.ej. un gol
-    anulado por VAR que se contó momentáneamente, como Portugal-Croacia
-    en treintaidosavos). Congelarlo como (Final) sellaría el error."""
-    return es_eliminatoria and goles1 == goles2 and (pen1 is None or pen2 is None)
+    un cruce eliminatorio empatado sin tanda de penales, o con la tanda
+    también empatada (una tanda no puede terminar en empate; la API marcó
+    FINISHED a mitad de los penales, como Suiza-Colombia en octavos).
+    Ocurre cuando la API marca FINISHED prematuramente o con marcador
+    stale (p.ej. un gol anulado por VAR que se contó momentáneamente,
+    como Portugal-Croacia en treintaidosavos). Congelarlo como (Final)
+    sellaría el error."""
+    return (es_eliminatoria and goles1 == goles2
+            and (pen1 is None or pen2 is None or pen1 == pen2))
 
 def actualizar_calendario():
     if not API_KEY:
@@ -283,13 +287,15 @@ def actualizar_calendario():
                     status = res['status']
                     ph, pa = res.get('pen_home'), res.get('pen_away')
 
-                    # Un FINISHED empatado sin penales en eliminatorias es un
-                    # final prematuro o stale: se trata como "En Vivo" para
-                    # re-consultar en la siguiente corrida en vez de congelarlo.
+                    # Un FINISHED empatado sin penales (o con la tanda también
+                    # empatada) en eliminatorias es un final prematuro o stale:
+                    # se trata como "En Vivo" para re-consultar en la siguiente
+                    # corrida en vez de congelarlo.
                     es_eliminatoria = "Eliminatoria" in str(comp_dinamico.get('description', ''))
                     if status == "FINISHED" and final_sospechoso(es_eliminatoria, g1, g2, ph, pa):
                         print(f"  ⚠️ Final sospechoso en {match_key} "
-                              f"({g1}-{g2} sin penales en eliminatorias). No se congela.")
+                              f"({g1}-{g2}, penales {ph}-{pa} en eliminatorias). "
+                              f"No se congela.")
                         status = "IN_PLAY"
 
                     if status == "FINISHED":
