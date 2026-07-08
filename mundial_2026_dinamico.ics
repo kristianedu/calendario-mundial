@@ -1055,8 +1055,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Treintaidosavos de
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:✅ 🇦🇺 Australia [3] - [5] Egipto 🇪🇬 - Treintaidosavos
-  de Final (Final) [Penales: 4-4]
+SUMMARY:✅ 🇦🇺 Australia [1] - [1] Egipto 🇪🇬 - Treintaidosavos
+  de Final (Final) [Penales: 2-4]
 DTSTART;TZID=America/El_Salvador:20260703T120000
 DTEND;TZID=America/El_Salvador:20260703T140000
 DTSTAMP:20260602T170000Z
@@ -1146,8 +1146,8 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Octavos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇨🇭 Suiza [4] - [3] Colombia 🇨🇴 - Octavos de Final
-  (Final) [Penales: 3-3]
+SUMMARY:✅ 🇨🇭 Suiza [0] - [0] Colombia 🇨🇴 - Octavos de Final 
+ (Final) [Penales: 4-3]
 DTSTART;TZID=America/El_Salvador:20260707T160000
 DTEND;TZID=America/El_Salvador:20260707T180000
 DTSTAMP:20260602T170000Z

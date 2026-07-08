@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T00:20:36",
+  "lastUpdated": "2026-07-08T00:22:41",
   "rounds": {
     "round_of_32": [
       {
@@ -351,15 +351,15 @@
           "name": "AUS",
           "flag": "🇦🇺",
           "fullName": "Australia",
-          "score": 3,
+          "score": 1,
           "placeholder": false,
-          "pen": 4
+          "pen": 2
         },
         "team2": {
           "name": "EGY",
           "flag": "🇪🇬",
           "fullName": "Egipto",
-          "score": 5,
+          "score": 1,
           "placeholder": false,
           "pen": 4
         },
@@ -725,15 +725,15 @@
           "name": "SUI",
           "flag": "🇨🇭",
           "fullName": "Suiza",
-          "score": 4,
+          "score": 0,
           "placeholder": false,
-          "pen": 3
+          "pen": 4
         },
         "team2": {
           "name": "COL",
           "flag": "🇨🇴",
           "fullName": "Colombia",
-          "score": 3,
+          "score": 0,
           "placeholder": false,
           "pen": 3
         },
@@ -861,7 +861,7 @@
           "fullName": "Suiza",
           "score": null,
           "placeholder": false,
-          "pen": 3
+          "pen": 4
         },
         "status": "pending",
         "winner": null,
@@ -2120,8 +2120,8 @@
           "flag": "🇨🇴",
           "fullName": "Colombia"
         },
-        "score1": 4,
-        "score2": 3,
+        "score1": 0,
+        "score2": 0,
         "status": "finished"
       },
       {
