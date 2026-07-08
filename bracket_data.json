@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T08:10:36",
+  "lastUpdated": "2026-07-08T08:15:17",
   "rounds": {
     "round_of_32": [
       {
@@ -2279,6 +2279,25 @@
         "status": "pending"
       },
       {
+        "date": "9 jul",
+        "time": "16:00",
+        "_sort": "2026-07-09T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España"
+        },
+        "team2": {
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
         "date": "10 jul",
         "time": "16:00",
         "_sort": "2026-07-10T16:00:00",
@@ -2292,6 +2311,25 @@
           "name": "ENG",
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
           "fullName": "Inglaterra"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "11 jul",
+        "time": "16:00",
+        "_sort": "2026-07-11T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ARG",
+          "flag": "🇦🇷",
+          "fullName": "Argentina"
+        },
+        "team2": {
+          "name": "SUI",
+          "flag": "🇨🇭",
+          "fullName": "Suiza"
         },
         "score1": null,
         "score2": null,
