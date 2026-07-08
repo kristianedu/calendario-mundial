@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T00:10:53",
+  "lastUpdated": "2026-07-08T00:15:08",
   "rounds": {
     "round_of_32": [
       {
@@ -725,20 +725,20 @@
           "name": "SUI",
           "flag": "🇨🇭",
           "fullName": "Suiza",
-          "score": 1,
+          "score": 4,
           "placeholder": false,
-          "pen": 1
+          "pen": 3
         },
         "team2": {
           "name": "COL",
           "flag": "🇨🇴",
           "fullName": "Colombia",
-          "score": 1,
+          "score": 3,
           "placeholder": false,
-          "pen": 1
+          "pen": 3
         },
         "status": "finished",
-        "winner": null,
+        "winner": "team1",
         "side": "right",
         "order": 3,
         "round": "round_of_16",
@@ -856,11 +856,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·O8",
-          "flag": "🛡️",
-          "fullName": "Ganador O8",
+          "name": "SUI",
+          "flag": "🇨🇭",
+          "fullName": "Suiza",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": 3
         },
         "status": "pending",
         "winner": null,
@@ -2119,8 +2120,8 @@
           "flag": "🇨🇴",
           "fullName": "Colombia"
         },
-        "score1": 1,
-        "score2": 1,
+        "score1": 4,
+        "score2": 3,
         "status": "finished"
       },
       {
