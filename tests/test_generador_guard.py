@@ -4,7 +4,7 @@ Un cruce eliminatorio no puede terminar empatado sin tanda de penales;
 si la API reporta FINISHED así (final prematuro o marcador stale, como
 Portugal-Croacia en treintaidosavos 2026), no debe congelarse como (Final).
 """
-from generador import final_sospechoso
+from generador import final_sospechoso, marcador_de_juego
 
 
 def test_empate_sin_penales_en_eliminatorias_es_sospechoso():
@@ -40,3 +40,23 @@ def test_empate_en_fase_de_grupos_no_es_sospechoso():
 def test_penales_cero_cuenta_como_dato_presente():
     # Un 0 en la tanda es un dato real, no ausencia de dato
     assert final_sospechoso(True, 1, 1, 3, 0) is False
+
+
+# ─── marcador_de_juego: fullTime contaminado con la tanda ────────────
+
+def test_fulltime_contaminado_resta_la_tanda():
+    # Casos reales del Mundial 2026 (fullTime = juego + tanda):
+    # Australia-Egipto 1-1 (pen 2-4) → API fullTime 3-5
+    assert marcador_de_juego(3, 5, 2, 4) == (1, 1)
+    # Suiza-Colombia 0-0 (pen 4-3) → API fullTime 4-3
+    assert marcador_de_juego(4, 3, 4, 3) == (0, 0)
+
+
+def test_sin_penales_no_toca_el_marcador():
+    assert marcador_de_juego(2, 1, None, None) == (2, 1)
+    assert marcador_de_juego(None, None, None, None) == (None, None)
+
+
+def test_fulltime_puro_no_se_resta():
+    # Si la resta diera negativo, fullTime venía sin contaminar: no tocar
+    assert marcador_de_juego(1, 1, 4, 2) == (1, 1)

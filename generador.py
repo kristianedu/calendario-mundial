@@ -50,6 +50,18 @@ def extraer_equipos(summary):
         return None
     return equipo1, equipo2
 
+def marcador_de_juego(goles_home, goles_away, pen_home, pen_away):
+    """football-data v4 incluye los goles de la tanda en fullTime cuando hubo
+    penales (juego + tanda): Australia-Egipto 1-1 (pen 2-4) vino como fullTime
+    3-5, y Suiza-Colombia 0-0 (pen 4-3) como 4-3. Resta la tanda para
+    recuperar el marcador real del juego. Si la resta diera negativo (señal de
+    que fullTime venía puro, sin contaminar), se deja tal cual."""
+    if None in (goles_home, goles_away, pen_home, pen_away):
+        return goles_home, goles_away
+    if goles_home - pen_home < 0 or goles_away - pen_away < 0:
+        return goles_home, goles_away
+    return goles_home - pen_home, goles_away - pen_away
+
 def final_sospechoso(es_eliminatoria, goles1, goles2, pen1, pen2):
     """True si un FINISHED de la API no puede ser un resultado final real:
     un cruce eliminatorio empatado sin tanda de penales, o con la tanda
@@ -157,6 +169,9 @@ def actualizar_calendario():
         penalties = score_info.get('penalties', {}) or {}
         pen_home = penalties.get('home')
         pen_away = penalties.get('away')
+        # Si hubo tanda, fullTime viene contaminado (juego + penales): restarla.
+        home_goals, away_goals = marcador_de_juego(
+            home_goals, away_goals, pen_home, pen_away)
         winner = score_info.get('winner')
         fixture_id = fix['id']
 
