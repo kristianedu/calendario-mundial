@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T22:05:20",
+  "lastUpdated": "2026-07-09T22:10:32",
   "rounds": {
     "round_of_32": [
       {
@@ -758,7 +758,7 @@
           "name": "FRA",
           "flag": "🇫🇷",
           "fullName": "Francia",
-          "score": null,
+          "score": 2,
           "placeholder": false,
           "pen": null
         },
@@ -766,12 +766,12 @@
           "name": "MAR",
           "flag": "🇲🇦",
           "fullName": "Marruecos",
-          "score": null,
+          "score": 0,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "left",
         "order": 0,
         "round": "quarter_finals",
@@ -881,11 +881,12 @@
         "koNum": 29,
         "date": "14 jul",
         "team1": {
-          "name": "G·C1",
-          "flag": "🛡️",
-          "fullName": "Ganador C1",
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "G·C2",
@@ -2106,6 +2107,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "9 jul",
+        "time": "12:00",
+        "_sort": "2026-07-09T12:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "team2": {
+          "name": "MAR",
+          "flag": "🇲🇦",
+          "fullName": "Marruecos"
+        },
+        "score1": 2,
+        "score2": 0,
+        "status": "finished"
+      },
+      {
         "date": "7 jul",
         "time": "16:00",
         "_sort": "2026-07-07T16:00:00",
@@ -2237,47 +2257,9 @@
         "score1": 0,
         "score2": 3,
         "status": "finished"
-      },
-      {
-        "date": "4 jul",
-        "time": "12:00",
-        "_sort": "2026-07-04T12:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "PAR",
-          "flag": "🇵🇾",
-          "fullName": "Paraguay"
-        },
-        "team2": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "score1": 0,
-        "score2": 1,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "9 jul",
-        "time": "12:00",
-        "_sort": "2026-07-09T12:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "team2": {
-          "name": "MAR",
-          "flag": "🇲🇦",
-          "fullName": "Marruecos"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "9 jul",
         "time": "16:00",
