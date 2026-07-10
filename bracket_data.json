@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T21:55:19",
+  "lastUpdated": "2026-07-10T22:00:40",
   "rounds": {
     "round_of_32": [
       {
@@ -820,7 +820,7 @@
           "name": "ESP",
           "flag": "🇪🇸",
           "fullName": "España",
-          "score": null,
+          "score": 2,
           "placeholder": false,
           "pen": null
         },
@@ -828,12 +828,12 @@
           "name": "BEL",
           "flag": "🇧🇪",
           "fullName": "Bélgica",
-          "score": null,
+          "score": 1,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team1",
         "side": "left",
         "order": 1,
         "round": "quarter_finals",
@@ -889,11 +889,12 @@
           "pen": null
         },
         "team2": {
-          "name": "G·C2",
-          "flag": "🛡️",
-          "fullName": "Ganador C2",
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "status": "pending",
         "winner": null,
@@ -2108,6 +2109,25 @@
     "recent": [
       {
         "date": "9 jul",
+        "time": "16:00",
+        "_sort": "2026-07-09T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España"
+        },
+        "team2": {
+          "name": "BEL",
+          "flag": "🇧🇪",
+          "fullName": "Bélgica"
+        },
+        "score1": 2,
+        "score2": 1,
+        "status": "finished"
+      },
+      {
+        "date": "9 jul",
         "time": "12:00",
         "_sort": "2026-07-09T12:00:00",
         "comp": "Eliminatorias",
@@ -2238,47 +2258,9 @@
         "score1": 1,
         "score2": 2,
         "status": "finished"
-      },
-      {
-        "date": "4 jul",
-        "time": "16:00",
-        "_sort": "2026-07-04T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "CAN",
-          "flag": "🇨🇦",
-          "fullName": "Canadá"
-        },
-        "team2": {
-          "name": "MAR",
-          "flag": "🇲🇦",
-          "fullName": "Marruecos"
-        },
-        "score1": 0,
-        "score2": 3,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "9 jul",
-        "time": "16:00",
-        "_sort": "2026-07-09T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "ESP",
-          "flag": "🇪🇸",
-          "fullName": "España"
-        },
-        "team2": {
-          "name": "BEL",
-          "flag": "🇧🇪",
-          "fullName": "Bélgica"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "10 jul",
         "time": "16:00",
