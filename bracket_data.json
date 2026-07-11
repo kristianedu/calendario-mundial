@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T23:50:33",
+  "lastUpdated": "2026-07-11T23:55:19",
   "rounds": {
     "round_of_32": [
       {
@@ -789,7 +789,7 @@
           "name": "NOR",
           "flag": "🇳🇴",
           "fullName": "Noruega",
-          "score": null,
+          "score": 1,
           "placeholder": false,
           "pen": null
         },
@@ -797,12 +797,12 @@
           "name": "ENG",
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
           "fullName": "Inglaterra",
-          "score": null,
+          "score": 2,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "right",
         "order": 0,
         "round": "quarter_finals",
@@ -915,11 +915,12 @@
         "koNum": 30,
         "date": "15 jul",
         "team1": {
-          "name": "G·C3",
-          "flag": "🛡️",
-          "fullName": "Ganador C3",
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra",
           "score": null,
-          "placeholder": true
+          "placeholder": false,
+          "pen": null
         },
         "team2": {
           "name": "G·C4",
@@ -2108,6 +2109,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "10 jul",
+        "time": "16:00",
+        "_sort": "2026-07-10T16:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "NOR",
+          "flag": "🇳🇴",
+          "fullName": "Noruega"
+        },
+        "team2": {
+          "name": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "fullName": "Inglaterra"
+        },
+        "score1": 1,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
         "date": "9 jul",
         "time": "16:00",
         "_sort": "2026-07-09T16:00:00",
@@ -2239,47 +2259,9 @@
         "score1": 1,
         "score2": 2,
         "status": "finished"
-      },
-      {
-        "date": "5 jul",
-        "time": "12:00",
-        "_sort": "2026-07-05T12:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "BRA",
-          "flag": "🇧🇷",
-          "fullName": "Brasil"
-        },
-        "team2": {
-          "name": "NOR",
-          "flag": "🇳🇴",
-          "fullName": "Noruega"
-        },
-        "score1": 1,
-        "score2": 2,
-        "status": "finished"
       }
     ],
     "upcoming": [
-      {
-        "date": "10 jul",
-        "time": "16:00",
-        "_sort": "2026-07-10T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "NOR",
-          "flag": "🇳🇴",
-          "fullName": "Noruega"
-        },
-        "team2": {
-          "name": "ENG",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "fullName": "Inglaterra"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
       {
         "date": "11 jul",
         "time": "16:00",
