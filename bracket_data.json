@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T07:40:30",
+  "lastUpdated": "2026-07-11T07:45:15",
   "rounds": {
     "round_of_32": [
       {
@@ -2294,6 +2294,25 @@
           "name": "SUI",
           "flag": "🇨🇭",
           "fullName": "Suiza"
+        },
+        "score1": null,
+        "score2": null,
+        "status": "pending"
+      },
+      {
+        "date": "14 jul",
+        "time": "13:00",
+        "_sort": "2026-07-14T13:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "team2": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España"
         },
         "score1": null,
         "score2": null,
