@@ -1180,14 +1180,14 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Cuartos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇳🇴 Noruega [2] - [1] Inglaterra 🏴󠁧󠁢󠁥󠁮
- 󠁧󠁿 - Cuartos de Final (En Vivo)
+SUMMARY:🏆 🇳🇴 Noruega vs Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 -
+  Cuartos de Final
 DTSTART;TZID=America/El_Salvador:20260710T160000
 DTEND;TZID=America/El_Salvador:20260710T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-027@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Cuartos de Final\n
- \n💰 Cuotas Promedio: Noruega (4.25) | Empate (3.85) | Inglaterra (1.83)
+ \n💰 Cuotas Promedio: Noruega (7.3) | Empate (1.38) | Inglaterra (5.09)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1197,7 +1197,7 @@ DTEND;TZID=America/El_Salvador:20260711T180000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-028@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Cuartos de Final\n
- \n💰 Cuotas Promedio: Argentina (1.7) | Empate (3.54) | Suiza (5.78)
+ \n💰 Cuotas Promedio: Argentina (1.7) | Empate (3.53) | Suiza (5.88)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1207,7 +1207,7 @@ DTEND;TZID=America/El_Salvador:20260714T150000
 DTSTAMP:20260602T170000Z
 UID:wc2026-KO-029@mundial2026
 DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Semifinal 1\n\n
- 💰 Cuotas Promedio: Francia (2.34) | Empate (3.26) | España (3.23)
+ 💰 Cuotas Promedio: Francia (2.34) | Empate (3.27) | España (3.23)
 LOCATION:AT&T Stadium\, Dallas
 STATUS:CONFIRMED
 END:VEVENT
