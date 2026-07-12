@@ -1191,8 +1191,7 @@ DESCRIPTION:Copa Mundial FIFA 2026\nFase Eliminatoria - Cuartos de Final\n
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🔴 🇦🇷 Argentina [1] - [0] Suiza 🇨🇭 - Cuartos de Fina
- l (En Vivo)
+SUMMARY:🏆 🇦🇷 Argentina vs Suiza 🇨🇭 - Cuartos de Final
 DTSTART;TZID=America/El_Salvador:20260711T160000
 DTEND;TZID=America/El_Salvador:20260711T180000
 DTSTAMP:20260602T170000Z
