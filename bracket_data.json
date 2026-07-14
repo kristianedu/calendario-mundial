@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T21:00:36",
+  "lastUpdated": "2026-07-14T21:05:17",
   "rounds": {
     "round_of_32": [
       {
@@ -884,7 +884,7 @@
           "name": "FRA",
           "flag": "🇫🇷",
           "fullName": "Francia",
-          "score": null,
+          "score": 0,
           "placeholder": false,
           "pen": null
         },
@@ -892,12 +892,12 @@
           "name": "ESP",
           "flag": "🇪🇸",
           "fullName": "España",
-          "score": null,
+          "score": 2,
           "placeholder": false,
           "pen": null
         },
-        "status": "pending",
-        "winner": null,
+        "status": "finished",
+        "winner": "team2",
         "side": "left",
         "order": 0,
         "round": "semi_finals",
@@ -949,11 +949,12 @@
       "koNum": 31,
       "date": "18 jul",
       "team1": {
-        "name": "P·S1",
-        "flag": "🛡️",
-        "fullName": "Perdedor S1",
+        "name": "FRA",
+        "flag": "🇫🇷",
+        "fullName": "Francia",
         "score": null,
-        "placeholder": true
+        "placeholder": false,
+        "pen": null
       },
       "team2": {
         "name": "P·S2",
@@ -975,11 +976,12 @@
       "koNum": 32,
       "date": "19 jul",
       "team1": {
-        "name": "G·S1",
-        "flag": "🛡️",
-        "fullName": "Ganador S1",
+        "name": "ESP",
+        "flag": "🇪🇸",
+        "fullName": "España",
         "score": null,
-        "placeholder": true
+        "placeholder": false,
+        "pen": null
       },
       "team2": {
         "name": "G·S2",
@@ -2109,6 +2111,25 @@
   "fixtures": {
     "recent": [
       {
+        "date": "14 jul",
+        "time": "13:00",
+        "_sort": "2026-07-14T13:00:00",
+        "comp": "Eliminatorias",
+        "team1": {
+          "name": "FRA",
+          "flag": "🇫🇷",
+          "fullName": "Francia"
+        },
+        "team2": {
+          "name": "ESP",
+          "flag": "🇪🇸",
+          "fullName": "España"
+        },
+        "score1": 0,
+        "score2": 2,
+        "status": "finished"
+      },
+      {
         "date": "10 jul",
         "time": "16:00",
         "_sort": "2026-07-10T16:00:00",
@@ -2240,25 +2261,6 @@
         "score1": 0,
         "score2": 1,
         "status": "finished"
-      },
-      {
-        "date": "5 jul",
-        "time": "16:00",
-        "_sort": "2026-07-05T16:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "MEX",
-          "flag": "🇲🇽",
-          "fullName": "México"
-        },
-        "team2": {
-          "name": "ENG",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "fullName": "Inglaterra"
-        },
-        "score1": 1,
-        "score2": 2,
-        "status": "finished"
       }
     ],
     "upcoming": [
@@ -2276,25 +2278,6 @@
           "name": "SUI",
           "flag": "🇨🇭",
           "fullName": "Suiza"
-        },
-        "score1": null,
-        "score2": null,
-        "status": "pending"
-      },
-      {
-        "date": "14 jul",
-        "time": "13:00",
-        "_sort": "2026-07-14T13:00:00",
-        "comp": "Eliminatorias",
-        "team1": {
-          "name": "FRA",
-          "flag": "🇫🇷",
-          "fullName": "Francia"
-        },
-        "team2": {
-          "name": "ESP",
-          "flag": "🇪🇸",
-          "fullName": "España"
         },
         "score1": null,
         "score2": null,
