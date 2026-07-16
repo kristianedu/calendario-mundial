@@ -1,8 +1,7 @@
 name: Actualizar Clasificados
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
+  # Proyecto pausado (2026-07-16): se quitó el cron; solo disparo manual.
   workflow_dispatch:
 
 concurrency:

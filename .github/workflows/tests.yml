@@ -1,10 +1,9 @@
 name: Tests
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  # Proyecto pausado (2026-07-16): se quitaron los triggers de push y PR;
+  # solo disparo manual.
+  workflow_dispatch:
 
 jobs:
   tests:

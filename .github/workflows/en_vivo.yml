@@ -1,12 +1,8 @@
 name: Marcadores en Vivo
 
 on:
-  schedule:
-    # Cada 5 min, solo horas de partidos (08:00-00:59 CST = 14:00-06:59 UTC), jun-jul
-    - cron: '*/5 14-23,0-6 * 6-7 *'
-  push:
-    branches:
-      - main
+  # Proyecto pausado (2026-07-16): se quitaron el cron y el trigger de push;
+  # solo disparo manual.
   workflow_dispatch:
     inputs:
       force_notify:

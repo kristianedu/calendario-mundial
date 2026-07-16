@@ -1,8 +1,7 @@
 name: Actualizar Cuotas de Apuestas
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'
+  # Proyecto pausado (2026-07-16): se quitó el cron; solo disparo manual.
   workflow_dispatch:
 
 concurrency:
